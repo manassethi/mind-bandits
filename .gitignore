@@ -223,3 +223,17 @@ data/
 *.npy
 *.pt
 *.parquet
+
+# Local experiment artifacts
+env/
+__pycache__/
+*.py[cod]
+.DS_Store
+dataset/raw/
+dataset/processed/
+models/
+results/
+
+# Project source package (overrides generic data-directory ignores)
+!src/data/
+!src/data/**
