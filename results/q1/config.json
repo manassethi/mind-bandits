@@ -1,0 +1,75 @@
+{
+  "arguments": {
+    "environment": "dataset/processed/q1_environment.json",
+    "rounds": 10000,
+    "seeds": 30,
+    "seed": 100,
+    "exploration_rounds": 1000,
+    "epsilon": 0.1,
+    "output_dir": "results/q1"
+  },
+  "environment": {
+    "seed": 42,
+    "cohort_size": 1000,
+    "description": "Stationary Bernoulli arms: click-model probabilities averaged over unique dev-user histories.",
+    "model_metrics": {
+      "auc": 0.6517287783150918,
+      "log_loss": 0.1614464749421361,
+      "brier_score": 0.037662028124728644,
+      "observed_ctr": 0.03967771359075707,
+      "predicted_ctr": 0.03894857142505915,
+      "train_examples": 744914,
+      "dev_examples": 190762
+    },
+    "arms": [
+      {
+        "article_id": "N47061",
+        "category": "lifestyle",
+        "subcategory": "shop-holidays",
+        "title": "105 Black Friday Deals You Can Start Shopping Today",
+        "click_probability": 0.027937152724303922,
+        "train_exposures": 2941
+      },
+      {
+        "article_id": "N26262",
+        "category": "entertainment",
+        "subcategory": "entertainment-celebrity",
+        "title": "Celebrity plastic surgery transformations",
+        "click_probability": 0.03338661683620802,
+        "train_exposures": 2469
+      },
+      {
+        "article_id": "N51048",
+        "category": "news",
+        "subcategory": "elections-2020-us",
+        "title": "Rep. Tim Ryan endorses Biden in Democratic primary",
+        "click_probability": 0.04050050045846683,
+        "train_exposures": 2433
+      },
+      {
+        "article_id": "N50872",
+        "category": "lifestyle",
+        "subcategory": "shop-holidays",
+        "title": "50 amazing gifts for every type of person and budget",
+        "click_probability": 0.027937152724303922,
+        "train_exposures": 2348
+      },
+      {
+        "article_id": "N55689",
+        "category": "sports",
+        "subcategory": "football_nfl",
+        "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+        "click_probability": 0.056371742462337476,
+        "train_exposures": 2347
+      }
+    ],
+    "arguments": {
+      "data_dir": "dataset/raw/mind-small",
+      "train_impressions": 20000,
+      "dev_impressions": 5000,
+      "cohort_size": 1000,
+      "arms": 5,
+      "seed": 42
+    }
+  }
+}

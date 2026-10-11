@@ -1,0 +1,539 @@
+{
+  "arguments": {
+    "environment": "dataset/processed/q1_environment.json",
+    "pools": 2,
+    "pool_size": 5,
+    "rounds": [
+      1000,
+      5000
+    ],
+    "seeds": 5,
+    "seed": 100,
+    "pool_seed": 2026,
+    "exploration_fractions": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "epsilons": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "output_dir": "results/q1_sweep_quick"
+  },
+  "environment": {
+    "seed": 42,
+    "cohort_size": 1000,
+    "description": "Stationary Bernoulli arms: click-model probabilities averaged over unique dev-user histories.",
+    "model_metrics": {
+      "auc": 0.6517287783150918,
+      "log_loss": 0.1614464749337468,
+      "brier_score": 0.03766202812390933,
+      "observed_ctr": 0.03967771359075707,
+      "predicted_ctr": 0.038948571428019836,
+      "train_examples": 744914,
+      "dev_examples": 190762,
+      "train_impressions_used": 20000,
+      "dev_impressions_used": 5000
+    },
+    "arms": [
+      {
+        "article_id": "N47061",
+        "category": "lifestyle",
+        "subcategory": "shop-holidays",
+        "title": "105 Black Friday Deals You Can Start Shopping Today",
+        "click_probability": 0.02793715274516861,
+        "train_exposures": 2941
+      },
+      {
+        "article_id": "N26262",
+        "category": "entertainment",
+        "subcategory": "entertainment-celebrity",
+        "title": "Celebrity plastic surgery transformations",
+        "click_probability": 0.03338661680047049,
+        "train_exposures": 2469
+      },
+      {
+        "article_id": "N51048",
+        "category": "news",
+        "subcategory": "elections-2020-us",
+        "title": "Rep. Tim Ryan endorses Biden in Democratic primary",
+        "click_probability": 0.04050050048195825,
+        "train_exposures": 2433
+      },
+      {
+        "article_id": "N50872",
+        "category": "lifestyle",
+        "subcategory": "shop-holidays",
+        "title": "50 amazing gifts for every type of person and budget",
+        "click_probability": 0.02793715274516861,
+        "train_exposures": 2348
+      },
+      {
+        "article_id": "N55689",
+        "category": "sports",
+        "subcategory": "football_nfl",
+        "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+        "click_probability": 0.056371742555941906,
+        "train_exposures": 2347
+      },
+      {
+        "article_id": "N38779",
+        "category": "news",
+        "subcategory": "newsus",
+        "title": "'One in a million' deer captured on camera in Michigan woods",
+        "click_probability": 0.04998199412852784,
+        "train_exposures": 2266
+      },
+      {
+        "article_id": "N62360",
+        "category": "news",
+        "subcategory": "newsworld",
+        "title": "The son of a Chinese billionaire has been banned from flying first class, playing golf, buying property, or going clubbing",
+        "click_probability": 0.028157302929029456,
+        "train_exposures": 2166
+      },
+      {
+        "article_id": "N49180",
+        "category": "lifestyle",
+        "subcategory": "lifestyleroyals",
+        "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+        "click_probability": 0.046028817979935854,
+        "train_exposures": 2085
+      },
+      {
+        "article_id": "N13907",
+        "category": "finance",
+        "subcategory": "finance-saving-investing",
+        "title": "4 reasons you shouldn't max out your 401(k)",
+        "click_probability": 0.029893586293807475,
+        "train_exposures": 2077
+      },
+      {
+        "article_id": "N41020",
+        "category": "entertainment",
+        "subcategory": "celebrity",
+        "title": "Lamar Odom Is Engaged to Sabrina Parr: See Her Ring!",
+        "click_probability": 0.027220246686315782,
+        "train_exposures": 2061
+      },
+      {
+        "article_id": "N33619",
+        "category": "news",
+        "subcategory": "newsus",
+        "title": "College gymnast dies following training accident in Connecticut",
+        "click_probability": 0.04998199412852784,
+        "train_exposures": 1987
+      },
+      {
+        "article_id": "N23446",
+        "category": "lifestyle",
+        "subcategory": "lifestyleroyals",
+        "title": "Prince Harry and Meghan Markle just shared a never-before-seen photo of baby Archie with his 'Grandpa' Prince Charles to celebrate his birthday",
+        "click_probability": 0.046028817979935854,
+        "train_exposures": 1968
+      },
+      {
+        "article_id": "N35729",
+        "category": "news",
+        "subcategory": "newsus",
+        "title": "Porsche launches into second story of New Jersey building, killing 2",
+        "click_probability": 0.04998199412852784,
+        "train_exposures": 1933
+      },
+      {
+        "article_id": "N18870",
+        "category": "lifestyle",
+        "subcategory": "shop-holidays",
+        "title": "Here Are the Biggest Deals We're Anticipating for Black Friday",
+        "click_probability": 0.029913325321396775,
+        "train_exposures": 1903
+      },
+      {
+        "article_id": "N32544",
+        "category": "tv",
+        "subcategory": "tv-celebrity",
+        "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+        "click_probability": 0.052738301418351397,
+        "train_exposures": 1893
+      },
+      {
+        "article_id": "N31978",
+        "category": "music",
+        "subcategory": "music-awards",
+        "title": "Country music's biggest scandals",
+        "click_probability": 0.034850157403481144,
+        "train_exposures": 1872
+      },
+      {
+        "article_id": "N63970",
+        "category": "finance",
+        "subcategory": "finance-companies",
+        "title": "Dean Foods files for bankruptcy",
+        "click_probability": 0.05718933814085408,
+        "train_exposures": 1866
+      },
+      {
+        "article_id": "N61623",
+        "category": "entertainment",
+        "subcategory": "entertainment-celebrity",
+        "title": "Big celebrity money moments of the last decade",
+        "click_probability": 0.03325737569226907,
+        "train_exposures": 1778
+      },
+      {
+        "article_id": "N45523",
+        "category": "lifestyle",
+        "subcategory": "lifestylebuzz",
+        "title": "Family told to take down Christmas display because it's too soon to decorate",
+        "click_probability": 0.0447413331376129,
+        "train_exposures": 1775
+      },
+      {
+        "article_id": "N3344",
+        "category": "music",
+        "subcategory": "cma-awards",
+        "title": "Top 100 country songs of all time",
+        "click_probability": 0.02379388389898424,
+        "train_exposures": 1746
+      },
+      {
+        "article_id": "N14592",
+        "category": "entertainment",
+        "subcategory": "entertainment-celebrity",
+        "title": "Chrissy Teigen's weekend was basically a clapback double-header, plus more news",
+        "click_probability": 0.03325737569226907,
+        "train_exposures": 1742
+      },
+      {
+        "article_id": "N55204",
+        "category": "entertainment",
+        "subcategory": "entertainment-celebrity",
+        "title": "Stars Who Served in the Military",
+        "click_probability": 0.03325737569226907,
+        "train_exposures": 1726
+      },
+      {
+        "article_id": "N6056",
+        "category": "entertainment",
+        "subcategory": "celebrity",
+        "title": "See what your favorite stars look like without makeup",
+        "click_probability": 0.027435676011629658,
+        "train_exposures": 1717
+      },
+      {
+        "article_id": "N58363",
+        "category": "finance",
+        "subcategory": "finance-companies",
+        "title": "Supreme Court refuses to block lawsuit against gun manufacturer brought by Sandy Hook families",
+        "click_probability": 0.05718933814085408,
+        "train_exposures": 1705
+      },
+      {
+        "article_id": "N50675",
+        "category": "news",
+        "subcategory": "newscrime",
+        "title": "Utah death-row inmate featured in best-selling book dies",
+        "click_probability": 0.0609999254273728,
+        "train_exposures": 1695
+      },
+      {
+        "article_id": "N11817",
+        "category": "travel",
+        "subcategory": "traveltripideas",
+        "title": "Here's the Best Small Town in Every State",
+        "click_probability": 0.02363671675497123,
+        "train_exposures": 1682
+      },
+      {
+        "article_id": "N36226",
+        "category": "finance",
+        "subcategory": "finance-retirement",
+        "title": "The 1 reason you shouldn't hesitate to claim Social Security early",
+        "click_probability": 0.03602794082675653,
+        "train_exposures": 1620
+      },
+      {
+        "article_id": "N34876",
+        "category": "lifestyle",
+        "subcategory": "lifestylecelebstyle",
+        "title": "Jennifer Lopez Debuted the Sleek Seasonal Bob You'll Want to Copy",
+        "click_probability": 0.0313475440325143,
+        "train_exposures": 1620
+      },
+      {
+        "article_id": "N16096",
+        "category": "news",
+        "subcategory": "newsphotos",
+        "title": "Eerie photos of an abandoned airport that hasn't been touched in 25 years",
+        "click_probability": 0.040433951317997145,
+        "train_exposures": 1607
+      },
+      {
+        "article_id": "N21420",
+        "category": "tv",
+        "subcategory": "tvnews",
+        "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+        "click_probability": 0.07434085242936808,
+        "train_exposures": 1599
+      },
+      {
+        "article_id": "N59673",
+        "category": "music",
+        "subcategory": "music-celebrity",
+        "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+        "click_probability": 0.08210753802692428,
+        "train_exposures": 1587
+      },
+      {
+        "article_id": "N29212",
+        "category": "music",
+        "subcategory": "musicnews",
+        "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+        "click_probability": 0.08596760728214944,
+        "train_exposures": 1540
+      },
+      {
+        "article_id": "N41172",
+        "category": "entertainment",
+        "subcategory": "celebrity",
+        "title": "Welcome to the World! All of the Celebrity Babies Who've Made Their Debuts in 2019",
+        "click_probability": 0.027220246686315782,
+        "train_exposures": 1534
+      },
+      {
+        "article_id": "N41387",
+        "category": "tv",
+        "subcategory": "tv-gallery",
+        "title": "Can you answer these real Jeopardy questions about TV shows?",
+        "click_probability": 0.023693836640359487,
+        "train_exposures": 1529
+      },
+      {
+        "article_id": "N63538",
+        "category": "entertainment",
+        "subcategory": "awards",
+        "title": "The Best Backstage Moments From the 2019 E! People's Choice Awards",
+        "click_probability": 0.027915911305441788,
+        "train_exposures": 1527
+      },
+      {
+        "article_id": "N4642",
+        "category": "music",
+        "subcategory": "music-celebrity",
+        "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+        "click_probability": 0.08210753802692428,
+        "train_exposures": 1523
+      },
+      {
+        "article_id": "N40839",
+        "category": "sports",
+        "subcategory": "sports_news",
+        "title": "Stephen Curry calls out Michael Jordan for being a 'hater'",
+        "click_probability": 0.09799977836380863,
+        "train_exposures": 1517
+      },
+      {
+        "article_id": "N26376",
+        "category": "finance",
+        "subcategory": "markets",
+        "title": "Stocks close higher on optimism over China trade deal",
+        "click_probability": 0.024025090618929705,
+        "train_exposures": 1504
+      },
+      {
+        "article_id": "N29128",
+        "category": "travel",
+        "subcategory": "travelnews",
+        "title": "Flight Attendants Have a Secret Language You Didn't Know About",
+        "click_probability": 0.03584906786796028,
+        "train_exposures": 1499
+      },
+      {
+        "article_id": "N14184",
+        "category": "news",
+        "subcategory": "newsus",
+        "title": "Man cuffed for eating sandwich on train platform gets an apology",
+        "click_probability": 0.04998199412852784,
+        "train_exposures": 1486
+      },
+      {
+        "article_id": "N10960",
+        "category": "foodanddrink",
+        "subcategory": "recipes",
+        "title": "65 Best Fall Soups That Will Warm You and Your Family Up All Season Long",
+        "click_probability": 0.026676483115271734,
+        "train_exposures": 1484
+      },
+      {
+        "article_id": "N3123",
+        "category": "lifestyle",
+        "subcategory": "lifestyleroyals",
+        "title": "Stella McCartney Deleted a Meghan Markle Instagram Post After Followers Called Her Out",
+        "click_probability": 0.046028817979935854,
+        "train_exposures": 1483
+      },
+      {
+        "article_id": "N42961",
+        "category": "sports",
+        "subcategory": "football_nfl",
+        "title": "Russell Wilson vs. 49ers' No. 1 defense: Monday night's prime-time matchup",
+        "click_probability": 0.056371742555941906,
+        "train_exposures": 1474
+      },
+      {
+        "article_id": "N7319",
+        "category": "weather",
+        "subcategory": "weathertopstories",
+        "title": "Cold weather: 70% of the country will experience freezing temperatures this week",
+        "click_probability": 0.05024593410015785,
+        "train_exposures": 1467
+      },
+      {
+        "article_id": "N6477",
+        "category": "finance",
+        "subcategory": "finance-companies",
+        "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+        "click_probability": 0.05718933814085408,
+        "train_exposures": 1443
+      },
+      {
+        "article_id": "N44698",
+        "category": "travel",
+        "subcategory": "traveltripideas",
+        "title": "The most exclusive hotel in every state",
+        "click_probability": 0.02363671675497123,
+        "train_exposures": 1414
+      },
+      {
+        "article_id": "N62386",
+        "category": "news",
+        "subcategory": "newspolitics",
+        "title": "America's Most and Least Popular Senators",
+        "click_probability": 0.03097608822313303,
+        "train_exposures": 1409
+      },
+      {
+        "article_id": "N40109",
+        "category": "weather",
+        "subcategory": "weathertopstories",
+        "title": "This Arctic blast is in its final day. But the cold isn't over quite yet",
+        "click_probability": 0.05024593410015785,
+        "train_exposures": 1406
+      },
+      {
+        "article_id": "N23877",
+        "category": "news",
+        "subcategory": "newscrime",
+        "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+        "click_probability": 0.0609999254273728,
+        "train_exposures": 1395
+      },
+      {
+        "article_id": "N11830",
+        "category": "lifestyle",
+        "subcategory": "lifestylepetsanimals",
+        "title": "Why Do Cats Meow?",
+        "click_probability": 0.03943870420710518,
+        "train_exposures": 1388
+      }
+    ],
+    "arguments": {
+      "data_dir": "dataset/raw/mind-small",
+      "train_impressions": 20000,
+      "dev_impressions": 5000,
+      "cohort_size": 1000,
+      "arms": 50,
+      "seed": 42,
+      "full_data": false
+    }
+  },
+  "pools": [
+    [
+      {
+        "article_id": "N29212",
+        "category": "music",
+        "subcategory": "musicnews",
+        "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+        "click_probability": 0.08596760728214944,
+        "train_exposures": 1540
+      },
+      {
+        "article_id": "N45523",
+        "category": "lifestyle",
+        "subcategory": "lifestylebuzz",
+        "title": "Family told to take down Christmas display because it's too soon to decorate",
+        "click_probability": 0.0447413331376129,
+        "train_exposures": 1775
+      },
+      {
+        "article_id": "N13907",
+        "category": "finance",
+        "subcategory": "finance-saving-investing",
+        "title": "4 reasons you shouldn't max out your 401(k)",
+        "click_probability": 0.029893586293807475,
+        "train_exposures": 2077
+      },
+      {
+        "article_id": "N14184",
+        "category": "news",
+        "subcategory": "newsus",
+        "title": "Man cuffed for eating sandwich on train platform gets an apology",
+        "click_probability": 0.04998199412852784,
+        "train_exposures": 1486
+      },
+      {
+        "article_id": "N26262",
+        "category": "entertainment",
+        "subcategory": "entertainment-celebrity",
+        "title": "Celebrity plastic surgery transformations",
+        "click_probability": 0.03338661680047049,
+        "train_exposures": 2469
+      }
+    ],
+    [
+      {
+        "article_id": "N44698",
+        "category": "travel",
+        "subcategory": "traveltripideas",
+        "title": "The most exclusive hotel in every state",
+        "click_probability": 0.02363671675497123,
+        "train_exposures": 1414
+      },
+      {
+        "article_id": "N14184",
+        "category": "news",
+        "subcategory": "newsus",
+        "title": "Man cuffed for eating sandwich on train platform gets an apology",
+        "click_probability": 0.04998199412852784,
+        "train_exposures": 1486
+      },
+      {
+        "article_id": "N26376",
+        "category": "finance",
+        "subcategory": "markets",
+        "title": "Stocks close higher on optimism over China trade deal",
+        "click_probability": 0.024025090618929705,
+        "train_exposures": 1504
+      },
+      {
+        "article_id": "N63970",
+        "category": "finance",
+        "subcategory": "finance-companies",
+        "title": "Dean Foods files for bankruptcy",
+        "click_probability": 0.05718933814085408,
+        "train_exposures": 1866
+      },
+      {
+        "article_id": "N63538",
+        "category": "entertainment",
+        "subcategory": "awards",
+        "title": "The Best Backstage Moments From the 2019 E! People's Choice Awards",
+        "click_probability": 0.027915911305441788,
+        "train_exposures": 1527
+      }
+    ]
+  ],
+  "interval_method": "Student t, across independent seeds; aggregate first averages pools within each seed"
+}

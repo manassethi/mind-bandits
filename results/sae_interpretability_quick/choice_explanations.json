@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 29,
+    "selected_article": {
+      "article_id": "N36226",
+      "category": "finance",
+      "subcategory": "finance-retirement",
+      "title": "The 1 reason you shouldn't hesitate to claim Social Security early",
+      "abstract": "Seniors are often told to wait on Social Security, but here's a good argument for filing sooner."
+    },
+    "predicted_linear_reward": 0.04990797840035034,
+    "uncertainty_bonus": 0.03943180121457558,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.0038758310233231582
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.00269097352179524
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.002394696568030209
+      },
+      {
+        "feature_id": 436,
+        "contribution": -0.0018246699841338516
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.0007411848347856811
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 18,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.2984995685095337,
+    "uncertainty_bonus": 0.02085866991758195,
+    "sae_contributions": [
+      {
+        "feature_id": 58,
+        "contribution": -0.02576052258758105
+      },
+      {
+        "feature_id": 539,
+        "contribution": -0.006793962770158457
+      },
+      {
+        "feature_id": 710,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 258,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 79,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 58,
+    "selected_article": {
+      "article_id": "N36226",
+      "category": "finance",
+      "subcategory": "finance-retirement",
+      "title": "The 1 reason you shouldn't hesitate to claim Social Security early",
+      "abstract": "Seniors are often told to wait on Social Security, but here's a good argument for filing sooner."
+    },
+    "predicted_linear_reward": 0.04882011474072377,
+    "uncertainty_bonus": 0.040620973471047137,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.003755062875212261
+      },
+      {
+        "feature_id": 436,
+        "contribution": -0.0027284057509604537
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0026201774267153245
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.002292596383604807
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.0008491845999525052
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 25,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.07932528598257234,
+    "uncertainty_bonus": 0.017170261953409677,
+    "sae_contributions": [
+      {
+        "feature_id": 359,
+        "contribution": 0.010076255646714202
+      },
+      {
+        "feature_id": 372,
+        "contribution": 0.009327470627859907
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.0063687443521950465
+      },
+      {
+        "feature_id": 890,
+        "contribution": 0.005979093593069455
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 28,
+    "selected_article": {
+      "article_id": "N11830",
+      "category": "lifestyle",
+      "subcategory": "lifestylepetsanimals",
+      "title": "Why Do Cats Meow?",
+      "abstract": "Cats scratch, purr, and sleep, but haven't you always wondered, \"why do cats meow\"?"
+    },
+    "predicted_linear_reward": 0.026869235723576055,
+    "uncertainty_bonus": 0.04187593276934212,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.005471967931919488
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.00429835585189121
+      },
+      {
+        "feature_id": 429,
+        "contribution": 0.0037738228324781116
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.00375456110355951
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.0003406270689358247
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 49,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.0788765034010153,
+    "uncertainty_bonus": 0.021691869934041277,
+    "sae_contributions": [
+      {
+        "feature_id": 359,
+        "contribution": 0.009940827130538756
+      },
+      {
+        "feature_id": 372,
+        "contribution": 0.00862918602932548
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.0060800728533122305
+      },
+      {
+        "feature_id": 890,
+        "contribution": 0.005832088057372174
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 86,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.07759440119041103,
+    "uncertainty_bonus": 0.017681439541912397,
+    "sae_contributions": [
+      {
+        "feature_id": 359,
+        "contribution": 0.00984329267031798
+      },
+      {
+        "feature_id": 372,
+        "contribution": 0.00845004100879006
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.005917253188037053
+      },
+      {
+        "feature_id": 890,
+        "contribution": 0.005810092560532212
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 66,
+    "selected_article": {
+      "article_id": "N36226",
+      "category": "finance",
+      "subcategory": "finance-retirement",
+      "title": "The 1 reason you shouldn't hesitate to claim Social Security early",
+      "abstract": "Seniors are often told to wait on Social Security, but here's a good argument for filing sooner."
+    },
+    "predicted_linear_reward": 0.04777491713445655,
+    "uncertainty_bonus": 0.03979853377373047,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.003688643964033342
+      },
+      {
+        "feature_id": 436,
+        "contribution": -0.002802142741014056
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0024962710006244393
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0024334694256449474
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.0008775483180573705
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 79,
+    "selected_article": {
+      "article_id": "N45523",
+      "category": "lifestyle",
+      "subcategory": "lifestylebuzz",
+      "title": "Family told to take down Christmas display because it's too soon to decorate",
+      "abstract": "A Texas couple was told by their homeowners association to pump the brakes on their Christmas cheer."
+    },
+    "predicted_linear_reward": 0.038220390729688525,
+    "uncertainty_bonus": 0.03923703927904765,
+    "sae_contributions": [
+      {
+        "feature_id": 1015,
+        "contribution": 0.0032734842053435656
+      },
+      {
+        "feature_id": 436,
+        "contribution": -0.0021112897039988615
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0016949409765622259
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0016697529778873586
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.001664267116847318
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 75,
+    "selected_article": {
+      "article_id": "N58363",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Supreme Court refuses to block lawsuit against gun manufacturer brought by Sandy Hook families",
+      "abstract": "The Supreme Court refused to shield Remington Arms Co. from potential liability for the 2012 school shooting that left 26 dead in Newtown, Conn."
+    },
+    "predicted_linear_reward": 0.050496447330442173,
+    "uncertainty_bonus": 0.03782472697812028,
+    "sae_contributions": [
+      {
+        "feature_id": 890,
+        "contribution": 0.005368608930224789
+      },
+      {
+        "feature_id": 955,
+        "contribution": 0.003329290474182017
+      },
+      {
+        "feature_id": 710,
+        "contribution": 0.00029602449701467435
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 258,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 46,
+    "selected_article": {
+      "article_id": "N51048",
+      "category": "news",
+      "subcategory": "elections-2020-us",
+      "title": "Rep. Tim Ryan endorses Biden in Democratic primary",
+      "abstract": ""
+    },
+    "predicted_linear_reward": 0.09205133726447834,
+    "uncertainty_bonus": 0.037555146432835446,
+    "sae_contributions": [
+      {
+        "feature_id": 735,
+        "contribution": 0.012220173716767256
+      },
+      {
+        "feature_id": 79,
+        "contribution": 0.011674507754936544
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.0105962199197982
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0077750968737872565
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.006956257574157168
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 72,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.05865714536356512,
+    "uncertainty_bonus": 0.029626901813078026,
+    "sae_contributions": [
+      {
+        "feature_id": 502,
+        "contribution": -0.029993894982459905
+      },
+      {
+        "feature_id": 539,
+        "contribution": -0.023213375038688148
+      },
+      {
+        "feature_id": 359,
+        "contribution": 0.020643247709990275
+      },
+      {
+        "feature_id": 372,
+        "contribution": 0.019586674568215896
+      },
+      {
+        "feature_id": 890,
+        "contribution": 0.014673711165855929
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 21,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.07882448730138499,
+    "uncertainty_bonus": 0.017125499595052898,
+    "sae_contributions": [
+      {
+        "feature_id": 359,
+        "contribution": 0.009983701642322698
+      },
+      {
+        "feature_id": 372,
+        "contribution": 0.009141554131966502
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.006199619423355779
+      },
+      {
+        "feature_id": 890,
+        "contribution": 0.005925890341006267
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 34,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.07784015671954536,
+    "uncertainty_bonus": 0.017471242948811097,
+    "sae_contributions": [
+      {
+        "feature_id": 359,
+        "contribution": 0.009954783569376598
+      },
+      {
+        "feature_id": 372,
+        "contribution": 0.00845004100879006
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.006051517818112761
+      },
+      {
+        "feature_id": 890,
+        "contribution": 0.005810092560532212
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 63,
+    "selected_article": {
+      "article_id": "N51048",
+      "category": "news",
+      "subcategory": "elections-2020-us",
+      "title": "Rep. Tim Ryan endorses Biden in Democratic primary",
+      "abstract": ""
+    },
+    "predicted_linear_reward": 0.033752532678389645,
+    "uncertainty_bonus": 0.03352158110655216,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.011674507754936544
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.011024484278074164
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.010265102715122938
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.007885327423014713
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0074114320618411545
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 59,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.16449424075035932,
+    "uncertainty_bonus": 0.013839965738949883,
+    "sae_contributions": [
+      {
+        "feature_id": 58,
+        "contribution": -0.025721365758250556
+      },
+      {
+        "feature_id": 539,
+        "contribution": -0.007161296300583629
+      },
+      {
+        "feature_id": 710,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 258,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 79,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 48,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.23756709898363262,
+    "uncertainty_bonus": 0.01315825248412203,
+    "sae_contributions": [
+      {
+        "feature_id": 58,
+        "contribution": -0.02572222245940318
+      },
+      {
+        "feature_id": 539,
+        "contribution": -0.007002391034201143
+      },
+      {
+        "feature_id": 710,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 258,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 79,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 97,
+    "selected_article": {
+      "article_id": "N58363",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Supreme Court refuses to block lawsuit against gun manufacturer brought by Sandy Hook families",
+      "abstract": "The Supreme Court refused to shield Remington Arms Co. from potential liability for the 2012 school shooting that left 26 dead in Newtown, Conn."
+    },
+    "predicted_linear_reward": 0.05008863815931568,
+    "uncertainty_bonus": 0.037912534292204675,
+    "sae_contributions": [
+      {
+        "feature_id": 890,
+        "contribution": 0.005288484272993425
+      },
+      {
+        "feature_id": 955,
+        "contribution": 0.003275026691812668
+      },
+      {
+        "feature_id": 710,
+        "contribution": 2.2603765488891838e-05
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0
+      },
+      {
+        "feature_id": 258,
+        "contribution": 0.0
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 25,
+    "selected_article": {
+      "article_id": "N51048",
+      "category": "news",
+      "subcategory": "elections-2020-us",
+      "title": "Rep. Tim Ryan endorses Biden in Democratic primary",
+      "abstract": ""
+    },
+    "predicted_linear_reward": 0.07590148754257053,
+    "uncertainty_bonus": 0.02574376310948255,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.011436501725298394
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.01084719053320171
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.00912671128293236
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0075904421807929095
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.007329220994048012
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 70,
+    "selected_article": {
+      "article_id": "N36226",
+      "category": "finance",
+      "subcategory": "finance-retirement",
+      "title": "The 1 reason you shouldn't hesitate to claim Social Security early",
+      "abstract": "Seniors are often told to wait on Social Security, but here's a good argument for filing sooner."
+    },
+    "predicted_linear_reward": 0.04884145113942138,
+    "uncertainty_bonus": 0.03960942598156774,
+    "sae_contributions": [
+      {
+        "feature_id": 79,
+        "contribution": 0.003789970973725168
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0027683337065967403
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0023190648874377015
+      },
+      {
+        "feature_id": 436,
+        "contribution": -0.002139000603620017
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.0007792059709767908
+      }
+    ]
+  }
+]

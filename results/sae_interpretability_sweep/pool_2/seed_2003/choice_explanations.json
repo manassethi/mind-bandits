@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 168,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.04085047236569926,
+    "uncertainty_bonus": 0.013160554289970379,
+    "sae_contributions": [
+      {
+        "feature_id": 372,
+        "contribution": -0.018122614828297242
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.006349360991069813
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.004214333806349387
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.004200807719666558
+      },
+      {
+        "feature_id": 793,
+        "contribution": -0.0025353525561498014
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 852,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.26785086006102143,
+    "uncertainty_bonus": 0.009926161472662454,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.006969479338062406
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.002132074051421995
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.001624386966750051
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0008145819666194763
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.0006751592414850164
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 622,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.056702468920913435,
+    "uncertainty_bonus": 0.007176414565495157,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.011822872776770488
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.009679604172433525
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009153223185023755
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.008813908638777606
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.007368765332477793
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 744,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.05351889471997062,
+    "uncertainty_bonus": 0.011995763976771781,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.012127726316643089
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.008565975006552165
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.008314716161408558
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.007553838064100072
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.006527668433165431
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 841,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.04496542039725682,
+    "uncertainty_bonus": 0.016121645056517003,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.0057667186864484125
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.0033053093723562363
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.003028074482557154
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.0017268496108131671
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.0015922876333625984
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 546,
+    "selected_article": {
+      "article_id": "N3344",
+      "category": "music",
+      "subcategory": "cma-awards",
+      "title": "Top 100 country songs of all time",
+      "abstract": "Stacker counts down the top 100 country songs of all time. From old-school honky-tonk to modern country pop, this list covers the biggest hits in Billboard history."
+    },
+    "predicted_linear_reward": 0.04274186980013537,
+    "uncertainty_bonus": 0.02534576917273757,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": -0.004335709697269784
+      },
+      {
+        "feature_id": 915,
+        "contribution": 0.002395527609463768
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0023696461127950034
+      },
+      {
+        "feature_id": 741,
+        "contribution": 0.0015162380669599533
+      },
+      {
+        "feature_id": 451,
+        "contribution": 0.00046624395963795035
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 768,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.044834810225328675,
+    "uncertainty_bonus": 0.0161564640643374,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.00575856905130207
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.002895931576899489
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.0027918539493858733
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.001822507559881152
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.0016156736193683064
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 887,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.05377066780249978,
+    "uncertainty_bonus": 0.01393069843239933,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.008680320812201573
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.004972484127003664
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.004937575392894802
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.0044618092107073515
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0036365327589644825
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 907,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.0567910479859052,
+    "uncertainty_bonus": 0.007517599901838798,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.011769056011864254
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.009807822530949674
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009279511979320539
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.008848021179924085
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.0074225971113403705
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 224,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.03019585831333082,
+    "uncertainty_bonus": 0.037696160133341906,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": -0.005362668206669899
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0033961283420094034
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.0024045154478821093
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.0023999094731370044
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0012022085305113195
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 330,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.03973951695249151,
+    "uncertainty_bonus": 0.01664404233826626,
+    "sae_contributions": [
+      {
+        "feature_id": 1015,
+        "contribution": -0.007830700517875832
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.00739662223991451
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006885920793303546
+      },
+      {
+        "feature_id": 915,
+        "contribution": 0.005674413287847268
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.005391235746645714
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 286,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.059240117546687204,
+    "uncertainty_bonus": 0.011040834022858659,
+    "sae_contributions": [
+      {
+        "feature_id": 372,
+        "contribution": -0.018116645254796605
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.006381301933563765
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.004215463690280606
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.004182696469934498
+      },
+      {
+        "feature_id": 793,
+        "contribution": -0.002687880265292205
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 140,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.16156229150842935,
+    "uncertainty_bonus": 0.010602560917280734,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.007152874520725196
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0017489503030962154
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.0016460144164423727
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0008941684951652187
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.00031354803088372096
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 312,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.03002829651150287,
+    "uncertainty_bonus": 0.05193651125477534,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": -0.004543835424208753
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.003209932295646627
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.0023975459638477777
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.0022535791469208972
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0013049966644920607
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 551,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.07420563952464126,
+    "uncertainty_bonus": 0.00940081336438138,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.008478588764446642
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.0054927807260508835
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.005171675269292797
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.005091565175168077
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.003947303357856225
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 981,
+    "selected_article": {
+      "article_id": "N36226",
+      "category": "finance",
+      "subcategory": "finance-retirement",
+      "title": "The 1 reason you shouldn't hesitate to claim Social Security early",
+      "abstract": "Seniors are often told to wait on Social Security, but here's a good argument for filing sooner."
+    },
+    "predicted_linear_reward": 0.039764093757955275,
+    "uncertainty_bonus": 0.01694392324763911,
+    "sae_contributions": [
+      {
+        "feature_id": 735,
+        "contribution": 0.006763643927343977
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.00563862985456036
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.004680056864699539
+      },
+      {
+        "feature_id": 915,
+        "contribution": 0.004413928695420413
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.004216958359822926
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 39,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.046349593791967056,
+    "uncertainty_bonus": 0.018518232912480156,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.0066218459278473635
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.002908528969331391
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.0026826700710718596
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.001666039541257582
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.0015592397086597785
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 539,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.06457404077393859,
+    "uncertainty_bonus": 0.009818600328992219,
+    "sae_contributions": [
+      {
+        "feature_id": 372,
+        "contribution": -0.0183171922537573
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.0066775325431754524
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.004705275426975409
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.004141977589525003
+      },
+      {
+        "feature_id": 793,
+        "contribution": -0.0027148796825221936
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 361,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.04531098134405027,
+    "uncertainty_bonus": 0.01737384633770183,
+    "sae_contributions": [
+      {
+        "feature_id": 1015,
+        "contribution": -0.007839465178227294
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.007440652530520155
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006806972807091231
+      },
+      {
+        "feature_id": 915,
+        "contribution": 0.005696205666266415
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.0053904172098094534
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 929,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.09842438917116696,
+    "uncertainty_bonus": 0.013396888971633922,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.008590841484947315
+      },
+      {
+        "feature_id": 549,
+        "contribution": 0.0051686291510138075
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.005043185516017085
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.004972484127003664
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.004059080971687002
+      }
+    ]
+  }
+]

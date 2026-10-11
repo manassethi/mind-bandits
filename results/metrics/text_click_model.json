@@ -1,0 +1,11 @@
+{
+  "auc": 0.6554749647710196,
+  "log_loss": 0.16141670615405332,
+  "brier_score": 0.03764270913515936,
+  "observed_ctr": 0.03967771359075707,
+  "predicted_ctr": 0.038268959558599165,
+  "train_impressions_used": 20000,
+  "dev_impressions_used": 5000,
+  "train_examples": 744914,
+  "dev_examples": 190762
+}

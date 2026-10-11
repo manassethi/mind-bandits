@@ -237,3 +237,16 @@ results/
 # Project source package (overrides generic data-directory ignores)
 !src/data/
 !src/data/**
+
+# Keep experiment outputs and trained artifacts in this branch
+!results/
+!results/**
+!models/
+!models/**
+!dataset/
+!dataset/processed/
+!dataset/processed/**
+# Cache exclusions must follow source-directory exceptions
+**/__pycache__/
+*.py[cod]
+.DS_Store

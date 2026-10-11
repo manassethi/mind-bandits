@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 169,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.08105528293571493,
+    "uncertainty_bonus": 0.012108532042039877,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.06150303194670473
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.04324564991353804
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.020048417721861243
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.017017923871167656
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.016033393823700504
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 329,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.0801156478912015,
+    "uncertainty_bonus": 0.010288828932627087,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.0203923816238112
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.020075197282030437
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.015882096638253098
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.011902689174713574
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.009254604970666566
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 299,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.15700930466639174,
+    "uncertainty_bonus": 0.006076173156669917,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.023271449037934714
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.016000669920132767
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.010139557036928619
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.00764340740447207
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.006974603498696913
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 553,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.08754766406521967,
+    "uncertainty_bonus": 0.009882981463237933,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.025964730158885802
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.0222675059346545
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.016236920171229678
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.011149122821516174
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.008962161647547609
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 148,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.15945201563744796,
+    "uncertainty_bonus": 0.007027840172934341,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.022968782292725122
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.016097605672858853
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.010325128799275636
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.007620161427404444
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.006909214211187561
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 261,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.14149016165420236,
+    "uncertainty_bonus": 0.005252823449929195,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.023649062771227695
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.016146848878916438
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.01014481191700484
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.007849010285347527
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.007553212770452878
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 33,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.14072081523847194,
+    "uncertainty_bonus": 0.005208677910842591,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.023281392969898857
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.015541206884653326
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.010278599686594624
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.0076398775225325725
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.006971015900927208
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 132,
+    "selected_article": {
+      "article_id": "N31978",
+      "category": "music",
+      "subcategory": "music-awards",
+      "title": "Country music's biggest scandals",
+      "abstract": "From Wynonna Judd's husband's arrest to the Dixie Chicks' vent about George W. Bush, relive country's biggest scandals."
+    },
+    "predicted_linear_reward": 0.045736096227963,
+    "uncertainty_bonus": 0.018998762591891732,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.022642994963812377
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.011630606464872666
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.006357810918744968
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.00466982167825284
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.002883147925670655
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 801,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.09082895841505802,
+    "uncertainty_bonus": 0.010929943753965637,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.02019626411375445
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.020189918398915086
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.015470719823974272
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.011985247947892635
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.00939154894609528
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 99,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.08726392874582892,
+    "uncertainty_bonus": 0.01381645047018222,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.06249304194773224
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.04280326967622505
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.020217690447928625
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.01723165065746156
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.015859569114689474
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 575,
+    "selected_article": {
+      "article_id": "N3344",
+      "category": "music",
+      "subcategory": "cma-awards",
+      "title": "Top 100 country songs of all time",
+      "abstract": "Stacker counts down the top 100 country songs of all time. From old-school honky-tonk to modern country pop, this list covers the biggest hits in Billboard history."
+    },
+    "predicted_linear_reward": 0.040066696476195963,
+    "uncertainty_bonus": 0.022322196788473476,
+    "sae_contributions": [
+      {
+        "feature_id": 915,
+        "contribution": -0.0070680583050853904
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.005291271302876628
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.0046307055705464405
+      },
+      {
+        "feature_id": 496,
+        "contribution": -0.0031534252289353837
+      },
+      {
+        "feature_id": 451,
+        "contribution": -0.0009461838406772708
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 636,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.15184687411753595,
+    "uncertainty_bonus": 0.005488339314065227,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.023485942006117082
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.01649275218486143
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.010221153030917423
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.007801025392464245
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.00717418124006292
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 13,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.10233812431371687,
+    "uncertainty_bonus": 0.010677922995878011,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.025517454085274373
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.022576760159039803
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.0161526730442095
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.011540841128591857
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.00970879709724056
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 91,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.07961474038323572,
+    "uncertainty_bonus": 0.009839243513720425,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.026011430771835972
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.022226760124468413
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.01626010091193963
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.011162584561893714
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.008794154451394434
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 732,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.07488711506460853,
+    "uncertainty_bonus": 0.010523436598413372,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.020353176384851453
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.020012981522972397
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.015427578261723996
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.01181746139490198
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.009220836173575588
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 177,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.07924883536007496,
+    "uncertainty_bonus": 0.012407722580327185,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.06220448153996312
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.04282168153447689
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.02010139777219075
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.016923408544532916
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.016075026163313546
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 849,
+    "selected_article": {
+      "article_id": "N7319",
+      "category": "weather",
+      "subcategory": "weathertopstories",
+      "title": "Cold weather: 70% of the country will experience freezing temperatures this week",
+      "abstract": "Roughly 70% of the US will experience freezing temperatures this week as an Arctic blast hits two thirds of the country. Over 240 million people are under winter warnings, watches and advisories."
+    },
+    "predicted_linear_reward": 0.05581187617653273,
+    "uncertainty_bonus": 0.011372853506537009,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.04291926911613953
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.017151222242922533
+      },
+      {
+        "feature_id": 250,
+        "contribution": -0.01685263994452038
+      },
+      {
+        "feature_id": 940,
+        "contribution": -0.006487488426104277
+      },
+      {
+        "feature_id": 838,
+        "contribution": -0.0048757136865950285
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 526,
+    "selected_article": {
+      "article_id": "N45523",
+      "category": "lifestyle",
+      "subcategory": "lifestylebuzz",
+      "title": "Family told to take down Christmas display because it's too soon to decorate",
+      "abstract": "A Texas couple was told by their homeowners association to pump the brakes on their Christmas cheer."
+    },
+    "predicted_linear_reward": 0.09843127100648495,
+    "uncertainty_bonus": 0.019141220577428758,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.022946656773545963
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.02164703665592649
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.011132152003686807
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.009316724620767812
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.009148179042356933
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 495,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.09511767374320429,
+    "uncertainty_bonus": 0.015752888288430175,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.05946571875979813
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.04481328413092824
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.019634707593994462
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.01743076963731316
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.017000965578701954
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 553,
+    "selected_article": {
+      "article_id": "N31978",
+      "category": "music",
+      "subcategory": "music-awards",
+      "title": "Country music's biggest scandals",
+      "abstract": "From Wynonna Judd's husband's arrest to the Dixie Chicks' vent about George W. Bush, relive country's biggest scandals."
+    },
+    "predicted_linear_reward": 0.044125580505874215,
+    "uncertainty_bonus": 0.018654419177295045,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.023569549086390636
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.011251139547836523
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.006498808244860489
+      },
+      {
+        "feature_id": 1015,
+        "contribution": 0.004554383406360284
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.002843014869158606
+      }
+    ]
+  }
+]

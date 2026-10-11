@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 169,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.05752366207661734,
+    "uncertainty_bonus": 0.0073613081310597295,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.0262311569039519
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.01114827746852982
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.00850402706321116
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.00840399034556899
+      },
+      {
+        "feature_id": 872,
+        "contribution": -0.00461397866093858
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 329,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.04474433827126366,
+    "uncertainty_bonus": 0.014206457590811676,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.018829115470163242
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.008058730895962977
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.004568164735609035
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.003808678329517266
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0030398457284748917
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 299,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.18635502657623548,
+    "uncertainty_bonus": 0.009202235328075514,
+    "sae_contributions": [
+      {
+        "feature_id": 750,
+        "contribution": 0.0025014792573137845
+      },
+      {
+        "feature_id": 992,
+        "contribution": 0.0023592569230404545
+      },
+      {
+        "feature_id": 288,
+        "contribution": 0.002041419853857381
+      },
+      {
+        "feature_id": 847,
+        "contribution": 0.0016641099597708901
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.000714301246794184
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 553,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.058321479351610576,
+    "uncertainty_bonus": 0.0067674467267117636,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.026307967424940352
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.011289964845939363
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008721919137433014
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.00845739318312279
+      },
+      {
+        "feature_id": 872,
+        "contribution": -0.0045741130154813665
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 148,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.03758630104377256,
+    "uncertainty_bonus": 0.015420378132241105,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.011690905221100991
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.005253881024951065
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.00446741597004352
+      },
+      {
+        "feature_id": 288,
+        "contribution": 0.003662925093537476
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0033461245647744735
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 261,
+    "selected_article": {
+      "article_id": "N3344",
+      "category": "music",
+      "subcategory": "cma-awards",
+      "title": "Top 100 country songs of all time",
+      "abstract": "Stacker counts down the top 100 country songs of all time. From old-school honky-tonk to modern country pop, this list covers the biggest hits in Billboard history."
+    },
+    "predicted_linear_reward": 0.028322056797004242,
+    "uncertainty_bonus": 0.01903090391882979,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.014700755837512252
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0020558542720682735
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.0006548895763212348
+      },
+      {
+        "feature_id": 741,
+        "contribution": -0.0005511102339656828
+      },
+      {
+        "feature_id": 451,
+        "contribution": -0.0004670622499585154
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 33,
+    "selected_article": {
+      "article_id": "N3344",
+      "category": "music",
+      "subcategory": "cma-awards",
+      "title": "Top 100 country songs of all time",
+      "abstract": "Stacker counts down the top 100 country songs of all time. From old-school honky-tonk to modern country pop, this list covers the biggest hits in Billboard history."
+    },
+    "predicted_linear_reward": 0.02897266197559999,
+    "uncertainty_bonus": 0.019140802802949237,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.015499886342638011
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0022110895043703426
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.0007386639525658841
+      },
+      {
+        "feature_id": 451,
+        "contribution": -0.0004678420224020623
+      },
+      {
+        "feature_id": 741,
+        "contribution": -0.00045059090436708687
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 132,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.045091069413963174,
+    "uncertainty_bonus": 0.015269960981198573,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.01598412924857671
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.008363519472771568
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.0058559363499006535
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.0031617623016135126
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0026708917929215365
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 801,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.04222298648897388,
+    "uncertainty_bonus": 0.014298184902543101,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.017457816747831513
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.007965814812484422
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.004188001993029498
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.004009376800922426
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0031208673733997155
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 99,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.07444454162243266,
+    "uncertainty_bonus": 0.00920189881847465,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.016924616992349994
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.013390512283557211
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.010637175660449999
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.01041019068400084
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.006620752793509033
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 575,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.0329347821605376,
+    "uncertainty_bonus": 0.010126274592582467,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.017012144718691113
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.013276394785096329
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010984384655470357
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.010079288300984719
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.006448261382687318
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 636,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.16040940317709915,
+    "uncertainty_bonus": 0.010756838662326573,
+    "sae_contributions": [
+      {
+        "feature_id": 750,
+        "contribution": 0.002651526125694197
+      },
+      {
+        "feature_id": 992,
+        "contribution": 0.002328203453522671
+      },
+      {
+        "feature_id": 288,
+        "contribution": 0.0021006096942283296
+      },
+      {
+        "feature_id": 847,
+        "contribution": 0.0012385196627276462
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0008452203349372496
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 13,
+    "selected_article": {
+      "article_id": "N45523",
+      "category": "lifestyle",
+      "subcategory": "lifestylebuzz",
+      "title": "Family told to take down Christmas display because it's too soon to decorate",
+      "abstract": "A Texas couple was told by their homeowners association to pump the brakes on their Christmas cheer."
+    },
+    "predicted_linear_reward": 0.04319869492381847,
+    "uncertainty_bonus": 0.011205748491768315,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.012863963515670486
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.0077138113033424615
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.004744936871604784
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.004324624833571955
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.003483192443519386
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 91,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.05713913462396321,
+    "uncertainty_bonus": 0.007054677323205152,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.026250230044090623
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010886316224124505
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008542037787233421
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.00842951464743259
+      },
+      {
+        "feature_id": 872,
+        "contribution": -0.004772313437911782
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 732,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.09269511628709018,
+    "uncertainty_bonus": 0.021873530328480495,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.018352693741970596
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.007878979626272117
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.0039722091557522965
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.0038164407381560536
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0032283719345231952
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 177,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.04683239397235066,
+    "uncertainty_bonus": 0.008014672123530131,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.016933371017207117
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.012268059083504517
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.01055317395363679
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010424428849488934
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0064062117039939285
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 849,
+    "selected_article": {
+      "article_id": "N50872",
+      "category": "lifestyle",
+      "subcategory": "shop-holidays",
+      "title": "50 amazing gifts for every type of person and budget",
+      "abstract": "Let the product experts at Reviewed help you find the perfect gifts for everyone on your list."
+    },
+    "predicted_linear_reward": 0.028867997908434907,
+    "uncertainty_bonus": 0.019145198378620925,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.013912559661321797
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.011618323509769223
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008720820333687146
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.008226372844633192
+      },
+      {
+        "feature_id": 526,
+        "contribution": -0.006177036840693218
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 526,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.09665147785032027,
+    "uncertainty_bonus": 0.012369954062880106,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.017206763395131164
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.013518850271886648
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.012045515234533708
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010841628741674759
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.006542015231708854
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 495,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.16087602110346585,
+    "uncertainty_bonus": 0.010930820882298825,
+    "sae_contributions": [
+      {
+        "feature_id": 750,
+        "contribution": 0.0028912021493188358
+      },
+      {
+        "feature_id": 992,
+        "contribution": 0.002318686963940068
+      },
+      {
+        "feature_id": 288,
+        "contribution": 0.002120852457205677
+      },
+      {
+        "feature_id": 847,
+        "contribution": 0.0012385196627276462
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.001061187155171554
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 553,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.04294577265867025,
+    "uncertainty_bonus": 0.00844922638120317,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.01718512409407951
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.012533970541605656
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.011109502887676275
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.011006805862350817
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.006348559066797121
+      }
+    ]
+  }
+]

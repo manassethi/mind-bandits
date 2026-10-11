@@ -1,0 +1,37 @@
+{
+  "arguments": {
+    "environment": "dataset/processed/q2_sae_environment.npz",
+    "rounds": 10000,
+    "evaluation_contexts": 2000,
+    "remove_features": 3,
+    "random_controls": 10,
+    "alpha": 0.3,
+    "seed": 2004,
+    "pool_seed": 3031,
+    "output_dir": "results/sae_interpretability_sweep/pool_1/seed_2004"
+  },
+  "environment_sha256": "bbe969c706e6b4a81465722dcea1dd2c8efa77be207ed7bd7e572c5da428bba4",
+  "pool_indices": [
+    0,
+    15,
+    12,
+    39,
+    20,
+    48,
+    5,
+    25,
+    14,
+    21,
+    17,
+    33,
+    35,
+    30,
+    3,
+    28,
+    22,
+    7,
+    29,
+    40
+  ],
+  "evaluation": "Frozen policy, no retraining; input perturbations with fixed rewards; not a causal intervention on article semantics"
+}

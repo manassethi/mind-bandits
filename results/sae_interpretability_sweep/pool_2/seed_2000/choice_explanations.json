@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 581,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.07639793582050518,
+    "uncertainty_bonus": 0.013464568517733325,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.012492783446010422
+      },
+      {
+        "feature_id": 451,
+        "contribution": 0.0080002722153046
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.004713026881138877
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.0042733226039593985
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.0037317202985744243
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 453,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.0731419704539823,
+    "uncertainty_bonus": 0.009579350142611603,
+    "sae_contributions": [
+      {
+        "feature_id": 502,
+        "contribution": 0.019270905975453275
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.011280502112523697
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.007368795750012396
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.006629366238426366
+      },
+      {
+        "feature_id": 940,
+        "contribution": 0.005444168476175533
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 640,
+    "selected_article": {
+      "article_id": "N29128",
+      "category": "travel",
+      "subcategory": "travelnews",
+      "title": "Flight Attendants Have a Secret Language You Didn't Know About",
+      "abstract": "Here are some phrases only flight attendant use   and what they actually mean."
+    },
+    "predicted_linear_reward": 0.052552687905120084,
+    "uncertainty_bonus": 0.048556600710897006,
+    "sae_contributions": [
+      {
+        "feature_id": 1015,
+        "contribution": -0.021209530400099128
+      },
+      {
+        "feature_id": 992,
+        "contribution": 0.019323203583996643
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.011759614886017341
+      },
+      {
+        "feature_id": 526,
+        "contribution": 0.008158099500736453
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.004629146742591154
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 723,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.04949303989458834,
+    "uncertainty_bonus": 0.014833327113931115,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.011138326531943287
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.006064105697401855
+      },
+      {
+        "feature_id": 526,
+        "contribution": 0.004612030942001085
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.0023402423340048786
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0019466628102670362
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 736,
+    "selected_article": {
+      "article_id": "N29212",
+      "category": "music",
+      "subcategory": "musicnews",
+      "title": "Kiss Cancel 'End of the Road' Tour of Australia and New Zealand Due to Illness",
+      "abstract": "Kiss won't be playing Australia and NZ after all."
+    },
+    "predicted_linear_reward": 0.08437901817669546,
+    "uncertainty_bonus": 0.017363558180865574,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.015590275051326019
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0114822848087448
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.007205947859375861
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.004689650469022615
+      },
+      {
+        "feature_id": 526,
+        "contribution": 0.0035878422881182185
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 76,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.15025588454576175,
+    "uncertainty_bonus": 0.010713941914455932,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.009294234508214773
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.007848189667044337
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0033036135210709693
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0010933362832128484
+      },
+      {
+        "feature_id": 288,
+        "contribution": 0.0002636309781271763
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 799,
+    "selected_article": {
+      "article_id": "N63538",
+      "category": "entertainment",
+      "subcategory": "awards",
+      "title": "The Best Backstage Moments From the 2019 E! People's Choice Awards",
+      "abstract": "Check out Kevin Hart, Adam Sandler, Gwen Stefani and more backstage during the 2019 PCAs."
+    },
+    "predicted_linear_reward": 0.032575028785636576,
+    "uncertainty_bonus": 0.019162167909170545,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.0071394315758355
+      },
+      {
+        "feature_id": 741,
+        "contribution": 0.006598806524963882
+      },
+      {
+        "feature_id": 451,
+        "contribution": 0.0047954219742422245
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.004794191282536108
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.002216800280924524
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 578,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.07763854018475466,
+    "uncertainty_bonus": 0.01157761107497976,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.012800335220717945
+      },
+      {
+        "feature_id": 451,
+        "contribution": 0.007969492522468253
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.005234850910992435
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.00448925273224464
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.0037386053982650337
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 207,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.07840838984224872,
+    "uncertainty_bonus": 0.01297451883166327,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.012662180959263246
+      },
+      {
+        "feature_id": 451,
+        "contribution": 0.00798069631335666
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.006074498170489051
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.004446501310868457
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.003740463404445689
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 993,
+    "selected_article": {
+      "article_id": "N45523",
+      "category": "lifestyle",
+      "subcategory": "lifestylebuzz",
+      "title": "Family told to take down Christmas display because it's too soon to decorate",
+      "abstract": "A Texas couple was told by their homeowners association to pump the brakes on their Christmas cheer."
+    },
+    "predicted_linear_reward": 0.10404732717037027,
+    "uncertainty_bonus": 0.019740149364658094,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.0076433239520463684
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0055703347114184
+      },
+      {
+        "feature_id": 526,
+        "contribution": 0.004287479842911575
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.002343858645678091
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0017234063740268345
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 755,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.03694214073140619,
+    "uncertainty_bonus": 0.018343634095287976,
+    "sae_contributions": [
+      {
+        "feature_id": 489,
+        "contribution": 0.011208106173622832
+      },
+      {
+        "feature_id": 1015,
+        "contribution": -0.0065997413125564505
+      },
+      {
+        "feature_id": 496,
+        "contribution": 0.0057571664955450965
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.0014295433775731036
+      },
+      {
+        "feature_id": 735,
+        "contribution": 0.0007987868010303569
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 686,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.28117071271218125,
+    "uncertainty_bonus": 0.0116626540409564,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.009335535066000628
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.008183859426665227
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0033574847909279377
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0010597533001713445
+      },
+      {
+        "feature_id": 31,
+        "contribution": 0.0002226149227011765
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 493,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.2683889740837101,
+    "uncertainty_bonus": 0.010538268767854353,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.009311549985483596
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.008019632414112429
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0033376999137518706
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0010902075063686741
+      },
+      {
+        "feature_id": 31,
+        "contribution": 0.0002226149227011765
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 691,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.1505839238278034,
+    "uncertainty_bonus": 0.010951143743378272,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.009255179694954182
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.007634504373297197
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0031850747319800646
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0011281405921709053
+      },
+      {
+        "feature_id": 288,
+        "contribution": 0.0005007742598150832
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 698,
+    "selected_article": {
+      "article_id": "N45523",
+      "category": "lifestyle",
+      "subcategory": "lifestylebuzz",
+      "title": "Family told to take down Christmas display because it's too soon to decorate",
+      "abstract": "A Texas couple was told by their homeowners association to pump the brakes on their Christmas cheer."
+    },
+    "predicted_linear_reward": 0.07254532381837418,
+    "uncertainty_bonus": 0.011570095052005971,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.007687465423331733
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.005859429014327538
+      },
+      {
+        "feature_id": 526,
+        "contribution": 0.0041247970698444665
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.002248126127205039
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.001567959899689794
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 230,
+    "selected_article": {
+      "article_id": "N55689",
+      "category": "sports",
+      "subcategory": "football_nfl",
+      "title": "Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38",
+      "abstract": "Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died."
+    },
+    "predicted_linear_reward": 0.15017594335677167,
+    "uncertainty_bonus": 0.010794796905590098,
+    "sae_contributions": [
+      {
+        "feature_id": 992,
+        "contribution": 0.009315021247478513
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.007899882905764983
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.0033667143448224317
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.001080169281077062
+      },
+      {
+        "feature_id": 31,
+        "contribution": 0.0002226149227011765
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 876,
+    "selected_article": {
+      "article_id": "N29128",
+      "category": "travel",
+      "subcategory": "travelnews",
+      "title": "Flight Attendants Have a Secret Language You Didn't Know About",
+      "abstract": "Here are some phrases only flight attendant use   and what they actually mean."
+    },
+    "predicted_linear_reward": 0.04500180806335968,
+    "uncertainty_bonus": 0.036948801630686895,
+    "sae_contributions": [
+      {
+        "feature_id": 1015,
+        "contribution": -0.02078710570614675
+      },
+      {
+        "feature_id": 992,
+        "contribution": 0.019312828698663177
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.011773375348498235
+      },
+      {
+        "feature_id": 526,
+        "contribution": 0.008271644814579803
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.003948864966875532
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 871,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.054358211257426944,
+    "uncertainty_bonus": 0.007233151269666796,
+    "sae_contributions": [
+      {
+        "feature_id": 502,
+        "contribution": 0.018282642747282387
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.012044998326931244
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.007504730053555137
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.006813204484562747
+      },
+      {
+        "feature_id": 940,
+        "contribution": 0.005619162801803538
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 870,
+    "selected_article": {
+      "article_id": "N23877",
+      "category": "news",
+      "subcategory": "newscrime",
+      "title": "Car of Marine linked to Virginia slaying is found in South Carolina, authorities say",
+      "abstract": "A car belonging to a U.S. Marine who allegedly deserted his post last month in North Carolina -- and has been on the run since being accused of murdering his mother's boyfriend in Virginia -- has been located in South Carolina, authorities said Wednesday."
+    },
+    "predicted_linear_reward": 0.0800110407288567,
+    "uncertainty_bonus": 0.009805785479607476,
+    "sae_contributions": [
+      {
+        "feature_id": 502,
+        "contribution": 0.019522171588441273
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.010853748817684458
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.007307490408757705
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.006613384474709507
+      },
+      {
+        "feature_id": 940,
+        "contribution": 0.0056919661229751905
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 540,
+    "selected_article": {
+      "article_id": "N6477",
+      "category": "finance",
+      "subcategory": "finance-companies",
+      "title": "Walmart releases Black Friday ad with $129 Apple Watch, TV deals, electronics doorbusters",
+      "abstract": "Walmart's Black Friday 2019 ad includes a 40-inch TV for $98, Apple iPad for $249, Xbox One, Playstation 4, deals on toys, Instant Pot and more."
+    },
+    "predicted_linear_reward": 0.0780703540842456,
+    "uncertainty_bonus": 0.011512946789072026,
+    "sae_contributions": [
+      {
+        "feature_id": 741,
+        "contribution": 0.012806755135149672
+      },
+      {
+        "feature_id": 451,
+        "contribution": 0.007977972785081592
+      },
+      {
+        "feature_id": 489,
+        "contribution": 0.0056298873472736925
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.004527723310823767
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.0037325883258772967
+      }
+    ]
+  }
+]

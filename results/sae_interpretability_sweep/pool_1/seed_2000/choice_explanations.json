@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 581,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.1622472644718937,
+    "uncertainty_bonus": 0.006754839973342364,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.02193847258393685
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.01737413244686793
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013143674439861365
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010095799538451676
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.00992763958355907
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 453,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.16760182482175232,
+    "uncertainty_bonus": 0.00705308249535283,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021725784355521544
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.017019101632805317
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013143674439861365
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010102074613429773
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.0098470625008618
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 640,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.08419792354865951,
+    "uncertainty_bonus": 0.007847002556591279,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.0362979190893239
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.020534742561871034
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.01422968555155087
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.0124923985191301
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.012389455390212939
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 723,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.09641687503498556,
+    "uncertainty_bonus": 0.013546888288832437,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.08553079713476308
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.040149215260798
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.02399883493976959
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.02146156769373758
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.020474084700820988
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 736,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.13911695093199233,
+    "uncertainty_bonus": 0.0051693705922852,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021454466657637016
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.01729086888488078
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013171451050066575
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009695954720470124
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.009648059480110606
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 76,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.07759359730247704,
+    "uncertainty_bonus": 0.012422291287479112,
+    "sae_contributions": [
+      {
+        "feature_id": 372,
+        "contribution": -0.031291917285560335
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.013868056266676336
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.005278408941736365
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.0033504220641356265
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.0032477942246439497
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 799,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.09058549590665699,
+    "uncertainty_bonus": 0.013642018101957934,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.08693648022318809
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03961268204254519
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.024907676025501875
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.02074430654381263
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.02019491342322242
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 578,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.15518605317141948,
+    "uncertainty_bonus": 0.0055809361708941685,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021456369825412012
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.017094549586491835
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013192954335378516
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009669001832413262
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.009495397519057414
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 207,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.15436987349916734,
+    "uncertainty_bonus": 0.0059546585933593355,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021086059100914396
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.017019101632805317
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013143674439861365
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009631318768513752
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.009497846390368115
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 993,
+    "selected_article": {
+      "article_id": "N50872",
+      "category": "lifestyle",
+      "subcategory": "shop-holidays",
+      "title": "50 amazing gifts for every type of person and budget",
+      "abstract": "Let the product experts at Reviewed help you find the perfect gifts for everyone on your list."
+    },
+    "predicted_linear_reward": 0.0767488081326101,
+    "uncertainty_bonus": 0.03310622447128772,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.05110854458348277
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.02284592894556214
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.022810876010384725
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.01823197036809975
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.014876107504731827
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 755,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.13478170990667784,
+    "uncertainty_bonus": 0.005549955781849747,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021409475647206536
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.01712413462288181
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013176329435163931
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009639095266113685
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.00954051149025473
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 686,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.046958945428638585,
+    "uncertainty_bonus": 0.009871532209877638,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.037227616108337434
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.020466029645775
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.014155477017366663
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.012788260304859328
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.012562703180093797
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 493,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.09321337700968872,
+    "uncertainty_bonus": 0.013734617651970926,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.08625471941529893
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03985066882723182
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.024280412706213495
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.021080750342626305
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.020317321927441127
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 691,
+    "selected_article": {
+      "article_id": "N16096",
+      "category": "news",
+      "subcategory": "newsphotos",
+      "title": "Eerie photos of an abandoned airport that hasn't been touched in 25 years",
+      "abstract": "The airport in Abkhazia   a disputed region of Georgia   was built in the 1960s, but was abandoned after a violent war in the early 1900s."
+    },
+    "predicted_linear_reward": 0.07886119273359679,
+    "uncertainty_bonus": 0.013344938180189586,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.03324187442908212
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.025742599025797383
+      },
+      {
+        "feature_id": 250,
+        "contribution": -0.012818044291866957
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.00722323522767434
+      },
+      {
+        "feature_id": 496,
+        "contribution": -0.005818945160076817
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 698,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.14283145133131742,
+    "uncertainty_bonus": 0.005233253623918632,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021391486095700664
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.017429403942755547
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.01340156970269498
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009670641987889446
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.009571476679621358
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 230,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.052315876188634855,
+    "uncertainty_bonus": 0.026033255073822273,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.05913105162420136
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.026796186167540887
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.021421440869910643
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.019583146468809924
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.017752809307091635
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 876,
+    "selected_article": {
+      "article_id": "N11817",
+      "category": "travel",
+      "subcategory": "traveltripideas",
+      "title": "Here's the Best Small Town in Every State",
+      "abstract": "From Los Alamos, California, to Shelter Island, New York, these are the best small towns INSIDER found in every state."
+    },
+    "predicted_linear_reward": 0.06883420649773914,
+    "uncertainty_bonus": 0.03490305109855105,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.014480525179492418
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.014138685334719068
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.009201469821536079
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.00792008983912735
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007736223476529518
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 871,
+    "selected_article": {
+      "article_id": "N55204",
+      "category": "entertainment",
+      "subcategory": "entertainment-celebrity",
+      "title": "Stars Who Served in the Military",
+      "abstract": "Adam Driver, Jeff Bridges, Ice-T and more stars who served in the military."
+    },
+    "predicted_linear_reward": 0.02740875054772135,
+    "uncertainty_bonus": 0.03489983905046272,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.10092289138750037
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03953291153306916
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.03402723703873767
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.029453346412348827
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.027646398804154964
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 870,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.17291964531927315,
+    "uncertainty_bonus": 0.007048075550134814,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.021867266618338637
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.017329272322970785
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013282736316736857
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.009946379349253128
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.009791842876377063
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 540,
+    "selected_article": {
+      "article_id": "N4642",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Kodak Black Sentenced to Over 3 Years in Prison in Weapons Case",
+      "abstract": "Rapper Kodak Black has been sentenced to more than three years in federal prison after pleading guilty to weapons charges stemming from his arrest just before a scheduled concert performance in May."
+    },
+    "predicted_linear_reward": 0.0831005431604167,
+    "uncertainty_bonus": 0.01288139122096342,
+    "sae_contributions": [
+      {
+        "feature_id": 372,
+        "contribution": -0.03176703782806335
+      },
+      {
+        "feature_id": 502,
+        "contribution": 0.013916605282490918
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.005200797426057108
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.003323412087901134
+      },
+      {
+        "feature_id": 838,
+        "contribution": 0.0033210230401386834
+      }
+    ]
+  }
+]

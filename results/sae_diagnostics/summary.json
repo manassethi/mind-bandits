@@ -1,0 +1,21 @@
+{
+  "strata": [
+    {
+      "stratum": "dev_only",
+      "articles": 1000,
+      "truncated_fraction": 0.009,
+      "total_code_token_length_pearson": -0.1595077972382984,
+      "total_code_effective_length_pearson": -0.1623376943974161,
+      "total_code_state_norm_pearson": 0.7158727986312515
+    },
+    {
+      "stratum": "policy_pool",
+      "articles": 50,
+      "truncated_fraction": 0.02,
+      "total_code_token_length_pearson": -0.14770041012516097,
+      "total_code_effective_length_pearson": -0.19857815510364762,
+      "total_code_state_norm_pearson": 0.7845722437386488
+    }
+  ],
+  "source_feature_max_difference": 5.960464477539063e-08
+}

@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 168,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.13855515327312656,
+    "uncertainty_bonus": 0.0056907744169944485,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.022354436753431843
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.018756750569031606
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013746412691266073
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006490362964003243
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.005991888685288133
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 852,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.1480189819892464,
+    "uncertainty_bonus": 0.005083829849389487,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.02235519373347151
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.018776079215177315
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013722119808310678
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006479152736046275
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.005915757015629058
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 622,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.1577400278805802,
+    "uncertainty_bonus": 0.005986059808571503,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.022427975776327897
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.018866885249649634
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013737534033263133
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006492844943928775
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.005690305088693121
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 744,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.05388352551209064,
+    "uncertainty_bonus": 0.011723263445683134,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03283167784882798
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.02085971935702116
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.011559998420456595
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.010377203676238365
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.009908617203445555
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 841,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.053402777000483605,
+    "uncertainty_bonus": 0.016343295758997907,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03896126539059928
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.015892050567878353
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.01219958980328115
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008491369726224971
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007841897315680834
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 546,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.04253665950251539,
+    "uncertainty_bonus": 0.00942217572213129,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.026505279094388004
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.019506069085183236
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.018903046584991683
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.0172927963805924
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.01239917737190514
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 768,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.06263119290830887,
+    "uncertainty_bonus": 0.007411435099698702,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.026327629694483653
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.019658307467141114
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.018569618393423585
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.017612365762110775
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.01252380689263255
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 887,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.004754830681700425,
+    "uncertainty_bonus": 0.044725342100200766,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.07811481155520963
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.04061045046674302
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.02092708215549603
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.019265991879955004
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.013161651337943638
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 907,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.14403089236500727,
+    "uncertainty_bonus": 0.005262233198820743,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.022475665946559833
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.018782375141146307
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.013848018409065164
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006508737969766765
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.0058149280875740075
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 224,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.05597333738272373,
+    "uncertainty_bonus": 0.023891719198970478,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.038894425273488784
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.015991841002930985
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.010976685643933745
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008421294054389785
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007513836990880926
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 330,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.05234402607850964,
+    "uncertainty_bonus": 0.01647487345315917,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03952070970209519
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.01596589089122427
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.01220931941316008
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008608189118245084
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007873041105825512
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 286,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.05330400475259091,
+    "uncertainty_bonus": 0.016216813852032747,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.039228732092898067
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.015893156172986474
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.011884321032658773
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.00844523275120557
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007700868860261992
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 140,
+    "selected_article": {
+      "article_id": "N16096",
+      "category": "news",
+      "subcategory": "newsphotos",
+      "title": "Eerie photos of an abandoned airport that hasn't been touched in 25 years",
+      "abstract": "The airport in Abkhazia   a disputed region of Georgia   was built in the 1960s, but was abandoned after a violent war in the early 1900s."
+    },
+    "predicted_linear_reward": 0.05913441779367196,
+    "uncertainty_bonus": 0.01013732921172087,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.03735263945976777
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.03044128914078843
+      },
+      {
+        "feature_id": 250,
+        "contribution": -0.012430210995686412
+      },
+      {
+        "feature_id": 496,
+        "contribution": -0.008489164670992613
+      },
+      {
+        "feature_id": 838,
+        "contribution": -0.00582576127596857
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 312,
+    "selected_article": {
+      "article_id": "N47061",
+      "category": "lifestyle",
+      "subcategory": "shop-holidays",
+      "title": "105 Black Friday Deals You Can Start Shopping Today",
+      "abstract": "Save with early bird deals from stores like Walmart, Target, Amazon, Costco, Sam's Club, Kohl's, Sears, JCPenney, and Macy's, which are offering deep Black Friday discounts on the hottest products on your Christmas list   and your wish list   starting on Thanksgiving, or even sooner."
+    },
+    "predicted_linear_reward": 0.05034062647268597,
+    "uncertainty_bonus": 0.015926926923420348,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.05523045967200132
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.021343596731059133
+      },
+      {
+        "feature_id": 496,
+        "contribution": -0.01950776783954441
+      },
+      {
+        "feature_id": 250,
+        "contribution": -0.018391848574250944
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.010812492637350107
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 551,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.1488380077270835,
+    "uncertainty_bonus": 0.005100792611093502,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.022356507799777603
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.01892611767654149
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.01387975959516553
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006425742363952452
+      },
+      {
+        "feature_id": 288,
+        "contribution": -0.006009815909384444
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 981,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.0554008689539123,
+    "uncertainty_bonus": 0.01446833342083241,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03881741853746114
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.016016913074277557
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.010724301191708656
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008516957445662304
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007718483652958403
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 39,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.04822184709009744,
+    "uncertainty_bonus": 0.01863322964170254,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.024279489976508
+      },
+      {
+        "feature_id": 496,
+        "contribution": -0.015461117031721684
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.012869052172017188
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.012402380999949987
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.007168499440152753
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 539,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.053884995146290096,
+    "uncertainty_bonus": 0.015555107956809033,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03909932178686402
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.016000941024514003
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.011691573663989017
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008476164096579168
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.007692978009650131
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 361,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.05306863521884498,
+    "uncertainty_bonus": 0.015322215338055702,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.039505036520436035
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.016013203125530055
+      },
+      {
+        "feature_id": 489,
+        "contribution": -0.011664570348912473
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.008631995971146953
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.00789460398269678
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 929,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.08637159084033119,
+    "uncertainty_bonus": 0.009945212202651182,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.034202053572107725
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.02126100120770717
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.011694745111002424
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.01051237208688457
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.010377203676238365
+      }
+    ]
+  }
+]

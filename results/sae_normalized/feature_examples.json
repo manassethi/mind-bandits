@@ -1,0 +1,1730 @@
+[
+  {
+    "feature_id": 383,
+    "training_activation_frequency": 0.34644444444444444,
+    "examples": [
+      {
+        "article_id": "N62625",
+        "title": "Police: Walgreens employee dies after being found with signs of trauma in parking lot",
+        "category": "news",
+        "activation": 22.689741134643555
+      },
+      {
+        "article_id": "N59941",
+        "title": "Police: Man Calls Son, Flees After Shooting Wife To Death In Van Buren Township",
+        "category": "news",
+        "activation": 21.856403350830078
+      },
+      {
+        "article_id": "N63819",
+        "title": "Police ID driver killed in early morning crash on Cape Cod",
+        "category": "news",
+        "activation": 21.81586456298828
+      },
+      {
+        "article_id": "N3718",
+        "title": "Woman found shot to death inside Spanish Lake home Monday, person of interest in custody",
+        "category": "news",
+        "activation": 21.620573043823242
+      },
+      {
+        "article_id": "N51430",
+        "title": "Landscaper injured in Virginia Beach after lawnmower falls off embankment",
+        "category": "news",
+        "activation": 21.339847564697266
+      },
+      {
+        "article_id": "N46259",
+        "title": "Queens boy, 14, shot dead playing hoops in South Jamaica housing project",
+        "category": "news",
+        "activation": 21.036060333251953
+      },
+      {
+        "article_id": "N27681",
+        "title": "Three teens arrested in beating, robbing of man in his Kenner home",
+        "category": "news",
+        "activation": 20.87324333190918
+      },
+      {
+        "article_id": "N25653",
+        "title": "Man charged with punching, kicking police dog after threatening woman with gun in Spring Hill",
+        "category": "news",
+        "activation": 20.87221336364746
+      }
+    ]
+  },
+  {
+    "feature_id": 443,
+    "training_activation_frequency": 0.38355555555555554,
+    "examples": [
+      {
+        "article_id": "N50535",
+        "title": "This article no longer exists",
+        "category": "autos",
+        "activation": 23.666873931884766
+      },
+      {
+        "article_id": "N25184",
+        "title": "A bit warmer Sunday",
+        "category": "weather",
+        "activation": 23.56747055053711
+      },
+      {
+        "article_id": "N29536",
+        "title": "Clip - Last Christmas",
+        "category": "movies",
+        "activation": 22.932870864868164
+      },
+      {
+        "article_id": "N30450",
+        "title": "TV Shows Ending in 2020",
+        "category": "tv",
+        "activation": 22.74399185180664
+      },
+      {
+        "article_id": "N52294",
+        "title": "Trailer - Wendy",
+        "category": "movies",
+        "activation": 22.728931427001953
+      },
+      {
+        "article_id": "N60186",
+        "title": "Clip - Terminator: Dark Fate",
+        "category": "movies",
+        "activation": 22.607664108276367
+      },
+      {
+        "article_id": "N60433",
+        "title": "Today in History: October 18",
+        "category": "news",
+        "activation": 22.574764251708984
+      },
+      {
+        "article_id": "N12489",
+        "title": "Today in History: October 20",
+        "category": "news",
+        "activation": 22.571327209472656
+      }
+    ]
+  },
+  {
+    "feature_id": 816,
+    "training_activation_frequency": 0.37533333333333335,
+    "examples": [
+      {
+        "article_id": "N50535",
+        "title": "This article no longer exists",
+        "category": "autos",
+        "activation": 24.106178283691406
+      },
+      {
+        "article_id": "N25184",
+        "title": "A bit warmer Sunday",
+        "category": "weather",
+        "activation": 23.78916358947754
+      },
+      {
+        "article_id": "N29536",
+        "title": "Clip - Last Christmas",
+        "category": "movies",
+        "activation": 23.76636505126953
+      },
+      {
+        "article_id": "N8436",
+        "title": "In photos: Dallas tornado",
+        "category": "weather",
+        "activation": 23.571453094482422
+      },
+      {
+        "article_id": "N30450",
+        "title": "TV Shows Ending in 2020",
+        "category": "tv",
+        "activation": 23.401857376098633
+      },
+      {
+        "article_id": "N60186",
+        "title": "Clip - Terminator: Dark Fate",
+        "category": "movies",
+        "activation": 23.341136932373047
+      },
+      {
+        "article_id": "N52294",
+        "title": "Trailer - Wendy",
+        "category": "movies",
+        "activation": 23.224008560180664
+      },
+      {
+        "article_id": "N30713",
+        "title": "Best Holiday Gifts for Baby",
+        "category": "lifestyle",
+        "activation": 22.788982391357422
+      }
+    ]
+  },
+  {
+    "feature_id": 741,
+    "training_activation_frequency": 0.31733333333333336,
+    "examples": [
+      {
+        "article_id": "N46849",
+        "title": "Woman Slides Down Icy Driveway to Take Out Trash in Colorado",
+        "category": "weather",
+        "activation": 18.495344161987305
+      },
+      {
+        "article_id": "N34754",
+        "title": "Doorbell Camera Captures Sanitation Worker's Kindness to Elderly Missouri Woman",
+        "category": "video",
+        "activation": 18.460329055786133
+      },
+      {
+        "article_id": "N34614",
+        "title": "Police: NYC cyclist killed by hit-and-run dump truck driver",
+        "category": "news",
+        "activation": 18.375391006469727
+      },
+      {
+        "article_id": "N51430",
+        "title": "Landscaper injured in Virginia Beach after lawnmower falls off embankment",
+        "category": "news",
+        "activation": 18.327964782714844
+      },
+      {
+        "article_id": "N30829",
+        "title": "Police look for suspects who stole 4-month-old red nosed pitbull named 'L.A.'",
+        "category": "news",
+        "activation": 18.320215225219727
+      },
+      {
+        "article_id": "N59941",
+        "title": "Police: Man Calls Son, Flees After Shooting Wife To Death In Van Buren Township",
+        "category": "news",
+        "activation": 18.269311904907227
+      },
+      {
+        "article_id": "N4583",
+        "title": "Bicyclist killed by hit-and-run dump truck driver making an illegal turn in East Harlem",
+        "category": "autos",
+        "activation": 18.166759490966797
+      },
+      {
+        "article_id": "N62625",
+        "title": "Police: Walgreens employee dies after being found with signs of trauma in parking lot",
+        "category": "news",
+        "activation": 18.08171272277832
+      }
+    ]
+  },
+  {
+    "feature_id": 143,
+    "training_activation_frequency": 0.30866666666666664,
+    "examples": [
+      {
+        "article_id": "N31284",
+        "title": "Wildfire Breaks Out Near Golf Course in California's Ventura County",
+        "category": "weather",
+        "activation": 18.73086929321289
+      },
+      {
+        "article_id": "N1600",
+        "title": "Massive fire breaks out at building on Arlington Expressway",
+        "category": "weather",
+        "activation": 18.48345184326172
+      },
+      {
+        "article_id": "N57778",
+        "title": "Police: Human remains found in Elmwood Place; investigation underway",
+        "category": "news",
+        "activation": 17.465862274169922
+      },
+      {
+        "article_id": "N22910",
+        "title": "Quality Inn Evacuated After Fire at Winston-Salem Hotel",
+        "category": "travel",
+        "activation": 17.300817489624023
+      },
+      {
+        "article_id": "N61362",
+        "title": "3 dead in overnight mobile home fire in central Indiana",
+        "category": "news",
+        "activation": 17.061363220214844
+      },
+      {
+        "article_id": "N11243",
+        "title": "PD: Woman found dead in lake in Tempe",
+        "category": "weather",
+        "activation": 17.002548217773438
+      },
+      {
+        "article_id": "N58561",
+        "title": "Wildfire Alert Cameras Captures Ignition and Spread of Maria Fire",
+        "category": "weather",
+        "activation": 16.98196792602539
+      },
+      {
+        "article_id": "N20091",
+        "title": "Firefighting Plane Battles Maria Fire Near Santa Paula",
+        "category": "weather",
+        "activation": 16.883451461791992
+      }
+    ]
+  },
+  {
+    "feature_id": 270,
+    "training_activation_frequency": 0.36644444444444446,
+    "examples": [
+      {
+        "article_id": "N25184",
+        "title": "A bit warmer Sunday",
+        "category": "weather",
+        "activation": 19.631668090820312
+      },
+      {
+        "article_id": "N50535",
+        "title": "This article no longer exists",
+        "category": "autos",
+        "activation": 19.39535903930664
+      },
+      {
+        "article_id": "N29536",
+        "title": "Clip - Last Christmas",
+        "category": "movies",
+        "activation": 18.879520416259766
+      },
+      {
+        "article_id": "N30450",
+        "title": "TV Shows Ending in 2020",
+        "category": "tv",
+        "activation": 18.84496307373047
+      },
+      {
+        "article_id": "N31225",
+        "title": "Today in History: October 23",
+        "category": "news",
+        "activation": 18.76902198791504
+      },
+      {
+        "article_id": "N12489",
+        "title": "Today in History: October 20",
+        "category": "news",
+        "activation": 18.759031295776367
+      },
+      {
+        "article_id": "N60433",
+        "title": "Today in History: October 18",
+        "category": "news",
+        "activation": 18.730592727661133
+      },
+      {
+        "article_id": "N39885",
+        "title": "Today in History: October 24",
+        "category": "news",
+        "activation": 18.724552154541016
+      }
+    ]
+  },
+  {
+    "feature_id": 735,
+    "training_activation_frequency": 0.3728888888888889,
+    "examples": [
+      {
+        "article_id": "N25184",
+        "title": "A bit warmer Sunday",
+        "category": "weather",
+        "activation": 20.1083927154541
+      },
+      {
+        "article_id": "N50535",
+        "title": "This article no longer exists",
+        "category": "autos",
+        "activation": 19.979278564453125
+      },
+      {
+        "article_id": "N30450",
+        "title": "TV Shows Ending in 2020",
+        "category": "tv",
+        "activation": 19.748868942260742
+      },
+      {
+        "article_id": "N30713",
+        "title": "Best Holiday Gifts for Baby",
+        "category": "lifestyle",
+        "activation": 19.526803970336914
+      },
+      {
+        "article_id": "N29536",
+        "title": "Clip - Last Christmas",
+        "category": "movies",
+        "activation": 19.20707130432129
+      },
+      {
+        "article_id": "N8436",
+        "title": "In photos: Dallas tornado",
+        "category": "weather",
+        "activation": 18.949216842651367
+      },
+      {
+        "article_id": "N52294",
+        "title": "Trailer - Wendy",
+        "category": "movies",
+        "activation": 18.91870880126953
+      },
+      {
+        "article_id": "N30709",
+        "title": "2019's Youngest Pop Stars",
+        "category": "music",
+        "activation": 18.5815372467041
+      }
+    ]
+  },
+  {
+    "feature_id": 335,
+    "training_activation_frequency": 0.3491111111111111,
+    "examples": [
+      {
+        "article_id": "N50535",
+        "title": "This article no longer exists",
+        "category": "autos",
+        "activation": 21.394248962402344
+      },
+      {
+        "article_id": "N25184",
+        "title": "A bit warmer Sunday",
+        "category": "weather",
+        "activation": 20.942018508911133
+      },
+      {
+        "article_id": "N30450",
+        "title": "TV Shows Ending in 2020",
+        "category": "tv",
+        "activation": 20.70674705505371
+      },
+      {
+        "article_id": "N29536",
+        "title": "Clip - Last Christmas",
+        "category": "movies",
+        "activation": 20.640012741088867
+      },
+      {
+        "article_id": "N30713",
+        "title": "Best Holiday Gifts for Baby",
+        "category": "lifestyle",
+        "activation": 20.488527297973633
+      },
+      {
+        "article_id": "N52294",
+        "title": "Trailer - Wendy",
+        "category": "movies",
+        "activation": 20.41754913330078
+      },
+      {
+        "article_id": "N8436",
+        "title": "In photos: Dallas tornado",
+        "category": "weather",
+        "activation": 20.047889709472656
+      },
+      {
+        "article_id": "N60433",
+        "title": "Today in History: October 18",
+        "category": "news",
+        "activation": 20.023361206054688
+      }
+    ]
+  },
+  {
+    "feature_id": 724,
+    "training_activation_frequency": 0.2748888888888889,
+    "examples": [
+      {
+        "article_id": "N53574",
+        "title": "One dead after wreck at East Loop 820 and Highway 287 in Fort Worth, police say",
+        "category": "news",
+        "activation": 15.845085144042969
+      },
+      {
+        "article_id": "N63819",
+        "title": "Police ID driver killed in early morning crash on Cape Cod",
+        "category": "news",
+        "activation": 15.702811241149902
+      },
+      {
+        "article_id": "N31284",
+        "title": "Wildfire Breaks Out Near Golf Course in California's Ventura County",
+        "category": "weather",
+        "activation": 15.648435592651367
+      },
+      {
+        "article_id": "N5975",
+        "title": "Train hits car injuring, three people, troopers say",
+        "category": "news",
+        "activation": 14.903523445129395
+      },
+      {
+        "article_id": "N1600",
+        "title": "Massive fire breaks out at building on Arlington Expressway",
+        "category": "weather",
+        "activation": 14.902471542358398
+      },
+      {
+        "article_id": "N44158",
+        "title": "Driver, 16, hits and kills pedestrian, 67, walking in crosswalk in Triangle, police say",
+        "category": "autos",
+        "activation": 14.76904296875
+      },
+      {
+        "article_id": "N48072",
+        "title": "Sacramento police look for driver in deadly hit-and-run",
+        "category": "news",
+        "activation": 14.744232177734375
+      },
+      {
+        "article_id": "N22910",
+        "title": "Quality Inn Evacuated After Fire at Winston-Salem Hotel",
+        "category": "travel",
+        "activation": 14.717473983764648
+      }
+    ]
+  },
+  {
+    "feature_id": 936,
+    "training_activation_frequency": 0.312,
+    "examples": [
+      {
+        "article_id": "N25184",
+        "title": "A bit warmer Sunday",
+        "category": "weather",
+        "activation": 17.874462127685547
+      },
+      {
+        "article_id": "N50535",
+        "title": "This article no longer exists",
+        "category": "autos",
+        "activation": 17.50632095336914
+      },
+      {
+        "article_id": "N8436",
+        "title": "In photos: Dallas tornado",
+        "category": "weather",
+        "activation": 16.916444778442383
+      },
+      {
+        "article_id": "N30450",
+        "title": "TV Shows Ending in 2020",
+        "category": "tv",
+        "activation": 16.492860794067383
+      },
+      {
+        "article_id": "N29536",
+        "title": "Clip - Last Christmas",
+        "category": "movies",
+        "activation": 16.380788803100586
+      },
+      {
+        "article_id": "N39535",
+        "title": "Today in History: November 3",
+        "category": "news",
+        "activation": 16.292011260986328
+      },
+      {
+        "article_id": "N45324",
+        "title": "Today in History: November 8",
+        "category": "news",
+        "activation": 16.254674911499023
+      },
+      {
+        "article_id": "N17196",
+        "title": "Today in History: November 4",
+        "category": "news",
+        "activation": 16.253089904785156
+      }
+    ]
+  },
+  {
+    "feature_id": 213,
+    "training_activation_frequency": 0.1968888888888889,
+    "examples": [
+      {
+        "article_id": "N15315",
+        "title": "If You're Over 40 And About To Start Weight Lifting For The First Time, Here Are 5 Things You Need To Know",
+        "category": "health",
+        "activation": 16.222105026245117
+      },
+      {
+        "article_id": "N38977",
+        "title": "Mom Charged For Threatening Bully | Hottest Spot In USA: Patch PM",
+        "category": "news",
+        "activation": 16.118295669555664
+      },
+      {
+        "article_id": "N8845",
+        "title": "Megyn Kelly Claps Back After Being Told to 'Just Fade Away and Enjoy Large Pot of Money'",
+        "category": "tv",
+        "activation": 14.553045272827148
+      },
+      {
+        "article_id": "N25070",
+        "title": "Amazon Shoppers Are Replacing Their Denim With These Ultra Comfy and Flattering Pull-on Jeans",
+        "category": "lifestyle",
+        "activation": 14.476493835449219
+      },
+      {
+        "article_id": "N61487",
+        "title": "Miley Cyrus and Cody Simpson Are 'Both Sober' and 'Focused on Health and Work' Amid Romance: Rep",
+        "category": "music",
+        "activation": 14.39249038696289
+      },
+      {
+        "article_id": "N52382",
+        "title": "Heidi Klum Gushes About Husband Tom Kaulitz: 'For the First Time I Feel Like I Have a Real Partner'",
+        "category": "entertainment",
+        "activation": 14.246264457702637
+      },
+      {
+        "article_id": "N20758",
+        "title": "DNA Test Leads Man to Biological Parents He Thought Died 50 Years Ago: 'It Was Surreal'",
+        "category": "lifestyle",
+        "activation": 13.859031677246094
+      },
+      {
+        "article_id": "N26026",
+        "title": "Miranda Lambert Reveals the Real Reason Behind Her Secret Wedding: 'It's Not for Everybody Else'",
+        "category": "music",
+        "activation": 13.857157707214355
+      }
+    ]
+  },
+  {
+    "feature_id": 382,
+    "training_activation_frequency": 0.23266666666666666,
+    "examples": [
+      {
+        "article_id": "N15327",
+        "title": "Texans' J.J. Watt releases special Reebook shoe to honor grandfather who served in Korea",
+        "category": "travel",
+        "activation": 11.379831314086914
+      },
+      {
+        "article_id": "N45695",
+        "title": "Warren's $52T 'Medicare-for-all' plan revealed: Campaign still claims no middle-class tax hikes needed",
+        "category": "news",
+        "activation": 9.983681678771973
+      },
+      {
+        "article_id": "N15520",
+        "title": "Bernie Sanders slams Joe Biden campaign for accepting super PAC donations in effort to 'buy the election'",
+        "category": "news",
+        "activation": 9.617931365966797
+      },
+      {
+        "article_id": "N36940",
+        "title": "Taylor Swift Says Scooter Braun, Scott Borchetta Are Blocking Her From Playing Old Hits at AMAs",
+        "category": "music",
+        "activation": 9.596824645996094
+      },
+      {
+        "article_id": "N65166",
+        "title": "Native Hawaiian heiress faces court test to control millions",
+        "category": "news",
+        "activation": 9.572487831115723
+      },
+      {
+        "article_id": "N12602",
+        "title": "Astros pitcher offering chance to win World Series tickets",
+        "category": "sports",
+        "activation": 9.540383338928223
+      },
+      {
+        "article_id": "N11811",
+        "title": "South African couple came to U.S. in '10 to help autistic sons - now they are opening 2 home care service providers",
+        "category": "lifestyle",
+        "activation": 9.522193908691406
+      },
+      {
+        "article_id": "N22854",
+        "title": "Saquon Barkley's dad to wear Jets jersey, root for both teams on Sunday",
+        "category": "sports",
+        "activation": 9.481066703796387
+      }
+    ]
+  },
+  {
+    "feature_id": 251,
+    "training_activation_frequency": 0.13444444444444445,
+    "examples": [
+      {
+        "article_id": "N23177",
+        "title": "Embiid scores 27, leads 76ers past Cavaliers 98-97",
+        "category": "sports",
+        "activation": 16.00633430480957
+      },
+      {
+        "article_id": "N15779",
+        "title": "Fields leads No. 4 Ohio State past Northwestern 52-3",
+        "category": "sports",
+        "activation": 15.562506675720215
+      },
+      {
+        "article_id": "N56097",
+        "title": "Texans-Ravens Preview Capsule",
+        "category": "sports",
+        "activation": 15.342629432678223
+      },
+      {
+        "article_id": "N46053",
+        "title": "Live updates of No. 16 Michigan vs. No. 7 Penn State",
+        "category": "sports",
+        "activation": 15.15727424621582
+      },
+      {
+        "article_id": "N43373",
+        "title": "Washington rallies, stuns No. 16 Baylor 67-64 in Alaska",
+        "category": "sports",
+        "activation": 14.491668701171875
+      },
+      {
+        "article_id": "N63278",
+        "title": "Saints quiet Minshew Mania, handle Jaguars 13-6",
+        "category": "sports",
+        "activation": 14.344720840454102
+      },
+      {
+        "article_id": "N43490",
+        "title": "Hutton sets Sabres record with 47-save shutout in win over Kings",
+        "category": "sports",
+        "activation": 14.274388313293457
+      },
+      {
+        "article_id": "N13800",
+        "title": "Brewer makes his 24th career start in his 29th game Thursday night when the Bears (7-0, 4-0 Big 12) put a nine-game winning streak on the line at home against West Virginia (3-4, 1-3).",
+        "category": "sports",
+        "activation": 14.24267578125
+      }
+    ]
+  },
+  {
+    "feature_id": 863,
+    "training_activation_frequency": 0.1988888888888889,
+    "examples": [
+      {
+        "article_id": "N46658",
+        "title": "College football Week 9 picks against the spread for every top-25 matchup",
+        "category": "sports",
+        "activation": 9.841236114501953
+      },
+      {
+        "article_id": "N5243",
+        "title": "Ravens Sign D- Lineman Off Patriots Practice Squad Before Week 9 Meeting",
+        "category": "sports",
+        "activation": 9.743117332458496
+      },
+      {
+        "article_id": "N57140",
+        "title": "NFL Draft: Ranking the 30 quarterbacks selected in the first round in this decade",
+        "category": "sports",
+        "activation": 9.667126655578613
+      },
+      {
+        "article_id": "N1159",
+        "title": "Arizona vs. USC picks, predictions: Which team will win Pac-12 college football game?",
+        "category": "sports",
+        "activation": 9.586142539978027
+      },
+      {
+        "article_id": "N8160",
+        "title": "College Football Playoff Chase: Who's Still In The Hunt After Week 9?",
+        "category": "sports",
+        "activation": 9.483987808227539
+      },
+      {
+        "article_id": "N30543",
+        "title": "Dolphins' RB Kenyan Drake traded to Cardinals for 2020 Conditional Draft Pick",
+        "category": "sports",
+        "activation": 9.430416107177734
+      },
+      {
+        "article_id": "N23612",
+        "title": "NFL power rankings: Arizona Cardinals are on the rise after NFL Week 6",
+        "category": "sports",
+        "activation": 9.250941276550293
+      },
+      {
+        "article_id": "N38038",
+        "title": "Detroit Lions vs. New York Giants: Dave Birkett's scouting report, prediction",
+        "category": "sports",
+        "activation": 8.913479804992676
+      }
+    ]
+  },
+  {
+    "feature_id": 216,
+    "training_activation_frequency": 0.12733333333333333,
+    "examples": [
+      {
+        "article_id": "N48558",
+        "title": "Curry leads Warriors to first win, 134-123 over Pelicans",
+        "category": "sports",
+        "activation": 14.924666404724121
+      },
+      {
+        "article_id": "N25062",
+        "title": "James Harden scores 36 points, Rockets rout Warriors 129-112",
+        "category": "sports",
+        "activation": 14.547392845153809
+      },
+      {
+        "article_id": "N9726",
+        "title": "Five takeaways from the Thunder's loss to the Pacers",
+        "category": "sports",
+        "activation": 13.620206832885742
+      },
+      {
+        "article_id": "N42659",
+        "title": "Connor Williams to have knee surgery; Su'a-Filo to start in absence",
+        "category": "sports",
+        "activation": 13.305214881896973
+      },
+      {
+        "article_id": "N16485",
+        "title": "Celtics beat Wizards 140-133 despite 44 points from Beal",
+        "category": "sports",
+        "activation": 13.246706008911133
+      },
+      {
+        "article_id": "N36062",
+        "title": "How to watch, listen and stream Detroit Pistons at Miami Heat",
+        "category": "sports",
+        "activation": 13.235807418823242
+      },
+      {
+        "article_id": "N20828",
+        "title": "Leonard leads Clippers over LeBron and Lakers 112-102",
+        "category": "sports",
+        "activation": 13.143099784851074
+      },
+      {
+        "article_id": "N23177",
+        "title": "Embiid scores 27, leads 76ers past Cavaliers 98-97",
+        "category": "sports",
+        "activation": 12.90127944946289
+      }
+    ]
+  },
+  {
+    "feature_id": 897,
+    "training_activation_frequency": 0.12933333333333333,
+    "examples": [
+      {
+        "article_id": "N64540",
+        "title": "Murray to sit out half of back-to-backs",
+        "category": "sports",
+        "activation": 12.444016456604004
+      },
+      {
+        "article_id": "N21031",
+        "title": "Warriors' Willie Cauley-Stein, Alec Burks listed as probable for Suns game",
+        "category": "sports",
+        "activation": 12.351825714111328
+      },
+      {
+        "article_id": "N2053",
+        "title": "Saints' Lattimore week-to-week with strained hamstring, report says",
+        "category": "sports",
+        "activation": 11.55314826965332
+      },
+      {
+        "article_id": "N60877",
+        "title": "Eagles receiver Alshon Jeffery misses practice with ankle injury. His status vs. Patriots is unclear.",
+        "category": "sports",
+        "activation": 11.55117130279541
+      },
+      {
+        "article_id": "N42883",
+        "title": "Givani Smith gets another look as Red Wings' Justin Abdelkader out for weeks",
+        "category": "sports",
+        "activation": 11.324796676635742
+      },
+      {
+        "article_id": "N63278",
+        "title": "Saints quiet Minshew Mania, handle Jaguars 13-6",
+        "category": "sports",
+        "activation": 11.104534149169922
+      },
+      {
+        "article_id": "N3700",
+        "title": "Timberwolves get Teague back after missing four games with illness",
+        "category": "sports",
+        "activation": 10.851964950561523
+      },
+      {
+        "article_id": "N6421",
+        "title": "Warriors to waive Alfonzo McKinnie to free up roster spot for Marquese Chriss",
+        "category": "sports",
+        "activation": 10.791767120361328
+      }
+    ]
+  },
+  {
+    "feature_id": 229,
+    "training_activation_frequency": 0.12333333333333334,
+    "examples": [
+      {
+        "article_id": "N56097",
+        "title": "Texans-Ravens Preview Capsule",
+        "category": "sports",
+        "activation": 19.078472137451172
+      },
+      {
+        "article_id": "N20185",
+        "title": "Clemson looking for 26th straight win against Wake Forest",
+        "category": "sports",
+        "activation": 15.589344024658203
+      },
+      {
+        "article_id": "N16339",
+        "title": "John McClain's 2019 NFL power rankings: Week 10",
+        "category": "sports",
+        "activation": 15.313138961791992
+      },
+      {
+        "article_id": "N9726",
+        "title": "Five takeaways from the Thunder's loss to the Pacers",
+        "category": "sports",
+        "activation": 15.158452033996582
+      },
+      {
+        "article_id": "N13800",
+        "title": "Brewer makes his 24th career start in his 29th game Thursday night when the Bears (7-0, 4-0 Big 12) put a nine-game winning streak on the line at home against West Virginia (3-4, 1-3).",
+        "category": "sports",
+        "activation": 14.367470741271973
+      },
+      {
+        "article_id": "N15779",
+        "title": "Fields leads No. 4 Ohio State past Northwestern 52-3",
+        "category": "sports",
+        "activation": 14.346357345581055
+      },
+      {
+        "article_id": "N46053",
+        "title": "Live updates of No. 16 Michigan vs. No. 7 Penn State",
+        "category": "sports",
+        "activation": 13.8380765914917
+      },
+      {
+        "article_id": "N47476",
+        "title": "High school football playoff schedule: Bi-district round",
+        "category": "sports",
+        "activation": 13.785460472106934
+      }
+    ]
+  },
+  {
+    "feature_id": 515,
+    "training_activation_frequency": 0.15933333333333333,
+    "examples": [
+      {
+        "article_id": "N59656",
+        "title": "Can't-Miss Play: Reed, Clowney deliver HUGE defensive TD",
+        "category": "sports",
+        "activation": 13.450138092041016
+      },
+      {
+        "article_id": "N22018",
+        "title": "Can't-Miss Play: Tyreek Hill's SPECTACULAR diving effort ends in 40-yard TD",
+        "category": "sports",
+        "activation": 11.520751953125
+      },
+      {
+        "article_id": "N26724",
+        "title": "Kupp has 220 yards receiving as Rams roll 24-10 in London",
+        "category": "sports",
+        "activation": 11.02344799041748
+      },
+      {
+        "article_id": "N33320",
+        "title": "Report: Texans RT Tytus Howard did not tear ACL versus the Chiefs",
+        "category": "sports",
+        "activation": 10.307699203491211
+      },
+      {
+        "article_id": "N8987",
+        "title": "Ravens' tight ends a three-headed weapon",
+        "category": "sports",
+        "activation": 10.17556095123291
+      },
+      {
+        "article_id": "N20214",
+        "title": "Rodgers, Jones star for Packers in 31-24 victory over Chiefs",
+        "category": "sports",
+        "activation": 9.820733070373535
+      },
+      {
+        "article_id": "N16651",
+        "title": "Watch: Virginia's Joe Reed with spectacular moves on 95-yard kickoff return TD",
+        "category": "sports",
+        "activation": 9.668449401855469
+      },
+      {
+        "article_id": "N22619",
+        "title": "Can't-Miss Play: Rams dazzle with double-reverse flea-flicker for INSANE 65-yard TD",
+        "category": "sports",
+        "activation": 9.60049057006836
+      }
+    ]
+  },
+  {
+    "feature_id": 40,
+    "training_activation_frequency": 0.138,
+    "examples": [
+      {
+        "article_id": "N19411",
+        "title": "21 Things That Make Any House Feel Old and Outdated",
+        "category": "lifestyle",
+        "activation": 11.719832420349121
+      },
+      {
+        "article_id": "N41407",
+        "title": "The best true wireless earbuds you can buy this holiday season",
+        "category": "news",
+        "activation": 11.686592102050781
+      },
+      {
+        "article_id": "N23129",
+        "title": "15 Household Mainstays from Your Childhood That You Won't Find in New Homes",
+        "category": "lifestyle",
+        "activation": 11.454010009765625
+      },
+      {
+        "article_id": "N57738",
+        "title": "The Dos and Don'ts of Cleaning Up Leaves",
+        "category": "lifestyle",
+        "activation": 11.393587112426758
+      },
+      {
+        "article_id": "N64496",
+        "title": "Is it cheating? It depends on your relationship",
+        "category": "lifestyle",
+        "activation": 11.146807670593262
+      },
+      {
+        "article_id": "N41017",
+        "title": "Genius tiny homes for big families",
+        "category": "lifestyle",
+        "activation": 11.04918384552002
+      },
+      {
+        "article_id": "N3453",
+        "title": "How a constellation of 6 artists   all women   helped make Modernism more Mexican",
+        "category": "news",
+        "activation": 10.968768119812012
+      },
+      {
+        "article_id": "N59319",
+        "title": "14 House Problems That Don't Require a General Contractor",
+        "category": "lifestyle",
+        "activation": 10.681200981140137
+      }
+    ]
+  },
+  {
+    "feature_id": 966,
+    "training_activation_frequency": 0.1602222222222222,
+    "examples": [
+      {
+        "article_id": "N47555",
+        "title": "Feds probe international supply chain, link to THC products, as vaping injuries surpass 1,600 and 34 are dead",
+        "category": "news",
+        "activation": 9.034475326538086
+      },
+      {
+        "article_id": "N19826",
+        "title": "Trump, allies push back on 'quid pro quo,' say envoy testified Ukraine initially unaware of aid holdup",
+        "category": "news",
+        "activation": 8.648934364318848
+      },
+      {
+        "article_id": "N19112",
+        "title": "House GOP eyes committee shake-up ahead of Trump impeachment hearings",
+        "category": "news",
+        "activation": 8.629150390625
+      },
+      {
+        "article_id": "N24732",
+        "title": "Live updates: Trump asked E.U. ambassador about status of Ukrainian 'investigations,' diplomat reveals in new testimony",
+        "category": "news",
+        "activation": 8.441939353942871
+      },
+      {
+        "article_id": "N35959",
+        "title": "Muslim Candidate Could Make Virginia Election History | Patch PM",
+        "category": "news",
+        "activation": 8.414450645446777
+      },
+      {
+        "article_id": "N9354",
+        "title": "Obamacare early sign-ups plunge as Trump-backed lawsuit challenges constitutionality",
+        "category": "finance",
+        "activation": 8.391966819763184
+      },
+      {
+        "article_id": "N59122",
+        "title": "Morgan Stanley elbows out rivals for plum role in $1.5 billion IPO relaunch: sources",
+        "category": "finance",
+        "activation": 8.368009567260742
+      },
+      {
+        "article_id": "N48922",
+        "title": "Bolsonaro attacks 'putrid' media over Marielle Franco murder revelations",
+        "category": "news",
+        "activation": 8.262800216674805
+      }
+    ]
+  },
+  {
+    "feature_id": 852,
+    "training_activation_frequency": 0.15022222222222223,
+    "examples": [
+      {
+        "article_id": "N45112",
+        "title": "Jamal Adams reportedly wants to be traded to Cowboys",
+        "category": "sports",
+        "activation": 10.59384536743164
+      },
+      {
+        "article_id": "N61065",
+        "title": "Bloom: 'Every indication' Dustin Pedroia will try to return in 2020",
+        "category": "sports",
+        "activation": 10.541609764099121
+      },
+      {
+        "article_id": "N49532",
+        "title": "Bruce Bochy will not manage in 2020, could return in 2021",
+        "category": "sports",
+        "activation": 10.330658912658691
+      },
+      {
+        "article_id": "N24627",
+        "title": "Astros owner doesn't rule out 'making a run' at re-signing Gerrit Cole",
+        "category": "sports",
+        "activation": 9.914060592651367
+      },
+      {
+        "article_id": "N11880",
+        "title": "4 teams that could trade for Cordy Glenn",
+        "category": "sports",
+        "activation": 9.894340515136719
+      },
+      {
+        "article_id": "N44968",
+        "title": "Braves free agent targets: Catchers",
+        "category": "sports",
+        "activation": 9.824277877807617
+      },
+      {
+        "article_id": "N3566",
+        "title": "NFL teams reportedly believe Browns could trade Odell Beckham if struggles continue",
+        "category": "sports",
+        "activation": 9.21707534790039
+      },
+      {
+        "article_id": "N28938",
+        "title": "Report: Slugger Marcell Ozuna 'very unlikely' to accept qualifying offer from Cardinals",
+        "category": "sports",
+        "activation": 9.100106239318848
+      }
+    ]
+  },
+  {
+    "feature_id": 853,
+    "training_activation_frequency": 0.09822222222222222,
+    "examples": [
+      {
+        "article_id": "N19561",
+        "title": "Stanford seeks 12th straight win against rival UCLA",
+        "category": "sports",
+        "activation": 17.226234436035156
+      },
+      {
+        "article_id": "N50537",
+        "title": "Stockton Heat handles San Diego again, 6-3",
+        "category": "sports",
+        "activation": 16.62993812561035
+      },
+      {
+        "article_id": "N40179",
+        "title": "Booker scores 40 as Suns hand 76ers 1st loss, 114-109",
+        "category": "sports",
+        "activation": 15.942474365234375
+      },
+      {
+        "article_id": "N10016",
+        "title": "Cook, Vikings wear down Redskins 19-9 for 4th straight win",
+        "category": "sports",
+        "activation": 15.16433048248291
+      },
+      {
+        "article_id": "N48558",
+        "title": "Curry leads Warriors to first win, 134-123 over Pelicans",
+        "category": "sports",
+        "activation": 15.156447410583496
+      },
+      {
+        "article_id": "N14346",
+        "title": "Game thread: Red Wings beat Ducks in OT, 4-3",
+        "category": "sports",
+        "activation": 15.059611320495605
+      },
+      {
+        "article_id": "N33517",
+        "title": "Islanders beat Panthers 2-1 for 11th win in 12 games",
+        "category": "sports",
+        "activation": 15.03505802154541
+      },
+      {
+        "article_id": "N46549",
+        "title": "Islanders beat Panthers 2-1 for 11th win in 12 games",
+        "category": "sports",
+        "activation": 15.03505802154541
+      }
+    ]
+  },
+  {
+    "feature_id": 539,
+    "training_activation_frequency": 0.10288888888888889,
+    "examples": [
+      {
+        "article_id": "N21031",
+        "title": "Warriors' Willie Cauley-Stein, Alec Burks listed as probable for Suns game",
+        "category": "sports",
+        "activation": 11.096198081970215
+      },
+      {
+        "article_id": "N64540",
+        "title": "Murray to sit out half of back-to-backs",
+        "category": "sports",
+        "activation": 9.567737579345703
+      },
+      {
+        "article_id": "N601",
+        "title": "Foles will start for Jaguars over Minshew after bye week",
+        "category": "sports",
+        "activation": 9.243237495422363
+      },
+      {
+        "article_id": "N42883",
+        "title": "Givani Smith gets another look as Red Wings' Justin Abdelkader out for weeks",
+        "category": "sports",
+        "activation": 8.999415397644043
+      },
+      {
+        "article_id": "N60877",
+        "title": "Eagles receiver Alshon Jeffery misses practice with ankle injury. His status vs. Patriots is unclear.",
+        "category": "sports",
+        "activation": 8.994667053222656
+      },
+      {
+        "article_id": "N52132",
+        "title": "Bellerin calls for Arsenal unity after Xhaka tantrum",
+        "category": "sports",
+        "activation": 8.944926261901855
+      },
+      {
+        "article_id": "N25475",
+        "title": "Cooks, Lee lead Nevada to 17-13 win vs. No. 24 San Diego St.",
+        "category": "sports",
+        "activation": 8.935948371887207
+      },
+      {
+        "article_id": "N52276",
+        "title": "Gators rebound from Georgia loss with 56-0 rout of Vanderbilt",
+        "category": "sports",
+        "activation": 8.736010551452637
+      }
+    ]
+  },
+  {
+    "feature_id": 389,
+    "training_activation_frequency": 0.12311111111111112,
+    "examples": [
+      {
+        "article_id": "N58729",
+        "title": "NFL Network Insider Ian Rapoport breaks down Los Angeles Rams' trade for cornerback Jalen Ramsey",
+        "category": "sports",
+        "activation": 12.590070724487305
+      },
+      {
+        "article_id": "N7198",
+        "title": "Listen to the Detroit Free Press with Amazon Alexa or Google Assistant",
+        "category": "news",
+        "activation": 12.524442672729492
+      },
+      {
+        "article_id": "N28598",
+        "title": "Fighter On Fighter: Breaking Down Chris Weidman's Arm-Triangle Choke - UFC On ESPN 6",
+        "category": "sports",
+        "activation": 12.009116172790527
+      },
+      {
+        "article_id": "N34651",
+        "title": "Inside Politics Lightning Round: Clinton suggests Trump Campaign is \"grooming\" Dem for 2020",
+        "category": "news",
+        "activation": 11.624670028686523
+      },
+      {
+        "article_id": "N55305",
+        "title": "Reba McEntire coming to Indiana next year",
+        "category": "sports",
+        "activation": 11.50007438659668
+      },
+      {
+        "article_id": "N60098",
+        "title": "This Governor Still Guides His Billion-Dollar Business Empire, Even Though He Said He Wouldn't",
+        "category": "news",
+        "activation": 11.373141288757324
+      },
+      {
+        "article_id": "N6459",
+        "title": "Police investigating suspicious package in Boynton Beach",
+        "category": "news",
+        "activation": 11.14510440826416
+      },
+      {
+        "article_id": "N21244",
+        "title": "At least 2 dead and several injured in school shooting",
+        "category": "news",
+        "activation": 11.018129348754883
+      }
+    ]
+  },
+  {
+    "feature_id": 613,
+    "training_activation_frequency": 0.14,
+    "examples": [
+      {
+        "article_id": "N61058",
+        "title": "Driver dies after being shot in St. Paul's Summit-U area",
+        "category": "news",
+        "activation": 10.728967666625977
+      },
+      {
+        "article_id": "N37509",
+        "title": "A man dies in Hawaii after falling into a lava tube in his yard",
+        "category": "news",
+        "activation": 10.145838737487793
+      },
+      {
+        "article_id": "N31061",
+        "title": "Plane crashes into NJ home, igniting fire: 'Everything was just a massive blaze'",
+        "category": "news",
+        "activation": 9.220340728759766
+      },
+      {
+        "article_id": "N60046",
+        "title": "Hawaii airport and homes evacuated as fast-moving fire hits West Maui",
+        "category": "weather",
+        "activation": 8.979511260986328
+      },
+      {
+        "article_id": "N15657",
+        "title": "At least 37 people killed in Cameroon landslide",
+        "category": "news",
+        "activation": 8.950689315795898
+      },
+      {
+        "article_id": "N47796",
+        "title": "NYPD officer is in critical condition after an altercation at a Brooklyn nail salon",
+        "category": "news",
+        "activation": 8.946414947509766
+      },
+      {
+        "article_id": "N8275",
+        "title": "30 killed in DR Congo bus accident",
+        "category": "news",
+        "activation": 8.897699356079102
+      },
+      {
+        "article_id": "N16290",
+        "title": "Missouri man missing for a week found alive in car that crashed into ravine",
+        "category": "news",
+        "activation": 8.536131858825684
+      }
+    ]
+  },
+  {
+    "feature_id": 219,
+    "training_activation_frequency": 0.10333333333333333,
+    "examples": [
+      {
+        "article_id": "N37123",
+        "title": "17 Things You Should Never Do During a Conversation",
+        "category": "lifestyle",
+        "activation": 11.32249641418457
+      },
+      {
+        "article_id": "N27759",
+        "title": "12 Surprising Things You Should Never Clean with Water",
+        "category": "lifestyle",
+        "activation": 11.249412536621094
+      },
+      {
+        "article_id": "N511",
+        "title": "How to cancel a credit card without hurting your credit score",
+        "category": "finance",
+        "activation": 10.91400146484375
+      },
+      {
+        "article_id": "N7343",
+        "title": "17 Ways You're Damaging Your Teeth Without Realizing It",
+        "category": "health",
+        "activation": 10.75941276550293
+      },
+      {
+        "article_id": "N5102",
+        "title": "23 Things You Should Toss from Your Closet Forever",
+        "category": "lifestyle",
+        "activation": 10.728181838989258
+      },
+      {
+        "article_id": "N32917",
+        "title": "25 Ways to Detox and Declutter Your Mind and Soul",
+        "category": "lifestyle",
+        "activation": 10.543134689331055
+      },
+      {
+        "article_id": "N16912",
+        "title": "Rowing Can Help You Burn Belly Fat, but You'll Need to Take Things Up a Notch - Here's How",
+        "category": "health",
+        "activation": 10.3592529296875
+      },
+      {
+        "article_id": "N3394",
+        "title": "How to wrap text in Microsoft Excel in 2 ways, to make sure that all of your data is visible",
+        "category": "news",
+        "activation": 10.3038330078125
+      }
+    ]
+  },
+  {
+    "feature_id": 511,
+    "training_activation_frequency": 0.13111111111111112,
+    "examples": [
+      {
+        "article_id": "N50932",
+        "title": "Conor McGregor explains why he believes Khabib Nurmagomedov will beat Tony Ferguson",
+        "category": "sports",
+        "activation": 9.664196014404297
+      },
+      {
+        "article_id": "N49152",
+        "title": "Be like Barry Bonds? Why Dallas Cowboys coach Jon Kitna is telling Dak Prescott just that",
+        "category": "sports",
+        "activation": 8.607283592224121
+      },
+      {
+        "article_id": "N44796",
+        "title": "Will Teresa Giudice and Joe Giudice Get Divorced? 'I Don't See It Working,' She Says",
+        "category": "tv",
+        "activation": 8.128332138061523
+      },
+      {
+        "article_id": "N64555",
+        "title": "UFC champ Khabib Nurmagomedov seen training in a freezing river, because of course",
+        "category": "sports",
+        "activation": 8.09350299835205
+      },
+      {
+        "article_id": "N30697",
+        "title": "Rob Gronkowski says he would've be a 'great fit' with Kliff Kingsbury's Cardinals' offense",
+        "category": "sports",
+        "activation": 8.025247573852539
+      },
+      {
+        "article_id": "N25855",
+        "title": "College football midseason awards led by Jalen Hurts, Tua Tagovailoa",
+        "category": "sports",
+        "activation": 7.988343715667725
+      },
+      {
+        "article_id": "N18881",
+        "title": "Jason Momoa Says He's 'So Freaking Stoked' That Stepdaughter Zo\u00eb Kravitz Is Playing Catwoman",
+        "category": "movies",
+        "activation": 7.9283647537231445
+      },
+      {
+        "article_id": "N62520",
+        "title": "Why Mike Florio Believes Odell Beckham Jr. Might Want To Join Patriots",
+        "category": "sports",
+        "activation": 7.88322114944458
+      }
+    ]
+  },
+  {
+    "feature_id": 131,
+    "training_activation_frequency": 0.11377777777777778,
+    "examples": [
+      {
+        "article_id": "N17246",
+        "title": "Ask Mr. Dad: 'Bad dad' can't connect with kids through play",
+        "category": "lifestyle",
+        "activation": 9.97287654876709
+      },
+      {
+        "article_id": "N32631",
+        "title": "Our Republic Is Under Attack From the President",
+        "category": "news",
+        "activation": 9.405364036560059
+      },
+      {
+        "article_id": "N45557",
+        "title": "It's not hard to not flirt",
+        "category": "lifestyle",
+        "activation": 8.745743751525879
+      },
+      {
+        "article_id": "N53790",
+        "title": "I turned 40 and got my first mammogram. Now, I have to go back for a biopsy.",
+        "category": "health",
+        "activation": 8.675607681274414
+      },
+      {
+        "article_id": "N63469",
+        "title": "A cop was told to 'tone down your gayness.' Now, he could get nearly $20 million, jury says.",
+        "category": "news",
+        "activation": 8.542611122131348
+      },
+      {
+        "article_id": "N25856",
+        "title": "Comparing early season snowpack in Colorado",
+        "category": "weather",
+        "activation": 8.441899299621582
+      },
+      {
+        "article_id": "N11520",
+        "title": "Column: A copy of your property deed costs $3. This SoCal firm will do it for $89",
+        "category": "news",
+        "activation": 8.38851261138916
+      },
+      {
+        "article_id": "N1284",
+        "title": "Iowa State Rep: 'We need a new zeal of urgency.' Lawmaker frustrated with lack of action with flooding",
+        "category": "weather",
+        "activation": 8.309579849243164
+      }
+    ]
+  },
+  {
+    "feature_id": 474,
+    "training_activation_frequency": 0.10644444444444444,
+    "examples": [
+      {
+        "article_id": "N572",
+        "title": "Clinton-Obama emails sought by Sen. Ron Johnson amid Dems' impeachment inquiry",
+        "category": "news",
+        "activation": 10.639179229736328
+      },
+      {
+        "article_id": "N4371",
+        "title": "US believes reports Turkey misused US-supplied weapons in Syria incursion are 'credible'",
+        "category": "news",
+        "activation": 9.199653625488281
+      },
+      {
+        "article_id": "N15603",
+        "title": "Judge fast-tracks case over former White House official's refusal to testify in impeachment inquiry",
+        "category": "news",
+        "activation": 8.884495735168457
+      },
+      {
+        "article_id": "N27863",
+        "title": "Debunking 4 Viral Rumors About the Bidens and Ukraine",
+        "category": "news",
+        "activation": 8.8781099319458
+      },
+      {
+        "article_id": "N28115",
+        "title": "Maryland AG sues Kushner apartment company, alleging thousands of violations while renting rodent-infested units",
+        "category": "news",
+        "activation": 8.873373985290527
+      },
+      {
+        "article_id": "N54387",
+        "title": "Former Russia Adviser Testifies She Was Alarmed About Ukraine Pressure",
+        "category": "news",
+        "activation": 8.656174659729004
+      },
+      {
+        "article_id": "N9671",
+        "title": "Judge dismisses Trump lawsuit against NY over tax returns",
+        "category": "news",
+        "activation": 8.571562767028809
+      },
+      {
+        "article_id": "N62084",
+        "title": "House Republicans try to force a vote on censuring Adam Schiff",
+        "category": "news",
+        "activation": 8.506183624267578
+      }
+    ]
+  },
+  {
+    "feature_id": 242,
+    "training_activation_frequency": 0.116,
+    "examples": [
+      {
+        "article_id": "N31706",
+        "title": "This is how the Seahawks can beat the 49ers on Monday Night Football",
+        "category": "sports",
+        "activation": 8.781094551086426
+      },
+      {
+        "article_id": "N29184",
+        "title": "Who has the advantage in colder weather -- the pitchers or the hitters?",
+        "category": "weather",
+        "activation": 8.478554725646973
+      },
+      {
+        "article_id": "N34108",
+        "title": "First Look at Toronto Raptors' 2018-19 NBA Championship Rings and Banner Revealed",
+        "category": "sports",
+        "activation": 8.32252311706543
+      },
+      {
+        "article_id": "N36248",
+        "title": "What's the latest on Greg Schiano? Will Rutgers score vs. Ohio State? (PODCAST)",
+        "category": "sports",
+        "activation": 8.205662727355957
+      },
+      {
+        "article_id": "N3446",
+        "title": "Can Jets defense sustain dominance against the run vs. struggling Giants RB Saquon Barkley? | 3 key matchups",
+        "category": "sports",
+        "activation": 8.172503471374512
+      },
+      {
+        "article_id": "N3930",
+        "title": "Insiders predict: NFL week 10 winners",
+        "category": "sports",
+        "activation": 8.10531997680664
+      },
+      {
+        "article_id": "N27288",
+        "title": "Insiders predict: NFL week 6 winners",
+        "category": "sports",
+        "activation": 8.016650199890137
+      },
+      {
+        "article_id": "N45971",
+        "title": "Insiders predict: NFL Week 8 winners",
+        "category": "sports",
+        "activation": 7.768557548522949
+      }
+    ]
+  },
+  {
+    "feature_id": 574,
+    "training_activation_frequency": 0.11666666666666667,
+    "examples": [
+      {
+        "article_id": "N46301",
+        "title": "Ask the Captain: Do pilots like it when passengers clap after landing?",
+        "category": "travel",
+        "activation": 9.46284008026123
+      },
+      {
+        "article_id": "N32631",
+        "title": "Our Republic Is Under Attack From the President",
+        "category": "news",
+        "activation": 9.359135627746582
+      },
+      {
+        "article_id": "N8892",
+        "title": "Can You Answer These Million-Dollar 'Who Wants to Be a Millionaire' Questions?",
+        "category": "lifestyle",
+        "activation": 8.072869300842285
+      },
+      {
+        "article_id": "N64496",
+        "title": "Is it cheating? It depends on your relationship",
+        "category": "lifestyle",
+        "activation": 7.9932861328125
+      },
+      {
+        "article_id": "N12194",
+        "title": "Can You Find the Ghost Hidden Among the Skeletons in This Tricky Brainteaser?",
+        "category": "lifestyle",
+        "activation": 7.957036018371582
+      },
+      {
+        "article_id": "N11830",
+        "title": "Why Do Cats Meow?",
+        "category": "lifestyle",
+        "activation": 7.718389987945557
+      },
+      {
+        "article_id": "N49289",
+        "title": "What Is the Bermuda Triangle, and Do Pilots Really Avoid It?",
+        "category": "travel",
+        "activation": 7.676928520202637
+      },
+      {
+        "article_id": "N45557",
+        "title": "It's not hard to not flirt",
+        "category": "lifestyle",
+        "activation": 7.665935039520264
+      }
+    ]
+  },
+  {
+    "feature_id": 279,
+    "training_activation_frequency": 0.10822222222222222,
+    "examples": [
+      {
+        "article_id": "N39750",
+        "title": "Your Leg Pain May Indicate Serious Health Problem",
+        "category": "health",
+        "activation": 12.83929443359375
+      },
+      {
+        "article_id": "N5547",
+        "title": "Rare Disease That Spreads from Animals to Humans Reported in Utah and Oklahoma Dogs",
+        "category": "health",
+        "activation": 12.73456859588623
+      },
+      {
+        "article_id": "N60172",
+        "title": "Healthy Men: Men and belly fat: A bad combination",
+        "category": "health",
+        "activation": 12.194316864013672
+      },
+      {
+        "article_id": "N22479",
+        "title": "Frequent Urination At Night: A Sign Of Serious Health Problem",
+        "category": "health",
+        "activation": 11.828862190246582
+      },
+      {
+        "article_id": "N39598",
+        "title": "What to Know About Sudden Hearing Loss",
+        "category": "health",
+        "activation": 11.643592834472656
+      },
+      {
+        "article_id": "N886",
+        "title": "Frequent drinking could be a greater risk factor for heart disorder than binge drinking",
+        "category": "health",
+        "activation": 11.01176929473877
+      },
+      {
+        "article_id": "N56959",
+        "title": "Taller People Have Higher Risk Of Stroke, Heart Conditions",
+        "category": "health",
+        "activation": 10.931506156921387
+      },
+      {
+        "article_id": "N7650",
+        "title": "7 Early Symptoms People With Parkinson's Disease Noticed First",
+        "category": "health",
+        "activation": 10.555551528930664
+      }
+    ]
+  }
+]

@@ -1,0 +1,682 @@
+[
+  {
+    "user_cohort_index": 341,
+    "selected_article": {
+      "article_id": "N14184",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Man cuffed for eating sandwich on train platform gets an apology",
+      "abstract": "Bay Area Rapid Transit was slammed for its handling of a man who was handcuffed and cited for eating a sandwich"
+    },
+    "predicted_linear_reward": 0.09549021058626955,
+    "uncertainty_bonus": 0.014903455709850577,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.015616017293568667
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.012643392537135036
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.010681332204027848
+      },
+      {
+        "feature_id": 847,
+        "contribution": -0.009448669294724307
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.009158933107796152
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 188,
+    "selected_article": {
+      "article_id": "N6056",
+      "category": "entertainment",
+      "subcategory": "celebrity",
+      "title": "See what your favorite stars look like without makeup",
+      "abstract": "They get glammed up for red carpet events, but in their downtime, celebrities from Katie Holmes to Emma Stone prefer to let their natural beauty take center stage. Yes, just like you, stars do occasionally allow the world to see their foundation-free skin and mascara-less lashes to celebrate their freckles, little imperfections and inside-out glow, usually by way of the makeup-free selfie. They even sometimes celebrate their bare-facedness with hashtags like #wokeuplikethis and #nofilter. To see these stars without makeup   including Kate Hudson, Kim Kardashian, Gigi Hadid and all the stars you see above   check out the gallery now. For the latest beauty and style trends subscribe to our new podcast 'Get Tressed With Us' below! 34 Of Your Favorite Celebrities With Or Without Makeup!"
+    },
+    "predicted_linear_reward": 0.028102605338248647,
+    "uncertainty_bonus": 0.05145570351733405,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.028456316474221855
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.0158280828649399
+      },
+      {
+        "feature_id": 496,
+        "contribution": -0.007146169041898026
+      },
+      {
+        "feature_id": 838,
+        "contribution": -0.006795899672248638
+      },
+      {
+        "feature_id": 539,
+        "contribution": 0.006384819337578015
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 199,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.08335727550096432,
+    "uncertainty_bonus": 0.02574274351854368,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03881417761092201
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03375768366095816
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.020469226515419478
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.014910012353455416
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.014183592243563251
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 882,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.1618196717193133,
+    "uncertainty_bonus": 0.020283596170767415,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.0168067713881017
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.016161258062068057
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.011522371025772374
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.010711682083068254
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.010125535197663118
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 58,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.08354061754087677,
+    "uncertainty_bonus": 0.024822405502813824,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.038755352939167355
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.0331666415900991
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.020244346228028884
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.01462678751629221
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.014182443768436435
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 666,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.04699372377650514,
+    "uncertainty_bonus": 0.026974142266069784,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.018050950704179905
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.012358320929817125
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.007937601460393767
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.0064591423678896
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.005936070865207495
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 732,
+    "selected_article": {
+      "article_id": "N32544",
+      "category": "tv",
+      "subcategory": "tv-celebrity",
+      "title": "Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood",
+      "abstract": "ET spoke with the former Bachelorette after 'Dancing With the Stars' on Monday."
+    },
+    "predicted_linear_reward": 0.08839018710183678,
+    "uncertainty_bonus": 0.024794423759082904,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.01847267265663962
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.01293455272184805
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008248394951301277
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006791625411936703
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.0059575532230513
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 52,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.0831483926684512,
+    "uncertainty_bonus": 0.025810546073251867,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03888194558794184
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03346324801649738
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.02051958777319896
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.01488014525112498
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.014182641710575414
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 307,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.17962738418981686,
+    "uncertainty_bonus": 0.01506640869678083,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.017724673732668624
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.011413425728210788
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008552362037019286
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.008324806867741195
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006991890212896143
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 325,
+    "selected_article": {
+      "article_id": "N21420",
+      "category": "tv",
+      "subcategory": "tvnews",
+      "title": "Lisa Vanderpump Reveals Why She Left RHOBH: 'I Don't Have Room in My Life for Nastiness'",
+      "abstract": "Lisa Vanderpump Reveals Why She Left RHOBH"
+    },
+    "predicted_linear_reward": 0.10096062095745385,
+    "uncertainty_bonus": 0.03676661350656503,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.012085836665567076
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.010622442078235239
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.00568443192022641
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.005275596285682135
+      },
+      {
+        "feature_id": 5,
+        "contribution": 0.0024808212590317893
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 958,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.13069900098661663,
+    "uncertainty_bonus": 0.01121989010002944,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.01786393426341995
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.011523944075271539
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008501833124756697
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.008278582716604838
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.0070696455647870395
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 612,
+    "selected_article": {
+      "article_id": "N50872",
+      "category": "lifestyle",
+      "subcategory": "shop-holidays",
+      "title": "50 amazing gifts for every type of person and budget",
+      "abstract": "Let the product experts at Reviewed help you find the perfect gifts for everyone on your list."
+    },
+    "predicted_linear_reward": 0.037434872687412926,
+    "uncertainty_bonus": 0.038062301860725734,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.024693357295613585
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.01829979931963663
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.014509369680012617
+      },
+      {
+        "feature_id": 915,
+        "contribution": -0.011919526441404071
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.010790228549787149
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 71,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.08309716517620144,
+    "uncertainty_bonus": 0.02476793548557607,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03874300520870994
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03314478542364388
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.020431518176740812
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.014775928320808894
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.01417761056269737
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 747,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.18095890920103558,
+    "uncertainty_bonus": 0.015466528877256885,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.017596935378678333
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.011559482221328202
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008453484781998201
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.008283725829120034
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.006889997544186251
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 184,
+    "selected_article": {
+      "article_id": "N47061",
+      "category": "lifestyle",
+      "subcategory": "shop-holidays",
+      "title": "105 Black Friday Deals You Can Start Shopping Today",
+      "abstract": "Save with early bird deals from stores like Walmart, Target, Amazon, Costco, Sam's Club, Kohl's, Sears, JCPenney, and Macy's, which are offering deep Black Friday discounts on the hottest products on your Christmas list   and your wish list   starting on Thanksgiving, or even sooner."
+    },
+    "predicted_linear_reward": 0.053983313207042326,
+    "uncertainty_bonus": 0.026240830020444673,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.03297713249630173
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.013258451705897192
+      },
+      {
+        "feature_id": 250,
+        "contribution": -0.0077082986424763895
+      },
+      {
+        "feature_id": 838,
+        "contribution": -0.00555417376734906
+      },
+      {
+        "feature_id": 228,
+        "contribution": 0.004062219212255348
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 520,
+    "selected_article": {
+      "article_id": "N35729",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "Porsche launches into second story of New Jersey building, killing 2",
+      "abstract": "The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building."
+    },
+    "predicted_linear_reward": 0.1804787728491109,
+    "uncertainty_bonus": 0.015378978062819376,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.018025324888175234
+      },
+      {
+        "feature_id": 724,
+        "contribution": 0.011335816394041442
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.008827439055926624
+      },
+      {
+        "feature_id": 436,
+        "contribution": 0.008334596972429562
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.007153800205251834
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 763,
+    "selected_article": {
+      "article_id": "N38779",
+      "category": "news",
+      "subcategory": "newsus",
+      "title": "'One in a million' deer captured on camera in Michigan woods",
+      "abstract": "Retired Michigan lawmaker and amateur photographer Steven Lindberg took pictures of a deer. That deer had three antlers."
+    },
+    "predicted_linear_reward": 0.12522237301575848,
+    "uncertainty_bonus": 0.014267029510954404,
+    "sae_contributions": [
+      {
+        "feature_id": 470,
+        "contribution": 0.016949868375322696
+      },
+      {
+        "feature_id": 439,
+        "contribution": -0.016185085370769025
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.011633836418429307
+      },
+      {
+        "feature_id": 992,
+        "contribution": -0.010778402499187132
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.01022222903941247
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 231,
+    "selected_article": {
+      "article_id": "N47061",
+      "category": "lifestyle",
+      "subcategory": "shop-holidays",
+      "title": "105 Black Friday Deals You Can Start Shopping Today",
+      "abstract": "Save with early bird deals from stores like Walmart, Target, Amazon, Costco, Sam's Club, Kohl's, Sears, JCPenney, and Macy's, which are offering deep Black Friday discounts on the hottest products on your Christmas list   and your wish list   starting on Thanksgiving, or even sooner."
+    },
+    "predicted_linear_reward": 0.05289263262192085,
+    "uncertainty_bonus": 0.025091522329627684,
+    "sae_contributions": [
+      {
+        "feature_id": 724,
+        "contribution": 0.03326373036017355
+      },
+      {
+        "feature_id": 372,
+        "contribution": -0.0132137341690013
+      },
+      {
+        "feature_id": 250,
+        "contribution": -0.007810941863513818
+      },
+      {
+        "feature_id": 838,
+        "contribution": -0.00589332522823393
+      },
+      {
+        "feature_id": 228,
+        "contribution": 0.003997329308987506
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 5,
+    "selected_article": {
+      "article_id": "N49180",
+      "category": "lifestyle",
+      "subcategory": "lifestyleroyals",
+      "title": "Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family",
+      "abstract": "Why Prince Harry's Poppy Was Worn on His Cap"
+    },
+    "predicted_linear_reward": 0.07830385182151182,
+    "uncertainty_bonus": 0.0254419185401146,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.02619374147654998
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.02244068053791401
+      },
+      {
+        "feature_id": 38,
+        "contribution": 0.013590418984262383
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.01303977239456713
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.012259369887504203
+      }
+    ]
+  },
+  {
+    "user_cohort_index": 975,
+    "selected_article": {
+      "article_id": "N59673",
+      "category": "music",
+      "subcategory": "music-celebrity",
+      "title": "Selena Gomez and Julia Michaels Share a Kiss Before Getting Matching Arrow Tattoos",
+      "abstract": "Selena Gomez and Julia Michaels Get Matching Arrow Tattoos"
+    },
+    "predicted_linear_reward": 0.08871178519742733,
+    "uncertainty_bonus": 0.0289469659175145,
+    "sae_contributions": [
+      {
+        "feature_id": 439,
+        "contribution": -0.03872702112624927
+      },
+      {
+        "feature_id": 470,
+        "contribution": 0.03330133700753635
+      },
+      {
+        "feature_id": 750,
+        "contribution": 0.020469050115990654
+      },
+      {
+        "feature_id": 205,
+        "contribution": 0.014941287590070977
+      },
+      {
+        "feature_id": 735,
+        "contribution": -0.01418795866078733
+      }
+    ]
+  }
+]
