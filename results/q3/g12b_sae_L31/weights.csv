@@ -1,0 +1,33 @@
+rank_train,feature_id,label,importance_train,importance_test,w_article,w_article_ci,w_personal,w_personal_ci
+1,221,"programming code examples",0.01768,0.01555,-0.01989,0.10155,-0.06661,0.02919
+2,300,"punctuation and labels",0.01588,0.01468,-0.11024,0.07584,-0.09338,0.02687
+3,107,"urls and code commands",0.01236,0.01487,0.02036,0.09427,-0.08246,0.02601
+4,604,"team sports and players",0.01010,0.01062,-0.08674,0.08583,0.53000,0.09806
+5,10119,"title clinched or cycle arrest",0.00893,0.01214,0.17524,0.09633,0.24633,0.08289
+6,1083,"play tic tac toe with",0.00852,0.00988,0.04897,0.08017,0.00773,0.03555
+7,342,"The neuron strongly activates on numeric tokens (e.g. years, percentages, counts, large numbers), so it’s detecting numbers/statistical values in the text.",0.00829,0.00487,-0.06503,0.02459,0.17211,0.04532
+8,203,"win tournament",0.00796,0.00945,-0.12578,0.05737,0.17085,0.07427
+9,4038,"football and bowl events",0.00774,0.00848,0.05012,0.08412,0.66835,0.11999
+10,249,"The neuron is simply a “sentence-position” detector – it has its strongest activations on the first few real tokens of a sentence (e.g. the initial determiner or auxiliary) and then decays as you move further into the sentence.",0.00766,0.00838,0.02568,0.04944,-0.08082,0.04618
+11,25,"upcoming announcements and events",0.00761,0.00778,-0.09152,0.03518,0.19710,0.04774
+12,11522,"basketball and NBA",0.00703,0.00808,-0.14568,0.08039,0.09861,0.06288
+13,53,"attacking opponent actions",0.00647,0.00691,0.06541,0.06580,0.18315,0.10425
+14,323,"The neuron flags unusually informative or low‐frequency “content” words (i.e. non‐function words that carry specific meaning).",0.00637,0.00719,-0.03302,0.02677,-0.05735,0.05892
+15,330,"The neuron is specifically responding to the start‐of‐sequence marker, i.e. it fires strongly on the “<bos>” token.",0.00637,0.00691,0.01750,0.03481,0.12901,0.04437
+16,14329,"threatened, Power, Used, Simple, wave",0.00577,0.00887,0.03744,0.04541,0.20059,0.03973
+17,756,"The neuron is triggered by numeric expressions and measurements (digits, quantities, and related numeric tokens).",0.00510,0.00109,0.01104,0.01940,0.11437,0.05062
+18,10397,"universities",0.00490,0.00290,0.08619,0.06510,0.05568,0.04770
+19,466,"news websites and sources",0.00465,0.00786,-0.07217,0.05680,-0.01754,0.05211
+20,6726,"weather and travel advisories",0.00454,0.00255,-0.02052,0.04212,0.08369,0.04962
+21,4721,"multilingual words",0.00446,0.00434,0.04800,0.04155,0.07557,0.04444
+22,10714,"football",0.00422,0.00561,-0.06298,0.08467,0.09360,0.04216
+23,2744,"school sports",0.00411,0.00607,0.01594,0.07494,0.05044,0.04377
+24,2646,"harm, unusual, suspect",0.00362,0.00521,0.01761,0.02174,0.48121,0.07926
+25,959,"obstacles and distances",0.00245,0.00225,-0.01430,0.02328,0.10044,0.03978
+26,5295,"baseball, MLB, pitcher, cap",0.00205,0.00344,-0.00666,0.04704,0.13598,0.06535
+27,8610,"skating and hockey",0.00182,0.00039,-0.02915,0.06265,-0.01183,0.01158
+28,15771,"fire and flammable risks",0.00176,0.00068,-0.04359,0.03895,0.01337,0.02571
+29,1602,"racing and motorsport",0.00118,0.00057,-0.00902,0.01654,0.02743,0.01805
+30,4071,"political campaign campaigning",0.00071,0.00209,-0.01723,0.04500,0.10376,0.03124
+31,184,"exploit, abuse, endanger children",0.00070,0.00168,0.00613,0.01316,0.03342,0.02743
+32,1646,"combat sports",0.00026,0.00551,0.14011,0.18053,0.04762,0.03048

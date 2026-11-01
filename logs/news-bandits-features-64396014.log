@@ -1,0 +1,97 @@
+GPU 0: NVIDIA L40S (UUID: GPU-2ee22c52-43bd-9ae9-52ca-6b98a5873281)
+Loading weights:   0%|          | 0/340 [00:00<?, ?it/s]Loading weights:   6%|▋         | 22/340 [00:00<00:01, 163.42it/s]Loading weights:  11%|█▏        | 39/340 [00:00<00:02, 105.10it/s]Loading weights:  15%|█▌        | 51/340 [00:00<00:02, 99.47it/s] Loading weights:  18%|█▊        | 62/340 [00:00<00:02, 92.68it/s]Loading weights:  21%|██        | 72/340 [00:00<00:03, 81.82it/s]Loading weights:  24%|██▍       | 81/340 [00:00<00:03, 78.42it/s]Loading weights:  26%|██▋       | 90/340 [00:01<00:03, 75.89it/s]Loading weights:  30%|██▉       | 101/340 [00:01<00:02, 80.95it/s]Loading weights:  33%|███▎      | 112/340 [00:01<00:02, 76.16it/s]Loading weights:  36%|███▌      | 121/340 [00:01<00:03, 66.45it/s]Loading weights:  39%|███▉      | 132/340 [00:01<00:02, 71.07it/s]Loading weights:  41%|████      | 140/340 [00:01<00:03, 65.94it/s]Loading weights:  45%|████▌     | 153/340 [00:01<00:02, 65.34it/s]Loading weights:  49%|████▊     | 165/340 [00:02<00:02, 75.11it/s]Loading weights:  51%|█████     | 173/340 [00:02<00:02, 75.41it/s]Loading weights:  53%|█████▎    | 181/340 [00:02<00:02, 63.07it/s]Loading weights:  56%|█████▌    | 189/340 [00:02<00:02, 56.43it/s]Loading weights:  59%|█████▉    | 202/340 [00:02<00:02, 66.68it/s]Loading weights:  63%|██████▎   | 214/340 [00:02<00:01, 69.99it/s]Loading weights:  68%|██████▊   | 231/340 [00:03<00:01, 77.10it/s]Loading weights:  71%|███████▏  | 243/340 [00:03<00:01, 74.31it/s]Loading weights:  74%|███████▍  | 252/340 [00:03<00:01, 51.47it/s]Loading weights:  78%|███████▊  | 264/340 [00:03<00:01, 60.52it/s]Loading weights:  80%|████████  | 272/340 [00:03<00:01, 56.21it/s]Loading weights:  82%|████████▏ | 279/340 [00:04<00:01, 43.94it/s]Loading weights:  85%|████████▌ | 290/340 [00:04<00:01, 47.02it/s]Loading weights:  89%|████████▉ | 303/340 [00:04<00:00, 60.84it/s]Loading weights:  93%|█████████▎| 315/340 [00:04<00:00, 62.67it/s]Loading weights:  97%|█████████▋| 331/340 [00:04<00:00, 78.03it/s]Loading weights: 100%|██████████| 340/340 [00:04<00:00, 70.13it/s]
+/gpfs/accounts/mihalcea_owned_root/mihalcea_owned1/asamee/news-bandits/scripts/extract_policy_features.py:131: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  pooled = (pooled / denom).to_sparse_csr()
+gemma-3-1b: 24/104,151 articles, 10s
+gemma-3-1b: 6,035/104,151 articles, 36s
+gemma-3-1b: 13,025/104,151 articles, 62s
+gemma-3-1b: 20,490/104,151 articles, 88s
+gemma-3-1b: 28,507/104,151 articles, 114s
+gemma-3-1b: 38,287/104,151 articles, 141s
+gemma-3-1b: 53,021/104,151 articles, 168s
+gemma-3-1b: 71,670/104,151 articles, 195s
+gemma-3-1b: 98,260/104,151 articles, 223s
+{
+  "model": "google/gemma-3-1b-pt",
+  "n_layers": 26,
+  "d_model": 1152,
+  "sae_repo": "google/gemma-scope-2-1b-pt",
+  "sae_variant": "width_16k_l0_medium",
+  "tokens_mean": 62.44821461147757,
+  "tokens_max": 679,
+  "seconds": 230,
+  "sae": {
+    "7": {
+      "width": 16384,
+      "token_l0": 59.25830744687459,
+      "fvu": 0.05994290028292192,
+      "article_nnz_mean": 1167.1909343165212
+    },
+    "13": {
+      "width": 16384,
+      "token_l0": 63.25985940439517,
+      "fvu": 0.1189135457769677,
+      "article_nnz_mean": 1415.137175831245
+    },
+    "17": {
+      "width": 16384,
+      "token_l0": 62.47550400950547,
+      "fvu": 0.15616681714400657,
+      "article_nnz_mean": 1358.6761816977273
+    },
+    "22": {
+      "width": 16384,
+      "token_l0": 66.00651210231665,
+      "fvu": 0.19930717588934152,
+      "article_nnz_mean": 1436.2605255830476
+    }
+  }
+}
+Loading weights:   0%|          | 0/1065 [00:00<?, ?it/s]Loading weights:   5%|▍         | 52/1065 [00:00<00:02, 499.67it/s]Loading weights:  10%|▉         | 102/1065 [00:00<00:06, 153.10it/s]Loading weights:  12%|█▏        | 129/1065 [00:00<00:07, 126.93it/s]Loading weights:  14%|█▍        | 148/1065 [00:01<00:07, 123.86it/s]Loading weights:  15%|█▌        | 164/1065 [00:01<00:08, 101.25it/s]Loading weights:  17%|█▋        | 177/1065 [00:01<00:08, 105.06it/s]Loading weights:  18%|█▊        | 190/1065 [00:01<00:08, 98.88it/s] Loading weights:  19%|█▉        | 201/1065 [00:01<00:09, 95.31it/s]Loading weights:  20%|█▉        | 212/1065 [00:01<00:09, 86.28it/s]Loading weights:  21%|██▏       | 227/1065 [00:01<00:08, 97.17it/s]Loading weights:  22%|██▏       | 238/1065 [00:02<00:09, 83.32it/s]Loading weights:  23%|██▎       | 247/1065 [00:02<00:10, 81.75it/s]Loading weights:  24%|██▍       | 259/1065 [00:02<00:09, 86.85it/s]Loading weights:  25%|██▌       | 269/1065 [00:02<00:11, 71.87it/s]Loading weights:  26%|██▋       | 280/1065 [00:02<00:10, 75.33it/s]Loading weights:  27%|██▋       | 291/1065 [00:02<00:09, 81.23it/s]Loading weights:  28%|██▊       | 300/1065 [00:03<00:10, 71.33it/s]Loading weights:  29%|██▉       | 311/1065 [00:03<00:10, 68.81it/s]Loading weights:  30%|███       | 320/1065 [00:03<00:11, 64.81it/s]Loading weights:  31%|███       | 329/1065 [00:03<00:11, 63.45it/s]Loading weights:  32%|███▏      | 342/1065 [00:03<00:09, 73.49it/s]Loading weights:  33%|███▎      | 352/1065 [00:03<00:09, 78.28it/s]Loading weights:  34%|███▍      | 361/1065 [00:03<00:09, 76.99it/s]Loading weights:  35%|███▍      | 369/1065 [00:04<00:10, 69.55it/s]Loading weights:  36%|███▋      | 388/1065 [00:04<00:07, 84.73it/s]Loading weights:  37%|███▋      | 397/1065 [00:04<00:08, 79.88it/s]Loading weights:  38%|███▊      | 407/1065 [00:04<00:09, 71.59it/s]Loading weights:  39%|███▉      | 415/1065 [00:04<00:09, 65.96it/s]Loading weights:  40%|████      | 428/1065 [00:04<00:08, 71.57it/s]Loading weights:  41%|████      | 439/1065 [00:04<00:08, 73.78it/s]Loading weights:  42%|████▏     | 447/1065 [00:05<00:08, 74.65it/s]Loading weights:  43%|████▎     | 458/1065 [00:05<00:08, 70.18it/s]Loading weights:  45%|████▍     | 474/1065 [00:05<00:07, 83.73it/s]Loading weights:  46%|████▌     | 486/1065 [00:05<00:06, 90.91it/s]Loading weights:  47%|████▋     | 501/1065 [00:05<00:05, 103.23it/s]Loading weights:  48%|████▊     | 512/1065 [00:05<00:05, 92.50it/s] Loading weights:  49%|████▉     | 526/1065 [00:05<00:05, 99.48it/s]Loading weights:  50%|█████     | 537/1065 [00:06<00:06, 80.43it/s]Loading weights:  51%|█████▏    | 546/1065 [00:06<00:08, 64.35it/s]Loading weights:  52%|█████▏    | 554/1065 [00:06<00:07, 66.81it/s]Loading weights:  53%|█████▎    | 567/1065 [00:06<00:06, 77.75it/s]Loading weights:  54%|█████▍    | 576/1065 [00:06<00:06, 77.66it/s]Loading weights:  55%|█████▍    | 585/1065 [00:06<00:06, 68.84it/s]Loading weights:  56%|█████▌    | 593/1065 [00:06<00:08, 58.86it/s]Loading weights:  56%|█████▋    | 600/1065 [00:07<00:08, 57.02it/s]Loading weights:  57%|█████▋    | 608/1065 [00:07<00:08, 51.70it/s]Loading weights:  58%|█████▊    | 622/1065 [00:07<00:06, 67.94it/s]Loading weights:  59%|█████▉    | 630/1065 [00:07<00:06, 68.55it/s]Loading weights:  60%|█████▉    | 638/1065 [00:07<00:07, 53.57it/s]Loading weights:  61%|██████    | 648/1065 [00:07<00:07, 57.28it/s]Loading weights:  62%|██████▏   | 658/1065 [00:08<00:07, 54.41it/s]Loading weights:  62%|██████▏   | 665/1065 [00:08<00:07, 50.93it/s]Loading weights:  64%|██████▍   | 679/1065 [00:08<00:06, 58.43it/s]Loading weights:  65%|██████▍   | 692/1065 [00:08<00:06, 57.85it/s]Loading weights:  66%|██████▌   | 704/1065 [00:08<00:05, 60.23it/s]Loading weights:  67%|██████▋   | 718/1065 [00:08<00:04, 74.31it/s]Loading weights:  68%|██████▊   | 728/1065 [00:09<00:04, 73.00it/s]Loading weights:  69%|██████▉   | 738/1065 [00:09<00:04, 74.33it/s]Loading weights:  70%|███████   | 748/1065 [00:09<00:04, 68.72it/s]Loading weights:  71%|███████   | 757/1065 [00:09<00:04, 65.64it/s]Loading weights:  72%|███████▏  | 768/1065 [00:09<00:04, 68.53it/s]Loading weights:  73%|███████▎  | 782/1065 [00:09<00:03, 82.60it/s]Loading weights:  74%|███████▍  | 791/1065 [00:10<00:04, 65.76it/s]Loading weights:  75%|███████▌  | 799/1065 [00:10<00:04, 63.27it/s]Loading weights:  76%|███████▌  | 812/1065 [00:10<00:03, 76.16it/s]Loading weights:  77%|███████▋  | 822/1065 [00:10<00:03, 79.19it/s]Loading weights:  78%|███████▊  | 834/1065 [00:10<00:03, 73.15it/s]Loading weights:  79%|███████▉  | 845/1065 [00:10<00:02, 80.48it/s]Loading weights:  80%|████████  | 854/1065 [00:10<00:03, 66.10it/s]Loading weights:  82%|████████▏ | 868/1065 [00:11<00:02, 74.57it/s]Loading weights:  82%|████████▏ | 878/1065 [00:11<00:02, 70.16it/s]Loading weights:  83%|████████▎ | 886/1065 [00:11<00:03, 54.28it/s]Loading weights:  84%|████████▍ | 898/1065 [00:11<00:02, 63.85it/s]Loading weights:  85%|████████▌ | 906/1065 [00:11<00:02, 64.27it/s]Loading weights:  86%|████████▌ | 915/1065 [00:11<00:02, 63.01it/s]Loading weights:  87%|████████▋ | 930/1065 [00:12<00:01, 69.84it/s]Loading weights:  89%|████████▉ | 950/1065 [00:12<00:01, 78.76it/s]Loading weights:  91%|█████████ | 964/1065 [00:12<00:01, 89.35it/s]Loading weights:  92%|█████████▏| 978/1065 [00:12<00:00, 97.03it/s]Loading weights:  93%|█████████▎| 989/1065 [00:12<00:00, 92.55it/s]Loading weights:  94%|█████████▍| 999/1065 [00:12<00:00, 87.34it/s]Loading weights:  95%|█████████▍| 1008/1065 [00:12<00:00, 72.73it/s]Loading weights:  95%|█████████▌| 1017/1065 [00:13<00:00, 73.33it/s]Loading weights:  97%|█████████▋| 1028/1065 [00:13<00:00, 67.98it/s]Loading weights:  98%|█████████▊| 1043/1065 [00:13<00:00, 71.86it/s]Loading weights:  99%|█████████▉| 1056/1065 [00:13<00:00, 81.34it/s]Loading weights: 100%|██████████| 1065/1065 [00:13<00:00, 78.44it/s]
+/gpfs/accounts/mihalcea_owned_root/mihalcea_owned1/asamee/news-bandits/scripts/extract_policy_features.py:131: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  pooled = (pooled / denom).to_sparse_csr()
+gemma-3-12b: 24/104,151 articles, 6s
+gemma-3-12b: 6,035/104,151 articles, 182s
+gemma-3-12b: 13,025/104,151 articles, 359s
+gemma-3-12b: 20,490/104,151 articles, 536s
+gemma-3-12b: 28,507/104,151 articles, 714s
+gemma-3-12b: 38,287/104,151 articles, 894s
+gemma-3-12b: 53,021/104,151 articles, 1074s
+gemma-3-12b: 71,670/104,151 articles, 1256s
+gemma-3-12b: 98,260/104,151 articles, 1441s
+{
+  "model": "google/gemma-3-12b-pt",
+  "n_layers": 48,
+  "d_model": 3840,
+  "sae_repo": "google/gemma-scope-2-12b-pt",
+  "sae_variant": "width_16k_l0_medium",
+  "tokens_mean": 62.44821461147757,
+  "tokens_max": 679,
+  "seconds": 1493,
+  "sae": {
+    "12": {
+      "width": 16384,
+      "token_l0": 58.120746261864156,
+      "fvu": 0.08627760389248415,
+      "article_nnz_mean": 1271.4731111559179
+    },
+    "24": {
+      "width": 16384,
+      "token_l0": 64.34824579907516,
+      "fvu": 0.054780642413442625,
+      "article_nnz_mean": 1017.7373236934835
+    },
+    "31": {
+      "width": 16384,
+      "token_l0": 61.37181590407445,
+      "fvu": 0.13372161962999393,
+      "article_nnz_mean": 1383.4392468627282
+    },
+    "41": {
+      "width": 16384,
+      "token_l0": 62.40847632642092,
+      "fvu": 0.19647651617149695,
+      "article_nnz_mean": 1510.1510787222398
+    }
+  }
+}

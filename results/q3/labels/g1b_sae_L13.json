@@ -1,0 +1,1086 @@
+{
+ "rep": "g1b_sae_L13",
+ "model": "gemma-3-1b",
+ "source": "13-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 242,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05690848993384478,
+   "explanations": []
+  },
+  {
+   "id": 374,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1414419739847166,
+   "explanations": []
+  },
+  {
+   "id": 262,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04652207773114276,
+   "explanations": []
+  },
+  {
+   "id": 1123,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01353629957520707,
+   "explanations": [
+    "mathematical calculations"
+   ]
+  },
+  {
+   "id": 1167,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01014933478660931,
+   "explanations": [
+    "checking conditions"
+   ]
+  },
+  {
+   "id": 299,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0105144679950559,
+   "explanations": [
+    "20 followed by 0",
+    "apostrophe markers in English contractions and possessive forms."
+   ]
+  },
+  {
+   "id": 67,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03672559497015459,
+   "explanations": [
+    "time durations and quantities"
+   ]
+  },
+  {
+   "id": 291,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.081002158315207,
+   "explanations": []
+  },
+  {
+   "id": 2052,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.00873331693039287,
+   "explanations": [
+    "manufacturing and fabrication topics"
+   ]
+  },
+  {
+   "id": 694,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01128985393666255,
+   "explanations": [
+    "battery pack"
+   ]
+  },
+  {
+   "id": 189,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01818651183565579,
+   "explanations": [
+    "names like Einstein and Thorne"
+   ]
+  },
+  {
+   "id": 241,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1790126702444222,
+   "explanations": []
+  },
+  {
+   "id": 475,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.09046024814335227,
+   "explanations": []
+  },
+  {
+   "id": 90,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03030257133328036,
+   "explanations": [
+    "cities states regions"
+   ]
+  },
+  {
+   "id": 1488,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01938989077990338,
+   "explanations": [
+    "they can be prone to"
+   ]
+  },
+  {
+   "id": 996,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01151543111266439,
+   "explanations": []
+  },
+  {
+   "id": 1053,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1369799889877548,
+   "explanations": [
+    "sentence terminators"
+   ]
+  },
+  {
+   "id": 921,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01765901687739065,
+   "explanations": []
+  },
+  {
+   "id": 135,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01423303258386853,
+   "explanations": [
+    "famous people's first names"
+   ]
+  },
+  {
+   "id": 218,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01148525453682532,
+   "explanations": [
+    "that'"
+   ]
+  },
+  {
+   "id": 8467,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.001217403194199725,
+   "explanations": [
+    "solving equations step-by-step"
+   ]
+  },
+  {
+   "id": 201,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04253907964136284,
+   "explanations": [
+    "provider ("
+   ]
+  },
+  {
+   "id": 371,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.005454735952041869,
+   "explanations": [
+    "Donde, Literally"
+   ]
+  },
+  {
+   "id": 13376,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0009522391187337204,
+   "explanations": [
+    "here's a table summarizing differences"
+   ]
+  },
+  {
+   "id": 606,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.07499739207394918,
+   "explanations": [
+    "future and tomorrow"
+   ]
+  },
+  {
+   "id": 28,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.07226028289711486,
+   "explanations": [
+    "Salmani, Kulkarni, Kamado"
+   ]
+  },
+  {
+   "id": 395,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01540315735191206,
+   "explanations": [
+    "musical artists and bands"
+   ]
+  },
+  {
+   "id": 151,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04170484945555049,
+   "explanations": []
+  },
+  {
+   "id": 5624,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1181666297514916,
+   "explanations": [
+    "final, perfect, dark, powerful"
+   ]
+  },
+  {
+   "id": 3816,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.005616192575985637,
+   "explanations": [
+    "asking questions to clarify details"
+   ]
+  },
+  {
+   "id": 194,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.009892618391036322,
+   "explanations": [
+    "model answers"
+   ]
+  },
+  {
+   "id": 485,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.070738644016377,
+   "explanations": []
+  },
+  {
+   "id": 525,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02958102436498251,
+   "explanations": [
+    "company names and products"
+   ]
+  },
+  {
+   "id": 739,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05442081286496066,
+   "explanations": []
+  },
+  {
+   "id": 539,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.08856291567416683,
+   "explanations": [
+    "energy and mystical phenomena"
+   ]
+  },
+  {
+   "id": 203,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0430263584123509,
+   "explanations": []
+  },
+  {
+   "id": 1414,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01570460682777348,
+   "explanations": [
+    "my weights / running on"
+   ]
+  },
+  {
+   "id": 513,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03234984172766357,
+   "explanations": [
+    "addressing user needs or intentions"
+   ]
+  },
+  {
+   "id": 373,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.06613716422746387,
+   "explanations": [
+    "what kind"
+   ]
+  },
+  {
+   "id": 328,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1207958249055569,
+   "explanations": [
+    "this "
+   ]
+  },
+  {
+   "id": 146,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02639015056015121,
+   "explanations": [
+    "difficult times or conditions"
+   ]
+  },
+  {
+   "id": 3866,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.008805247326154895,
+   "explanations": [
+    "let's break down or brainstorm"
+   ]
+  },
+  {
+   "id": 1588,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.003964769615657351,
+   "explanations": [
+    "competition, winning, teams"
+   ]
+  },
+  {
+   "id": 118,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.06092674292311599,
+   "explanations": [
+    "'s contractions"
+   ]
+  },
+  {
+   "id": 14,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.006318570128740809,
+   "explanations": [
+    "dates and months"
+   ]
+  },
+  {
+   "id": 147,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.005942138652035553,
+   "explanations": [
+    "age and youth"
+   ]
+  },
+  {
+   "id": 115,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.07021662197602845,
+   "explanations": []
+  },
+  {
+   "id": 255,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01991383364774221,
+   "explanations": [
+    "SE model numbers"
+   ]
+  },
+  {
+   "id": 396,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03951852917426085,
+   "explanations": []
+  },
+  {
+   "id": 5722,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.001901854742232468,
+   "explanations": [
+    "long term"
+   ]
+  },
+  {
+   "id": 1235,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01460020297474135,
+   "explanations": []
+  },
+  {
+   "id": 297,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0166400130578496,
+   "explanations": [
+    "Dutch and Florida"
+   ]
+  },
+  {
+   "id": 278,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04326654428114501,
+   "explanations": []
+  },
+  {
+   "id": 42,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.08792481040118572,
+   "explanations": [
+    "SAP, networks, of, Die"
+   ]
+  },
+  {
+   "id": 2514,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.003474336251479674,
+   "explanations": [
+    "a particular"
+   ]
+  },
+  {
+   "id": 1001,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02749217128496225,
+   "explanations": []
+  },
+  {
+   "id": 34,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.06446137571166125,
+   "explanations": [
+    "possessives and plurals ending in 's"
+   ]
+  },
+  {
+   "id": 690,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004528052975744183,
+   "explanations": [
+    "Saving or naming files"
+   ]
+  },
+  {
+   "id": 342,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05224738671237785,
+   "explanations": [
+    "descriptions after nouns"
+   ]
+  },
+  {
+   "id": 757,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05179727450781246,
+   "explanations": [
+    "is a hobby or craft"
+   ]
+  },
+  {
+   "id": 98,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.09534337260335891,
+   "explanations": [
+    "Adventure and Campaign actions"
+   ]
+  },
+  {
+   "id": 6945,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004398802487157812,
+   "explanations": [
+    "programming languages"
+   ]
+  },
+  {
+   "id": 323,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02519804966733191,
+   "explanations": []
+  },
+  {
+   "id": 61,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01273452345702268,
+   "explanations": [
+    "numbered lists"
+   ]
+  },
+  {
+   "id": 102,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0814395164852589,
+   "explanations": [
+    "API components"
+   ]
+  },
+  {
+   "id": 208,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05968013688472569,
+   "explanations": []
+  },
+  {
+   "id": 509,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.007693437485476735,
+   "explanations": []
+  },
+  {
+   "id": 358,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01969822005945504,
+   "explanations": []
+  },
+  {
+   "id": 10058,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.001531497751767601,
+   "explanations": [
+    "opening quote or comma"
+   ]
+  },
+  {
+   "id": 2,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03513185898640322,
+   "explanations": [
+    "separators followed by specific names"
+   ]
+  },
+  {
+   "id": 68,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1024570827343201,
+   "explanations": [
+    "counting characteristics"
+   ]
+  },
+  {
+   "id": 213,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01258324167853287,
+   "explanations": [
+    "address and contact information"
+   ]
+  },
+  {
+   "id": 81,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05653791566234437,
+   "explanations": [
+    "well-known descriptive words"
+   ]
+  },
+  {
+   "id": 79,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.007053399336470413,
+   "explanations": [
+    "numerical identifiers and rankings"
+   ]
+  },
+  {
+   "id": 470,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.009381659151501963,
+   "explanations": []
+  },
+  {
+   "id": 287,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1212527756794917,
+   "explanations": []
+  },
+  {
+   "id": 3707,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004763100460313233,
+   "explanations": [
+    "politics and elections"
+   ]
+  },
+  {
+   "id": 652,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03146241289963021,
+   "explanations": [
+    "game or city"
+   ]
+  },
+  {
+   "id": 178,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0787300725630005,
+   "explanations": [
+    "insert these keys"
+   ]
+  },
+  {
+   "id": 5807,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.001094852615790042,
+   "explanations": [
+    "assignment with code blocks"
+   ]
+  },
+  {
+   "id": 2126,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01824894524179609,
+   "explanations": [
+    "extreme computational assessments"
+   ]
+  },
+  {
+   "id": 533,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0312171234717816,
+   "explanations": [
+    "costs and prices"
+   ]
+  },
+  {
+   "id": 75,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04504890252911832,
+   "explanations": [
+    "to + verb"
+   ]
+  },
+  {
+   "id": 8724,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.001484466971950508,
+   "explanations": [
+    "breakdown of why or what"
+   ]
+  },
+  {
+   "id": 368,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04015360099788961,
+   "explanations": []
+  },
+  {
+   "id": 183,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.1003166550289706,
+   "explanations": []
+  },
+  {
+   "id": 9712,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.003747112721590129,
+   "explanations": [
+    "processes and quantifiable achievements"
+   ]
+  },
+  {
+   "id": 141,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.009784065823286716,
+   "explanations": [
+    "names followed by titles or roles"
+   ]
+  },
+  {
+   "id": 87,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.073337380923518,
+   "explanations": [
+    "on a, in linguistics"
+   ]
+  },
+  {
+   "id": 271,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03143118291931163,
+   "explanations": []
+  },
+  {
+   "id": 3281,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.005806734024609552,
+   "explanations": [
+    "allegedly or reportedly"
+   ]
+  },
+  {
+   "id": 479,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.09386982523580789,
+   "explanations": []
+  },
+  {
+   "id": 206,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03079409567431628,
+   "explanations": []
+  },
+  {
+   "id": 277,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05625895702156666,
+   "explanations": []
+  },
+  {
+   "id": 302,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.06319280690586662,
+   "explanations": []
+  },
+  {
+   "id": 497,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01800562960662926,
+   "explanations": []
+  },
+  {
+   "id": 476,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03985909056803228,
+   "explanations": []
+  },
+  {
+   "id": 305,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01181101904172196,
+   "explanations": [
+    "numbers and estimates"
+   ]
+  },
+  {
+   "id": 294,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.006831455914505537,
+   "explanations": [
+    "names of people and authors"
+   ]
+  },
+  {
+   "id": 355,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02938083415021556,
+   "explanations": [
+    "job search"
+   ]
+  },
+  {
+   "id": 21,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04975859123093838,
+   "explanations": [
+    "location and confinement"
+   ]
+  },
+  {
+   "id": 5924,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.001812798682694858,
+   "explanations": [
+    "time investment and scheduling"
+   ]
+  },
+  {
+   "id": 53,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.06718377509806714,
+   "explanations": [
+    "quoted numbers or entities"
+   ]
+  },
+  {
+   "id": 47,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02465827722908236,
+   "explanations": [
+    "time periods and durations"
+   ]
+  },
+  {
+   "id": 943,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.009018337494205362,
+   "explanations": [
+    "programming loops and increments"
+   ]
+  },
+  {
+   "id": 312,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02804445814823169,
+   "explanations": [
+    "people and their actions"
+   ]
+  },
+  {
+   "id": 1886,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.00408466523958165,
+   "explanations": [
+    "death or mortality"
+   ]
+  },
+  {
+   "id": 324,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.0324752855094556,
+   "explanations": []
+  },
+  {
+   "id": 4063,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004267463647037542,
+   "explanations": [
+    "political bodies and language"
+   ]
+  },
+  {
+   "id": 4959,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004587908950848775,
+   "explanations": [
+    "natural disasters and weather forecasting"
+   ]
+  },
+  {
+   "id": 250,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05069446127312979,
+   "explanations": []
+  },
+  {
+   "id": 651,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02066724651558716,
+   "explanations": [
+    "failure and errors"
+   ]
+  },
+  {
+   "id": 1038,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01140207652960107,
+   "explanations": [
+    "price trends and changes"
+   ]
+  },
+  {
+   "id": 387,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04265562243832927,
+   "explanations": [
+    "ASOS"
+   ]
+  },
+  {
+   "id": 977,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004947525506471806,
+   "explanations": [
+    "Privacy and confidentiality"
+   ]
+  },
+  {
+   "id": 486,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01806003873973105,
+   "explanations": []
+  },
+  {
+   "id": 465,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01509220096680373,
+   "explanations": [
+    "book titles and story themes"
+   ]
+  },
+  {
+   "id": 4002,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.02714856234038542,
+   "explanations": [
+    "female terms"
+   ]
+  },
+  {
+   "id": 1236,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.01040917623973502,
+   "explanations": [
+    "formatting markers and symbols"
+   ]
+  },
+  {
+   "id": 6849,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.004176391734316777,
+   "explanations": [
+    "programming, football, transactions, Jesus"
+   ]
+  },
+  {
+   "id": 310,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05417250665094337,
+   "explanations": []
+  },
+  {
+   "id": 337,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.03654716657390317,
+   "explanations": [
+    "harmful or unsettling topics"
+   ]
+  },
+  {
+   "id": 624,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04953503737679333,
+   "explanations": [
+    "not share publicly"
+   ]
+  },
+  {
+   "id": 425,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.04531656451710249,
+   "explanations": [
+    "different types of sleep"
+   ]
+  },
+  {
+   "id": 284,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.008235598812687987,
+   "explanations": [
+    "street names and locations"
+   ]
+  },
+  {
+   "id": 161,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.07221681582541896,
+   "explanations": [
+    "commercial enterprises"
+   ]
+  },
+  {
+   "id": 329,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.05062638403508869,
+   "explanations": [
+    "translation"
+   ]
+  },
+  {
+   "id": 268,
+   "found": true,
+   "sae_id": "layer_13_width_16k_l0_medium",
+   "frac_nonzero": 0.07230735860866294,
+   "explanations": []
+  }
+ ]
+}

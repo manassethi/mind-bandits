@@ -1,0 +1,1205 @@
+{
+ "rep": "g12b_sae_L41",
+ "model": "gemma-3-12b",
+ "source": "41-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 377,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003989597438431826,
+   "explanations": [
+    "code and URLs",
+    "URLs and code"
+   ]
+  },
+  {
+   "id": 813,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00942690125764208,
+   "explanations": [
+    "sports",
+    "sports"
+   ]
+  },
+  {
+   "id": 780,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00820283053519815,
+   "explanations": []
+  },
+  {
+   "id": 4776,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002964229671643586,
+   "explanations": [
+    "football",
+    "football"
+   ]
+  },
+  {
+   "id": 486,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.08027234940604332,
+   "explanations": []
+  },
+  {
+   "id": 3207,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003724508521667887,
+   "explanations": [
+    "baseball",
+    "baseball"
+   ]
+  },
+  {
+   "id": 263,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.03746651569202188,
+   "explanations": [
+    "local government",
+    "government levels"
+   ]
+  },
+  {
+   "id": 2047,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001543036175823743,
+   "explanations": [
+    "weather forecast",
+    "forecast"
+   ]
+  },
+  {
+   "id": 469,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02976220409083036,
+   "explanations": []
+  },
+  {
+   "id": 1876,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.006534428755686382,
+   "explanations": [
+    "body and description",
+    "Actions and qualities"
+   ]
+  },
+  {
+   "id": 10874,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0009385873145623172,
+   "explanations": [
+    "MMA",
+    "fighting sports"
+   ]
+  },
+  {
+   "id": 756,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01999264088769326,
+   "explanations": []
+  },
+  {
+   "id": 525,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.008446167233252188,
+   "explanations": [
+    "disasters",
+    "Disasters"
+   ]
+  },
+  {
+   "id": 2244,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002054464227483136,
+   "explanations": [
+    "acquiring talent",
+    "acquire trade signings"
+   ]
+  },
+  {
+   "id": 10714,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001411213582862464,
+   "explanations": [
+    "bowls and football",
+    "bowls and football"
+   ]
+  },
+  {
+   "id": 371,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0161044891101982,
+   "explanations": [
+    "athletic actions",
+    "athletic performance"
+   ]
+  },
+  {
+   "id": 5686,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.004921544365181428,
+   "explanations": [
+    "methods and techniques",
+    "is"
+   ]
+  },
+  {
+   "id": 1223,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.007716835862307708,
+   "explanations": [
+    "elections and voting",
+    "elections and voting"
+   ]
+  },
+  {
+   "id": 922,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002778198717165675,
+   "explanations": [
+    "sports teams",
+    "the"
+   ]
+  },
+  {
+   "id": 1275,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01222812123527842,
+   "explanations": [
+    "Here",
+    "Here"
+   ]
+  },
+  {
+   "id": 54,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0202065948333028,
+   "explanations": [
+    "outperform others",
+    "outperform"
+   ]
+  },
+  {
+   "id": 2037,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.005121541750439818,
+   "explanations": [
+    "legislative",
+    "lawmakers and government"
+   ]
+  },
+  {
+   "id": 10922,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0007697635486439451,
+   "explanations": [
+    "professional sports",
+    "basketball players"
+   ]
+  },
+  {
+   "id": 670,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.009883875564244719,
+   "explanations": [
+    "sports or games",
+    "competition and fighting"
+   ]
+  },
+  {
+   "id": 12245,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001088738825749162,
+   "explanations": [
+    "model",
+    "model"
+   ]
+  },
+  {
+   "id": 5059,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.008679667186526182,
+   "explanations": [
+    "California",
+    "California"
+   ]
+  },
+  {
+   "id": 245,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.06824835458856826,
+   "explanations": []
+  },
+  {
+   "id": 4721,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002202077220084022,
+   "explanations": [
+    "security indicators",
+    "security intelligence"
+   ]
+  },
+  {
+   "id": 544,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.1758908416550719,
+   "explanations": [
+    "asking questions",
+    "specific subjects"
+   ]
+  },
+  {
+   "id": 4365,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.005581057507845901,
+   "explanations": [
+    "Florida places",
+    "Florida locations"
+   ]
+  },
+  {
+   "id": 414,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.006286778335447572,
+   "explanations": [
+    "foreign language",
+    "foreign words"
+   ]
+  },
+  {
+   "id": 7465,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001810295595287379,
+   "explanations": [
+    "emotive",
+    "skating"
+   ]
+  },
+  {
+   "id": 369,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01981436986536078,
+   "explanations": []
+  },
+  {
+   "id": 5721,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002813373406322708,
+   "explanations": [
+    "Michigan places",
+    "Michigan cities"
+   ]
+  },
+  {
+   "id": 1555,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.008769398692645643,
+   "explanations": [
+    "dog",
+    "dogs"
+   ]
+  },
+  {
+   "id": 224,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01989213254219344,
+   "explanations": []
+  },
+  {
+   "id": 978,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.006806429428377218,
+   "explanations": [
+    "famous people",
+    "Public figures"
+   ]
+  },
+  {
+   "id": 339,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.1005620306105572,
+   "explanations": []
+  },
+  {
+   "id": 599,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.009947171723332841,
+   "explanations": [
+    "president",
+    "President"
+   ]
+  },
+  {
+   "id": 7229,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.005730501419681932,
+   "explanations": [
+    "New York City",
+    "New York City"
+   ]
+  },
+  {
+   "id": 5788,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00368003728272411,
+   "explanations": [
+    "golf",
+    "golf"
+   ]
+  },
+  {
+   "id": 15592,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0008187780194106976,
+   "explanations": [
+    "investigations legal matters",
+    "US investigations"
+   ]
+  },
+  {
+   "id": 6394,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003394156700336353,
+   "explanations": [
+    "Boston",
+    "Boston"
+   ]
+  },
+  {
+   "id": 16361,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.004711868004354577,
+   "explanations": [
+    "Texas",
+    "Texas"
+   ]
+  },
+  {
+   "id": 300,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003991620656585684,
+   "explanations": [
+    "list markers",
+    "formatting characters"
+   ]
+  },
+  {
+   "id": 2262,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0088468307346178,
+   "explanations": []
+  },
+  {
+   "id": 1334,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02236934677750459,
+   "explanations": []
+  },
+  {
+   "id": 950,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01280339084419179,
+   "explanations": [
+    "school",
+    "school"
+   ]
+  },
+  {
+   "id": 8852,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00170292650559139,
+   "explanations": [
+    "injury",
+    "injury/injuries"
+   ]
+  },
+  {
+   "id": 4079,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002633448029046354,
+   "explanations": [
+    "fundraising, donors",
+    "donations and campaigns"
+   ]
+  },
+  {
+   "id": 571,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01193816411968243,
+   "explanations": [
+    "market economics",
+    "financial markets"
+   ]
+  },
+  {
+   "id": 713,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02425705921931786,
+   "explanations": [
+    "food",
+    "food"
+   ]
+  },
+  {
+   "id": 2315,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01051141587778231,
+   "explanations": [
+    "driving and traffic",
+    "driving"
+   ]
+  },
+  {
+   "id": 3107,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001828876250623524,
+   "explanations": [
+    "destruction",
+    "destruction"
+   ]
+  },
+  {
+   "id": 1490,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.007276344768217229,
+   "explanations": []
+  },
+  {
+   "id": 13840,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002144309464373907,
+   "explanations": [
+    "Minnesota locations",
+    "Minnesota locations"
+   ]
+  },
+  {
+   "id": 1186,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00894206012177554,
+   "explanations": [
+    "food establishments",
+    "food and restaurants"
+   ]
+  },
+  {
+   "id": 8422,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001491362914292345,
+   "explanations": [
+    "Pittsburgh Pennsylvania",
+    "Pittsburgh"
+   ]
+  },
+  {
+   "id": 65,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.04389927080616302,
+   "explanations": []
+  },
+  {
+   "id": 11137,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0008985713567223947,
+   "explanations": [
+    "categories classifications",
+    "classifications"
+   ]
+  },
+  {
+   "id": 2658,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003670637512525794,
+   "explanations": [
+    "Chicago Illinois",
+    "Chicago, Illinois"
+   ]
+  },
+  {
+   "id": 1342,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.009554587369450621,
+   "explanations": []
+  },
+  {
+   "id": 4326,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00122712559243364,
+   "explanations": [
+    "tonight's news",
+    "news broadcasts"
+   ]
+  },
+  {
+   "id": 10444,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001161367218586306,
+   "explanations": [
+    "quarterback QB",
+    "quarterbacks QB"
+   ]
+  },
+  {
+   "id": 796,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01734971274692996,
+   "explanations": []
+  },
+  {
+   "id": 6715,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001383475998411313,
+   "explanations": [
+    "Cleveland Ohio",
+    "Cleveland Ohio"
+   ]
+  },
+  {
+   "id": 782,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003245924607776558,
+   "explanations": [
+    "school sports teams",
+    "sports teams"
+   ]
+  },
+  {
+   "id": 8384,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002188063130707483,
+   "explanations": [
+    "Louisiana places",
+    "Louisiana"
+   ]
+  },
+  {
+   "id": 1277,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.007816773481058279,
+   "explanations": [
+    "tournaments/competitions",
+    "competitions"
+   ]
+  },
+  {
+   "id": 11013,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00207394004573741,
+   "explanations": [
+    "Kentucky",
+    "Kentucky"
+   ]
+  },
+  {
+   "id": 61,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.06808020092519321,
+   "explanations": []
+  },
+  {
+   "id": 6502,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001627900485304919,
+   "explanations": [
+    "fantasy",
+    "safe"
+   ]
+  },
+  {
+   "id": 15637,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001733457771472425,
+   "explanations": [
+    "celebrity gossip",
+    "celebrity gossip"
+   ]
+  },
+  {
+   "id": 415,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02753748667493441,
+   "explanations": []
+  },
+  {
+   "id": 505,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0277869213380002,
+   "explanations": []
+  },
+  {
+   "id": 320,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01705551580900786,
+   "explanations": [
+    "housing concepts and features",
+    "housing"
+   ]
+  },
+  {
+   "id": 16367,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002538624005995004,
+   "explanations": [
+    "North Carolina places",
+    "North Carolina places"
+   ]
+  },
+  {
+   "id": 789,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01183839613008364,
+   "explanations": [
+    "lawsuits",
+    "legal proceedings"
+   ]
+  },
+  {
+   "id": 9407,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002381220231205825,
+   "explanations": [
+    "Philadelphia and PA",
+    "Philadelphia PG"
+   ]
+  },
+  {
+   "id": 10946,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0008193906676748272,
+   "explanations": [
+    "sports and games",
+    "Professional events"
+   ]
+  },
+  {
+   "id": 6404,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001226370244944502,
+   "explanations": [
+    "tackling sports",
+    "tackle or sack"
+   ]
+  },
+  {
+   "id": 10472,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001014162392263332,
+   "explanations": [
+    "AI model setup",
+    "city names"
+   ]
+  },
+  {
+   "id": 3578,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002883650701424863,
+   "explanations": []
+  },
+  {
+   "id": 3674,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.005904445634052224,
+   "explanations": [
+    "airlines or airports",
+    "airline/airport"
+   ]
+  },
+  {
+   "id": 2739,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.004122673565270778,
+   "explanations": [
+    "Washington DC",
+    "Washington DC"
+   ]
+  },
+  {
+   "id": 3261,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01166150933726369,
+   "explanations": [
+    "Christmas",
+    "Christmas"
+   ]
+  },
+  {
+   "id": 14232,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002588084264400466,
+   "explanations": [
+    "Markdown",
+    "Markdown format"
+   ]
+  },
+  {
+   "id": 84,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02095111533125875,
+   "explanations": [
+    "say \"ed\" ending",
+    "past tense verbs"
+   ]
+  },
+  {
+   "id": 1181,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01362582158181772,
+   "explanations": [
+    "city names",
+    "city names"
+   ]
+  },
+  {
+   "id": 7472,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.07894169480718405,
+   "explanations": [
+    "ellipsis",
+    "continuation or abstraction"
+   ]
+  },
+  {
+   "id": 13696,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001475924099876668,
+   "explanations": [
+    "sexual trauma",
+    "sexual assault survivors"
+   ]
+  },
+  {
+   "id": 424,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01534619802318325,
+   "explanations": []
+  },
+  {
+   "id": 7995,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002774490732815824,
+   "explanations": [
+    "en",
+    "New Jersey"
+   ]
+  },
+  {
+   "id": 10599,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001179280302901306,
+   "explanations": [
+    "#!/",
+    "rush"
+   ]
+  },
+  {
+   "id": 10881,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00972172530533243,
+   "explanations": [
+    "slang or informal",
+    "slang"
+   ]
+  },
+  {
+   "id": 446,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.03796946765584215,
+   "explanations": []
+  },
+  {
+   "id": 11268,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002094558816218724,
+   "explanations": [
+    "Ohio Cincinnati OH",
+    "Ohio"
+   ]
+  },
+  {
+   "id": 425,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0122077117761466,
+   "explanations": [
+    "numbers",
+    "text generation outputs"
+   ]
+  },
+  {
+   "id": 15602,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001087891520972389,
+   "explanations": [
+    "specific names and setup",
+    "Madison or setup"
+   ]
+  },
+  {
+   "id": 15949,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00268629307763613,
+   "explanations": [
+    "place names",
+    "Colorado places"
+   ]
+  },
+  {
+   "id": 194,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0146942645045409,
+   "explanations": [
+    "the",
+    "the"
+   ]
+  },
+  {
+   "id": 524,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0818754830736738,
+   "explanations": [
+    "types or categories",
+    "Tyes of situations"
+   ]
+  },
+  {
+   "id": 403,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.03574818349486168,
+   "explanations": []
+  },
+  {
+   "id": 413,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.04677342591968917,
+   "explanations": []
+  },
+  {
+   "id": 294,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.07914696592233739,
+   "explanations": []
+  },
+  {
+   "id": 7044,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.003424015742506443,
+   "explanations": [
+    "places",
+    "say \"places\""
+   ]
+  },
+  {
+   "id": 12396,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.0006701866873834862,
+   "explanations": [
+    "weather conditions",
+    "weather conditions"
+   ]
+  },
+  {
+   "id": 10772,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001426682858077333,
+   "explanations": [
+    "sports media",
+    "sports and ESPN"
+   ]
+  },
+  {
+   "id": 538,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02162392480116221,
+   "explanations": [
+    "cooking",
+    "cooking measurements"
+   ]
+  },
+  {
+   "id": 8025,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002389366371295751,
+   "explanations": [
+    "SF",
+    "SF"
+   ]
+  },
+  {
+   "id": 2373,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.008464810018836307,
+   "explanations": []
+  },
+  {
+   "id": 9300,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002180625914621421,
+   "explanations": [
+    "Racing",
+    "racing"
+   ]
+  },
+  {
+   "id": 521,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.01812056492906352,
+   "explanations": [
+    "food or meals",
+    "food meals"
+   ]
+  },
+  {
+   "id": 7339,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001679217481996687,
+   "explanations": [
+    "group",
+    "sports matchups"
+   ]
+  },
+  {
+   "id": 13094,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001489872160660534,
+   "explanations": [
+    "Wisconsin places",
+    "Wisconsin"
+   ]
+  },
+  {
+   "id": 7217,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002492447019336577,
+   "explanations": [
+    "Italian",
+    "roads"
+   ]
+  },
+  {
+   "id": 3158,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.002284417166534548,
+   "explanations": [
+    "recruiting",
+    "recruiting prospects"
+   ]
+  },
+  {
+   "id": 7622,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001244739656544772,
+   "explanations": [
+    "sports positions",
+    "sports positions"
+   ]
+  },
+  {
+   "id": 1930,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.004027276355987904,
+   "explanations": [
+    "victory",
+    "victory"
+   ]
+  },
+  {
+   "id": 13305,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001354912613809264,
+   "explanations": [
+    "Soccer MLS",
+    "Soccer"
+   ]
+  },
+  {
+   "id": 15372,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001557491256339641,
+   "explanations": [
+    "tennis",
+    "tennis"
+   ]
+  },
+  {
+   "id": 12699,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.00179896012774874,
+   "explanations": [
+    "Dallas Texas",
+    "Dallas, Texas"
+   ]
+  },
+  {
+   "id": 308,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.03328000640994214,
+   "explanations": [
+    "early adopters",
+    "early adopters"
+   ]
+  },
+  {
+   "id": 11304,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.001873328483722042,
+   "explanations": [
+    "Arizona, Phoenix",
+    "Arizona or Phoenix"
+   ]
+  },
+  {
+   "id": 1390,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.005352670537653891,
+   "explanations": []
+  },
+  {
+   "id": 124,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.02527700548880126,
+   "explanations": [
+    "places and regions"
+   ]
+  },
+  {
+   "id": 417,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.09766528379527231,
+   "explanations": []
+  },
+  {
+   "id": 183,
+   "found": true,
+   "sae_id": "layer_41_width_16k_l0_medium",
+   "frac_nonzero": 0.05591639019395486,
+   "explanations": []
+  }
+ ]
+}

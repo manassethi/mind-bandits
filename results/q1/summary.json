@@ -1,0 +1,1559 @@
+{
+  "K2": {
+    "K": 2,
+    "T": 100000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.04372053340387841,
+      0.009296549592045747
+    ],
+    "personalized_oracle_ctr": [
+      0.04737556331480543,
+      0.009089695086168107
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K2",
+        "variant": "ab_frac_0.02",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          39.36879324416319,
+          29.15835664340413
+        ],
+        "ctr": [
+          0.04332684547201886,
+          0.009217230291938149
+        ],
+        "best_share_final_window": [
+          0.9333333333333333,
+          0.09473617332313175
+        ],
+        "regret_minus_thompson": [
+          20.1697146735775,
+          24.428245604337604
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.9333333333333333
+      },
+      "A/B test (power analysis)": {
+        "condition": "K2",
+        "variant": "ab_power_mde_0.5",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          94.93269618451595,
+          58.99652305440335
+        ],
+        "ctr": [
+          0.04277120644202917,
+          0.009197775897630083
+        ],
+        "best_share_final_window": [
+          0.9333333333333333,
+          0.09473617332313176
+        ],
+        "regret_minus_thompson": [
+          75.73361761393025,
+          58.206465210350004
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.9333333333333333
+      },
+      "\u03b5-greedy": {
+        "condition": "K2",
+        "variant": "egreedy_0.01",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          101.39155103542531,
+          72.82393286527686
+        ],
+        "ctr": [
+          0.04270661788945952,
+          0.0093948791524792
+        ],
+        "best_share_final_window": [
+          0.8901196418667301,
+          0.11001702244618106
+        ],
+        "regret_minus_thompson": [
+          82.19247246483961,
+          71.85197441927825
+        ]
+      },
+      "UCB1": {
+        "condition": "K2",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          10.217959588890274,
+          4.0456085424725625
+        ],
+        "ctr": [
+          0.04361835380757604,
+          0.009309948947778751
+        ],
+        "best_share_final_window": [
+          0.9710926234054351,
+          0.03715217554952095
+        ],
+        "regret_minus_thompson": [
+          -8.981118981695424,
+          7.135044901421318
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K2",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          19.199078570585698,
+          8.729717365880122
+        ],
+        "ctr": [
+          0.043528542617388116,
+          0.009285386145951202
+        ],
+        "best_share_final_window": [
+          0.989612550511053,
+          0.014237607664296941
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K2",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          20.888994908457,
+          5.082326199632261
+        ],
+        "ctr": [
+          0.04351164345396989,
+          0.009292811183502635
+        ],
+        "best_share_final_window": [
+          0.9652753347595276,
+          0.029197794536628685
+        ],
+        "regret_minus_thompson": [
+          1.6899163378713031,
+          6.528480420055932
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K2",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        1218.184680875577,
+        450.85032034976354
+      ],
+      "ctr": [
+        0.03153868662402286,
+        0.005670671899435979
+      ],
+      "best_share_final_window": [
+        0.4999746454322162,
+        0.0012085475718499603
+      ],
+      "regret_minus_thompson": [
+        1198.9856023049913,
+        452.5211467348656
+      ]
+    }
+  },
+  "K5": {
+    "K": 5,
+    "T": 100000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.05092025275031726,
+      0.010120729292009573
+    ],
+    "personalized_oracle_ctr": [
+      0.06230701437840859,
+      0.010130360261242722
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K5",
+        "variant": "ab_frac_0.02",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          103.72458806882302,
+          64.03693734118117
+        ],
+        "ctr": [
+          0.04988300686764221,
+          0.010180759061636537
+        ],
+        "best_share_final_window": [
+          0.8333333333333334,
+          0.14153923086833606
+        ],
+        "regret_minus_thompson": [
+          38.15871714490155,
+          63.36011596680161
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.8333333333333334
+      },
+      "A/B test (power analysis)": {
+        "condition": "K5",
+        "variant": "ab_power_mde_0.5",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          341.358638273521,
+          54.122919647324885
+        ],
+        "ctr": [
+          0.04750666635812275,
+          0.009812652219253003
+        ],
+        "best_share_final_window": [
+          0.8666666666666667,
+          0.12910364217880807
+        ],
+        "regret_minus_thompson": [
+          275.79276734959956,
+          59.71281826560858
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.8666666666666667
+      },
+      "\u03b5-greedy": {
+        "condition": "K5",
+        "variant": "egreedy_decay_100.0",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          147.21487464420497,
+          76.13254492158751
+        ],
+        "ctr": [
+          0.049448104000232654,
+          0.009981476412707574
+        ],
+        "best_share_final_window": [
+          0.7966167498613423,
+          0.15106736437229612
+        ],
+        "regret_minus_thompson": [
+          81.6490037202835,
+          78.02051079174927
+        ]
+      },
+      "UCB1": {
+        "condition": "K5",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          43.200470828606434,
+          12.36463345771801
+        ],
+        "ctr": [
+          0.05048824804192626,
+          0.010174846816149453
+        ],
+        "best_share_final_window": [
+          0.9232010141827112,
+          0.0939637556000066
+        ],
+        "regret_minus_thompson": [
+          -22.365400095315028,
+          11.590763480264958
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K5",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          65.56587092392147,
+          9.23856063239377
+        ],
+        "ctr": [
+          0.0502645940402588,
+          0.010148523572253185
+        ],
+        "best_share_final_window": [
+          0.9245051897630933,
+          0.07430856191861028
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K5",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          94.2647522204866,
+          10.895709385180707
+        ],
+        "ctr": [
+          0.04997760522672877,
+          0.010149207110659137
+        ],
+        "best_share_final_window": [
+          0.9085967831392124,
+          0.06023524116044896
+        ],
+        "regret_minus_thompson": [
+          28.698881296565137,
+          9.0784525244031
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K5",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        2371.853168894661,
+        743.2621519605751
+      ],
+      "ctr": [
+        0.027201720961241516,
+        0.0033437484090766633
+      ],
+      "best_share_final_window": [
+        0.20045004357816337,
+        0.0008941297509945772
+      ],
+      "regret_minus_thompson": [
+        2306.2872979707395,
+        746.8242588548836
+      ]
+    }
+  },
+  "K10": {
+    "K": 10,
+    "T": 100000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.08617736039062342,
+      0.022727566779195258
+    ],
+    "personalized_oracle_ctr": [
+      0.1058755366752545,
+      0.020901028672291454
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K10",
+        "variant": "ab_frac_0.05",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          378.61396378527087,
+          121.1629875498504
+        ],
+        "ctr": [
+          0.08239122075156773,
+          0.022017459817452966
+        ],
+        "best_share_final_window": [
+          0.8,
+          0.1519158440182253
+        ],
+        "regret_minus_thompson": [
+          251.07134597171097,
+          123.65561395721244
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.8
+      },
+      "A/B test (power analysis)": {
+        "condition": "K10",
+        "variant": "ab_power_mde_0.5",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          1202.5519643589855,
+          273.14833167285065
+        ],
+        "ctr": [
+          0.07415184073234923,
+          0.02026865131267721
+        ],
+        "best_share_final_window": [
+          0.9333333333333333,
+          0.09473617332313176
+        ],
+        "regret_minus_thompson": [
+          1075.0093465454256,
+          281.3854564406577
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.9333333333333333
+      },
+      "\u03b5-greedy": {
+        "condition": "K10",
+        "variant": "egreedy_decay_10.0",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          426.38458310955514,
+          227.0171076792843
+        ],
+        "ctr": [
+          0.08191351455877047,
+          0.02328614428210679
+        ],
+        "best_share_final_window": [
+          0.7329958006497107,
+          0.16755079819286203
+        ],
+        "regret_minus_thompson": [
+          298.8419652959953,
+          228.10291953388355
+        ]
+      },
+      "UCB1": {
+        "condition": "K10",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          66.07432041702171,
+          23.112453150372698
+        ],
+        "ctr": [
+          0.0855166171852022,
+          0.022827438023169087
+        ],
+        "best_share_final_window": [
+          0.9635924253228746,
+          0.06800466837400362
+        ],
+        "regret_minus_thompson": [
+          -61.468297396538155,
+          22.321573596576926
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K10",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          127.54261781355987,
+          12.052115408099029
+        ],
+        "ctr": [
+          0.08490193421005837,
+          0.022788618279764188
+        ],
+        "best_share_final_window": [
+          0.9633119404167657,
+          0.0336508111883905
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K10",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          186.7996010304739,
+          15.439315446885306
+        ],
+        "ctr": [
+          0.08430936437860233,
+          0.02278317865293327
+        ],
+        "best_share_final_window": [
+          0.9064717534268283,
+          0.05851051453541187
+        ],
+        "regret_minus_thompson": [
+          59.25698321691404,
+          14.426834066099367
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K10",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        5480.334119398147,
+        2001.267677124646
+      ],
+      "ctr": [
+        0.031374019171834376,
+        0.003519794706806816
+      ],
+      "best_share_final_window": [
+        0.10036922589335234,
+        0.0008008683337306099
+      ],
+      "regret_minus_thompson": [
+        5352.791501584587,
+        2007.8596876956942
+      ]
+    }
+  },
+  "K20": {
+    "K": 20,
+    "T": 100000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.09360777437686921,
+      0.016383540171398536
+    ],
+    "personalized_oracle_ctr": [
+      0.12125704834858576,
+      0.01443600970620188
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K20",
+        "variant": "ab_frac_0.05",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          738.8205915223807,
+          370.3253061810647
+        ],
+        "ctr": [
+          0.08621956839588044,
+          0.017063833776926617
+        ],
+        "best_share_final_window": [
+          0.7333333333333333,
+          0.16794928477287
+        ],
+        "regret_minus_thompson": [
+          473.6598339268938,
+          372.5064985497492
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.7333333333333333
+      },
+      "A/B test (power analysis)": {
+        "condition": "K20",
+        "variant": "ab_power_mde_0.5",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          3326.5124845133473,
+          546.8115363125848
+        ],
+        "ctr": [
+          0.060342649472136176,
+          0.011309992644586288
+        ],
+        "best_share_final_window": [
+          0.9333333333333333,
+          0.09473617332313176
+        ],
+        "regret_minus_thompson": [
+          3061.3517269178606,
+          558.598832432411
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.9333333333333333
+      },
+      "\u03b5-greedy": {
+        "condition": "K20",
+        "variant": "egreedy_decay_30.0",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          332.53618949173637,
+          94.20104042233098
+        ],
+        "ctr": [
+          0.09028241247629418,
+          0.016135133488630705
+        ],
+        "best_share_final_window": [
+          0.894407733143174,
+          0.11318492965916764
+        ],
+        "regret_minus_thompson": [
+          67.37543189624945,
+          102.90882827005099
+        ]
+      },
+      "UCB1": {
+        "condition": "K20",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          132.2653853474806,
+          84.28443021594354
+        ],
+        "ctr": [
+          0.09228512052181477,
+          0.016493620035407025
+        ],
+        "best_share_final_window": [
+          0.9488899453292133,
+          0.07156510489758282
+        ],
+        "regret_minus_thompson": [
+          -132.89537224800637,
+          87.53698339164465
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K20",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          265.1607575954869,
+          23.616057801675797
+        ],
+        "ctr": [
+          0.09095616679711829,
+          0.016483294649982702
+        ],
+        "best_share_final_window": [
+          0.9275033674035337,
+          0.07294640862951925
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K20",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          370.9508934815104,
+          17.979434162978876
+        ],
+        "ctr": [
+          0.08989826543642727,
+          0.016476481266629688
+        ],
+        "best_share_final_window": [
+          0.9345281673401473,
+          0.025940972298662896
+        ],
+        "regret_minus_thompson": [
+          105.79013588602344,
+          22.606968406443798
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K20",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        6515.218381255617,
+        1513.2856226154522
+      ],
+      "ctr": [
+        0.028455590430675273,
+        0.0015958573634154154
+      ],
+      "best_share_final_window": [
+        0.049831233658188735,
+        0.0005720826385810318
+      ],
+      "regret_minus_thompson": [
+        6250.05762366013,
+        1523.5819444139993
+      ]
+    }
+  },
+  "K50": {
+    "K": 50,
+    "T": 100000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.1304461382329464,
+      0.01571786478505258
+    ],
+    "personalized_oracle_ctr": [
+      0.1692044737438361,
+      0.010871525085118365
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K50",
+        "variant": "ab_frac_0.05",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          1727.7161479989688,
+          785.4626375722136
+        ],
+        "ctr": [
+          0.11316897687134335,
+          0.018039545853419783
+        ],
+        "best_share_final_window": [
+          0.6,
+          0.18605815084444607
+        ],
+        "regret_minus_thompson": [
+          1128.0223638236523,
+          788.2004899953896
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.6
+      },
+      "A/B test (power analysis)": {
+        "condition": "K50",
+        "variant": "ab_power_mde_0.2",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          10150.539144376913,
+          1547.8307886414289
+        ],
+        "ctr": [
+          0.028940746797559157,
+          0.0008029108719135483
+        ],
+        "best_share_final_window": [
+          0.01999841533951351,
+          8.51126879605162e-06
+        ],
+        "regret_minus_thompson": [
+          9550.845360201598,
+          1571.431203279986
+        ],
+        "share_committed": 0.0,
+        "committed_correct": 0.0
+      },
+      "\u03b5-greedy": {
+        "condition": "K50",
+        "variant": "egreedy_decay_30.0",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          994.7410268430908,
+          244.97961676675789
+        ],
+        "ctr": [
+          0.12049872796562024,
+          0.015137047381825825
+        ],
+        "best_share_final_window": [
+          0.8522716108073844,
+          0.1269083059054564
+        ],
+        "regret_minus_thompson": [
+          395.04724266777436,
+          254.6571063771675
+        ]
+      },
+      "UCB1": {
+        "condition": "K50",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          138.29054568248492,
+          27.835421280871444
+        ],
+        "ctr": [
+          0.12906323277604811,
+          0.015934601810400472
+        ],
+        "best_share_final_window": [
+          0.9659852626574756,
+          0.0671952846259534
+        ],
+        "regret_minus_thompson": [
+          -461.4032384928316,
+          20.16044052411753
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K50",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          599.6937841753165,
+          27.39965154537208
+        ],
+        "ctr": [
+          0.12444920039334972,
+          0.01595469375833873
+        ],
+        "best_share_final_window": [
+          0.9396846525631883,
+          0.06575854797780122
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K50",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          870.8782611956199,
+          22.67169413794516
+        ],
+        "ctr": [
+          0.12173735561980216,
+          0.01590652050721022
+        ],
+        "best_share_final_window": [
+          0.894604231043499,
+          0.058954614213616925
+        ],
+        "regret_minus_thompson": [
+          271.1844770203034,
+          16.529596713439325
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K50",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        10149.450717560698,
+        1547.3244058131995
+      ],
+      "ctr": [
+        0.028951631065393644,
+        0.0008083647561398
+      ],
+      "best_share_final_window": [
+        0.019914428333729493,
+        0.00032177830729024083
+      ],
+      "regret_minus_thompson": [
+        9549.756933385383,
+        1570.9306132405222
+      ]
+    }
+  },
+  "K10_T1k": {
+    "K": 10,
+    "T": 1000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.08617736039062342,
+      0.022727566779195258
+    ],
+    "personalized_oracle_ctr": [
+      0.1058755366752545,
+      0.020901028672291454
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K10_T1k",
+        "variant": "ab_frac_0.1",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          29.135579958558083,
+          13.781968853079935
+        ],
+        "ctr": [
+          0.057041780289961035,
+          0.019403092641275443
+        ],
+        "best_share_final_window": [
+          0.3,
+          0.1740414636191554
+        ],
+        "regret_minus_thompson": [
+          0.8057911891490221,
+          12.485282999559914
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.3
+      },
+      "A/B test (power analysis)": {
+        "condition": "K10_T1k",
+        "variant": "ab_power_mde_0.2",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          54.831822104752064,
+          20.014575763563162
+        ],
+        "ctr": [
+          0.031345538261812175,
+          0.003511369839858907
+        ],
+        "best_share_final_window": [
+          0.09851190476190474,
+          0.0006086992982537808
+        ],
+        "regret_minus_thompson": [
+          26.502033335343004,
+          17.06560854888739
+        ],
+        "share_committed": 0.0,
+        "committed_correct": 0.0
+      },
+      "\u03b5-greedy": {
+        "condition": "K10_T1k",
+        "variant": "egreedy_0.1",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          25.581851698085664,
+          8.720313930732694
+        ],
+        "ctr": [
+          0.06059550868149381,
+          0.01901546969872233
+        ],
+        "best_share_final_window": [
+          0.39940476190476193,
+          0.16638831973754112
+        ],
+        "regret_minus_thompson": [
+          -2.7479370713233946,
+          7.516706319569802
+        ]
+      },
+      "UCB1": {
+        "condition": "K10_T1k",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          17.43377356485774,
+          3.684173282153041
+        ],
+        "ctr": [
+          0.06874358678501255,
+          0.023819141565673062
+        ],
+        "best_share_final_window": [
+          0.6083333333333333,
+          0.16783285301860892
+        ],
+        "regret_minus_thompson": [
+          -10.89601520455132,
+          5.490983953724134
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K10_T1k",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          28.32978876940906,
+          4.631990856875697
+        ],
+        "ctr": [
+          0.057847571556006255,
+          0.019738850549391354
+        ],
+        "best_share_final_window": [
+          0.4142857142857143,
+          0.11693911720993816
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K10_T1k",
+        "variant": "dthompson_0.9999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          28.733685478878517,
+          4.573507252279804
+        ],
+        "ctr": [
+          0.05744367489144206,
+          0.01914196971452413
+        ],
+        "best_share_final_window": [
+          0.47083333333333327,
+          0.10721404881166777
+        ],
+        "regret_minus_thompson": [
+          0.4038967094694575,
+          1.7857486495076538
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K10_T1k",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        54.70371717158705,
+        19.847900192292993
+      ],
+      "ctr": [
+        0.0314736432023424,
+        0.0036146362760149145
+      ],
+      "best_share_final_window": [
+        0.10059523809523811,
+        0.011413496645672589
+      ],
+      "regret_minus_thompson": [
+        26.373928402177988,
+        16.868195551562184
+      ]
+    }
+  },
+  "K10_T10k": {
+    "K": 10,
+    "T": 10000,
+    "drift": "none",
+    "best_arm_ctr": [
+      0.08617736039062342,
+      0.022727566779195258
+    ],
+    "personalized_oracle_ctr": [
+      0.1058755366752545,
+      0.020901028672291454
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K10_T10k",
+        "variant": "ab_frac_0.2",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          178.8103881229957,
+          55.85250958848799
+        ],
+        "ctr": [
+          0.06829632154867674,
+          0.01991159892262462
+        ],
+        "best_share_final_window": [
+          0.5333333333333333,
+          0.18947234664626353
+        ],
+        "regret_minus_thompson": [
+          99.27345990488926,
+          55.94099085137361
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.5333333333333333
+      },
+      "A/B test (power analysis)": {
+        "condition": "K10_T10k",
+        "variant": "ab_power_mde_0.2",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          548.3182210475206,
+          200.1457576356316
+        ],
+        "ctr": [
+          0.031345538261812175,
+          0.003511369839858907
+        ],
+        "best_share_final_window": [
+          0.09989737274220031,
+          9.89119440911373e-05
+        ],
+        "regret_minus_thompson": [
+          468.7812928294142,
+          201.01452507997791
+        ],
+        "share_committed": 0.0,
+        "committed_correct": 0.0
+      },
+      "\u03b5-greedy": {
+        "condition": "K10_T10k",
+        "variant": "egreedy_decay_30.0",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          90.47677263201525,
+          28.829510514954407
+        ],
+        "ctr": [
+          0.07712968312465042,
+          0.020448581475793568
+        ],
+        "best_share_final_window": [
+          0.7764573070607551,
+          0.14672888601048933
+        ],
+        "regret_minus_thompson": [
+          10.93984441390882,
+          29.974013760203988
+        ]
+      },
+      "UCB1": {
+        "condition": "K10_T10k",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          46.65653343002001,
+          16.108257618420854
+        ],
+        "ctr": [
+          0.08151170704123177,
+          0.0232594267009858
+        ],
+        "best_share_final_window": [
+          0.8553776683087028,
+          0.11110022222626105
+        ],
+        "regret_minus_thompson": [
+          -32.88039478808641,
+          15.818920973453935
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K10_T10k",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          79.53692821810642,
+          5.6775275033366315
+        ],
+        "ctr": [
+          0.0782236675550618,
+          0.02278118622105217
+        ],
+        "best_share_final_window": [
+          0.7713875205254516,
+          0.1081575291508496
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K10_T10k",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          80.18709760022661,
+          4.770043939773587
+        ],
+        "ctr": [
+          0.07815865061166542,
+          0.022815436635464544
+        ],
+        "best_share_final_window": [
+          0.8073070607553366,
+          0.09518147251682182
+        ],
+        "regret_minus_thompson": [
+          0.6501693821201722,
+          5.585455612108353
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K10_T10k",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        547.5240122252454,
+        199.67738358395093
+      ],
+      "ctr": [
+        0.031424959145691246,
+        0.003557895570741213
+      ],
+      "best_share_final_window": [
+        0.09993842364532021,
+        0.0031078832789134905
+      ],
+      "regret_minus_thompson": [
+        467.987084007139,
+        200.545280385261
+      ]
+    }
+  },
+  "K10_abrupt": {
+    "K": 10,
+    "T": 100000,
+    "drift": "abrupt",
+    "best_arm_ctr": [
+      0.08540715711812179,
+      0.027260265286872642
+    ],
+    "personalized_oracle_ctr": [
+      0.10203212723135949,
+      0.025396788571084572
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K10_abrupt",
+        "variant": "ab_frac_0.02",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          3409.8887534067035,
+          1404.3619180874082
+        ],
+        "ctr": [
+          0.05130826950340997,
+          0.013843840446474819
+        ],
+        "best_share_final_window": [
+          0.03333333333333333,
+          0.06817432140442345
+        ],
+        "regret_minus_thompson": [
+          2049.7709246444206,
+          1112.0333072009162
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.6333333333333333
+      },
+      "A/B test (power analysis)": {
+        "condition": "K10_abrupt",
+        "variant": "ab_power_mde_0.5",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          4428.647451009105,
+          1664.379554932407
+        ],
+        "ctr": [
+          0.04112068254690768,
+          0.011407768420985346
+        ],
+        "best_share_final_window": [
+          0.03333333333333333,
+          0.06817432140442345
+        ],
+        "regret_minus_thompson": [
+          3068.529622246822,
+          1368.5775515335863
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.9333333333333333
+      },
+      "\u03b5-greedy": {
+        "condition": "K10_abrupt",
+        "variant": "egreedy_0.05",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          2995.130250518707,
+          1370.2911392633796
+        ],
+        "ctr": [
+          0.05545585456030637,
+          0.013894994149181878
+        ],
+        "best_share_final_window": [
+          0.2381681324776167,
+          0.1295700060185564
+        ],
+        "regret_minus_thompson": [
+          1635.012421756424,
+          1083.4947344021475
+        ]
+      },
+      "UCB1": {
+        "condition": "K10_abrupt",
+        "variant": "ucb1_0.3",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          628.913657827427,
+          201.96016256357808
+        ],
+        "ctr": [
+          0.07911802053438781,
+          0.02566716335230948
+        ],
+        "best_share_final_window": [
+          0.8486760161635369,
+          0.08418817028112498
+        ],
+        "regret_minus_thompson": [
+          -731.2041709348559,
+          260.54580154655747
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K10_abrupt",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          1360.117828762283,
+          366.994887515544
+        ],
+        "ctr": [
+          0.07180597884113198,
+          0.024287402528540558
+        ],
+        "best_share_final_window": [
+          0.7162586165913951,
+          0.14011352872023258
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K10_abrupt",
+        "variant": "dthompson_0.9999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          769.8440475104998,
+          59.40698152525977
+        ],
+        "ctr": [
+          0.07770871663498169,
+          0.026760768571886015
+        ],
+        "best_share_final_window": [
+          0.7228571428571429,
+          0.08698569448665613
+        ],
+        "regret_minus_thompson": [
+          -590.2737812517831,
+          321.9368844371224
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K10_abrupt",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        5679.020238213986,
+        2427.082107714883
+      ],
+      "ctr": [
+        0.02861695468209342,
+        0.0032221007065525924
+      ],
+      "best_share_final_window": [
+        0.10047698280643372,
+        0.0008045611949476115
+      ],
+      "regret_minus_thompson": [
+        4318.9024094517035,
+        2130.4285791508482
+      ]
+    }
+  },
+  "K10_gradual": {
+    "K": 10,
+    "T": 100000,
+    "drift": "gradual",
+    "best_arm_ctr": [
+      0.07480467160542806,
+      0.01601085791332207
+    ],
+    "personalized_oracle_ctr": [
+      0.0961909173677365,
+      0.015059510796182899
+    ],
+    "families": {
+      "A/B test (tuned length)": {
+        "condition": "K10_gradual",
+        "variant": "ab_frac_0.05",
+        "family": "A/B test (tuned length)",
+        "tuned_pick": true,
+        "regret": [
+          1600.5644693057363,
+          396.57490649152675
+        ],
+        "ctr": [
+          0.04765006427052655,
+          0.009634841231383768
+        ],
+        "best_share_final_window": [
+          0.03333333333333333,
+          0.06817432140442345
+        ],
+        "regret_minus_thompson": [
+          958.1738082258962,
+          314.74786215271683
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.6333333333333333
+      },
+      "A/B test (power analysis)": {
+        "condition": "K10_gradual",
+        "variant": "ab_power_mde_0.5",
+        "family": "A/B test (power analysis)",
+        "tuned_pick": true,
+        "regret": [
+          1942.990727471374,
+          536.3356721571466
+        ],
+        "ctr": [
+          0.0442258016920446,
+          0.008185967063579986
+        ],
+        "best_share_final_window": [
+          0.19676412328658585,
+          0.14957063127186052
+        ],
+        "regret_minus_thompson": [
+          1300.6000663915338,
+          403.04082465292544
+        ],
+        "share_committed": 1.0,
+        "committed_correct": 0.7333333333333333
+      },
+      "\u03b5-greedy": {
+        "condition": "K10_gradual",
+        "variant": "egreedy_decay_100.0",
+        "family": "\u03b5-greedy",
+        "tuned_pick": true,
+        "regret": [
+          1176.7978624150778,
+          423.95563625796433
+        ],
+        "ctr": [
+          0.05188773033983385,
+          0.009002264548886151
+        ],
+        "best_share_final_window": [
+          0.19572141668647489,
+          0.14794390712248623
+        ],
+        "regret_minus_thompson": [
+          534.4072013352377,
+          296.893007184628
+        ]
+      },
+      "UCB1": {
+        "condition": "K10_gradual",
+        "variant": "ucb1_0.1",
+        "family": "UCB1",
+        "tuned_pick": true,
+        "regret": [
+          648.5841083913731,
+          270.2544411488994
+        ],
+        "ctr": [
+          0.05716986788162504,
+          0.01014053921720604
+        ],
+        "best_share_final_window": [
+          0.6367530306631803,
+          0.1524944704790155
+        ],
+        "regret_minus_thompson": [
+          6.193447311532994,
+          188.36197942956892
+        ]
+      },
+      "Thompson sampling": {
+        "condition": "K10_gradual",
+        "variant": "thompson",
+        "family": "Thompson sampling",
+        "tuned_pick": true,
+        "regret": [
+          642.3906610798401,
+          191.94828838264323
+        ],
+        "ctr": [
+          0.05723180235485297,
+          0.011082715199764299
+        ],
+        "best_share_final_window": [
+          0.5344061484826876,
+          0.15542659924489838
+        ],
+        "regret_minus_thompson": [
+          0.0,
+          0.0
+        ]
+      },
+      "Discounted Thompson": {
+        "condition": "K10_gradual",
+        "variant": "dthompson_0.99999",
+        "family": "Discounted Thompson",
+        "tuned_pick": true,
+        "regret": [
+          444.0036668572885,
+          66.89526992617957
+        ],
+        "ctr": [
+          0.059215672298142216,
+          0.011891188134923533
+        ],
+        "best_share_final_window": [
+          0.7355724586007448,
+          0.11623009924382002
+        ],
+        "regret_minus_thompson": [
+          -198.38699422255158,
+          152.89803227880313
+        ]
+      }
+    },
+    "uniform": {
+      "condition": "K10_gradual",
+      "variant": "uniform",
+      "family": "uniform",
+      "tuned_pick": false,
+      "regret": [
+        3325.8976672002113,
+        981.7040518659604
+      ],
+      "ctr": [
+        0.030396732312736804,
+        0.0030795263918217304
+      ],
+      "best_share_final_window": [
+        0.0991949924728627,
+        0.0008097704061991244
+      ],
+      "regret_minus_thompson": [
+        2683.5070061203714,
+        850.6905369356516
+      ]
+    }
+  }
+}

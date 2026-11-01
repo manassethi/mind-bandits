@@ -1,0 +1,1215 @@
+{
+ "rep": "g12b_sae_L24",
+ "model": "gemma-3-12b",
+ "source": "24-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 43,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003959818558471325,
+   "explanations": [
+    "This neuron fires on the first word of a new sentence (the initial content token immediately following the sentence start)."
+   ]
+  },
+  {
+   "id": 366,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.07372386890189629,
+   "explanations": [
+    "This neuron strongly responds to subword tokens that begin with uppercase letters (e.g. proper names or sentence-initial capitals)."
+   ]
+  },
+  {
+   "id": 405,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1001253070777559,
+   "explanations": [
+    "ZOTAC",
+    "This neuron detects numeric tokens\u2014especially multi\u2010digit numbers like years or large figures."
+   ]
+  },
+  {
+   "id": 59,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003977468985220231,
+   "explanations": [
+    "** *",
+    "The neuron strongly activates on large whitespace or markup tokens (e.g. runs of blank lines or section\u2010delimiter symbols like \u201c#\u201d)."
+   ]
+  },
+  {
+   "id": 238,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1518951160096694,
+   "explanations": [
+    "The neuron is detecting sentence- and clause-boundary markers, especially the start-of-sentence token and punctuation that signal new segments."
+   ]
+  },
+  {
+   "id": 2297,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1659297545852173,
+   "explanations": [
+    "This neuron activates strongly on the first major content word of each sentence, effectively detecting sentence openings or introductory phrases."
+   ]
+  },
+  {
+   "id": 6096,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.009008631595672428,
+   "explanations": [
+    "sports teams and players",
+    "The neuron strongly activates on mentions of sports teams or franchises\u2019 names."
+   ]
+  },
+  {
+   "id": 11,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1553618575339232,
+   "explanations": [
+    "more, very, extremely",
+    "This neuron primarily activates on auxiliary and modal verbs (e.g. \u201chad,\u201d \u201ccan,\u201d \u201cbe,\u201d \u201cdid\u201d) in text."
+   ]
+  },
+  {
+   "id": 300,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0403961931508289,
+   "explanations": [
+    "The neuron fires on numeric tokens\u2014any standalone numbers or numeric expressions (especially with decimals or measurements)."
+   ]
+  },
+  {
+   "id": 530,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01603361705050611,
+   "explanations": [
+    "Here's the setup",
+    "The neuron fires on tokens conveying quantitative data\u2014numbers, measurements, dates, units, prices, distances, percentages, etc."
+   ]
+  },
+  {
+   "id": 224,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01354460194106046,
+   "explanations": [
+    "The neuron strongly activates on tokens that are unusual named\u2010entity\u2013style strings or technical terms\u2014i.e. all-caps words, acronyms, proper nouns, or similarly formatted tokens (including those with digits)."
+   ]
+  },
+  {
+   "id": 373,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1710212215068917,
+   "explanations": [
+    "The neuron fires on formal, authoritative reporting language\u2014common verbs and adverbs used in legal, scientific, or journalistic statements (e.g. \u201cmaintained,\u201d \u201ccontributes,\u201d \u201cannounced,\u201d \u201cspecifically\u201d)."
+   ]
+  },
+  {
+   "id": 318,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003930476556664429,
+   "explanations": [
+    "command line commands",
+    "The neuron specifically detects the beginning\u2010of\u2010sequence (start\u2010of\u2010sentence) token."
+   ]
+  },
+  {
+   "id": 39,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1505379568402417,
+   "explanations": [
+    "language models and systems",
+    "The neuron strongly activates on technical terms related to architectural site planning and design phases."
+   ]
+  },
+  {
+   "id": 439,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003929691558328169,
+   "explanations": []
+  },
+  {
+   "id": 169,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1577232493648441,
+   "explanations": [
+    "This neuron primarily detects the start\u2010of\u2010sentence marker and the key noun or topic words that follow it."
+   ]
+  },
+  {
+   "id": 725,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.05015162647543223,
+   "explanations": [
+    "section enumerations and examples",
+    "The neuron fires strongly on section headings, titles, and other structural labels (e.g. \u201cCauses,\u201d \u201cStatistics,\u201d \u201cComment guidelines,\u201d \u201cCourse Description,\u201d etc.)."
+   ]
+  },
+  {
+   "id": 168,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.004593667938356928,
+   "explanations": [
+    "citations and publications",
+    "The neuron is primarily detecting the special \u201cbeginning of sequence\u201d token."
+   ]
+  },
+  {
+   "id": 97,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1718138847281518,
+   "explanations": [
+    "The neuron is firing on formal, domain-specific \u201cjargon\u201d and technical vocabulary (e.g. legal, scientific, business, medical, and computing terms) and the start-of-sentence marker."
+   ]
+  },
+  {
+   "id": 9125,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.002051977130599551,
+   "explanations": [
+    "The neuron is tuned to detect decimal numeric values (floating\u2010point numbers) in the text."
+   ]
+  },
+  {
+   "id": 412,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.05487542486038718,
+   "explanations": [
+    "The neuron strongly activates at the beginnings (\u201c<bos>\u201d) and ends (sentence-final punctuation) of sentences, effectively detecting sentence boundaries."
+   ]
+  },
+  {
+   "id": 128,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1841313316106362,
+   "explanations": [
+    "dynamics of",
+    "The neuron strongly activates on substantive, topic-related content words (especially nouns and technical terms) in formal or informational passages."
+   ]
+  },
+  {
+   "id": 380,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01540432500542569,
+   "explanations": [
+    "my programming",
+    "The neuron strongly activates on possessive pronouns (e.g. \u201cmy,\u201d \u201cour,\u201d \u201ctheir,\u201d \u201cits\u201d)\u2014i.e. words marking ownership or perspective."
+   ]
+  },
+  {
+   "id": 494,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.005838257713594122,
+   "explanations": [
+    "names of people",
+    "This neuron detects personal names (proper names of people)."
+   ]
+  },
+  {
+   "id": 271,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1610230145850602,
+   "explanations": [
+    "The neuron activates on numeric tokens, i.e. numbers and quantitative data in the text."
+   ]
+  },
+  {
+   "id": 175,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1808560217778448,
+   "explanations": [
+    "This neuron detects formal, technical or legal/administrative discourse\u2014i.e. the kind of high\u2010register terminology found in research, contract, or judicial texts."
+   ]
+  },
+  {
+   "id": 8,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1692579182838875,
+   "explanations": [
+    "The neuron strongly responds to the start\u2010of\u2010text or sentence boundary marker (i.e. it fires on the very beginning of each segment)."
+   ]
+  },
+  {
+   "id": 497,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.05998698576845259,
+   "explanations": [
+    "The neuron is primarily activated by numeric tokens (especially multi\u2010digit and decimal numbers)."
+   ]
+  },
+  {
+   "id": 426,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1660009256562728,
+   "explanations": [
+    "The neuron is essentially a \u201cstart-of\u2010sequence\u201d detector, firing strongly on the special BOS token."
+   ]
+  },
+  {
+   "id": 109,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1005753152022731,
+   "explanations": [
+    "The neuron fires strongly on the very first token of a new sentence, regardless of its identity."
+   ]
+  },
+  {
+   "id": 465,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1278512815742611,
+   "explanations": [
+    "The neuron fires on action verbs in technical or IT contexts\u2014especially those describing system operations, data handling, access, or configuration steps."
+   ]
+  },
+  {
+   "id": 11481,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.06429917222910907,
+   "explanations": [
+    "The neuron primarily activates on numeric tokens, i.e. digits and number sequences."
+   ]
+  },
+  {
+   "id": 419,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1252022948581835,
+   "explanations": [
+    "This neuron lights up on the main topical or informational keywords (the salient content nouns and verbs) in a passage."
+   ]
+  },
+  {
+   "id": 56,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.07087089269475272,
+   "explanations": [
+    "conditional entropy",
+    "This neuron detects complex chemical compound names, especially systematic biochemical nomenclature with hyphens and numeric prefixes."
+   ]
+  },
+  {
+   "id": 259,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1082476465005074,
+   "explanations": [
+    "The neuron fires on numeric tokens\u2014especially years, dates, quantities, and other large numbers."
+   ]
+  },
+  {
+   "id": 146,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1881334882556143,
+   "explanations": [
+    "This neuron strongly signals the start\u2010of\u2010sequence token, i.e. it detects the <bos> marker."
+   ]
+  },
+  {
+   "id": 103,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1152484089327523,
+   "explanations": [
+    "disclaimersobviousexaggerate",
+    "The neuron fires strongly on words and symbols that are unusually rare or unexpected in normal text (e.g. typos, uncommon names, stray numbers), i.e. it flags out \u201codd\u201d or infrequent tokens.",
+    "word fragments that complete or continue a word, particularly suffixes and word endings.",
+    "descriptions of dynamic motion or progression, especially action verbs paired with directional prepositions indicating movement or change of state."
+   ]
+  },
+  {
+   "id": 189,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1665253928944672,
+   "explanations": [
+    "The neuron flags content\u2010bearing words (nouns, verbs, adjectives, adverbs) and ignores high-frequency function words."
+   ]
+  },
+  {
+   "id": 13708,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.007553924173021565,
+   "explanations": [
+    "missing, separated, innocent, fatalities",
+    "The neuron activates on numeric expressions, especially multi\u2010digit and decimal numbers."
+   ]
+  },
+  {
+   "id": 280,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.05406379791836983,
+   "explanations": [
+    "The neuron is a \u201cfrequency\u201d detector that lights up most strongly on high\u2010frequency English tokens (common function words like \u201cthe,\u201d \u201ca,\u201d etc., as well as other very frequent content words)."
+   ]
+  },
+  {
+   "id": 381,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.09136848607138265,
+   "explanations": [
+    "The neuron fires on tokens expressing explicit quantities or strong emphatic extent (numbers and high-intensity quantifiers like \u201call,\u201d \u201cevery,\u201d \u201cnothing,\u201d \u201cseveral,\u201d etc.)."
+   ]
+  },
+  {
+   "id": 284,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1842832726896301,
+   "explanations": [
+    "The neuron fires strongly at the document- or sentence-start token (i.e. it detects the beginning of an input sequence)."
+   ]
+  },
+  {
+   "id": 9,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.004658000367942834,
+   "explanations": [
+    "The neuron is strongly activated by common Unix shell/programming keywords (e.g. echo, grep, sed, chmod, tail, let, else) and thus detects shell-script or CLI command tokens."
+   ]
+  },
+  {
+   "id": 385,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.09111843475769264,
+   "explanations": [
+    "This neuron fires strongly on the single-word or short-phrase headings of bulleted or enumerated action items (e.g. \u201cHelp,\u201d \u201cActivities,\u201d \u201cOffer,\u201d \u201cAppointments\u201d) that introduce suggestions or instructions."
+   ]
+  },
+  {
+   "id": 9368,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.116951793270873,
+   "explanations": [
+    "The neuron fires on technical error or status\u2010update messages (e.g. \u201cError when running\u2026,\u201d \u201cthe resource is not found,\u201d troubleshooting headings like \u201cAddendum:\u201d and instructions to wait or try again)."
+   ]
+  },
+  {
+   "id": 5008,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01042312150093019,
+   "explanations": [
+    "Tango dancers, shy people, policymakers",
+    "This neuron detects unusually salient or informative tokens\u2014such as numbers, punctuation marks, and rare proper nouns\u2014that stand out in the text."
+   ]
+  },
+  {
+   "id": 344,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1813054114616674,
+   "explanations": [
+    "The neuron\u2019s primary function is to pick out numeric or quantitative tokens (e.g. digits, figures, measurements, dates)."
+   ]
+  },
+  {
+   "id": 7134,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02797094421682144,
+   "explanations": [
+    "The neuron activates on section or article titles and headings (i.e. capitalized title-case phrases) in the document."
+   ]
+  },
+  {
+   "id": 339,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1898464220055703,
+   "explanations": [
+    "The neuron strongly activates on content words inside technical how\u2010and\u2010what questions (e.g. \u201cWhat is\u2026,\u201d \u201chow is\u2026 different from\u2026\u201d) \u2013 in other words it flags interrogative, explanatory question phrases."
+   ]
+  },
+  {
+   "id": 345,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1085656944195776,
+   "explanations": [
+    "This neuron fires on numeric tokens\u2014especially standalone numbers and numerical quantities."
+   ]
+  },
+  {
+   "id": 341,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.009360552437869908,
+   "explanations": [
+    "what I",
+    "The neuron detects interrogative question words or phrases (e.g. what, why, how, are, will) used to form questions."
+   ]
+  },
+  {
+   "id": 12201,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.00760565342912636,
+   "explanations": [
+    "The neuron flags the beginnings of sentences, showing strong activation on the first few tokens of each sentence."
+   ]
+  },
+  {
+   "id": 282,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1173568439233924,
+   "explanations": [
+    "The neuron identifies and highlights strong, context-significant action verbs (especially those describing strategic or political moves) in the text."
+   ]
+  },
+  {
+   "id": 629,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1264025950070039,
+   "explanations": [
+    "The neuron strongly activates on open\u2010class (content) words\u2014especially longer, less frequent nouns, verbs, and adjectives\u2014while ignoring common function words."
+   ]
+  },
+  {
+   "id": 12869,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0008894612037585026,
+   "explanations": [
+    "weather conditions and forecasts"
+   ]
+  },
+  {
+   "id": 640,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0668709846764366,
+   "explanations": [
+    "writing articles",
+    "The neuron is essentially a named\u2010entity spotter\u2014it lights up on proper names of people, organizations, facilities, and other domain\u2010specific \u201centity\u201d nouns."
+   ]
+  },
+  {
+   "id": 399,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.04859981864884862,
+   "explanations": [
+    "The neuron fires on emphatic descriptive adjectives\u2014especially strong quality or promotional adjectives (e.g. \u201cincredible,\u201d \u201csturdy,\u201d \u201cbold,\u201d \u201cdetailed\u201d) that hype or intensify a noun."
+   ]
+  },
+  {
+   "id": 12615,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02847574530899162,
+   "explanations": [
+    "informal colloquial language",
+    "The neuron strongly activates on punctuation marks, numeric tokens, and other non-word delimiters (commas, periods, dashes, numbers, etc.)."
+   ]
+  },
+  {
+   "id": 248,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0974193742312017,
+   "explanations": [
+    "The neuron fires on strong \u201caction\u201d verbs that describe offering, providing, or enabling features and benefits (i.e. marketing-style functional verbs)."
+   ]
+  },
+  {
+   "id": 76,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.03593743469110067,
+   "explanations": [
+    "The neuron strongly activates on capitalized named entities (people, places, organizations) and on the opening quotation mark, i.e. it\u2019s detecting names and quoted speech."
+   ]
+  },
+  {
+   "id": 369,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.116255759958195,
+   "explanations": [
+    "The neuron flags content\u2010bearing words\u2014especially concrete nouns and key verbs\u2014while ignoring function words."
+   ]
+  },
+  {
+   "id": 378,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.06419912344348952,
+   "explanations": [
+    "The neuron fires strongly on principal action verbs (especially participial and third\u2010person singular forms) that carry the main \u201cdoing\u201d content of a sentence."
+   ]
+  },
+  {
+   "id": 209,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01597095181033769,
+   "explanations": [
+    "comma followed by two",
+    "The neuron is keyed to mentions of global business/market contexts\u2014tokens like \u201cmarket,\u201d \u201cglobal,\u201d \u201cabroad,\u201d and \u201cNew York\u201d where international expansion or market size is discussed."
+   ]
+  },
+  {
+   "id": 478,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.004680406911528331,
+   "explanations": []
+  },
+  {
+   "id": 7,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.005855623871986525,
+   "explanations": [
+    "place names and locations"
+   ]
+  },
+  {
+   "id": 307,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.004384722228004112,
+   "explanations": [
+    "book titles and authors",
+    "The neuron fires on tokens that are part of bibliographic headings or titles (e.g. title words and their separating punctuation like colons)."
+   ]
+  },
+  {
+   "id": 506,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.09218357861547706,
+   "explanations": [
+    "This neuron fires on first-person self-references and personal-action words, marking passages where the writer describes their own experience."
+   ]
+  },
+  {
+   "id": 94,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.104644516948838,
+   "explanations": [
+    "phenomenon phenomenon phenomenon",
+    "The neuron strongly fires on named entities and technical terms\u2014proper nouns, acronyms, and specialized product or concept names.",
+    "document beginnings"
+   ]
+  },
+  {
+   "id": 18,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.03645383837597449,
+   "explanations": [
+    "any or other",
+    "This neuron detects the specific error message about being unable to find or load the Qt platform plugin."
+   ]
+  },
+  {
+   "id": 511,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.009482418710395554,
+   "explanations": [
+    "that introducing clauses",
+    "The neuron strongly activates on numeric tokens\u2014especially floating\u2010point numbers with decimal points."
+   ]
+  },
+  {
+   "id": 6429,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.004288448942823023,
+   "explanations": [
+    "The neuron primarily responds to numeric tokens (digits, percentages, and other quantities) in the text."
+   ]
+  },
+  {
+   "id": 437,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.001930033259093393,
+   "explanations": [
+    "street names and addresses",
+    "The neuron fires on numeric tokens that represent street or location numbers in addresses (e.g. building or house numbers)."
+   ]
+  },
+  {
+   "id": 165,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02214303598427628,
+   "explanations": [
+    "steps and ensure",
+    "The neuron detects and strongly activates on numeric tokens (numbers) in the text."
+   ]
+  },
+  {
+   "id": 508,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.005302509588321157,
+   "explanations": [
+    "last names of people",
+    "The neuron fires on named individual person mentions\u2014that is, it detects personal proper names in the text."
+   ]
+  },
+  {
+   "id": 205,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01954275468360485,
+   "explanations": [
+    "but, and",
+    "The neuron strongly activates on expressions of praise or positive feedback (e.g. \u201cGreat video,\u201d \u201cNice job,\u201d \u201cSuperb article,\u201d \u201cI liked\u2026\u201d)."
+   ]
+  },
+  {
+   "id": 229,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.009500851811118103,
+   "explanations": [
+    "This neuron primarily detects personal names (proper nouns referring to people)."
+   ]
+  },
+  {
+   "id": 531,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.09955005217741343,
+   "explanations": [
+    "learned",
+    "The neuron lights up on semantically \u201ccontentful\u201d words\u2014nouns, verbs, and adjectives that carry real meaning\u2014while largely ignoring function words.",
+    "past participle verbs, particularly in contexts describing completed actions or experiences.",
+    "action and process language\u2014primarily verbs and verbal forms (often -ing or participles) that describe doing, moving, seeing, using, communicating, or causing outcomes."
+   ]
+  },
+  {
+   "id": 346,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1581262148289815,
+   "explanations": [
+    "The neuron detects words related to public transit and transportation modes (e.g. buses, stations, cars, taxis, riders, transit, bike share)."
+   ]
+  },
+  {
+   "id": 138,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01151836314291226,
+   "explanations": [
+    "phrase punctuation",
+    "The neuron responds to numeric tokens, activating strongly on multi-digit numbers."
+   ]
+  },
+  {
+   "id": 516,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.00885175014090158,
+   "explanations": [
+    "The neuron strongly activates on the word \u201cThis\u201d (especially when it begins a sentence)."
+   ]
+  },
+  {
+   "id": 468,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1433699359832948,
+   "explanations": [
+    "This neuron detects technical, process-oriented language\u2014especially verbs and terms describing system capabilities, configurations, or procedural steps."
+   ]
+  },
+  {
+   "id": 376,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0703787479277605,
+   "explanations": []
+  },
+  {
+   "id": 8021,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01051432416191468,
+   "explanations": [
+    "scored points",
+    "The neuron activates on numerical sports statistics\u2014scores, records, rankings, and related multi-digit performance figures."
+   ]
+  },
+  {
+   "id": 498,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02663870678945703,
+   "explanations": [
+    "The neuron is strongly activated by the start-of-sequence (<bos>) token, i.e. it signals the beginning of a new segment or sentence."
+   ]
+  },
+  {
+   "id": 236,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.083231810249268,
+   "explanations": [
+    "The neuron is highly activated by numeric expressions (numbers and figures)."
+   ]
+  },
+  {
+   "id": 7814,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.001549960575912601,
+   "explanations": [
+    "lists and formatting",
+    "This neuron activates on sequences of uppercase letters or title\u2010style words\u2014i.e. headings, all-caps brand/product names, or headline tokens."
+   ]
+  },
+  {
+   "id": 289,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.03050255383936357,
+   "explanations": [
+    "The neuron strongly activates at the start of a text or after sentence-ending punctuation, i.e. it detects sentence boundaries (especially the beginning of a sentence)."
+   ]
+  },
+  {
+   "id": 36,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003929297583849,
+   "explanations": [
+    "This neuron detects document- or section\u2010boundary markers (e.g. the special \u201cbeginning-of-sequence\u201d token and blank\u2010line separators)."
+   ]
+  },
+  {
+   "id": 40,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01431739265964868,
+   "explanations": [
+    "The neuron fires on verbs expressing cognitive stance or inference (e.g. \u201cknew,\u201d \u201cconclude,\u201d \u201cargue,\u201d \u201crecognizing\u201d), i.e. words that signal knowing or reasoning."
+   ]
+  },
+  {
+   "id": 305,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01156142791710557,
+   "explanations": [
+    "The neuron strongly activates on numeric tokens\u2014especially those containing decimal points\u2014i.e. floating-point numbers."
+   ]
+  },
+  {
+   "id": 19,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01212576598798009,
+   "explanations": [
+    "The neuron activates strongly on numerical quantities and measurements (e.g. distances, durations, counts)."
+   ]
+  },
+  {
+   "id": 831,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.05149672038777118,
+   "explanations": [
+    "This neuron responds to the key header and summary tokens in formal announcements or press\u2010release\u2013style texts (e.g. event/program headings, dates, titles, and leading summary lines)."
+   ]
+  },
+  {
+   "id": 499,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02406886933862823,
+   "explanations": [
+    "The neuron consistently lights up on common function words (especially articles and prepositions, e.g. \u201cthe,\u201d \u201ca,\u201d \u201cfor,\u201d \u201cof\u201d)."
+   ]
+  },
+  {
+   "id": 355,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.002833914722777776,
+   "explanations": [
+    "dates and months",
+    "The neuron detects multi\u2010digit numeric sequences that form structured dates, times, or timestamps."
+   ]
+  },
+  {
+   "id": 462,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003043571503271599,
+   "explanations": [
+    "Dr. Ar names or Justice",
+    "This neuron activates on personal names and official titles (i.e. named individuals)."
+   ]
+  },
+  {
+   "id": 2756,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.03699392847410289,
+   "explanations": [
+    "lace wigs",
+    "The neuron fires on multi\u2010word commercial or professional service and analysis offerings (e.g. \u201cbusiness case study analysis,\u201d \u201cgout treatment,\u201d \u201cexhibition stand services,\u201d \u201crefrigerator repair service,\u201d etc.)."
+   ]
+  },
+  {
+   "id": 317,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.009612890217261848,
+   "explanations": [
+    "D &, W illing, S ATA",
+    "The neuron strongly activates on uppercase words or acronyms (proper names, titles, and other all\u2010caps tokens)."
+   ]
+  },
+  {
+   "id": 320,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01415105660679978,
+   "explanations": [
+    "The neuron fires on standalone numeric tokens (sequences of digits)."
+   ]
+  },
+  {
+   "id": 9916,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01265702421393611,
+   "explanations": [
+    "police, crime, agents",
+    "The neuron activates strongly on formal law\u2010enforcement and criminal\u2010justice reporting language\u2014e.g. mentions of police departments, arrests, investigations, warrants, charges, and related official terms."
+   ]
+  },
+  {
+   "id": 817,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.03235540398789566,
+   "explanations": [
+    "The neuron fires strongly on interface or document\u2010structure labels and calls to action for downloadable or viewable resources\u2014e.g. \u201cDownload,\u201d \u201cFull screen,\u201d \u201cInformation,\u201d \u201cDescription,\u201d \u201cDownload mp3,\u201d \u201cRubric,\u201d \u201cImage gallery,\u201d and so on."
+   ]
+  },
+  {
+   "id": 538,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02560418624411222,
+   "explanations": [
+    "groups of people or entities"
+   ]
+  },
+  {
+   "id": 433,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.04944260728736739,
+   "explanations": [
+    "This neuron responds to words describing movement or modes of motion (e.g. \u201cbike,\u201d \u201cride,\u201d \u201cwalk,\u201d \u201ctransport,\u201d \u201croadmap\u201d)."
+   ]
+  },
+  {
+   "id": 277,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.005678463583062339,
+   "explanations": [
+    "foreign language words",
+    "The neuron activates on tokens that are part of numerical values (digits, multi\u2010digit numbers, decimals, etc.).",
+    "decimal points in numerical values, particularly in financial or statistical data.",
+    "numeric figures in text\u2014digits forming quantities, currency amounts, percentages, dates, and measurements, often with commas or decimal points"
+   ]
+  },
+  {
+   "id": 131,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1108855491639995,
+   "explanations": [
+    "The neuron primarily activates on numerical expressions\u2014counts, measurements, and other number-related tokens."
+   ]
+  },
+  {
+   "id": 2461,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.002488128982596271,
+   "explanations": [
+    "The neuron strongly activates on numerical sports statistics and scores (e.g. point totals, game wins, quarters, and other numeric game data)."
+   ]
+  },
+  {
+   "id": 13766,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.000914395481690176,
+   "explanations": [
+    "narrative intro phrases",
+    "This neuron strongly fires on sentence\u2010boundary punctuation (especially end\u2010of\u2010sentence marks like periods, dashes, and related high-emphasis tokens).",
+    "paragraph breaks and transitions between sections in news articles.",
+    "indicators of hard-news reporting, such as attributed speech, dates/times, locations, official titles, acronyms, and other journalistic structure cues."
+   ]
+  },
+  {
+   "id": 7448,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.007610475905921558,
+   "explanations": [
+    "calls for help",
+    "The neuron is sensitive to descriptions of past events, especially past\u2010tense action verbs (e.g. \u201cindicated,\u201d \u201creported,\u201d \u201cburned,\u201d \u201cdemanded,\u201d \u201cran\u201d)."
+   ]
+  },
+  {
+   "id": 22,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.09114826739573038,
+   "explanations": [
+    "This neuron detects sentence-boundary markers and punctuation (e.g. the start\u2010of\u2010sentence <BOS> token, commas, periods, etc.)."
+   ]
+  },
+  {
+   "id": 8387,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01105463647590942,
+   "explanations": [
+    "political government and politicians",
+    "The neuron responds to mentions of Washington, D.C. (and related terms like \u201cnation\u2019s capital\u201d and \u201crepresentatives\u201d)."
+   ]
+  },
+  {
+   "id": 451,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01691922573121043,
+   "explanations": [
+    "The neuron activates on major content nouns\u2014abstract or thematic \u201ctopic\u201d words like system, idea, need, pressure, designer, hall, etc."
+   ]
+  },
+  {
+   "id": 9203,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1047836224734397,
+   "explanations": [
+    "The neuron strongly activates on discourse-level transition words and temporal/connective markers (e.g. as, after, then, just, soon, however, meanwhile).",
+    "Looking at the activations, this neuron fires strongly for common function words and determiners in narrative or descriptive contexts, particularly \"the\", \"a\", and connecting words like \"and\", \"with\", \"as\", \"to\", and various prepositions that link clauses or phrases in",
+    "grammatical function words that connect and structure sentences, linking clauses and maintaining narrative flow."
+   ]
+  },
+  {
+   "id": 379,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.005987723437215329,
+   "explanations": [
+    "The neuron strongly activates on proper personal names (i.e. capitalized given names or surnames)."
+   ]
+  },
+  {
+   "id": 187,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02606399599499574,
+   "explanations": [
+    "This neuron detects proper nouns\u2014named entities like personal names and place names."
+   ]
+  },
+  {
+   "id": 110,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.04094032892410545,
+   "explanations": [
+    "skills and experience",
+    "The neuron fires on spam-style or boilerplate promotional text (e.g. urging social sharing, downloads, site references, and other marketing/SEO blocks)."
+   ]
+  },
+  {
+   "id": 3225,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01377000278613678,
+   "explanations": [
+    "for convenience, preservation, thought, reach",
+    "The neuron primarily activates on numeric tokens (counts, dates, amounts, ages, etc.) in the text."
+   ]
+  },
+  {
+   "id": 48,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.006476833906237199,
+   "explanations": [
+    "locations and names",
+    "The neuron is highly specialized to detect floating-point numeric tokens (numbers containing a decimal point)."
+   ]
+  },
+  {
+   "id": 351,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.005940515304321341,
+   "explanations": [
+    "The neuron strongly activates on tokens containing a hyphen (i.e. fragments or codes that end with \u201c-\u201d)."
+   ]
+  },
+  {
+   "id": 4038,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0260388217543384,
+   "explanations": [
+    "inflected negatively",
+    "The neuron flags mentions of numeric performance statistics (e.g. wins, laps, ages, prize amounts) in sports\u2010reporting contexts."
+   ]
+  },
+  {
+   "id": 9931,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.0006740354500004071,
+   "explanations": [
+    "incidents involving danger or suspicion",
+    "The neuron primarily detects numeric and quantitative expressions\u2014especially dates, times, and counts\u2014in factual news reporting."
+   ]
+  },
+  {
+   "id": 502,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.003599945327124121,
+   "explanations": [
+    "6",
+    "This neuron detects metadata markers\u2014especially edit/post labels followed by dates, times, and other numeric identifiers."
+   ]
+  },
+  {
+   "id": 208,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.01730955258504508,
+   "explanations": [
+    "to keep clear",
+    "The neuron strongly activates on numeric tokens (quantities, measurements, or other numbers) in the text."
+   ]
+  },
+  {
+   "id": 389,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.07066625630348547,
+   "explanations": [
+    "The neuron consistently lights up on salient, topic-bearing nouns\u2014that is, important content words naming key concepts or entities."
+   ]
+  },
+  {
+   "id": 2039,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.02185782862724796,
+   "explanations": [
+    "The main thing this neuron does is detect numeric expressions (numbers, measurements, and statistical figures) in the text."
+   ]
+  },
+  {
+   "id": 588,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.004175105268070951,
+   "explanations": [
+    "money amounts",
+    "The neuron activates on numeric tokens\u2014digits and numeric expressions such as amounts, measurements, or statistics."
+   ]
+  },
+  {
+   "id": 388,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1466850880004596,
+   "explanations": [
+    "This neuron spots the presence of high-information tokens\u2014unusually salient words (often technical terms, metrics, or numbers) that convey the document\u2019s key content rather than common filler words."
+   ]
+  },
+  {
+   "id": 69,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.008676346182066036,
+   "explanations": [
+    "numbers followed by units or ranges",
+    "This neuron specializes in detecting standalone numeric tokens (e.g. measurements, percentages, and other numbers) in the text."
+   ]
+  },
+  {
+   "id": 585,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.1601508105528485,
+   "explanations": [
+    "generating content",
+    "This neuron fires on past-tense action words that report content creation or sharing (e.g. produced, posted, wrote, released)."
+   ]
+  },
+  {
+   "id": 96,
+   "found": true,
+   "sae_id": "layer_24_width_16k_l0_medium",
+   "frac_nonzero": 0.002413779088769345,
+   "explanations": [
+    "The neuron primarily detects numeric distance measurements (e.g. \u201c2 mi (3 km)\u201d) in text."
+   ]
+  }
+ ]
+}

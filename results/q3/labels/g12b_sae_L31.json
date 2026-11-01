@@ -1,0 +1,1255 @@
+{
+ "rep": "g12b_sae_L31",
+ "model": "gemma-3-12b",
+ "source": "31-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 604,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.00876720411362418,
+   "explanations": [
+    "team sports and players",
+    "This neuron detects football defensive jargon, especially mentions of defensive ends and sack statistics."
+   ]
+  },
+  {
+   "id": 221,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003960615649097519,
+   "explanations": [
+    "programming code examples",
+    "The neuron fires on the very first token of a new snippet or sentence (especially the initial capitalized word right after a <bos> marker)."
+   ]
+  },
+  {
+   "id": 756,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01227644022780654,
+   "explanations": [
+    "The neuron is triggered by numeric expressions and measurements (digits, quantities, and related numeric tokens)."
+   ]
+  },
+  {
+   "id": 203,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01440152879113697,
+   "explanations": [
+    "win tournament",
+    "The neuron fires on numeric or quantitative tokens (years, dates, scores, counts, statistics)."
+   ]
+  },
+  {
+   "id": 4038,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002885554796724147,
+   "explanations": [
+    "football and bowl events",
+    "The main thing this neuron does is detect numeric tokens\u2014especially multi-digit numbers and statistics (years, scores, percentages, draft picks, etc.).",
+    "sports-related content, particularly American football text with references to teams, players, statistics, and game details.",
+    "references to American football, especially NFL teams, players, positions, game events, statistics, and coaching/strategy terminology."
+   ]
+  },
+  {
+   "id": 2646,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006204601829000535,
+   "explanations": [
+    "harm, unusual, suspect",
+    "The neuron specializes in picking out and highlighting words from police\u2010 or legally\u2010oriented news reports, especially those detailing crimes, arrests, and law\u2010enforcement actions."
+   ]
+  },
+  {
+   "id": 107,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003975455230082886,
+   "explanations": [
+    "urls and code commands",
+    "This neuron detects when a token is the very first word of a new text segment or sentence (i.e. sentence-initial tokens)."
+   ]
+  },
+  {
+   "id": 25,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.04711571520994193,
+   "explanations": [
+    "upcoming announcements and events",
+    "The neuron fires on words and tokens that mark upcoming or scheduled events\u2014especially future\u2010tense auxiliaries (like \u201cwill be held,\u201d \u201cwill take place\u201d), event names, dates, and time markers."
+   ]
+  },
+  {
+   "id": 53,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01464298394666218,
+   "explanations": [
+    "attacking opponent actions",
+    "The neuron fires strongly on phrases describing specific in\u2010game sports events and actions (e.g. sending a player off, scoring or missing chances, minute\u2010by\u2010minute match commentary)."
+   ]
+  },
+  {
+   "id": 1646,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001957266638413625,
+   "explanations": [
+    "combat sports",
+    "The neuron strongly activates on mentions of boxers\u2019 names and their fight outcomes or match results."
+   ]
+  },
+  {
+   "id": 249,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.05377137145491808,
+   "explanations": [
+    "The neuron is simply a \u201csentence-position\u201d detector \u2013 it has its strongest activations on the first few real tokens of a sentence (e.g. the initial determiner or auxiliary) and then decays as you move further into the sentence."
+   ]
+  },
+  {
+   "id": 10397,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002187932835678172,
+   "explanations": [
+    "universities",
+    "The neuron responds to tokens associated with college\u2010sports reporting\u2014team names, conferences, stadium or game\u2010related terms, and other sports\u2010specific proper nouns."
+   ]
+  },
+  {
+   "id": 10119,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002246296300450173,
+   "explanations": [
+    "title clinched or cycle arrest",
+    "This neuron detects numeric tokens and numerical expressions (e.g., digits, dates, percentages, and statistics)."
+   ]
+  },
+  {
+   "id": 4721,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001371295144575403,
+   "explanations": [
+    "multilingual words",
+    "The neuron is specialized to detect mentions of news broadcasters or station/network identifiers."
+   ]
+  },
+  {
+   "id": 2744,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004102516975201364,
+   "explanations": [
+    "school sports",
+    "The neuron strongly activates on passages describing athletic teams (especially college sports) along with their performance stats or season highlights."
+   ]
+  },
+  {
+   "id": 959,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01945691414167465,
+   "explanations": [
+    "obstacles and distances",
+    "This neuron responds to tokens inside prepositional/adverbial phrases (e.g. \u201cto park the scooters at bike racks,\u201d \u201ccrashes while on the way,\u201d \u201crush hour\u201d)."
+   ]
+  },
+  {
+   "id": 1083,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.179512023251928,
+   "explanations": [
+    "play tic tac toe with",
+    "This neuron detects uncommon, content-rich tokens\u2014especially proper nouns, technical terms, and other specific or rare words."
+   ]
+  },
+  {
+   "id": 4071,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004030207497044812,
+   "explanations": [
+    "political campaign campaigning"
+   ]
+  },
+  {
+   "id": 300,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004010768099166686,
+   "explanations": [
+    "punctuation and labels",
+    "This neuron detects standalone punctuation tokens (e.g., quotation marks, hyphens, apostrophes)."
+   ]
+  },
+  {
+   "id": 8610,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001621786687298578,
+   "explanations": [
+    "skating and hockey",
+    "The neuron primarily activates on numeric tokens (e.g., statistics or other figures) in the text."
+   ]
+  },
+  {
+   "id": 323,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.06807276638386285,
+   "explanations": [
+    "The neuron flags unusually informative or low\u2010frequency \u201ccontent\u201d words (i.e. non\u2010function words that carry specific meaning)."
+   ]
+  },
+  {
+   "id": 1602,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006079646295056721,
+   "explanations": [
+    "racing and motorsport",
+    "The neuron strongly activates on numeric tokens (especially multi\u2010digit figures such as years, dates, and other numbers)."
+   ]
+  },
+  {
+   "id": 5295,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003016532391560542,
+   "explanations": [
+    "baseball, MLB, pitcher, cap",
+    "The neuron is primarily detecting numeric tokens\u2014digits, numbers, and quantitative values in the text."
+   ]
+  },
+  {
+   "id": 6726,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002230293577928928,
+   "explanations": [
+    "weather and travel advisories",
+    "This neuron activates on numeric expressions and quantitative data (numbers, measurements, statistics)."
+   ]
+  },
+  {
+   "id": 10714,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001709520816868586,
+   "explanations": [
+    "football",
+    "This neuron specializes in detecting multi\u2010digit numerical tokens that represent statistical figures (e.g., scores, yardage, years) in the text."
+   ]
+  },
+  {
+   "id": 466,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.008466893424850963,
+   "explanations": [
+    "news websites and sources",
+    "The neuron strongly activates on named entities\u2014especially news outlets, organizations, and other proper\u2010name tokens."
+   ]
+  },
+  {
+   "id": 15771,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002761834636805728,
+   "explanations": [
+    "fire and flammable risks",
+    "This neuron activates on tokens in formal informational or news\u2010style text\u2014especially proper names, titles, and other metadata (e.g. interview subjects, organizations, and headings)."
+   ]
+  },
+  {
+   "id": 184,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01336368090956224,
+   "explanations": [
+    "exploit, abuse, endanger children",
+    "The main thing this neuron does is detect numeric data values and measurements (statistics, quantities, and numerical figures) in text."
+   ]
+  },
+  {
+   "id": 11522,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002838252380881432,
+   "explanations": [
+    "basketball and NBA",
+    "The neuron fires on the presence of named entities\u2014especially capitalized names of people, teams, and places."
+   ]
+  },
+  {
+   "id": 14329,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003059300870903419,
+   "explanations": [
+    "threatened, Power, Used, Simple, wave",
+    "The neuron fires on the beginnings of news\u2010style headlines or article titles."
+   ]
+  },
+  {
+   "id": 342,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.04323539420373993,
+   "explanations": [
+    "The neuron strongly activates on numeric tokens (e.g. years, percentages, counts, large numbers), so it\u2019s detecting numbers/statistical values in the text."
+   ]
+  },
+  {
+   "id": 330,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.06010589646816,
+   "explanations": [
+    "The neuron is specifically responding to the start\u2010of\u2010sequence marker, i.e. it fires strongly on the \u201c<bos>\u201d token."
+   ]
+  },
+  {
+   "id": 550,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.03747307761747101,
+   "explanations": [
+    "The neuron fires on normative or deontic language\u2014phrases stating what is permitted, forbidden, acceptable, or required."
+   ]
+  },
+  {
+   "id": 9897,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001728021004443403,
+   "explanations": [
+    "listen to your body",
+    "The neuron strongly activates on tokens that appear in the context of detailed sports performance statistics (player names, per\u2010play metrics, injury reports, etc.)."
+   ]
+  },
+  {
+   "id": 6073,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.0445763195255079,
+   "explanations": [
+    "The neuron responds strongly to very high\u2010frequency/common tokens (i.e. words like \u201cof,\u201d \u201cto,\u201d \u201cthe,\u201d etc.)."
+   ]
+  },
+  {
+   "id": 205,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.007127017408516706,
+   "explanations": [
+    "section headings",
+    "This neuron detects when a sentence begins with the word \u201cIn.\u201d"
+   ]
+  },
+  {
+   "id": 1149,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.007629946255760735,
+   "explanations": [
+    "sports team members",
+    "The neuron chiefly activates on numeric time stamps and minute markers in sports commentary."
+   ]
+  },
+  {
+   "id": 7393,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004906035008198737,
+   "explanations": [
+    "Texas",
+    "This neuron detects named entities\u2014especially proper nouns like person names, organizations, and geographic locations."
+   ]
+  },
+  {
+   "id": 7151,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002717744963043754,
+   "explanations": [
+    "since year, BERT",
+    "The neuron is chiefly triggered by numeric tokens, proper\u2010name tokens, and acronyms\u2014i.e. numbers and named entities (like \u201cJustice,\u201d \u201c5G,\u201d \u201cCBS,\u201d etc.)."
+   ]
+  },
+  {
+   "id": 6134,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.05716754652803981,
+   "explanations": [
+    "The neuron is looking for capitalized multiword named entities (e.g. company, organization, grant, or publication titles)."
+   ]
+  },
+  {
+   "id": 1544,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004975653458268784,
+   "explanations": [
+    "allegedly, reportedly, alleged",
+    "The neuron strongly activates on numeric tokens\u2014especially those representing measurements or values (e.g. numbers with digits and decimal points)."
+   ]
+  },
+  {
+   "id": 7649,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.00395840371117477,
+   "explanations": [
+    "high school students",
+    "The neuron flags detailed play\u2010by\u2010play descriptions of high school sports events (e.g. quarters, scores, fumbles, field goals, touchdowns, etc.)."
+   ]
+  },
+  {
+   "id": 8387,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001857829071263034,
+   "explanations": [
+    "US House Speaker election",
+    "This neuron detects formal U.S. political and legislative references\u2014names, titles, dates, and bodies (e.g. senators, \u201cSen. X,\u201d \u201cSenate,\u201d budget numbers, and bill/session details)."
+   ]
+  },
+  {
+   "id": 11731,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003707685498035997,
+   "explanations": [
+    "celebrity news reporters",
+    "This neuron detects the possessive \u2019s marker (the apostrophe-s suffix indicating ownership or belonging)."
+   ]
+  },
+  {
+   "id": 696,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01989283690134126,
+   "explanations": [
+    "reportedly criticized or controversial allegations",
+    "The neuron strongly activates on names of nations and political groups (e.g. Israel, Hamas, Egypt, Abbas, Gaza), i.e. proper nouns referring to geopolitical actors."
+   ]
+  },
+  {
+   "id": 1412,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004132464994367573,
+   "explanations": [
+    "game score",
+    "The neuron activates on numeric tokens (e.g. yardage, times, scores)\u2014in other words, it detects numbers."
+   ]
+  },
+  {
+   "id": 2631,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.04746667510831122,
+   "explanations": [
+    "local places and communities",
+    "The neuron strongly responds to named entities and other prominent content words (especially people\u2019s names, organizations, places, and project titles)."
+   ]
+  },
+  {
+   "id": 424,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.09871428748925087,
+   "explanations": [
+    "This neuron spotlights named entities\u2014proper nouns such as people, organizations, laws, and place names."
+   ]
+  },
+  {
+   "id": 1134,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01278943189457929,
+   "explanations": [
+    "automakers and car brands",
+    "The neuron strongly activates on automotive model references and specifications\u2014especially car model names paired with numeric details like model years or engine figures."
+   ]
+  },
+  {
+   "id": 6522,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001151653945000895,
+   "explanations": [
+    "Trump election conspiracy theories",
+    "The neuron fires strongly on proper\u2010noun tokens\u2014especially names of people (and sometimes organizations or country/party acronyms)."
+   ]
+  },
+  {
+   "id": 1900,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006160621877335,
+   "explanations": [
+    "athlete or athleticism",
+    "The neuron fires strongly on individual people\u2019s names (proper nouns referring to persons)."
+   ]
+  },
+  {
+   "id": 170,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.008351713071102367,
+   "explanations": [
+    "surnames in names",
+    "The neuron is looking for personal names (proper names of people)."
+   ]
+  },
+  {
+   "id": 1212,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01666410006663928,
+   "explanations": [
+    "fast food",
+    "The neuron strongly lights up on sequences listing local amenities and businesses (bars, restaurants, shops, markets, etc.)."
+   ]
+  },
+  {
+   "id": 4285,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004086527954411238,
+   "explanations": [
+    "murder and violence terms",
+    "This neuron detects vocabulary associated with violent crime reports (e.g. shootings, murders, arrests, charges)."
+   ]
+  },
+  {
+   "id": 799,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01685631333982284,
+   "explanations": [
+    "The main thing this neuron does is find detailed descriptions of medical conditions, injuries, symptoms, and related bodily or health events."
+   ]
+  },
+  {
+   "id": 2472,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.007982710378975348,
+   "explanations": [
+    "He served",
+    "The neuron strongly activates on capitalized proper names (people\u2019s names) and other named-entity tokens."
+   ]
+  },
+  {
+   "id": 1087,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.008452915464159437,
+   "explanations": [
+    "pets and veterinary care",
+    "The neuron strongly activates on words referring to dogs or puppies (and closely related pet terminology)."
+   ]
+  },
+  {
+   "id": 978,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.03367921325193643,
+   "explanations": [
+    "The neuron fires on key action words\u2014especially verbs that drive narrative events."
+   ]
+  },
+  {
+   "id": 7844,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.00585395978399486,
+   "explanations": [
+    "California locations and entities",
+    "This neuron detects section\u2010heading or label text\u2014tokens that occur in titles, headings, prompts, dates/times, or other informative labels rather than running prose."
+   ]
+  },
+  {
+   "id": 6824,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003158517522114624,
+   "explanations": [
+    "sports and media"
+   ]
+  },
+  {
+   "id": 365,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.02357565219022541,
+   "explanations": [
+    "rooms in a house",
+    "The neuron detects numeric expressions\u2014especially measurements, prices, and other digit\u2010based quantities (including integers and decimals)."
+   ]
+  },
+  {
+   "id": 5043,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002159954741741487,
+   "explanations": [
+    "golf and related sports",
+    "This neuron fires on text describing golf events, rules, and course details\u2014e.g. tournament names, hole and tee information, and rule citations."
+   ]
+  },
+  {
+   "id": 28,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004191329653536548,
+   "explanations": [
+    "months and dates",
+    "The neuron strongly activates on tokens that represent dates and times (e.g. month names, weekday names, and numeric date components)."
+   ]
+  },
+  {
+   "id": 11782,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002781340500513724,
+   "explanations": [
+    "notable/trending topics",
+    "The neuron fires on words that strongly emphasize or highlight key points\u2014superlatives, intensifiers, list markers, and other attention-grabbing terms."
+   ]
+  },
+  {
+   "id": 11868,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002518268564389091,
+   "explanations": [
+    "The main thing this neuron does is detect sequences of digits and numerical contact information (e.g., phone numbers, dates, and parts of email addresses)."
+   ]
+  },
+  {
+   "id": 7339,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003504199964885843,
+   "explanations": [
+    "matchups and games",
+    "The neuron strongly activates on temporal and scheduling phrases in sports reporting\u2014e.g. dates, \u201cbefore the start of,\u201d \u201con Saturday, Sept. 29, 2018,\u201d \u201cnext Friday\u2019s second leg,\u201d and other time-of-game references."
+   ]
+  },
+  {
+   "id": 8751,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001529843107650544,
+   "explanations": [
+    "team building and acquisitions",
+    "The main thing this neuron does is detect and strongly activate on numeric expressions (like years, statistics, percentages, and other numbers) in the text."
+   ]
+  },
+  {
+   "id": 4504,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.005883893929738985,
+   "explanations": [
+    "police and detective themes",
+    "This neuron is specialized in detecting numerical expressions (digits, numbers, and measurements)."
+   ]
+  },
+  {
+   "id": 14771,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004211220015905639,
+   "explanations": [
+    "Florida locations",
+    "The neuron is triggered by numeric tokens\u2014multi\u2010digit sequences such as phone numbers, years, addresses, and other digit\u2010filled data."
+   ]
+  },
+  {
+   "id": 15479,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002659768761344666,
+   "explanations": [
+    "sports outcomes and descriptions",
+    "The neuron detects sports\u2010related quantitative performance mentions\u2014scorelines, stats (points, yards, standings, time left, etc.)."
+   ]
+  },
+  {
+   "id": 90,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006579669095099629,
+   "explanations": [
+    "names and associated last names",
+    "The neuron activates on named entities, especially personal names and other proper nouns."
+   ]
+  },
+  {
+   "id": 9329,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002912770988935657,
+   "explanations": [
+    "Pennsylvania locations",
+    "The neuron fires on mentions of geographic place names\u2014especially \u201cPennsylvania\u201d and other location names."
+   ]
+  },
+  {
+   "id": 2546,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003525857567243906,
+   "explanations": [
+    "highway, road, and travel terms",
+    "The neuron activates on numeric tokens, i.e. any standalone numbers or numeric sequences."
+   ]
+  },
+  {
+   "id": 3120,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.009023321236106809,
+   "explanations": [
+    "The neuron strongly responds to play-by-play descriptions of sports actions, especially American football game recaps."
+   ]
+  },
+  {
+   "id": 438,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.009207345945655148,
+   "explanations": [
+    "This neuron strongly activates on question cues\u2014especially \u201cwh-\u201d question words (e.g. What, How) and function words that form questions (e.g. is) indicating a query."
+   ]
+  },
+  {
+   "id": 2070,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01621199753185541,
+   "explanations": [
+    "real estate and property transactions",
+    "The neuron strongly activates on real estate listing terminology\u2014phrases advertising homes or properties \u201cfor sale.\u201d"
+   ]
+  },
+  {
+   "id": 6570,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.007230079912535446,
+   "explanations": [
+    "New York City related locations",
+    "The neuron fires on numerical and date\u2010like tokens (years, scores, counts, etc.) and related metadata tokens."
+   ]
+  },
+  {
+   "id": 5285,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.0005703936799777664,
+   "explanations": [
+    "weather, decrease, imaging, neural networks",
+    "The neuron is tuned to spotting the structured language of severe weather alerts\u2014especially storm warnings describing thunderstorm/hail events with numeric details like wind\u2010speed, distances, locations, and times."
+   ]
+  },
+  {
+   "id": 51,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.07903834053787616,
+   "explanations": [
+    "The neuron strongly activates on uncommon, content-bearing tokens\u2014especially proper names and rare words."
+   ]
+  },
+  {
+   "id": 180,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.02724593074972644,
+   "explanations": [
+    "The neuron is detecting the start\u2010of\u2010sequence (the \u201c<bos>\u201d token) in the input."
+   ]
+  },
+  {
+   "id": 1135,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01758133879791879,
+   "explanations": [
+    "series is movie",
+    "The main thing this neuron does is detect mentions of movies, films, and related viewing contexts."
+   ]
+  },
+  {
+   "id": 6429,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003287638897279009,
+   "explanations": [
+    "popular streamer",
+    "The neuron is strongly activated by source\u2010attribution phrases in news\u2010style or social\u2010media reporting (e.g. \u201cTwitter user yesterday said her boyfriend removed her wig\u2026\u201d)."
+   ]
+  },
+  {
+   "id": 5729,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002377415231824071,
+   "explanations": [
+    "disasters and fatalities"
+   ]
+  },
+  {
+   "id": 59,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003994463030058415,
+   "explanations": [
+    "code delimiters and keywords",
+    "The neuron fires strongly on tokens immediately following the start\u2010of\u2010segment marker (<bos>), i.e. words that begin a new text block."
+   ]
+  },
+  {
+   "id": 284,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.08756959423941513,
+   "explanations": [
+    "The neuron activates on passages describing do-it-yourself recycling or upcycling craft projects (e.g. turning toilet paper rolls and old shirts into napkin holders)."
+   ]
+  },
+  {
+   "id": 5102,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001458780157512364,
+   "explanations": [
+    "leading specialist discussions",
+    "This neuron detects URL/domain name tokens (e.g. \u201c.net\u201d and related URL segments)."
+   ]
+  },
+  {
+   "id": 4045,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006048706193076577,
+   "explanations": [
+    "aircraft and aviation",
+    "The neuron fires on alphanumeric model or code identifiers\u2014especially aircraft type designations that mix letters and digits (e.g. \u201cA220-100,\u201d \u201cCS1,\u201d \u201cTLS\u201d)."
+   ]
+  },
+  {
+   "id": 15,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.1191584665637172,
+   "explanations": [
+    "balance, process",
+    "This neuron activates on formal, structured informational prose\u2014especially at sentence beginnings and on the kinds of topic\u2010oriented, multi\u2010domain content words you\u2019d see in academic, legal, or technical writing."
+   ]
+  },
+  {
+   "id": 659,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.005920857893812033,
+   "explanations": [
+    "street names and types",
+    "The neuron is looking for numeric address components\u2014sequences of digits (and adjoining uppercase address tokens) that occur in street addresses or location details."
+   ]
+  },
+  {
+   "id": 4661,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003102617834486343,
+   "explanations": [
+    "President",
+    "The main thing this neuron does is detect named entities\u2014proper names of people, organizations, and places."
+   ]
+  },
+  {
+   "id": 1324,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.005853229024920277,
+   "explanations": [
+    "The neuron fires on reporting-style discourse markers\u2014especially verbs like \u201cannounced,\u201d \u201cdefining,\u201d \u201creached,\u201d \u201censured,\u201d and the commas and function words around them that signal formal event announcements."
+   ]
+  },
+  {
+   "id": 2197,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003638441636416761,
+   "explanations": [
+    "player's role",
+    "This neuron is strongly activated by numeric tokens\u2014especially years, season numbers, scores, and other statistical figures."
+   ]
+  },
+  {
+   "id": 311,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.1071556795139908,
+   "explanations": [
+    "This neuron is keyed to lexical verbs (especially dynamic or narrative action verbs, including verb\u2013particle combinations like \u201cslip up\u201d or \u201cout flank\u201d), i.e. it signals occurrences of content\u2010bearing action words."
+   ]
+  },
+  {
+   "id": 3138,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003030774295017617,
+   "explanations": [
+    "may, might, can",
+    "The neuron fires on tokens that are named entities\u2014proper names of people, places, organizations\u2014and prominent numeric or date tokens."
+   ]
+  },
+  {
+   "id": 2909,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003577303535005303,
+   "explanations": [
+    "reportedly, witnesses, reports",
+    "The neuron consistently lights up on the framing and linking words of news\u2010style reported speech (e.g. \u201creported,\u201d \u201cto,\u201d \u201cbut,\u201d \u201csaid,\u201d punctuation, etc.), effectively detecting the scaffolding of journalistic narration."
+   ]
+  },
+  {
+   "id": 389,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.07406928795640773,
+   "explanations": [
+    "The neuron strongly activates on sequences of items\u2014especially commas, colons, \u201cand,\u201d and other list markers\u2014i.e. enumerations or bullet-list style presentations of features or benefits.",
+    "detailed descriptions of programs, services, or offerings, particularly in organizational or institutional contexts.",
+    "descriptions and enumerations of organized programs and services (grants, trainings, tours, community support initiatives) and how they serve beneficiaries, including features, activities, and logistics."
+   ]
+  },
+  {
+   "id": 2353,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.008492463730202881,
+   "explanations": [
+    "television and media",
+    "The neuron strongly activates on mentions of short films or short\u2010movie programming."
+   ]
+  },
+  {
+   "id": 4537,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006449618870251518,
+   "explanations": [
+    "The main thing this neuron does is detect numeric figures\u2014counts, ratings, rankings, percentages, and other quantitative statistics."
+   ]
+  },
+  {
+   "id": 7837,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003123304229061409,
+   "explanations": [
+    "superstar, icon, pioneer",
+    "The neuron is triggered by numeric tokens\u2014especially multi-digit numbers such as dates, statistical figures, and other numerals."
+   ]
+  },
+  {
+   "id": 491,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.05616393160166309,
+   "explanations": [
+    "The neuron detects promotional or sales\u2010pitch language describing products or services (i.e., advertisement text)."
+   ]
+  },
+  {
+   "id": 12569,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.0009362967283193986,
+   "explanations": [
+    "sunny with",
+    "This neuron activates on meteorological report content\u2014specifically weather-forecast terms, numeric measurements, and condition descriptions (e.g., temperatures, clouds, showers, winds, hail)."
+   ]
+  },
+  {
+   "id": 503,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.0176894231243385,
+   "explanations": [
+    "The neuron strongly activates on descriptions of the burrowing mammal \u201cmole,\u201d picking up on detailed mentions of its color, eyes, nose, digging limbs, and mole\u2010hill activity."
+   ]
+  },
+  {
+   "id": 16076,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.0006561159381173076,
+   "explanations": [
+    "lottery numbers",
+    "The main thing this neuron does is find mentions of gambling or betting activities."
+   ]
+  },
+  {
+   "id": 5145,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.003064669064730347,
+   "explanations": [
+    "aggressive and strategic play",
+    "The neuron strongly activates on semantically contentful words (nouns, verbs, adjectives) and stays near zero on function words and punctuation."
+   ]
+  },
+  {
+   "id": 198,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004028473281616118,
+   "explanations": [
+    "gambling casino slot poker",
+    "This neuron strongly activates on the very first content word of a new text segment."
+   ]
+  },
+  {
+   "id": 514,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.07787066194808556,
+   "explanations": [
+    "professionals and specific roles",
+    "The neuron fires on named entities and formal titles (people\u2019s names, roles, organizations, etc.)."
+   ]
+  },
+  {
+   "id": 429,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.1181762200456126,
+   "explanations": [
+    "The neuron is primarily triggered by numeric tokens (e.g. literal numbers and decimal figures)."
+   ]
+  },
+  {
+   "id": 13191,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.00207662836122581,
+   "explanations": [
+    "motorcycle or motorbike",
+    "The neuron activates on technical mechanical part names and accessory components (e.g. protection bars, panniers, racks, suspension, brake discs) in motorcycle descriptions."
+   ]
+  },
+  {
+   "id": 6005,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001659453571671657,
+   "explanations": [
+    "emergency responders, rescue, and assistance"
+   ]
+  },
+  {
+   "id": 13220,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002063650444003411,
+   "explanations": [
+    "Ohio cities and Buckeyes",
+    "The neuron strongly activates on proper nouns\u2014especially names of people, places, and organizations (i.e. named entities)."
+   ]
+  },
+  {
+   "id": 834,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.02223988503532411,
+   "explanations": [
+    "The neuron fires on mentions of specific branded product names and model identifiers (e.g. capitalized brand plus model number)."
+   ]
+  },
+  {
+   "id": 7692,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.009483998534834559,
+   "explanations": [
+    "how to",
+    "The neuron strongly activates on instructional or \u201chow-to\u201d text (e.g. tutorial headings and explanatory steps)."
+   ]
+  },
+  {
+   "id": 7676,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.008459139188015805,
+   "explanations": [
+    "state and government offices",
+    "The neuron specializes in spotting numeric tokens\u2014any sequences of digits such as years, phone numbers, monetary amounts, or similar numbers."
+   ]
+  },
+  {
+   "id": 497,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.08290694213816299,
+   "explanations": [
+    "This neuron flags prominent domain-specific keywords\u2014formal topic terms (e.g. environmental, judicial, data-security, voting-rights)."
+   ]
+  },
+  {
+   "id": 1445,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01128909502764881,
+   "explanations": [
+    "The neuron activates on formal legal\u2010brief or court\u2010opinion prose\u2014i.e. the dense, highly structured language of legal arguments and judicial reasoning."
+   ]
+  },
+  {
+   "id": 6571,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.00478270274197261,
+   "explanations": [
+    "California",
+    "The neuron activates on tokens that are part of specific geographic place names (cities, counties, landmarks, etc.)."
+   ]
+  },
+  {
+   "id": 9638,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001002376699468158,
+   "explanations": [
+    "current weather, the trench, mm Hg",
+    "The neuron fires on mentions of major storm or hurricane events (including their categories, names, dates, and related extreme\u2010weather details)."
+   ]
+  },
+  {
+   "id": 15357,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002437341592675221,
+   "explanations": [
+    "The neuron strongly activates on mentions of professional soccer club names."
+   ]
+  },
+  {
+   "id": 7548,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002266058228168299,
+   "explanations": [
+    "missing data",
+    "The neuron lights up on content\u2010bearing, low\u2010frequency tokens\u2014especially proper names and other rare or informative words."
+   ]
+  },
+  {
+   "id": 951,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01201033153591769,
+   "explanations": [
+    "The main thing this neuron does is detect numeric data (numbers, percentages, and other statistical or financial figures)."
+   ]
+  },
+  {
+   "id": 258,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.004564334879105045,
+   "explanations": [
+    "years and dates",
+    "This neuron is specialized in spotting numeric tokens representing large quantities or measurements."
+   ]
+  },
+  {
+   "id": 1866,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01184261901983985,
+   "explanations": [
+    "This neuron detects references to laws, regulations, and formal legal citations (e.g., statute names, section numbers, and legislative acts)."
+   ]
+  },
+  {
+   "id": 12948,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001918870931799883,
+   "explanations": [
+    "The neuron is spotting organization\u2010style proper nouns and acronyms (e.g. league names, institutional titles, section/championship designations)."
+   ]
+  },
+  {
+   "id": 67,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.006200111994766088,
+   "explanations": [
+    "**1. The Obvious & Near-Term",
+    "This neuron activates strongly on the very first content token of each text segment, effectively spotting the start of a new utterance or sentence."
+   ]
+  },
+  {
+   "id": 3269,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.001950389204961056,
+   "explanations": [
+    "weather and forecasts",
+    "The neuron fires strongly on occurrences of the word \u201cweather\u201d (e.g. in product titles and headings)."
+   ]
+  },
+  {
+   "id": 1780,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01947082563686852,
+   "explanations": [
+    "baking and cooking recipes",
+    "The neuron fires strongly on content-bearing words (nouns, verbs, adjectives, and other \u201creal\u201d words) while ignoring common function words and punctuation."
+   ]
+  },
+  {
+   "id": 1292,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.01413456890320171,
+   "explanations": [
+    "The neuron strongly activates on place names and structured address-like information (e.g. street names, building names, numbers, and other location details)."
+   ]
+  },
+  {
+   "id": 15652,
+   "found": true,
+   "sae_id": "layer_31_width_16k_l0_medium",
+   "frac_nonzero": 0.002987957533072423,
+   "explanations": [
+    "coach or manager",
+    "The neuron primarily fires on capitalized proper nouns\u2014especially personal and organizational names."
+   ]
+  }
+ ]
+}

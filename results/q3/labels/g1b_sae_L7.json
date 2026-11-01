@@ -1,0 +1,1070 @@
+{
+ "rep": "g1b_sae_L7",
+ "model": "gemma-3-1b",
+ "source": "7-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 340,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01775725618890437,
+   "explanations": [
+    "it'"
+   ]
+  },
+  {
+   "id": 517,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.07299646247334908,
+   "explanations": [
+    "abstract concepts and requirements"
+   ]
+  },
+  {
+   "id": 101,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01635978502540648,
+   "explanations": [
+    "asking about usage or certainty"
+   ]
+  },
+  {
+   "id": 487,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03711259430660589,
+   "explanations": [
+    "fraud and violation testing"
+   ]
+  },
+  {
+   "id": 344,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.3263199101228498,
+   "explanations": []
+  },
+  {
+   "id": 28,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02441349956161887,
+   "explanations": [
+    "city or place names"
+   ]
+  },
+  {
+   "id": 98,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.2001428480195527,
+   "explanations": [
+    "conflicting traits and states"
+   ]
+  },
+  {
+   "id": 1125,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01545324363645329,
+   "explanations": [
+    "games and tournaments"
+   ]
+  },
+  {
+   "id": 341,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02969721907633313,
+   "explanations": []
+  },
+  {
+   "id": 280,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01699701265392322,
+   "explanations": [
+    "politics and government discourse"
+   ]
+  },
+  {
+   "id": 330,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.0500042351492954,
+   "explanations": []
+  },
+  {
+   "id": 313,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01981553322076815,
+   "explanations": []
+  },
+  {
+   "id": 151,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06120551123240546,
+   "explanations": [
+    "vicuna model"
+   ]
+  },
+  {
+   "id": 1669,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.007430705601033094,
+   "explanations": [
+    "location abbreviations"
+   ]
+  },
+  {
+   "id": 108,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06283924570250038,
+   "explanations": [
+    "biological order suffixes"
+   ]
+  },
+  {
+   "id": 381,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04354419696081232,
+   "explanations": []
+  },
+  {
+   "id": 63,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03524777900354294,
+   "explanations": [
+    "David Graham"
+   ]
+  },
+  {
+   "id": 116,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.004045415427673982,
+   "explanations": [
+    "Bond ETFs and fixed income"
+   ]
+  },
+  {
+   "id": 359,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03084074715855684,
+   "explanations": []
+  },
+  {
+   "id": 244,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04679891453939537,
+   "explanations": [
+    "types of parts or components"
+   ]
+  },
+  {
+   "id": 361,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1457630049056994,
+   "explanations": [
+    "here we go"
+   ]
+  },
+  {
+   "id": 72,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04099522430637449,
+   "explanations": [
+    "the + technical noun"
+   ]
+  },
+  {
+   "id": 368,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06545727756869256,
+   "explanations": []
+  },
+  {
+   "id": 61,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01178838119348626,
+   "explanations": [
+    "words ending in s"
+   ]
+  },
+  {
+   "id": 147,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01491794159470066,
+   "explanations": [
+    "years"
+   ]
+  },
+  {
+   "id": 189,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.0356761054180232,
+   "explanations": []
+  },
+  {
+   "id": 457,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04782727382115472,
+   "explanations": []
+  },
+  {
+   "id": 19,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.009282815733430759,
+   "explanations": [
+    "signals intelligence, errors, or numbers"
+   ]
+  },
+  {
+   "id": 141,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02320811169364925,
+   "explanations": [
+    "natural landscapes and water"
+   ]
+  },
+  {
+   "id": 396,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01637945435126973,
+   "explanations": [
+    "countries and regions"
+   ]
+  },
+  {
+   "id": 190,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01312983172958436,
+   "explanations": [
+    "in and following words"
+   ]
+  },
+  {
+   "id": 255,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04154520613152565,
+   "explanations": [
+    "architectural construction"
+   ]
+  },
+  {
+   "id": 106,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1684631230364332,
+   "explanations": [
+    "multilingual separators"
+   ]
+  },
+  {
+   "id": 68,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01752079652185869,
+   "explanations": [
+    "asking what or how"
+   ]
+  },
+  {
+   "id": 236,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02861167026775045,
+   "explanations": [
+    "in the"
+   ]
+  },
+  {
+   "id": 511,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01703385548044331,
+   "explanations": [
+    "your specific/overall"
+   ]
+  },
+  {
+   "id": 188,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03656660273337369,
+   "explanations": []
+  },
+  {
+   "id": 34,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.164088459614432,
+   "explanations": [
+    "crucial"
+   ]
+  },
+  {
+   "id": 358,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01907440671308477,
+   "explanations": []
+  },
+  {
+   "id": 35,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02226601790807578,
+   "explanations": [
+    "psychological health and disorders"
+   ]
+  },
+  {
+   "id": 278,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01977315716674786,
+   "explanations": [
+    "host and boyfriend"
+   ]
+  },
+  {
+   "id": 241,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04887594405229181,
+   "explanations": []
+  },
+  {
+   "id": 542,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1092063814533983,
+   "explanations": [
+    "Spatial discrimination, Simple sentence, HOME to"
+   ]
+  },
+  {
+   "id": 7,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01807409630557601,
+   "explanations": [
+    "for example"
+   ]
+  },
+  {
+   "id": 379,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01181921427767706,
+   "explanations": [
+    "timestamps"
+   ]
+  },
+  {
+   "id": 434,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.009565713340918979,
+   "explanations": [
+    "generative adversarial"
+   ]
+  },
+  {
+   "id": 194,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01869171107793647,
+   "explanations": [
+    "what questions seeking clarification"
+   ]
+  },
+  {
+   "id": 294,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01019081371976424,
+   "explanations": [
+    "people's names"
+   ]
+  },
+  {
+   "id": 389,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03827709220411142,
+   "explanations": []
+  },
+  {
+   "id": 334,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01473023368448661,
+   "explanations": [
+    "food and meal preparation"
+   ]
+  },
+  {
+   "id": 372,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.164369443005108,
+   "explanations": []
+  },
+  {
+   "id": 303,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.08772221851136018,
+   "explanations": []
+  },
+  {
+   "id": 268,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.0102774716807753,
+   "explanations": [
+    "war and trauma"
+   ]
+  },
+  {
+   "id": 183,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.0782765533153133,
+   "explanations": []
+  },
+  {
+   "id": 499,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.009323721919512423,
+   "explanations": []
+  },
+  {
+   "id": 137,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.05921258881481396,
+   "explanations": [
+    "I've been"
+   ]
+  },
+  {
+   "id": 566,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02219300952501212,
+   "explanations": [
+    "numbers followed by list items"
+   ]
+  },
+  {
+   "id": 117,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02082310292449236,
+   "explanations": [
+    "money, cost, and economy"
+   ]
+  },
+  {
+   "id": 399,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.00876080487732196,
+   "explanations": [
+    "year digits 2 3 4"
+   ]
+  },
+  {
+   "id": 364,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03916505360138314,
+   "explanations": []
+  },
+  {
+   "id": 452,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04859455372902479,
+   "explanations": []
+  },
+  {
+   "id": 594,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01728895165871891,
+   "explanations": [
+    "proper nouns followed by punctuation"
+   ]
+  },
+  {
+   "id": 450,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02266348101035033,
+   "explanations": []
+  },
+  {
+   "id": 424,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.008608775250010369,
+   "explanations": [
+    "the number five"
+   ]
+  },
+  {
+   "id": 491,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03417646477005074,
+   "explanations": []
+  },
+  {
+   "id": 161,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1274727277109408,
+   "explanations": []
+  },
+  {
+   "id": 325,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03916464246044485,
+   "explanations": [
+    "symbolic variables"
+   ]
+  },
+  {
+   "id": 283,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04735536742050288,
+   "explanations": []
+  },
+  {
+   "id": 6480,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.003399936849799211,
+   "explanations": [
+    "negative aspects and vulnerabilities"
+   ]
+  },
+  {
+   "id": 373,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03463348735165388,
+   "explanations": []
+  },
+  {
+   "id": 9,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.008022565292695964,
+   "explanations": [
+    "with adjective or determiner"
+   ]
+  },
+  {
+   "id": 213,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03419501135029902,
+   "explanations": []
+  },
+  {
+   "id": 354,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06161992628555912,
+   "explanations": [
+    "server-side computing contexts"
+   ]
+  },
+  {
+   "id": 52,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.005472702451824471,
+   "explanations": [
+    "listing numbers"
+   ]
+  },
+  {
+   "id": 75,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01767133962608885,
+   "explanations": [
+    "actions following \"to\""
+   ]
+  },
+  {
+   "id": 588,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06874622387658956,
+   "explanations": [
+    "plural count nouns (words ending in -s or -es), often appearing in lists or category names."
+   ]
+  },
+  {
+   "id": 293,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06304800269203073,
+   "explanations": []
+  },
+  {
+   "id": 423,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03831060084693836,
+   "explanations": []
+  },
+  {
+   "id": 248,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01572500506700225,
+   "explanations": []
+  },
+  {
+   "id": 645,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01090528205447816,
+   "explanations": [
+    "weather and rain"
+   ]
+  },
+  {
+   "id": 243,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1029203088876521,
+   "explanations": []
+  },
+  {
+   "id": 310,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.04854995091840495,
+   "explanations": []
+  },
+  {
+   "id": 18,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.008737034061459358,
+   "explanations": [
+    "quantities and percentages"
+   ]
+  },
+  {
+   "id": 219,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01377759170535917,
+   "explanations": []
+  },
+  {
+   "id": 160,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02133231564422821,
+   "explanations": [
+    "on the"
+   ]
+  },
+  {
+   "id": 200,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.07002215652207885,
+   "explanations": []
+  },
+  {
+   "id": 295,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03195749803013374,
+   "explanations": []
+  },
+  {
+   "id": 58,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.154744485152828,
+   "explanations": [
+    "intensifiers followed by nouns/adjectives"
+   ]
+  },
+  {
+   "id": 430,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02347077368260238,
+   "explanations": [
+    "explaining why it"
+   ]
+  },
+  {
+   "id": 337,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.06593978111460455,
+   "explanations": [
+    "programming languages"
+   ]
+  },
+  {
+   "id": 111,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01209301547404787,
+   "explanations": [
+    "before and after"
+   ]
+  },
+  {
+   "id": 306,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01827596091986429,
+   "explanations": [
+    "indicating greater degree"
+   ]
+  },
+  {
+   "id": 301,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01260131244043365,
+   "explanations": [
+    "numbers and delimiters"
+   ]
+  },
+  {
+   "id": 476,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.005734347521824118,
+   "explanations": [
+    "at Google"
+   ]
+  },
+  {
+   "id": 428,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.006307831356453179,
+   "explanations": [
+    "two days/nights"
+   ]
+  },
+  {
+   "id": 11447,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.002105961524943167,
+   "explanations": [
+    "folder and directory structure"
+   ]
+  },
+  {
+   "id": 270,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.0125191254818201,
+   "explanations": [
+    "Portugal travel destinations"
+   ]
+  },
+  {
+   "id": 245,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02023197420085715,
+   "explanations": [
+    "to facilitate outcomes"
+   ]
+  },
+  {
+   "id": 410,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1604887035925301,
+   "explanations": []
+  },
+  {
+   "id": 266,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.05774655346970515,
+   "explanations": [
+    "high-intensity evaluative or emphatic modifiers, especially adjectives/adverbs indicating uniqueness, novelty, importance, extremity, or strong quality."
+   ]
+  },
+  {
+   "id": 339,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02943779633843,
+   "explanations": []
+  },
+  {
+   "id": 210,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.006627194613770207,
+   "explanations": []
+  },
+  {
+   "id": 14421,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.001471906658214472,
+   "explanations": [
+    "vocal style, delivery, range, choir"
+   ]
+  },
+  {
+   "id": 439,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01499586193865387,
+   "explanations": [
+    "first and subsequent item"
+   ]
+  },
+  {
+   "id": 407,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01876835933038718,
+   "explanations": [
+    "more information or options"
+   ]
+  },
+  {
+   "id": 9888,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.001882399801500726,
+   "explanations": [
+    "database identifiers and code variable names"
+   ]
+  },
+  {
+   "id": 214,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.006682431017656471,
+   "explanations": [
+    "speaking with Gemma"
+   ]
+  },
+  {
+   "id": 178,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.05956345181070574,
+   "explanations": []
+  },
+  {
+   "id": 23,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01475419538720183,
+   "explanations": [
+    "flora and fauna"
+   ]
+  },
+  {
+   "id": 527,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03281253693071347,
+   "explanations": [
+    "ability and ease"
+   ]
+  },
+  {
+   "id": 1435,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.2199960760003901,
+   "explanations": [
+    "eliminate two incorrect options"
+   ]
+  },
+  {
+   "id": 411,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.0130722031262032,
+   "explanations": [
+    "i cannot and will not provide"
+   ]
+  },
+  {
+   "id": 401,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1697607484518017,
+   "explanations": []
+  },
+  {
+   "id": 322,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01257775522443751,
+   "explanations": []
+  },
+  {
+   "id": 610,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.002519407970578302,
+   "explanations": [
+    "Nevada"
+   ]
+  },
+  {
+   "id": 604,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02590794303748742,
+   "explanations": [
+    "temperature in LLMs"
+   ]
+  },
+  {
+   "id": 324,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03963093366521857,
+   "explanations": []
+  },
+  {
+   "id": 512,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01344484267316056,
+   "explanations": [
+    "phrases starting with \"in\""
+   ]
+  },
+  {
+   "id": 201,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.07162412526116517,
+   "explanations": [
+    "most followed by descriptive word"
+   ]
+  },
+  {
+   "id": 292,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02392605288495747,
+   "explanations": []
+  },
+  {
+   "id": 365,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.03618554225114344,
+   "explanations": []
+  },
+  {
+   "id": 477,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02294804541772972,
+   "explanations": []
+  },
+  {
+   "id": 205,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1435464676181111,
+   "explanations": []
+  },
+  {
+   "id": 87,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01490899746750604,
+   "explanations": [
+    "preposition to new states/destinations"
+   ]
+  },
+  {
+   "id": 156,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01780918170092253,
+   "explanations": [
+    "creators and designed",
+    "nouns that denote groups of people\u2014roles, professions, demographics, or collective audiences\u2014often in plural form."
+   ]
+  },
+  {
+   "id": 254,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.02111046710260037,
+   "explanations": [
+    "states of being"
+   ]
+  },
+  {
+   "id": 149,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.1181092231287833,
+   "explanations": []
+  },
+  {
+   "id": 367,
+   "found": true,
+   "sae_id": "layer_7_width_16k_l0_medium",
+   "frac_nonzero": 0.01018226242492125,
+   "explanations": [
+    "foreign languages and scripts"
+   ]
+  }
+ ]
+}

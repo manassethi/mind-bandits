@@ -1,0 +1,1055 @@
+{
+ "rep": "g1b_sae_L17",
+ "model": "gemma-3-1b",
+ "source": "17-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 561,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01785479292149499,
+   "explanations": [
+    "sports players"
+   ]
+  },
+  {
+   "id": 340,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04358070018585174,
+   "explanations": []
+  },
+  {
+   "id": 325,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.101592558509196,
+   "explanations": []
+  },
+  {
+   "id": 1438,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.008442175208803637,
+   "explanations": [
+    "Error handling and successful operations"
+   ]
+  },
+  {
+   "id": 1009,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01017418441287941,
+   "explanations": []
+  },
+  {
+   "id": 686,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02720802868252258,
+   "explanations": [
+    "describing informal things"
+   ]
+  },
+  {
+   "id": 692,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02760642724071446,
+   "explanations": []
+  },
+  {
+   "id": 823,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01664153452771444,
+   "explanations": [
+    "political parties and elections"
+   ]
+  },
+  {
+   "id": 6605,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.002017161773903097,
+   "explanations": [
+    "code examples"
+   ]
+  },
+  {
+   "id": 4091,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.003313700768043976,
+   "explanations": [
+    "baseball"
+   ]
+  },
+  {
+   "id": 497,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05914133959483583,
+   "explanations": []
+  },
+  {
+   "id": 628,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03805645455906478,
+   "explanations": []
+  },
+  {
+   "id": 289,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.2369145426145794,
+   "explanations": []
+  },
+  {
+   "id": 758,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03812342490266656,
+   "explanations": [
+    "vehicle emissions, buses, underwater exploration"
+   ]
+  },
+  {
+   "id": 5173,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.00421214574280089,
+   "explanations": [
+    "I can express capability"
+   ]
+  },
+  {
+   "id": 199,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04668642564531902,
+   "explanations": [
+    "news articles and journalism"
+   ]
+  },
+  {
+   "id": 4656,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.003479943645750084,
+   "explanations": [
+    "HTTP requests and headers"
+   ]
+  },
+  {
+   "id": 1509,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.007686619724526731,
+   "explanations": []
+  },
+  {
+   "id": 606,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03783216221540422,
+   "explanations": [
+    "chicken lamb food"
+   ]
+  },
+  {
+   "id": 2414,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02932090218090313,
+   "explanations": [
+    "coach of your team"
+   ]
+  },
+  {
+   "id": 814,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03051111184163571,
+   "explanations": [
+    "government official communication"
+   ]
+  },
+  {
+   "id": 1014,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01208680033507429,
+   "explanations": []
+  },
+  {
+   "id": 1049,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0164831583307411,
+   "explanations": [
+    "code definitions"
+   ]
+  },
+  {
+   "id": 2222,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.00798280925431434,
+   "explanations": [
+    "emergency and aid"
+   ]
+  },
+  {
+   "id": 592,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04571036146736847,
+   "explanations": [
+    "housing and residences"
+   ]
+  },
+  {
+   "id": 194,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04761837600658878,
+   "explanations": []
+  },
+  {
+   "id": 69,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05849347818576798,
+   "explanations": []
+  },
+  {
+   "id": 1284,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06867422743136425,
+   "explanations": [
+    "local city or county"
+   ]
+  },
+  {
+   "id": 383,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07263917296317603,
+   "explanations": []
+  },
+  {
+   "id": 2306,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02229416319542975,
+   "explanations": [
+    "academic roles and institutions"
+   ]
+  },
+  {
+   "id": 220,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04720495942274288,
+   "explanations": [
+    "tic tac toe game"
+   ]
+  },
+  {
+   "id": 2870,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.002090898182106191,
+   "explanations": [
+    "Lifeline"
+   ]
+  },
+  {
+   "id": 142,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02382702933369272,
+   "explanations": []
+  },
+  {
+   "id": 501,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01029059245963251,
+   "explanations": [
+    ". ("
+   ]
+  },
+  {
+   "id": 388,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07407189397305625,
+   "explanations": []
+  },
+  {
+   "id": 513,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04669810265747051,
+   "explanations": [
+    "arguments and criticisms"
+   ]
+  },
+  {
+   "id": 355,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07094408489636028,
+   "explanations": []
+  },
+  {
+   "id": 1414,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01427158331923065,
+   "explanations": [
+    "it tells"
+   ]
+  },
+  {
+   "id": 94,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02803616341734109,
+   "explanations": [
+    "anticipating threats and combat"
+   ]
+  },
+  {
+   "id": 156,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03107705793039486,
+   "explanations": [
+    "food ingredients and recipes"
+   ]
+  },
+  {
+   "id": 34,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05767322794765186,
+   "explanations": []
+  },
+  {
+   "id": 2288,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.008134723327616358,
+   "explanations": [
+    "Northbrook Illinois"
+   ]
+  },
+  {
+   "id": 874,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02033860692478267,
+   "explanations": [
+    "denmark's regulations"
+   ]
+  },
+  {
+   "id": 490,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02463887596311945,
+   "explanations": [
+    "times of day greetings"
+   ]
+  },
+  {
+   "id": 459,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0647181335203089,
+   "explanations": [
+    "try another"
+   ]
+  },
+  {
+   "id": 968,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02717949105288677,
+   "explanations": []
+  },
+  {
+   "id": 2841,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02683767647360593,
+   "explanations": []
+  },
+  {
+   "id": 467,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0809047142862235,
+   "explanations": []
+  },
+  {
+   "id": 81,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06084137210923799,
+   "explanations": []
+  },
+  {
+   "id": 359,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02811904984911423,
+   "explanations": []
+  },
+  {
+   "id": 293,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07429163424544692,
+   "explanations": []
+  },
+  {
+   "id": 93,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0516746307057467,
+   "explanations": [
+    "family and kinship"
+   ]
+  },
+  {
+   "id": 7630,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.007101012088447737,
+   "explanations": [
+    "california"
+   ]
+  },
+  {
+   "id": 268,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07144068427844376,
+   "explanations": []
+  },
+  {
+   "id": 225,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05771767390857136,
+   "explanations": [
+    "vital logistics hub"
+   ]
+  },
+  {
+   "id": 410,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02786222575111147,
+   "explanations": []
+  },
+  {
+   "id": 10543,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.001660802329838758,
+   "explanations": [
+    "wikipedia.org/"
+   ]
+  },
+  {
+   "id": 596,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03117656041320442,
+   "explanations": [
+    "Western scale"
+   ]
+  },
+  {
+   "id": 105,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05433286851337363,
+   "explanations": [
+    "travel and exploring"
+   ]
+  },
+  {
+   "id": 102,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05850821420935353,
+   "explanations": []
+  },
+  {
+   "id": 130,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06778219356484064,
+   "explanations": []
+  },
+  {
+   "id": 3052,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01215894126264701,
+   "explanations": []
+  },
+  {
+   "id": 710,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07437138747171536,
+   "explanations": []
+  },
+  {
+   "id": 78,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03788629129319483,
+   "explanations": [
+    "months of the year"
+   ]
+  },
+  {
+   "id": 476,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05945801186715316,
+   "explanations": []
+  },
+  {
+   "id": 780,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05007571036310593,
+   "explanations": []
+  },
+  {
+   "id": 52,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01970240410653274,
+   "explanations": [
+    "possessive 's"
+   ]
+  },
+  {
+   "id": 152,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01883672917408374,
+   "explanations": [
+    "foreign language descriptors"
+   ]
+  },
+  {
+   "id": 291,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06448102257257704,
+   "explanations": []
+  },
+  {
+   "id": 207,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02476372547411824,
+   "explanations": [
+    "space and shapes"
+   ]
+  },
+  {
+   "id": 2994,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02004842506211978,
+   "explanations": []
+  },
+  {
+   "id": 533,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05235490214176274,
+   "explanations": [
+    "buying or selling"
+   ]
+  },
+  {
+   "id": 7721,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0102425400827075,
+   "explanations": [
+    "as of late 2023/early 2024"
+   ]
+  },
+  {
+   "id": 474,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.00896077625112432,
+   "explanations": []
+  },
+  {
+   "id": 6142,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.005708388946703087,
+   "explanations": [
+    "wikipedia links"
+   ]
+  },
+  {
+   "id": 2681,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04076111235736209,
+   "explanations": [
+    "technical concepts and quantities"
+   ]
+  },
+  {
+   "id": 2717,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.003335649293026629,
+   "explanations": [
+    "correctness correctness"
+   ]
+  },
+  {
+   "id": 854,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04322854726985994,
+   "explanations": []
+  },
+  {
+   "id": 261,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05696126876894694,
+   "explanations": []
+  },
+  {
+   "id": 1109,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02422243649387677,
+   "explanations": [
+    "name is"
+   ]
+  },
+  {
+   "id": 74,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06560950570548824,
+   "explanations": [
+    "absence of things"
+   ]
+  },
+  {
+   "id": 252,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07108517644562005,
+   "explanations": []
+  },
+  {
+   "id": 2911,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.006761488482326471,
+   "explanations": [
+    "television and radio"
+   ]
+  },
+  {
+   "id": 1371,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01825262187973611,
+   "explanations": []
+  },
+  {
+   "id": 398,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04339026438797658,
+   "explanations": []
+  },
+  {
+   "id": 164,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01786502158929796,
+   "explanations": []
+  },
+  {
+   "id": 1410,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01628234809831224,
+   "explanations": [
+    "winning awards and titles"
+   ]
+  },
+  {
+   "id": 4063,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.003831106361265103,
+   "explanations": [
+    "racing cars"
+   ]
+  },
+  {
+   "id": 1309,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03745057112637037,
+   "explanations": []
+  },
+  {
+   "id": 2081,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.002413243612377948,
+   "explanations": [
+    "Python code syntax"
+   ]
+  },
+  {
+   "id": 853,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0478385289412119,
+   "explanations": []
+  },
+  {
+   "id": 353,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.08637146866008377,
+   "explanations": []
+  },
+  {
+   "id": 881,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03157084543826822,
+   "explanations": [
+    "regions"
+   ]
+  },
+  {
+   "id": 14050,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.001893973515455021,
+   "explanations": [
+    "introducing statements with wanted to"
+   ]
+  },
+  {
+   "id": 3531,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.001230509410783518,
+   "explanations": [
+    "start of model response"
+   ]
+  },
+  {
+   "id": 1228,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01034638606477154,
+   "explanations": [
+    "game ranking classification"
+   ]
+  },
+  {
+   "id": 2229,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.009672185562292933,
+   "explanations": [
+    "football leagues and terms"
+   ]
+  },
+  {
+   "id": 387,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01569368111198877,
+   "explanations": [
+    "surnames"
+   ]
+  },
+  {
+   "id": 608,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0352656530892416,
+   "explanations": [
+    "clothing and apparel descriptions"
+   ]
+  },
+  {
+   "id": 28,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.08879296860826968,
+   "explanations": [
+    "subject followed by past tense verb"
+   ]
+  },
+  {
+   "id": 566,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.172918852837518,
+   "explanations": [
+    "RTP percentage in games"
+   ]
+  },
+  {
+   "id": 76,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.1100788951555356,
+   "explanations": [
+    "factor of"
+   ]
+  },
+  {
+   "id": 1357,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03156363871453667,
+   "explanations": []
+  },
+  {
+   "id": 652,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05678949316513048,
+   "explanations": []
+  },
+  {
+   "id": 274,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.03537716639710517,
+   "explanations": []
+  },
+  {
+   "id": 470,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01478299211216919,
+   "explanations": [
+    "tell me more"
+   ]
+  },
+  {
+   "id": 43,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.05757650354384534,
+   "explanations": [
+    "numbers up to"
+   ]
+  },
+  {
+   "id": 8744,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.002101062147191879,
+   "explanations": [
+    "highway routes and traffic"
+   ]
+  },
+  {
+   "id": 569,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.07358276352530423,
+   "explanations": []
+  },
+  {
+   "id": 179,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.09022678294172223,
+   "explanations": []
+  },
+  {
+   "id": 10,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06279765931888244,
+   "explanations": [
+    "business, company, or CEO"
+   ]
+  },
+  {
+   "id": 233,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0769508700494875,
+   "explanations": []
+  },
+  {
+   "id": 655,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01880477030717633,
+   "explanations": [
+    "computer hardware and AI models"
+   ]
+  },
+  {
+   "id": 3942,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.007673289098262423,
+   "explanations": [
+    "a breakdown, categorized"
+   ]
+  },
+  {
+   "id": 5675,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.001766367511198694,
+   "explanations": [
+    "news articles and sources"
+   ]
+  },
+  {
+   "id": 62,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.01913801561380106,
+   "explanations": [
+    "nationalities and country terms"
+   ]
+  },
+  {
+   "id": 137,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.04429725371880597,
+   "explanations": []
+  },
+  {
+   "id": 332,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.1032054525756849,
+   "explanations": []
+  },
+  {
+   "id": 13,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06713066621455577,
+   "explanations": [
+    "high, advanced, or demanding"
+   ]
+  },
+  {
+   "id": 7572,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.02252905561704669,
+   "explanations": [
+    "she and her"
+   ]
+  },
+  {
+   "id": 12,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.06947432730274886,
+   "explanations": [
+    "web content or links"
+   ]
+  },
+  {
+   "id": 434,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.08079434241432756,
+   "explanations": []
+  },
+  {
+   "id": 6105,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.003427293775160556,
+   "explanations": [
+    "son, daughter, kids, children"
+   ]
+  },
+  {
+   "id": 4066,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.005125606168578091,
+   "explanations": [
+    "traffic and driving situations"
+   ]
+  },
+  {
+   "id": 6924,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.003979820669575017,
+   "explanations": [
+    "we are given"
+   ]
+  },
+  {
+   "id": 3637,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.001535541381563822,
+   "explanations": [
+    "program code explanations"
+   ]
+  },
+  {
+   "id": 416,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.0405323956843317,
+   "explanations": []
+  },
+  {
+   "id": 14487,
+   "found": true,
+   "sae_id": "layer_17_width_16k_l0_medium",
+   "frac_nonzero": 0.001326387271086006,
+   "explanations": [
+    "arXiv paper links"
+   ]
+  }
+ ]
+}

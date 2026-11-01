@@ -1,0 +1,36 @@
+{
+  "model": "google/gemma-3-1b-pt",
+  "n_layers": 26,
+  "d_model": 1152,
+  "sae_repo": "google/gemma-scope-2-1b-pt",
+  "sae_variant": "width_16k_l0_medium",
+  "tokens_mean": 62.44821461147757,
+  "tokens_max": 679,
+  "seconds": 230,
+  "sae": {
+    "7": {
+      "width": 16384,
+      "token_l0": 59.25830744687459,
+      "fvu": 0.05994290028292192,
+      "article_nnz_mean": 1167.1909343165212
+    },
+    "13": {
+      "width": 16384,
+      "token_l0": 63.25985940439517,
+      "fvu": 0.1189135457769677,
+      "article_nnz_mean": 1415.137175831245
+    },
+    "17": {
+      "width": 16384,
+      "token_l0": 62.47550400950547,
+      "fvu": 0.15616681714400657,
+      "article_nnz_mean": 1358.6761816977273
+    },
+    "22": {
+      "width": 16384,
+      "token_l0": 66.00651210231665,
+      "fvu": 0.19930717588934152,
+      "article_nnz_mean": 1436.2605255830476
+    }
+  }
+}

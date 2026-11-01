@@ -1,0 +1,1075 @@
+{
+ "rep": "g1b_sae_L22",
+ "model": "gemma-3-1b",
+ "source": "22-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 410,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01527617935293943,
+   "explanations": []
+  },
+  {
+   "id": 692,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01630323529519135,
+   "explanations": []
+  },
+  {
+   "id": 307,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01824427491373568,
+   "explanations": [
+    "sudden gust"
+   ]
+  },
+  {
+   "id": 2253,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.006125022861818035,
+   "explanations": [
+    "crucial"
+   ]
+  },
+  {
+   "id": 296,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02427243841676998,
+   "explanations": []
+  },
+  {
+   "id": 790,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.008192116868963413,
+   "explanations": []
+  },
+  {
+   "id": 110,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01376475619803645,
+   "explanations": [
+    "computer hardware specifications"
+   ]
+  },
+  {
+   "id": 1700,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.005983101697107367,
+   "explanations": [
+    "depends on"
+   ]
+  },
+  {
+   "id": 189,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02784190140589664,
+   "explanations": []
+  },
+  {
+   "id": 118,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.05035023417292582,
+   "explanations": []
+  },
+  {
+   "id": 17,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03196627072629082,
+   "explanations": [
+    "food and meals"
+   ]
+  },
+  {
+   "id": 996,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.1088310659176872,
+   "explanations": []
+  },
+  {
+   "id": 2035,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.004162547437198781,
+   "explanations": [
+    "](https followed by URL"
+   ]
+  },
+  {
+   "id": 796,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01720601774597435,
+   "explanations": [
+    "might be helpful"
+   ]
+  },
+  {
+   "id": 505,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02512118318862208,
+   "explanations": []
+  },
+  {
+   "id": 484,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04159737896591796,
+   "explanations": []
+  },
+  {
+   "id": 592,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04532149703838736,
+   "explanations": [
+    "housing and property"
+   ]
+  },
+  {
+   "id": 832,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02223609653535124,
+   "explanations": [
+    "animal ethics"
+   ]
+  },
+  {
+   "id": 582,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.06407943206546936,
+   "explanations": [
+    "city locations"
+   ]
+  },
+  {
+   "id": 94,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.08562974587289762,
+   "explanations": []
+  },
+  {
+   "id": 9734,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001844316690648767,
+   "explanations": [
+    "nba basketball teams and players"
+   ]
+  },
+  {
+   "id": 144,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.1504197400480066,
+   "explanations": []
+  },
+  {
+   "id": 442,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03502884822151237,
+   "explanations": []
+  },
+  {
+   "id": 530,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.05961538408087885,
+   "explanations": [
+    "computer hardware and components"
+   ]
+  },
+  {
+   "id": 72,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02504429959501538,
+   "explanations": [
+    "legal matters and tax identification"
+   ]
+  },
+  {
+   "id": 60,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03941597385852543,
+   "explanations": [
+    "urban development and resources"
+   ]
+  },
+  {
+   "id": 642,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0328868635171758,
+   "explanations": [
+    "school teaching learning"
+   ]
+  },
+  {
+   "id": 529,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04106252534929863,
+   "explanations": [
+    "urban street scenes"
+   ]
+  },
+  {
+   "id": 4811,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001605297589967472,
+   "explanations": [
+    "nourishing whole foods"
+   ]
+  },
+  {
+   "id": 78,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02745170261931894,
+   "explanations": []
+  },
+  {
+   "id": 616,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03800122828153939,
+   "explanations": [
+    "video"
+   ]
+  },
+  {
+   "id": 13,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03839638874756623,
+   "explanations": [
+    "vehicles and machines"
+   ]
+  },
+  {
+   "id": 3581,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01084739162835833,
+   "explanations": [
+    "California"
+   ]
+  },
+  {
+   "id": 1615,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01136756041441202,
+   "explanations": [
+    "date and time contexts"
+   ]
+  },
+  {
+   "id": 1974,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.003854108009049726,
+   "explanations": [
+    "golf"
+   ]
+  },
+  {
+   "id": 121,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.05258741483612711,
+   "explanations": []
+  },
+  {
+   "id": 132,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03841860306047193,
+   "explanations": []
+  },
+  {
+   "id": 5360,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001440880316923259,
+   "explanations": [
+    "explore or try something"
+   ]
+  },
+  {
+   "id": 2075,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.00621285196680858,
+   "explanations": [
+    "racing and competitive games"
+   ]
+  },
+  {
+   "id": 333,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02719955227190268,
+   "explanations": []
+  },
+  {
+   "id": 483,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01004954993297186,
+   "explanations": [
+    "contractions"
+   ]
+  },
+  {
+   "id": 257,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01654021859555313,
+   "explanations": [
+    "geopolitical and power dynamics"
+   ]
+  },
+  {
+   "id": 2656,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.003412182167572029,
+   "explanations": [
+    "providing links and source information"
+   ]
+  },
+  {
+   "id": 4269,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.002587582980846642,
+   "explanations": [
+    "I felt"
+   ]
+  },
+  {
+   "id": 149,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04776498686858999,
+   "explanations": []
+  },
+  {
+   "id": 596,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03175080470926175,
+   "explanations": [
+    "music, song, and vocals"
+   ]
+  },
+  {
+   "id": 496,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0412604607360809,
+   "explanations": []
+  },
+  {
+   "id": 515,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.06282735586579401,
+   "explanations": [
+    "week and weekend"
+   ]
+  },
+  {
+   "id": 134,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03660745408562805,
+   "explanations": [
+    "corporate entities and their operations"
+   ]
+  },
+  {
+   "id": 401,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01887149283090126,
+   "explanations": []
+  },
+  {
+   "id": 1161,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.005735583181845038,
+   "explanations": [
+    "python code structures"
+   ]
+  },
+  {
+   "id": 85,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04608335294465905,
+   "explanations": [
+    "establish before deploying"
+   ]
+  },
+  {
+   "id": 2092,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01096991368984354,
+   "explanations": [
+    "language processing and generation"
+   ]
+  },
+  {
+   "id": 1556,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0198471137269036,
+   "explanations": [
+    "Deep South racial dynamics"
+   ]
+  },
+  {
+   "id": 1765,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.00539922905699894,
+   "explanations": [
+    "build command or action"
+   ]
+  },
+  {
+   "id": 13809,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04559841655152742,
+   "explanations": [
+    "mathematical exponents and historical locations"
+   ]
+  },
+  {
+   "id": 339,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.06438714026300474,
+   "explanations": [
+    "war or terror"
+   ]
+  },
+  {
+   "id": 285,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.08505090002045318,
+   "explanations": []
+  },
+  {
+   "id": 1629,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01028670654109164,
+   "explanations": [
+    "arrests, charges and prison"
+   ]
+  },
+  {
+   "id": 244,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02179955971719728,
+   "explanations": []
+  },
+  {
+   "id": 2457,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.009389759447535291,
+   "explanations": [
+    "New York City landmarks and media"
+   ]
+  },
+  {
+   "id": 9635,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.007040092208722114,
+   "explanations": [
+    "US states and their regulations"
+   ]
+  },
+  {
+   "id": 1009,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01078819857749621,
+   "explanations": []
+  },
+  {
+   "id": 155,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03412259966161885,
+   "explanations": [
+    "much flavor or quantity"
+   ]
+  },
+  {
+   "id": 874,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0176216544798462,
+   "explanations": []
+  },
+  {
+   "id": 860,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03757318493722261,
+   "explanations": []
+  },
+  {
+   "id": 3039,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001607392327001712,
+   "explanations": [
+    "North America, South America, China regions"
+   ]
+  },
+  {
+   "id": 652,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.09105339452634745,
+   "explanations": []
+  },
+  {
+   "id": 102,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.05768677624094724,
+   "explanations": []
+  },
+  {
+   "id": 441,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03058526250567977,
+   "explanations": []
+  },
+  {
+   "id": 2464,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001723000156727058,
+   "explanations": [
+    "test scenarios and scenes"
+   ]
+  },
+  {
+   "id": 5375,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001252675248508431,
+   "explanations": [
+    "firewall"
+   ]
+  },
+  {
+   "id": 563,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03735287701788683,
+   "explanations": [
+    "mysterious ancient faint"
+   ]
+  },
+  {
+   "id": 267,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.05461954328835857,
+   "explanations": []
+  },
+  {
+   "id": 200,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02034544827579209,
+   "explanations": [
+    "animal and habitat viewing"
+   ]
+  },
+  {
+   "id": 3164,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.005815926870123796,
+   "explanations": [
+    "snow and ice"
+   ]
+  },
+  {
+   "id": 251,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.08343229896488083,
+   "explanations": []
+  },
+  {
+   "id": 1571,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.008374633187608898,
+   "explanations": [
+    "win or victory"
+   ]
+  },
+  {
+   "id": 1195,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0198060331168313,
+   "explanations": [
+    "explore the sea"
+   ]
+  },
+  {
+   "id": 101,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03874833778011502,
+   "explanations": []
+  },
+  {
+   "id": 1360,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.00612340215718543,
+   "explanations": [
+    "human service content"
+   ]
+  },
+  {
+   "id": 2331,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.003854539716183617,
+   "explanations": [
+    "](https"
+   ]
+  },
+  {
+   "id": 1113,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0417157859603655,
+   "explanations": [
+    "sports and games"
+   ]
+  },
+  {
+   "id": 388,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02572459463790307,
+   "explanations": []
+  },
+  {
+   "id": 2717,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.004542095593230617,
+   "explanations": [
+    "legislative government and elections"
+   ]
+  },
+  {
+   "id": 6150,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.006958043315639689,
+   "explanations": [
+    "Texas places and historical events"
+   ]
+  },
+  {
+   "id": 1087,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.007334909764510717,
+   "explanations": [
+    "information and concepts"
+   ]
+  },
+  {
+   "id": 7341,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.000923156880886889,
+   "explanations": [
+    "fire spread and containment"
+   ]
+  },
+  {
+   "id": 934,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01656965947215204,
+   "explanations": [
+    "canada and canadian cities"
+   ]
+  },
+  {
+   "id": 293,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04374455946690625,
+   "explanations": []
+  },
+  {
+   "id": 823,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03035746098552264,
+   "explanations": []
+  },
+  {
+   "id": 1632,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02339876703198338,
+   "explanations": [
+    "recipe and instructions"
+   ]
+  },
+  {
+   "id": 510,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.06254746769038028,
+   "explanations": []
+  },
+  {
+   "id": 5062,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.002246353981370508,
+   "explanations": [
+    "road exits and addresses"
+   ]
+  },
+  {
+   "id": 348,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04362471371861772,
+   "explanations": []
+  },
+  {
+   "id": 564,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.1005257720553762,
+   "explanations": [
+    "the guy"
+   ]
+  },
+  {
+   "id": 15658,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.001243766874513595,
+   "explanations": [
+    "e-commerce platforms and websites"
+   ]
+  },
+  {
+   "id": 1227,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01690097128712996,
+   "explanations": [
+    "news and media awards"
+   ]
+  },
+  {
+   "id": 577,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.07042520871017859,
+   "explanations": []
+  },
+  {
+   "id": 28,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03757224413920355,
+   "explanations": [
+    "word endings"
+   ]
+  },
+  {
+   "id": 751,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01168318761654522,
+   "explanations": [
+    "right away/now"
+   ]
+  },
+  {
+   "id": 2401,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01690338119370472,
+   "explanations": [
+    "unlike coal, nuclearunlike bull"
+   ]
+  },
+  {
+   "id": 12,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.07847970486072754,
+   "explanations": [
+    "im\u00e1genes, vistas, y detalles visuales"
+   ]
+  },
+  {
+   "id": 281,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04623380757776532,
+   "explanations": []
+  },
+  {
+   "id": 872,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.009076926151504508,
+   "explanations": []
+  },
+  {
+   "id": 1096,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.06079427837173056,
+   "explanations": [
+    "his/he"
+   ]
+  },
+  {
+   "id": 1199,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01073529226673462,
+   "explanations": [
+    "The Trevor Project"
+   ]
+  },
+  {
+   "id": 871,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03863625190865864,
+   "explanations": []
+  },
+  {
+   "id": 12495,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.002335289144378467,
+   "explanations": [
+    "sports game outcomes and predictions"
+   ]
+  },
+  {
+   "id": 693,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0227709603747858,
+   "explanations": []
+  },
+  {
+   "id": 1287,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.009971355132987974,
+   "explanations": [
+    "car features and sport trims"
+   ]
+  },
+  {
+   "id": 508,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03493778665717322,
+   "explanations": []
+  },
+  {
+   "id": 807,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02949037197158063,
+   "explanations": [
+    "relaxed shoulders"
+   ]
+  },
+  {
+   "id": 1066,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.009686416584426124,
+   "explanations": [
+    "space, planets, orbits, cosmic phenomena, astronomers"
+   ]
+  },
+  {
+   "id": 2908,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.002626062364336555,
+   "explanations": [
+    "pitcher, center, forward"
+   ]
+  },
+  {
+   "id": 1220,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01504026044916724,
+   "explanations": [
+    "running and track events"
+   ]
+  },
+  {
+   "id": 10281,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0009479004598941382,
+   "explanations": [
+    "configure, enable, modify, review"
+   ]
+  },
+  {
+   "id": 1647,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01595284918464451,
+   "explanations": [
+    "stores and locations"
+   ]
+  },
+  {
+   "id": 525,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.09750121518940559,
+   "explanations": [
+    "online resources and websites"
+   ]
+  },
+  {
+   "id": 3120,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.002073528387993011,
+   "explanations": [
+    "mathematical expressions or code"
+   ]
+  },
+  {
+   "id": 1861,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.004092944707444455,
+   "explanations": [
+    "takes courage"
+   ]
+  },
+  {
+   "id": 773,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01705909194609992,
+   "explanations": [
+    "food ingredients and meals"
+   ]
+  },
+  {
+   "id": 1749,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.02610617027936537,
+   "explanations": [
+    "Spanish-speaking countries and regions"
+   ]
+  },
+  {
+   "id": 1630,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.0147982657166651,
+   "explanations": [
+    "local establishments and services"
+   ]
+  },
+  {
+   "id": 127,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.05105160220995047,
+   "explanations": [
+    "building parts and facilities"
+   ]
+  },
+  {
+   "id": 112,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.03692918412372779,
+   "explanations": [
+    "numerical digits"
+   ]
+  },
+  {
+   "id": 597,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.01488303742664878,
+   "explanations": [
+    "infection and attack"
+   ]
+  },
+  {
+   "id": 231,
+   "found": true,
+   "sae_id": "layer_22_width_16k_l0_medium",
+   "frac_nonzero": 0.04576306775190644,
+   "explanations": []
+  }
+ ]
+}

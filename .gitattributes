@@ -1,0 +1,4 @@
+results/**/*.npz filter=lfs diff=lfs merge=lfs -text
+results/**/*.npy filter=lfs diff=lfs merge=lfs -text
+dataset/processed/** filter=lfs diff=lfs merge=lfs -text
+models/** filter=lfs diff=lfs merge=lfs -text

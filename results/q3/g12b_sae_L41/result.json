@@ -1,0 +1,397 @@
+{
+ "rep": "g12b_sae_L41",
+ "policy": "linucb_0.3",
+ "d": 32,
+ "test_regret": [
+  840.7477851480867,
+  38.52992614187881
+ ],
+ "top10": [
+  {
+   "rank_train": 1,
+   "col": 1,
+   "feature_id": 813,
+   "label": "sports",
+   "importance_train": 0.012249223689139475,
+   "importance_test": 0.018295046290577797,
+   "w_article": -0.16462777887348143,
+   "w_article_ci": 0.13356131080940237,
+   "w_personal": 0.2870870818514492,
+   "w_personal_ci": 0.08443126025925189
+  },
+  {
+   "rank_train": 2,
+   "col": 18,
+   "feature_id": 922,
+   "label": "sports teams",
+   "importance_train": 0.011609986630441868,
+   "importance_test": 0.00841394491438032,
+   "w_article": 0.0222360048765884,
+   "w_article_ci": 0.07164353395848802,
+   "w_personal": 0.19159201219462324,
+   "w_personal_ci": 0.10042753726866162
+  },
+  {
+   "rank_train": 3,
+   "col": 0,
+   "feature_id": 377,
+   "label": "code and URLs",
+   "importance_train": 0.011109490276355246,
+   "importance_test": 0.007689597591744779,
+   "w_article": 0.0026547249736652476,
+   "w_article_ci": 0.04907385445751593,
+   "w_personal": -0.0742283492087405,
+   "w_personal_ci": 0.033607134490937
+  },
+  {
+   "rank_train": 4,
+   "col": 30,
+   "feature_id": 414,
+   "label": "foreign language",
+   "importance_train": 0.010236765857418586,
+   "importance_test": 0.007976680293966077,
+   "w_article": -0.0517042678536056,
+   "w_article_ci": 0.049399769105506613,
+   "w_personal": -0.0889889278184141,
+   "w_personal_ci": 0.03477212346667925
+  },
+  {
+   "rank_train": 5,
+   "col": 2,
+   "feature_id": 780,
+   "label": "",
+   "importance_train": 0.008516241041324047,
+   "importance_test": 0.011207374326391698,
+   "w_article": 0.07085352183586605,
+   "w_article_ci": 0.025491149186208106,
+   "w_personal": 0.4669511513812477,
+   "w_personal_ci": 0.052967027335350275
+  },
+  {
+   "rank_train": 6,
+   "col": 20,
+   "feature_id": 54,
+   "label": "outperform others",
+   "importance_train": 0.008354257489812522,
+   "importance_test": 0.012107589180441577,
+   "w_article": -0.1337957752543401,
+   "w_article_ci": 0.06865895670258323,
+   "w_personal": 0.046517531058899546,
+   "w_personal_ci": 0.06363085792453282
+  },
+  {
+   "rank_train": 7,
+   "col": 28,
+   "feature_id": 544,
+   "label": "asking questions",
+   "importance_train": 0.007681177401822986,
+   "importance_test": 0.008628147153509945,
+   "w_article": 0.00593660747801712,
+   "w_article_ci": 0.04994251566460066,
+   "w_personal": -0.11895799323061708,
+   "w_personal_ci": 0.03987985975413146
+  },
+  {
+   "rank_train": 8,
+   "col": 3,
+   "feature_id": 4776,
+   "label": "football",
+   "importance_train": 0.007553777951274698,
+   "importance_test": 0.012021236204753583,
+   "w_article": 0.18628668393548153,
+   "w_article_ci": 0.0855876578081122,
+   "w_personal": 0.5748188728544847,
+   "w_personal_ci": 0.08397472050577806
+  },
+  {
+   "rank_train": 9,
+   "col": 9,
+   "feature_id": 1876,
+   "label": "body and description",
+   "importance_train": 0.006694251556843111,
+   "importance_test": 0.008846727851555174,
+   "w_article": 0.006610084268231776,
+   "w_article_ci": 0.05838844442121125,
+   "w_personal": 0.4459315655888888,
+   "w_personal_ci": 0.11157682682893649
+  },
+  {
+   "rank_train": 10,
+   "col": 4,
+   "feature_id": 486,
+   "label": "",
+   "importance_train": 0.005855892979956635,
+   "importance_test": 0.006574230531967909,
+   "w_article": -0.0036156124220966535,
+   "w_article_ci": 0.02377470335615735,
+   "w_personal": -0.04930460415311149,
+   "w_personal_ci": 0.03858765978058833
+  }
+ ],
+ "top10_labeled": 8,
+ "rank_agreement_train_vs_test_spearman": 0.8662023460410555,
+ "split_half_spearman": 0.8911290322580645,
+ "posthoc": {
+  "1": {
+   "top_change": 0.3668666666666667,
+   "top_clicks_lost_per_1k": 11.527409553527832,
+   "random_change": [
+    0.18240399999999998,
+    0.029242699623237278
+   ],
+   "random_clicks_lost_per_1k": [
+    3.4998895051382717,
+    1.1729805681318748
+   ],
+   "top_change_percentile_vs_random": 0.94
+  },
+  "2": {
+   "top_change": 0.3897333333333333,
+   "top_clicks_lost_per_1k": 11.56612777709961,
+   "random_change": [
+    0.2831533333333333,
+    0.031798431036115495
+   ],
+   "random_clicks_lost_per_1k": [
+    5.859254789054393,
+    1.4197307698376513
+   ],
+   "top_change_percentile_vs_random": 0.82
+  },
+  "4": {
+   "top_change": 0.462,
+   "top_clicks_lost_per_1k": 13.018461227416992,
+   "random_change": [
+    0.42168266666666665,
+    0.029705428514705874
+   ],
+   "random_clicks_lost_per_1k": [
+    10.58774217069149,
+    1.9258229081039018
+   ],
+   "top_change_percentile_vs_random": 0.66
+  },
+  "8": {
+   "top_change": 0.714,
+   "top_clicks_lost_per_1k": 26.521799087524414,
+   "random_change": [
+    0.5661426666666667,
+    0.027825046931408356
+   ],
+   "random_clicks_lost_per_1k": [
+    16.52041852235794,
+    2.49503969867846
+   ],
+   "top_change_percentile_vs_random": 0.92
+  },
+  "16": {
+   "top_change": 0.9235333333333333,
+   "top_clicks_lost_per_1k": 43.20924377441406,
+   "random_change": [
+    0.7143426666666667,
+    0.02434221975924649
+   ],
+   "random_clicks_lost_per_1k": [
+    25.523283376693726,
+    2.8774982903542385
+   ],
+   "top_change_percentile_vs_random": 1.0
+  }
+ },
+ "retrain": {
+  "1": {
+   "top_regret_increase": [
+    27.91981813677897,
+    31.818297108197417
+   ],
+   "random_regret_increase": [
+    21.24515326949147,
+    19.25586085161217
+   ],
+   "top_minus_random": [
+    6.674664867287504,
+    22.741263454791245
+   ]
+  },
+  "4": {
+   "top_regret_increase": [
+    39.63194547539266,
+    36.411587059649456
+   ],
+   "random_regret_increase": [
+    33.422688149989895,
+    25.524542105175907
+   ],
+   "top_minus_random": [
+    6.2092573254027705,
+    28.57705208512803
+   ]
+  },
+  "8": {
+   "top_regret_increase": [
+    250.92463187770917,
+    51.20815529622302
+   ],
+   "random_regret_increase": [
+    139.49524523424603,
+    35.95637931986853
+   ],
+   "top_minus_random": [
+    111.42938664346315,
+    50.96666464025463
+   ]
+  }
+ },
+ "groups": {
+  "_everyone": {
+   "share": 1.0,
+   "top": [
+    {
+     "feature_id": 4776,
+     "label": "football",
+     "weight": 0.20681850637700508
+    },
+    {
+     "feature_id": 670,
+     "label": "sports or games",
+     "weight": 0.11498886049440653
+    },
+    {
+     "feature_id": 780,
+     "label": "",
+     "weight": 0.10860096181732032
+    },
+    {
+     "feature_id": 10922,
+     "label": "professional sports",
+     "weight": 0.07749759219578883
+    },
+    {
+     "feature_id": 12245,
+     "label": "model",
+     "weight": 0.07487654498804718
+    }
+   ]
+  },
+  "finance": {
+   "share": 0.05215,
+   "top": [
+    {
+     "feature_id": 1275,
+     "label": "Here",
+     "lift": 0.002849208303102616
+    },
+    {
+     "feature_id": 469,
+     "label": "",
+     "lift": 0.0016388415958831695
+    },
+    {
+     "feature_id": 486,
+     "label": "",
+     "lift": 0.0010874945991281146
+    },
+    {
+     "feature_id": 4721,
+     "label": "security indicators",
+     "lift": 0.000438473759293114
+    },
+    {
+     "feature_id": 54,
+     "label": "outperform others",
+     "lift": 0.00034931247228596344
+    }
+   ]
+  },
+  "lifestyle": {
+   "share": 0.10698333333333333,
+   "top": [
+    {
+     "feature_id": 4721,
+     "label": "security indicators",
+     "lift": 0.0003564261468995623
+    },
+    {
+     "feature_id": 7465,
+     "label": "emotive",
+     "lift": -5.863914879357735e-06
+    },
+    {
+     "feature_id": 756,
+     "label": "",
+     "lift": -7.289883747546383e-06
+    },
+    {
+     "feature_id": 12245,
+     "label": "model",
+     "lift": -2.47831797129785e-05
+    },
+    {
+     "feature_id": 2047,
+     "label": "weather forecast",
+     "lift": -8.282495530851756e-05
+    }
+   ]
+  },
+  "news": {
+   "share": 0.4605,
+   "top": [
+    {
+     "feature_id": 780,
+     "label": "",
+     "lift": 0.01488415116932521
+    },
+    {
+     "feature_id": 1275,
+     "label": "Here",
+     "lift": 0.007009119958857335
+    },
+    {
+     "feature_id": 2037,
+     "label": "legislative",
+     "lift": 0.0028348837608408047
+    },
+    {
+     "feature_id": 5686,
+     "label": "methods and techniques",
+     "lift": 0.0021631367743026333
+    },
+    {
+     "feature_id": 1223,
+     "label": "elections and voting",
+     "lift": 0.0016167910940983407
+    }
+   ]
+  },
+  "sports": {
+   "share": 0.15961666666666666,
+   "top": [
+    {
+     "feature_id": 4776,
+     "label": "football",
+     "lift": 0.049273967819503814
+    },
+    {
+     "feature_id": 1876,
+     "label": "body and description",
+     "lift": 0.043101613484773205
+    },
+    {
+     "feature_id": 813,
+     "label": "sports",
+     "lift": 0.027934974226826434
+    },
+    {
+     "feature_id": 922,
+     "label": "sports teams",
+     "lift": 0.014198056344116717
+    },
+    {
+     "feature_id": 371,
+     "label": "athletic actions",
+     "lift": 0.012389228573465161
+    }
+   ]
+  }
+ }
+}

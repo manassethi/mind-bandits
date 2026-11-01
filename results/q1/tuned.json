@@ -1,0 +1,74 @@
+{
+  "K2": {
+    "A/B test (tuned length)": "ab_frac_0.02",
+    "A/B test (power analysis)": "ab_power_mde_0.5",
+    "\u03b5-greedy": "egreedy_0.01",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  },
+  "K5": {
+    "A/B test (tuned length)": "ab_frac_0.02",
+    "A/B test (power analysis)": "ab_power_mde_0.5",
+    "\u03b5-greedy": "egreedy_decay_100.0",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  },
+  "K10": {
+    "A/B test (tuned length)": "ab_frac_0.05",
+    "A/B test (power analysis)": "ab_power_mde_0.5",
+    "\u03b5-greedy": "egreedy_decay_10.0",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  },
+  "K20": {
+    "A/B test (tuned length)": "ab_frac_0.05",
+    "A/B test (power analysis)": "ab_power_mde_0.5",
+    "\u03b5-greedy": "egreedy_decay_30.0",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  },
+  "K50": {
+    "A/B test (tuned length)": "ab_frac_0.05",
+    "A/B test (power analysis)": "ab_power_mde_0.2",
+    "\u03b5-greedy": "egreedy_decay_30.0",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  },
+  "K10_T1k": {
+    "A/B test (tuned length)": "ab_frac_0.1",
+    "A/B test (power analysis)": "ab_power_mde_0.2",
+    "\u03b5-greedy": "egreedy_0.1",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.9999"
+  },
+  "K10_T10k": {
+    "A/B test (tuned length)": "ab_frac_0.2",
+    "A/B test (power analysis)": "ab_power_mde_0.2",
+    "\u03b5-greedy": "egreedy_decay_30.0",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  },
+  "K10_abrupt": {
+    "A/B test (tuned length)": "ab_frac_0.02",
+    "A/B test (power analysis)": "ab_power_mde_0.5",
+    "\u03b5-greedy": "egreedy_0.05",
+    "UCB1": "ucb1_0.3",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.9999"
+  },
+  "K10_gradual": {
+    "A/B test (tuned length)": "ab_frac_0.05",
+    "A/B test (power analysis)": "ab_power_mde_0.5",
+    "\u03b5-greedy": "egreedy_decay_100.0",
+    "UCB1": "ucb1_0.1",
+    "Thompson sampling": "thompson",
+    "Discounted Thompson": "dthompson_0.99999"
+  }
+}

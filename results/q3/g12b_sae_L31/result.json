@@ -1,0 +1,397 @@
+{
+ "rep": "g12b_sae_L31",
+ "policy": "linucb_0.3",
+ "d": 32,
+ "test_regret": [
+  965.7030352822505,
+  84.5289985242746
+ ],
+ "top10": [
+  {
+   "rank_train": 1,
+   "col": 1,
+   "feature_id": 221,
+   "label": "programming code examples",
+   "importance_train": 0.017678189250729736,
+   "importance_test": 0.015549162689726252,
+   "w_article": -0.01988538053436173,
+   "w_article_ci": 0.10155343859683018,
+   "w_personal": -0.06661186862138131,
+   "w_personal_ci": 0.029185665500979223
+  },
+  {
+   "rank_train": 2,
+   "col": 18,
+   "feature_id": 300,
+   "label": "punctuation and labels",
+   "importance_train": 0.015879164584571195,
+   "importance_test": 0.014681188366708757,
+   "w_article": -0.11024015055507401,
+   "w_article_ci": 0.07584361486477505,
+   "w_personal": -0.09338120234432983,
+   "w_personal_ci": 0.02687458420865562
+  },
+  {
+   "rank_train": 3,
+   "col": 6,
+   "feature_id": 107,
+   "label": "urls and code commands",
+   "importance_train": 0.012363274668795481,
+   "importance_test": 0.014871238848439028,
+   "w_article": 0.020358569977656536,
+   "w_article_ci": 0.09426651330285317,
+   "w_personal": -0.08245624056788398,
+   "w_personal_ci": 0.026013186633720053
+  },
+  {
+   "rank_train": 4,
+   "col": 0,
+   "feature_id": 604,
+   "label": "team sports and players",
+   "importance_train": 0.010103706173083904,
+   "importance_test": 0.010622695027716343,
+   "w_article": -0.08673930171826347,
+   "w_article_ci": 0.08583089612187719,
+   "w_personal": 0.5300005920909325,
+   "w_personal_ci": 0.09806020425354482
+  },
+  {
+   "rank_train": 5,
+   "col": 12,
+   "feature_id": 10119,
+   "label": "title clinched or cycle arrest",
+   "importance_train": 0.008927791083550855,
+   "importance_test": 0.012144702815594039,
+   "w_article": 0.1752420137700454,
+   "w_article_ci": 0.09632622260784335,
+   "w_personal": 0.24633462470616188,
+   "w_personal_ci": 0.08289421210638294
+  },
+  {
+   "rank_train": 6,
+   "col": 16,
+   "feature_id": 1083,
+   "label": "play tic tac toe with",
+   "importance_train": 0.008522800655159729,
+   "importance_test": 0.009877512027666095,
+   "w_article": 0.048973075651921515,
+   "w_article_ci": 0.08016580300895473,
+   "w_personal": 0.0077327962361175675,
+   "w_personal_ci": 0.03554757285896286
+  },
+  {
+   "rank_train": 7,
+   "col": 30,
+   "feature_id": 342,
+   "label": "The neuron strongly activates on numeric tokens (e.g. years, percentages, counts, large numbers), so it\u2019s detecting numbers/statistical values in the text.",
+   "importance_train": 0.008292495739306958,
+   "importance_test": 0.004870340910669301,
+   "w_article": -0.06502799682433198,
+   "w_article_ci": 0.024588443033577337,
+   "w_personal": 0.1721149959866318,
+   "w_personal_ci": 0.045319173561710904
+  },
+  {
+   "rank_train": 8,
+   "col": 3,
+   "feature_id": 203,
+   "label": "win tournament",
+   "importance_train": 0.00796438060915172,
+   "importance_test": 0.009454817062362895,
+   "w_article": -0.12577789839265824,
+   "w_article_ci": 0.05737288245341051,
+   "w_personal": 0.1708532690674831,
+   "w_personal_ci": 0.07427111311757058
+  },
+  {
+   "rank_train": 9,
+   "col": 4,
+   "feature_id": 4038,
+   "label": "football and bowl events",
+   "importance_train": 0.007744048824924661,
+   "importance_test": 0.008484638225451152,
+   "w_article": 0.05012347280686372,
+   "w_article_ci": 0.08412088627725209,
+   "w_personal": 0.6683545014700584,
+   "w_personal_ci": 0.11999365713293747
+  },
+  {
+   "rank_train": 10,
+   "col": 10,
+   "feature_id": 249,
+   "label": "The neuron is simply a \u201csentence-position\u201d detector \u2013 it has its strongest activations on the first few real tokens of a sentence (e.g. the initial determiner or auxiliary) and then decays as you move further into the sentence.",
+   "importance_train": 0.007659884485832581,
+   "importance_test": 0.008382262836806853,
+   "w_article": 0.025684773784992943,
+   "w_article_ci": 0.0494400084121608,
+   "w_personal": -0.08081530592938832,
+   "w_personal_ci": 0.04617611511291795
+  }
+ ],
+ "top10_labeled": 10,
+ "rank_agreement_train_vs_test_spearman": 0.848240469208211,
+ "split_half_spearman": 0.7445014662756598,
+ "posthoc": {
+  "1": {
+   "top_change": 0.3648,
+   "top_clicks_lost_per_1k": 9.604521751403809,
+   "random_change": [
+    0.1684186666666667,
+    0.03957021221153324
+   ],
+   "random_clicks_lost_per_1k": [
+    2.8998219834640624,
+    0.9525612917453115
+   ],
+   "top_change_percentile_vs_random": 0.94
+  },
+  "2": {
+   "top_change": 0.3672,
+   "top_clicks_lost_per_1k": 8.336637496948242,
+   "random_change": [
+    0.30127333333333334,
+    0.03322477974647827
+   ],
+   "random_clicks_lost_per_1k": [
+    6.577457556589507,
+    1.3809930629421605
+   ],
+   "top_change_percentile_vs_random": 0.72
+  },
+  "4": {
+   "top_change": 0.5312666666666667,
+   "top_clicks_lost_per_1k": 13.316314697265625,
+   "random_change": [
+    0.473412,
+    0.030767852328384717
+   ],
+   "random_clicks_lost_per_1k": [
+    12.313937497138976,
+    1.728346523038541
+   ],
+   "top_change_percentile_vs_random": 0.72
+  },
+  "8": {
+   "top_change": 0.6670666666666667,
+   "top_clicks_lost_per_1k": 21.54837989807129,
+   "random_change": [
+    0.6325853333333332,
+    0.021808879939268434
+   ],
+   "random_clicks_lost_per_1k": [
+    20.97115758895874,
+    1.685722640545198
+   ],
+   "top_change_percentile_vs_random": 0.66
+  },
+  "16": {
+   "top_change": 0.8041333333333334,
+   "top_clicks_lost_per_1k": 38.28284454345703,
+   "random_change": [
+    0.760608,
+    0.01634924441528174
+   ],
+   "random_clicks_lost_per_1k": [
+    28.22309576034546,
+    1.793599019570483
+   ],
+   "top_change_percentile_vs_random": 0.78
+  }
+ },
+ "retrain": {
+  "1": {
+   "top_regret_increase": [
+    -22.30379092604853,
+    62.60140763507851
+   ],
+   "random_regret_increase": [
+    5.91797644519247,
+    27.125087264210574
+   ],
+   "top_minus_random": [
+    -28.221767371241004,
+    42.914595958181074
+   ]
+  },
+  "4": {
+   "top_regret_increase": [
+    -9.610532815226664,
+    64.4484257347675
+   ],
+   "random_regret_increase": [
+    26.021349459088714,
+    46.24765232615646
+   ],
+   "top_minus_random": [
+    -35.63188227431538,
+    29.576084030371746
+   ]
+  },
+  "8": {
+   "top_regret_increase": [
+    41.619780051956575,
+    70.11268958257945
+   ],
+   "random_regret_increase": [
+    55.86729378920669,
+    43.614371943059915
+   ],
+   "top_minus_random": [
+    -14.247513737250118,
+    41.836479717852136
+   ]
+  }
+ },
+ "groups": {
+  "_everyone": {
+   "share": 1.0,
+   "top": [
+    {
+     "feature_id": 10119,
+     "label": "title clinched or cycle arrest",
+     "weight": 0.181391226200124
+    },
+    {
+     "feature_id": 1646,
+     "label": "combat sports",
+     "weight": 0.14058601191413467
+    },
+    {
+     "feature_id": 10397,
+     "label": "universities",
+     "weight": 0.08725590227980734
+    },
+    {
+     "feature_id": 4038,
+     "label": "football and bowl events",
+     "weight": 0.07156691837097104
+    },
+    {
+     "feature_id": 53,
+     "label": "attacking opponent actions",
+     "weight": 0.06890133705210902
+    }
+   ]
+  },
+  "finance": {
+   "share": 0.05215,
+   "top": [
+    {
+     "feature_id": 342,
+     "label": "The neuron strongly activates on numeric tokens (e.g. years, percentages, counts, large numbers), so it\u2019s detecting numbers/statistical values in the text.",
+     "lift": 0.013755903897422546
+    },
+    {
+     "feature_id": 323,
+     "label": "The neuron flags unusually informative or low\u2010frequency \u201ccontent\u201d words (i.e. non\u2010function words that carry specific meaning).",
+     "lift": 0.00036918052558706864
+    },
+    {
+     "feature_id": 466,
+     "label": "news websites and sources",
+     "lift": 0.00024431122134160876
+    },
+    {
+     "feature_id": 756,
+     "label": "The neuron is triggered by numeric expressions and measurements (digits, quantities, and related numeric tokens).",
+     "lift": 0.00021757630375012846
+    },
+    {
+     "feature_id": 221,
+     "label": "programming code examples",
+     "lift": 0.00010577778523228679
+    }
+   ]
+  },
+  "lifestyle": {
+   "share": 0.10698333333333333,
+   "top": [
+    {
+     "feature_id": 466,
+     "label": "news websites and sources",
+     "lift": 0.00018901607240768227
+    },
+    {
+     "feature_id": 1083,
+     "label": "play tic tac toe with",
+     "lift": 1.1571736067713897e-05
+    },
+    {
+     "feature_id": 184,
+     "label": "exploit, abuse, endanger children",
+     "lift": 8.624214194681908e-06
+    },
+    {
+     "feature_id": 8610,
+     "label": "skating and hockey",
+     "lift": 7.796316631518159e-06
+    },
+    {
+     "feature_id": 15771,
+     "label": "fire and flammable risks",
+     "lift": -6.25754931551787e-05
+    }
+   ]
+  },
+  "news": {
+   "share": 0.4605,
+   "top": [
+    {
+     "feature_id": 2646,
+     "label": "harm, unusual, suspect",
+     "lift": 0.01053204199197459
+    },
+    {
+     "feature_id": 342,
+     "label": "The neuron strongly activates on numeric tokens (e.g. years, percentages, counts, large numbers), so it\u2019s detecting numbers/statistical values in the text.",
+     "lift": 0.0037003106418565324
+    },
+    {
+     "feature_id": 14329,
+     "label": "threatened, Power, Used, Simple, wave",
+     "lift": 0.0019994909060912208
+    },
+    {
+     "feature_id": 4071,
+     "label": "political campaign campaigning",
+     "lift": 0.0018920916872078113
+    },
+    {
+     "feature_id": 25,
+     "label": "upcoming announcements and events",
+     "lift": 0.0016039277083805777
+    }
+   ]
+  },
+  "sports": {
+   "share": 0.15961666666666666,
+   "top": [
+    {
+     "feature_id": 604,
+     "label": "team sports and players",
+     "lift": 0.053046359821054025
+    },
+    {
+     "feature_id": 4038,
+     "label": "football and bowl events",
+     "lift": 0.05223478528815106
+    },
+    {
+     "feature_id": 10119,
+     "label": "title clinched or cycle arrest",
+     "lift": 0.014139510942953697
+    },
+    {
+     "feature_id": 203,
+     "label": "win tournament",
+     "lift": 0.01112183611573008
+    },
+    {
+     "feature_id": 53,
+     "label": "attacking opponent actions",
+     "lift": 0.007720455515439583
+    }
+   ]
+  }
+ }
+}

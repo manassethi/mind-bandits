@@ -1,0 +1,1033 @@
+{
+ "rep": "g12b_sae_L12",
+ "model": "gemma-3-12b",
+ "source": "12-gemmascope-2-res-16k",
+ "features": [
+  {
+   "id": 68,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04468249795918642,
+   "explanations": []
+  },
+  {
+   "id": 428,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03361624012621364,
+   "explanations": [
+    "greetings or introductory phrases"
+   ]
+  },
+  {
+   "id": 315,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06280298993707774,
+   "explanations": []
+  },
+  {
+   "id": 125,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03332436805710312,
+   "explanations": []
+  },
+  {
+   "id": 106,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01520027022343393,
+   "explanations": []
+  },
+  {
+   "id": 6272,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.004767852736826154,
+   "explanations": [
+    "trucks, addresses, frisbee, histogram, reset"
+   ]
+  },
+  {
+   "id": 301,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01259925684007196,
+   "explanations": [
+    "temporal references"
+   ]
+  },
+  {
+   "id": 413,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07292644478187747,
+   "explanations": []
+  },
+  {
+   "id": 386,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.005190708488441731,
+   "explanations": [
+    "words like Walmart, welcome, make, RISC"
+   ]
+  },
+  {
+   "id": 90,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1147810870554653,
+   "explanations": []
+  },
+  {
+   "id": 316,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03448689207275178,
+   "explanations": [
+    "shop still"
+   ]
+  },
+  {
+   "id": 99,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1135299446863843,
+   "explanations": []
+  },
+  {
+   "id": 1229,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0157743514832312,
+   "explanations": [
+    "combat actions"
+   ]
+  },
+  {
+   "id": 1835,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01230767401359091,
+   "explanations": [
+    "improve their win"
+   ]
+  },
+  {
+   "id": 201,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04905687884472964,
+   "explanations": [
+    "teaching you"
+   ]
+  },
+  {
+   "id": 6929,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.009159238430346491,
+   "explanations": [
+    "tips covering future"
+   ]
+  },
+  {
+   "id": 15669,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.004679442009218214,
+   "explanations": [
+    "crime and danger"
+   ]
+  },
+  {
+   "id": 531,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02490068012097557,
+   "explanations": [
+    "Kuala Lumpur"
+   ]
+  },
+  {
+   "id": 528,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01316185746002146,
+   "explanations": [
+    "US states and cities"
+   ]
+  },
+  {
+   "id": 473,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06853787120908271,
+   "explanations": []
+  },
+  {
+   "id": 1884,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04327980994231274,
+   "explanations": []
+  },
+  {
+   "id": 602,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01189831889786232,
+   "explanations": [
+    "meal and food preparation"
+   ]
+  },
+  {
+   "id": 5522,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003771462718287482,
+   "explanations": []
+  },
+  {
+   "id": 534,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.05372114416394299,
+   "explanations": [
+    "PostgreSQL"
+   ]
+  },
+  {
+   "id": 362,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03468808599260967,
+   "explanations": []
+  },
+  {
+   "id": 78,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01116467049042631,
+   "explanations": [
+    "nationalities and associated topics"
+   ]
+  },
+  {
+   "id": 615,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.00481701448566816,
+   "explanations": [
+    "political government politics"
+   ]
+  },
+  {
+   "id": 49,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.2137770192431832,
+   "explanations": []
+  },
+  {
+   "id": 214,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1610840749980635,
+   "explanations": []
+  },
+  {
+   "id": 1432,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06719309710279081,
+   "explanations": []
+  },
+  {
+   "id": 3999,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003118038769581735,
+   "explanations": [
+    "team names and fighter jets"
+   ]
+  },
+  {
+   "id": 163,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02822684088238594,
+   "explanations": []
+  },
+  {
+   "id": 366,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.2266462392999035,
+   "explanations": []
+  },
+  {
+   "id": 2598,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01092102258466442,
+   "explanations": [
+    "sports and games"
+   ]
+  },
+  {
+   "id": 41,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06960033929777847,
+   "explanations": [
+    "job interview, website analysis, readings"
+   ]
+  },
+  {
+   "id": 387,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07879405593802667,
+   "explanations": []
+  },
+  {
+   "id": 394,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1378668463329792,
+   "explanations": []
+  },
+  {
+   "id": 230,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06759039635468073,
+   "explanations": []
+  },
+  {
+   "id": 14595,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.002616444769436979,
+   "explanations": [
+    "binary tree, basketball, ice cream"
+   ]
+  },
+  {
+   "id": 100,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.08542671119920175,
+   "explanations": []
+  },
+  {
+   "id": 63,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02170319220841536,
+   "explanations": []
+  },
+  {
+   "id": 3886,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.008266713711835261,
+   "explanations": [
+    "traffic and roads"
+   ]
+  },
+  {
+   "id": 267,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07499553644768576,
+   "explanations": []
+  },
+  {
+   "id": 6513,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.009395332232660128,
+   "explanations": []
+  },
+  {
+   "id": 308,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03939906682965142,
+   "explanations": []
+  },
+  {
+   "id": 250,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.2102553499083256,
+   "explanations": []
+  },
+  {
+   "id": 91,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01067975675720289,
+   "explanations": [
+    "20th Century"
+   ]
+  },
+  {
+   "id": 5305,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.008380271586387157,
+   "explanations": [
+    "emergency and safety procedures"
+   ]
+  },
+  {
+   "id": 11009,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.00444402716134396,
+   "explanations": [
+    "with"
+   ]
+  },
+  {
+   "id": 478,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.09095928808552657,
+   "explanations": []
+  },
+  {
+   "id": 7017,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003570049814251628,
+   "explanations": []
+  },
+  {
+   "id": 302,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02933122169779963,
+   "explanations": []
+  },
+  {
+   "id": 8354,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.08567025310572046,
+   "explanations": []
+  },
+  {
+   "id": 103,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.09480731627594059,
+   "explanations": []
+  },
+  {
+   "id": 818,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04814832610105784,
+   "explanations": [
+    "Guinness World Records"
+   ]
+  },
+  {
+   "id": 417,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07288595940973182,
+   "explanations": []
+  },
+  {
+   "id": 433,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02044014561814821,
+   "explanations": []
+  },
+  {
+   "id": 5653,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01318048897381969,
+   "explanations": [
+    "university and college specific terms"
+   ]
+  },
+  {
+   "id": 328,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0901989204340529,
+   "explanations": []
+  },
+  {
+   "id": 571,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0826834001863932,
+   "explanations": [
+    "art, print, personalize, classic, cheesecake"
+   ]
+  },
+  {
+   "id": 318,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1328717275818268,
+   "explanations": []
+  },
+  {
+   "id": 12,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04636543906564627,
+   "explanations": [
+    "' followed by 't' or 'm'"
+   ]
+  },
+  {
+   "id": 129,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0147484774245642,
+   "explanations": [
+    "places, homes, workshops"
+   ]
+  },
+  {
+   "id": 10207,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.002559702437893832,
+   "explanations": [
+    "player statistics"
+   ]
+  },
+  {
+   "id": 14309,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.006346544118533971,
+   "explanations": []
+  },
+  {
+   "id": 500,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1060050660831667,
+   "explanations": []
+  },
+  {
+   "id": 142,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0139714533156691,
+   "explanations": [
+    "plants, agriculture, and nature"
+   ]
+  },
+  {
+   "id": 11425,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.001484805605781518,
+   "explanations": [
+    "weather phenomena, environment, and related conditions"
+   ]
+  },
+  {
+   "id": 429,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.143816342029899,
+   "explanations": []
+  },
+  {
+   "id": 9631,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.004322273201922608,
+   "explanations": [
+    "elections and political parties"
+   ]
+  },
+  {
+   "id": 69,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06251745394176075,
+   "explanations": []
+  },
+  {
+   "id": 320,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06684834955595,
+   "explanations": []
+  },
+  {
+   "id": 563,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.05290236516990936,
+   "explanations": []
+  },
+  {
+   "id": 462,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.008092288408645138,
+   "explanations": [
+    "new beginnings"
+   ]
+  },
+  {
+   "id": 305,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07678487121288365,
+   "explanations": []
+  },
+  {
+   "id": 150,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.005525805117592257,
+   "explanations": [
+    "numbers after two"
+   ]
+  },
+  {
+   "id": 4,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1617507294180116,
+   "explanations": [
+    "erotic"
+   ]
+  },
+  {
+   "id": 81,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01668570760655911,
+   "explanations": [
+    "nationalities and languages"
+   ]
+  },
+  {
+   "id": 3945,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01625584882974901,
+   "explanations": [
+    "property"
+   ]
+  },
+  {
+   "id": 52,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02286489933300113,
+   "explanations": [
+    "vibrant, complex"
+   ]
+  },
+  {
+   "id": 4422,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.002416183947676567,
+   "explanations": [
+    "weather events"
+   ]
+  },
+  {
+   "id": 472,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03873914046673187,
+   "explanations": []
+  },
+  {
+   "id": 408,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.05658763452377497,
+   "explanations": []
+  },
+  {
+   "id": 261,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01065306133217434,
+   "explanations": [
+    "calculus textbooks"
+   ]
+  },
+  {
+   "id": 8537,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003878867736377266,
+   "explanations": [
+    "racing and motorsport concepts"
+   ]
+  },
+  {
+   "id": 217,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04214443797189171,
+   "explanations": []
+  },
+  {
+   "id": 357,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0384498821685503,
+   "explanations": []
+  },
+  {
+   "id": 580,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.009018211204366924,
+   "explanations": [
+    "non-english words"
+   ]
+  },
+  {
+   "id": 28,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06838571170438931,
+   "explanations": [
+    "will/would followed by verb"
+   ]
+  },
+  {
+   "id": 2,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0402043941218807,
+   "explanations": []
+  },
+  {
+   "id": 485,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1257977766385175,
+   "explanations": []
+  },
+  {
+   "id": 6210,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003398520618671917,
+   "explanations": [
+    "golf"
+   ]
+  },
+  {
+   "id": 123,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07623372669747625,
+   "explanations": []
+  },
+  {
+   "id": 469,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01979378138758129,
+   "explanations": []
+  },
+  {
+   "id": 573,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03612420335855951,
+   "explanations": []
+  },
+  {
+   "id": 2887,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01555837602975728,
+   "explanations": []
+  },
+  {
+   "id": 621,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04805968745166193,
+   "explanations": []
+  },
+  {
+   "id": 276,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.182602896315686,
+   "explanations": []
+  },
+  {
+   "id": 6226,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.006410394047900563,
+   "explanations": []
+  },
+  {
+   "id": 515,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04865270217663534,
+   "explanations": [
+    "measurement, comparison, technology, calories, proximity, quantity"
+   ]
+  },
+  {
+   "id": 326,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01488094817973696,
+   "explanations": []
+  },
+  {
+   "id": 288,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.00726999891985188,
+   "explanations": [
+    "```segment 9 3 user```"
+   ]
+  },
+  {
+   "id": 791,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.1034830284650168,
+   "explanations": []
+  },
+  {
+   "id": 8717,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.007873923871274488,
+   "explanations": [
+    "music, fighting, surfing, sex, boxing"
+   ]
+  },
+  {
+   "id": 15231,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.002564376260728124,
+   "explanations": [
+    "injury, pain, management, rehabilitation"
+   ]
+  },
+  {
+   "id": 4335,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.00948818190248104,
+   "explanations": [
+    "car design"
+   ]
+  },
+  {
+   "id": 455,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.008258614930520138,
+   "explanations": [
+    "3%"
+   ]
+  },
+  {
+   "id": 126,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01561406915733238,
+   "explanations": []
+  },
+  {
+   "id": 786,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02827541776030512,
+   "explanations": []
+  },
+  {
+   "id": 8432,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.06641261285421717,
+   "explanations": [
+    "accepted term"
+   ]
+  },
+  {
+   "id": 6143,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01438907351806658,
+   "explanations": [
+    "California redwood tree"
+   ]
+  },
+  {
+   "id": 13523,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.004236329709034383,
+   "explanations": [
+    "new guideline or signs"
+   ]
+  },
+  {
+   "id": 9983,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.006030665779625237,
+   "explanations": [
+    "skill, performance, and potential"
+   ]
+  },
+  {
+   "id": 309,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003011551395456675,
+   "explanations": []
+  },
+  {
+   "id": 254,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.04992581736528437,
+   "explanations": []
+  },
+  {
+   "id": 678,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01316466882451401,
+   "explanations": [
+    "last names followed by :**"
+   ]
+  },
+  {
+   "id": 674,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07711237479959254,
+   "explanations": []
+  },
+  {
+   "id": 1077,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.03307836193729865,
+   "explanations": [
+    "street/road/avenue/station names"
+   ]
+  },
+  {
+   "id": 12168,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.005210634278089431,
+   "explanations": [
+    "snow and ice"
+   ]
+  },
+  {
+   "id": 307,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.0289714528523999,
+   "explanations": []
+  },
+  {
+   "id": 7116,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.007983657632921902,
+   "explanations": [
+    "restaurants and dining"
+   ]
+  },
+  {
+   "id": 333,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.07940840043340579,
+   "explanations": []
+  },
+  {
+   "id": 8551,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.005746983070940984,
+   "explanations": [
+    "financial misconduct and corruption"
+   ]
+  },
+  {
+   "id": 10124,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.003259513255458704,
+   "explanations": [
+    "deaths and casualties"
+   ]
+  },
+  {
+   "id": 19,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.02677266406581603,
+   "explanations": [
+    "expressing certainty or doubt"
+   ]
+  },
+  {
+   "id": 5633,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.006855941883361145,
+   "explanations": [
+    "TV shows and television"
+   ]
+  },
+  {
+   "id": 7159,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.01315408413354354,
+   "explanations": [
+    "5th grade students"
+   ]
+  },
+  {
+   "id": 6123,
+   "found": true,
+   "sae_id": "layer_12_width_16k_l0_medium",
+   "frac_nonzero": 0.005013747170040096,
+   "explanations": [
+    "game or match context"
+   ]
+  }
+ ]
+}
