@@ -1,6 +1,6 @@
 # CSE 592 midway report
 
-`paper.tex` is the main document; `paper.bib` contains the references. The supplied ICML 2026 style is retained, with visible authors and a course-report notice. The revised report is six pages, including a separate references page. It combines related points into fuller paragraphs and adds a compact vector concept figure, using the figures inside the published PDFs as design references. The separate future-work heading uses `\section*{Work Before the Final Submission}`.
+`paper.tex` is the main document; `paper.bib` contains the references. The supplied ICML 2026 style is retained, with visible authors and a course-report notice. The revised report is five pages, including references. Vertical gaps are fixed rather than stretched, and the first-page abstract spacing is compact. It combines related points into fuller paragraphs and adds a compact vector concept figure, using the figures inside the published PDFs as design references. The separate future-work heading uses `\section*{Work Before the Final Submission}`.
 
 ## Build
 

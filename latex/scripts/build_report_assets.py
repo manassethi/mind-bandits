@@ -88,7 +88,7 @@ def main():
         "share_gap_below_0.001": float((np.array(gaps)<.001).mean())}
 
     # Reliability plot and the actual distribution of decision gaps.
-    fig, axs = plt.subplots(1,2,figsize=(6.7,2.35),layout="constrained")
+    fig, axs = plt.subplots(1,2,figsize=(6.7,2.0),layout="constrained")
     ax = axs[0]
     for bins, label, color in [(m["test_calibration_bins"],"Before anchoring",COLORS[0]),
         (cal["test_calibration_bins_after"],"After anchoring",COLORS[1])]:
@@ -111,7 +111,7 @@ def main():
     save(fig,"simulator_validation")
 
     # Q1 curves: no log-axis exaggeration of early-round separation.
-    fig,axs=plt.subplots(1,2,figsize=(6.7,2.3),layout="constrained")
+    fig,axs=plt.subplots(1,2,figsize=(6.7,2.0),layout="constrained")
     fams=["A/B test (tuned length)","UCB1","Thompson sampling","Discounted Thompson"]
     for ax,cond,title in zip(axs,["K10","K10_abrupt"],["(a) Stationary articles","(b) Abrupt preference switch"]):
         with np.load(ROOT/f"results/q1/test/{cond}.npz") as z:
