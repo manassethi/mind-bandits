@@ -17,12 +17,13 @@ import numpy as np
 from scipy import stats
 
 from scripts.build_q4_envs import OUT
+from scripts.train_click_model import default_device
 
 GROUPS, SIZE, MIN_IMPRESSIONS, SEED = 200, 5, 100, 7_000_000
 PATH = OUT / "prior_groups.json"
 
 
-def build() -> None:
+def build(device: str | None = None) -> None:
     from src.data.mind import load_processed, load_processed_news
     from src.simulator.simulator import ClickSimulator
 
@@ -40,7 +41,7 @@ def build() -> None:
         groups.append({"type": "same_category", "category": str(k),
                        "rows": rng.choice(by_cat[k], SIZE, replace=False).tolist()})
 
-    sim = ClickSimulator.load(split="test", device="mps")
+    sim = ClickSimulator.load(split="test", device=device or default_device())
     users = sim.sample_users(5000, np.random.default_rng(0))
     rows = np.unique([r for g in groups for r in g["rows"]])
     pop = dict(zip(rows.tolist(), sim.prob_matrix(users, rows).mean(0).tolist()))
@@ -101,8 +102,9 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("step", choices=("build", "run", "analyze"))
     p.add_argument("--model", default="google/gemma-3-12b-it")
+    p.add_argument("--device", default=default_device(), help="simulator device for the build step")
     args = p.parse_args()
-    {"build": build, "run": lambda: run(args.model), "analyze": analyze}[args.step]()
+    {"build": lambda: build(args.device), "run": lambda: run(args.model), "analyze": analyze}[args.step]()
 
 
 if __name__ == "__main__":

@@ -6,3 +6,7 @@ sentence-transformers
 tqdm
 pyarrow
 matplotlib
+scipy
+transformers
+huggingface-hub
+safetensors

@@ -7,4 +7,12 @@ env/
 *.py[cod]
 .DS_Store
 dataset/raw/
+latex/
+reports/
+research_notes/
+slurm/
+logs/
+*.log
 
+.venv-*/
+dataset/processed/policy_raw/

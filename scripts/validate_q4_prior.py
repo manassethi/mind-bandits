@@ -19,6 +19,7 @@ Three comparisons:
 Writes results/q4/prior_validation.json and .md.
 """
 
+import argparse
 import json
 
 import numpy as np
@@ -26,6 +27,7 @@ from scipy import stats
 
 from scripts.build_q4_envs import ARMS, OUT
 from src.data.mind import load_processed
+from scripts.train_click_model import default_device
 
 PRIOR_STRENGTH, MIN_IMPRESSIONS = 20, 100
 
@@ -37,6 +39,9 @@ def ci(x) -> tuple[float, float]:
 
 
 def main() -> None:
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--device", default=default_device(), help="simulator device: cuda, mps, or cpu")
+    args = p.parse_args()
     test = load_processed("test")
     n = np.bincount(test.cand_idx, minlength=test.cand_idx.max() + 1).astype(float)
     c = np.bincount(test.cand_idx, weights=test.cand_label, minlength=len(n))
@@ -74,7 +79,7 @@ def main() -> None:
     # 2-3. All well-observed test-day articles.
     from src.simulator.simulator import ClickSimulator
 
-    sim = ClickSimulator.load(split="test", device="mps")
+    sim = ClickSimulator.load(split="test", device=args.device)
     arts = np.flatnonzero(n >= MIN_IMPRESSIONS)
     users = sim.sample_users(5000, np.random.default_rng(0))
     pop = np.concatenate([sim.prob_matrix(users, arts[i:i + 500]).mean(0) for i in range(0, len(arts), 500)])

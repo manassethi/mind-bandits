@@ -9,6 +9,7 @@ so the LLM agents and every baseline face the same coin flips.
 Writes results/q4/envs.npz (mu, uniforms, article rows) and results/q4/envs.json (headlines).
 """
 
+import argparse
 import json
 from pathlib import Path
 
@@ -16,6 +17,7 @@ import numpy as np
 
 from src.data.mind import load_processed_news
 from src.simulator.simulator import ClickSimulator
+from scripts.train_click_model import default_device
 
 OUT = Path("results/q4")
 ARMS = (5, 10)
@@ -23,8 +25,11 @@ RUNS, HORIZON, POP_USERS, SEED = 30, 500, 20_000, 6_000_000
 
 
 def main() -> None:
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--device", default=default_device(), help="simulator device: cuda, mps, or cpu")
+    args = p.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
-    sim = ClickSimulator.load(split="test", device="mps")
+    sim = ClickSimulator.load(split="test", device=args.device)
     news = load_processed_news()
     arrays, meta = {}, {}
     for K in ARMS:
