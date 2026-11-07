@@ -8,11 +8,3 @@ env/
 .DS_Store
 dataset/raw/
 
-# LaTeX build products
-latex/*.aux
-latex/*.bbl
-latex/*.blg
-latex/*.log
-latex/*.out
-latex/*.synctex.gz
-latex/midway_report_source.zip
