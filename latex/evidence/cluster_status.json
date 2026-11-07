@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-07T18:51:26.965249Z",
+  "accounts_requested": [
+    "mihalcea_owned1",
+    "mihalcea98"
+  ],
+  "active_project_jobs": [],
+  "report_experiment_job": "65624194",
+  "accounting": [
+    "65624194|COMPLETED|mihalcea_owned1|00:00:16|0:0",
+    "65624194.batch|COMPLETED|mihalcea_owned1|00:00:16|0:0",
+    "65624194.extern|COMPLETED|mihalcea_owned1|00:00:16|0:0"
+  ],
+  "submission_decision": "Keep the completed gap-contraction study: it directly addresses the proposal feedback. No pending project experiment needs integration."
+}

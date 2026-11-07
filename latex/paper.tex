@@ -1,0 +1,213 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{balance}
+\usepackage{xurl}
+\usepackage{hyperref}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\usepackage[preprint]{icml2026}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+% Retain the supplied ICML layout while identifying this as a course report.
+\makeatletter
+\renewcommand{\Notice@String}{CSE 592: Foundations of Artificial Intelligence.\\
+University of Michigan. Project midway report, November 2026.}
+\makeatother
+\hypersetup{pdftitle={Bandits vs. A/B Testing for News Recommendation: Midway Report},
+pdfauthor={Mansi Sethi, Samee Arif, Andrew Koss},
+pdfsubject={CSE 592 project midway report},colorlinks=true,
+linkcolor=blue,citecolor=blue,urlcolor=blue}
+\icmltitlerunning{Bandits vs. A/B Testing: Midway Report}
+\flushbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\newcommand{\ci}[2]{#1\,{\scriptstyle\pm}\,#2}
+
+\begin{document}
+\twocolumn[
+\icmltitle{Bandits vs. A/B Testing for News Recommendation:\\Midway Report}
+\begin{icmlauthorlist}
+\icmlauthor{Mansi Sethi}{umich}
+\icmlauthor{Samee Arif}{umich}
+\icmlauthor{Andrew Koss}{umich}
+\end{icmlauthorlist}
+\icmlaffiliation{umich}{University of Michigan, Ann Arbor, Michigan, USA}
+\icmlcorrespondingauthor{Samee Arif}{asamee@umich.edu}
+\icmlkeywords{Contextual Bandits, News Recommendation, Sparse Autoencoders, Exploration}
+\vskip 0.3in
+]
+\printAffiliationsAndNotice{}
+
+\begin{abstract}
+We compare fixed A/B testing with adaptive policies for news recommendation, including text-based contextual bandits, sparse autoencoder (SAE) features, and LLM agents. Our midway work prioritizes validating the shared click simulator. On labeled MIND-large logs, the selected model achieves global AUC 0.733 and impression-averaged AUC 0.686. We additionally examine calibration and decision gaps. Initial simulations show benefits from content under article turnover and a performance cost for SAE representations. A new experiment shows that shrinking article probability gaps makes the A/B--Thompson sampling difference inconclusive. We present these simulator-dependent findings and the validation and experiments remaining before final submission.
+\end{abstract}
+
+\section{Introduction}
+News recommendation requires a platform to learn from sparse click feedback while deciding which article to show next. A fixed A/B test divides traffic across candidates before committing to a winner, whereas a bandit changes its allocation as evidence arrives. This distinction becomes more consequential when readers have different interests and new articles continually replace old ones. We study four questions within one evaluation pipeline: \textbf{Q1}, the engagement cost of fixed testing relative to adaptive allocation; \textbf{Q2}, whether content representations help recommend newly arriving articles; \textbf{Q3}, whether sparse autoencoder (SAE) features explain a policy's choices and at what performance cost; and \textbf{Q4}, whether an LLM can explore effectively from headlines and click summaries, with or without a statistics tool.
+
+The proposal feedback identified the dependency shared by all four questions: the click simulator. Low click-through rates (CTRs) and nearly equal article probabilities could leave little useful signal for every downstream experiment, even if the predictor achieves reasonable AUC. Our midway work therefore prioritizes prediction quality, calibration, and the difficulty of the induced decisions, before interpreting policy comparisons. Figure~\ref{fig:concept} summarizes the resulting setup. We report representative Q1--Q2 experiments and initial SAE and agent analyses, while reserving broader validation for the final report. All policy outcomes are simulated; the fitted probabilities estimate real response rather than reveal it. Code and experiment resources are available in our \href{https://github.com/manassethi/mind-bandits}{GitHub repository}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/project_overview.pdf}
+\caption{Project overview. Policies choose an article, the shared click model samples feedback, and the policy updates from the observed click or non-click. Model-estimated probabilities define the simulator's oracle for measuring regret; policies do not observe those probabilities. Matched users and reward draws support paired comparisons across policies.}
+\label{fig:concept}
+\end{figure*}
+
+\section{Related Work}
+Bandits formalize the trade-off between exploration and exploitation \citep{lattimore2020bandit}, and Thompson sampling (TS) provides a strong Bayesian baseline \citep{chapelle2011empirical}. However, the comparison with A/B testing depends on test size and the traffic remaining after the test. \citet{feit2019test} show that profit-optimized test-and-roll can compete with adaptive allocation, motivating our comparison of train-tuned and power-based test lengths. We evaluate allocation reward rather than treatment-effect inference. For personalized news, \citet{li2010contextual} study contextual bandits with changing article pools. We use MIND's article text and logged clicks \citep{wu2020mind} to fit a response model with Qwen3 embeddings \citep{zhang2025qwen3}, while comparing separate policy representations including BGE-M3 \citep{chen2024m3}.
+
+Our interpretability and agent questions examine what these richer representations and decision-makers contribute beyond conventional bandits. SAEs decompose activations into sparse features \citep{cunningham2024sparse}; pretrained Gemma Scope 2 models \citep{mcdougall2025scope} let us inspect a linear policy through feature importance and controlled removal. This concerns explanations of the recommendation policy, rather than the language model's internal circuits. For LLM decision-making, \citet{krishnamurthy2024explore} find that exploration depends strongly on prompting and summarized interaction histories. We extend that setting with an optional tool exposing posterior uncertainty and evaluate exploration failures and computational cost alongside regret.
+
+\section{Validating the Shared Click Simulator}
+\label{sec:simulator}
+\subsection{Data and Temporal Separation}
+We scaled from the proposed MIND-small setting to labeled MIND-large training and development logs, obtaining a catalog of 104,151 articles. The November 9--14, 2019 split contains 2,232,748 impressions and 83,507,374 displayed article--label pairs, while November 15 contains 376,471 impressions and 14,085,557 pairs. Their CTRs are 4.052\% and 4.081\%, respectively; pair counts include every clicked and non-clicked candidate in an impression. We fit candidate models on November 9--13, select their family and stopping epoch on November 14, refit on November 9--14, and evaluate on November 15. Although the repository calls November 15 \texttt{test}, we refer to it as the \emph{evaluation day}: it is MIND's labeled development split rather than the hidden-label benchmark test set. This provides temporal separation, with users allowed to overlap.
+
+\subsection{Click Model and Shared Interface}
+Qwen3-Embedding-0.6B encodes article titles and abstracts, and normalized sums of history embeddings represent readers. Pair features concatenate user and article vectors, their elementwise interaction, cosine similarity, category and subcategory affinities, log history length, and an empty-history indicator; no article IDs or popularity counts enter the predictor. We compare logistic, rank-64 bilinear, and neural models using training-fitted standardization and binary cross-entropy. The neural model has 256 ReLU hidden units. Our selection rule chooses the simplest family within 0.005 AUC and 0.5\% relative log loss of the best validation model, selecting the neural model at epoch two. Its validation AUC is 0.708, compared with 0.667 for logistic and 0.677 for bilinear prediction. The shared interface, \texttt{sim.prob\_matrix(users, articles)}, supplies user-by-article probabilities that environments cache before running policies. This decouples downstream work from model fitting and supports Bernoulli click sampling; a separate synthetic backend with controlled probabilities remains planned.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/simulator_validation.pdf}
+\caption{Simulator checks beyond AUC. \textbf{(a)} Equal-count reliability bins show residual miscalibration after intercept anchoring; the dotted line is perfect calibration. \textbf{(b)} Best-minus-second-best probability gaps in the cached stationary Q1 setting ($K=10$) and 3,000 sampled Q2 contexts. These are gaps in learned simulator probabilities, not identified gaps in real user response.}
+\label{fig:validation}
+\end{figure*}
+
+\begin{table}[!ht]
+\caption{Evaluation-day click prediction. The constant predictor uses the earlier split's CTR. Anchoring changes probability values but preserves rankings. Lower log loss, Brier score, and ECE are better.}
+\label{tab:simulator}
+\centering
+\small
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{lrrr}
+\toprule
+Metric & Constant & Neural & Anchored \\
+\midrule
+Global AUC & 0.500 & 0.733 & 0.733 \\
+Impression AUC & --- & 0.686 & 0.686 \\
+Log loss & 0.17051 & 0.15849 & 0.15837 \\
+Brier score & 0.03915 & 0.03835 & 0.03843 \\
+ECE (15 bins) & --- & 0.00958 & 0.00892 \\
+Mean prediction (\%) & 4.052 & 3.797 & 4.052 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Validation and Decision Difficulty}
+The selected model achieves global AUC 0.733 and impression-averaged AUC 0.686 (\cref{tab:simulator}), with the latter close to the range raised in the proposal feedback. A cosine-only baseline scores 0.628 and 0.621, respectively, while the neural model's nDCG@10 is 0.427. For 757,273 evaluation pairs whose article IDs are absent from earlier candidate lists (5.38\% of candidates), AUC is 0.704; those IDs may nevertheless occur in earlier histories. The model underpredicts mean CTR, so the current simulator shifts its logits by $b=0.07291$ to match the earlier split's 4.052\% base rate over evaluation-day unlabeled pairs. This transductive adjustment uses evaluation covariates but no labels. ECE improves slightly while Brier score worsens slightly, and the highest-probability bin remains overconfident (\cref{fig:validation}). Matching the average rate therefore does not establish calibration for individual user--article pairs.
+
+To examine whether the simulator leaves a meaningful decision problem, we inspect both marginal probabilities and the gaps between the best two articles. For 5,000 users and 100 articles, anchored pair probabilities span 0.33--7.94\% at the 5th--95th percentiles, and the population-best article is the personal best for only 12.38\% of users. Across 30 ten-article Q1 pools, the median best-minus-second population gap is 1.45 percentage points (10th--90th percentiles: 0.19--10.37). Across 3,000 sampled Q2 user--pool contexts, the median gap is 2.53 points and 2.7\% fall below 0.1 point. Thus, many simulated choices have appreciable separation, which may make learning easier than real recommendation. We address this limitation with the gap-contraction experiment in Section~\ref{sec:q1}.
+
+\section{Experimental Setup and Midway Results}
+\subsection{Shared Evaluation Protocol}
+At each round, a policy chooses an article $a_t$ from the live set $\mathcal A_t$ and observes only its sampled click. Q1 measures population-average pseudo-regret,
+\begin{equation}
+R_T^{\mathrm{pop}}=\sum_{t=1}^{T}\left[\max_{a\in\mathcal A_t}\mu_t(a)-\mu_t(a_t)\right],
+\end{equation}
+whereas Q2 replaces $\mu_t(a)$ with $\hat p(u_t,a)$ to use a per-user oracle; the two regret scales are consequently not directly comparable. CTR averages selected probabilities. We tune settings on earlier-day pools and evaluate on 30 later-day pools, sharing user arrivals and reward uniforms within each run. Reported intervals are 95\% Student-$t$ intervals across runs, with policy differences paired by run. They capture simulation variability conditional on the fitted model and exclude uncertainty in the model itself.
+
+\subsection{Q1: Fixed Testing and Adaptive Allocation}
+\label{sec:q1}
+Fixed testing allocates traffic round-robin before committing to the largest empirical CTR, with its exploration fraction selected from $\{.01,.02,.05,.1,.2,.5\}$. A second baseline uses two-proportion power sizing with 5\% significance, 80\% power, and a train-selected relative effect of 20\% or 50\%. This is a sizing heuristic using the simulator's pool-average CTR, rather than a validated multi-arm hypothesis test. Adaptive baselines include $\epsilon$-greedy, tuned UCB, Beta--Bernoulli TS, and discounted TS. We tune UCB's exploration multiplier, so its configuration differs from canonical UCB1.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/q1_progress.pdf}
+\caption{Q1 cumulative pseudo-regret for ten articles over 100,000 rounds. Shading shows 95\% intervals across 30 pools. Settings are tuned separately for each condition. The dotted line in panel (b) marks the abrupt switch at round 50,000. Curves share the population-average oracle within each panel.}
+\label{fig:q1}
+\end{figure*}
+
+\begin{table}[t]
+\caption{Q1 cumulative pseudo-regret over 30 evaluation pools. A/B length and UCB exploration are tuned on earlier-day pools separately for each condition. $K=10$ except the first row. Lower is better.}
+\label{tab:q1}
+\centering
+\small
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{lrrr}
+\toprule
+Condition & A/B & UCB & TS \\
+\midrule
+$K=2$, $T=100$k & $\ci{39}{29}$ & $\ci{10}{4}$ & $\ci{19}{9}$ \\
+$T=1$k & $\ci{29}{14}$ & $\ci{17}{4}$ & $\ci{28}{5}$ \\
+$T=10$k & $\ci{179}{56}$ & $\ci{47}{16}$ & $\ci{80}{6}$ \\
+$T=100$k & $\ci{379}{121}$ & $\ci{66}{23}$ & $\ci{128}{12}$ \\
+Abrupt, $T=100$k & $\ci{3410}{1404}$ & $\ci{629}{202}$ & $\ci{1360}{367}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For ten articles and 100,000 rounds, A/B testing incurs regret 379, compared with 128 for TS and 66 for UCB (\cref{tab:q1}); the paired A/B-minus-TS difference is $\ci{251}{124}$. At 1,000 rounds, however, the difference is only $\ci{0.8}{12.5}$. The power-based test loses $\ci{1203}{273}$ expected clicks at the longer horizon, showing the importance of test sizing. To stress-test adaptation, we also permute article response functions halfway through a run so that the best arm changes. This controlled abrupt switch penalizes fixed commitment (\cref{fig:q1}), while discounted TS achieves regret $\ci{770}{59}$ versus $\ci{1360}{367}$ for ordinary TS. These results support adaptation within the current environment, rather than establish a universal ranking of testing strategies.
+
+To test sensitivity to nearly indistinguishable articles, we contract probabilities toward each user's mean,
+\begin{equation}
+P_\lambda(u,a)=\bar P_u+\lambda\bigl(P(u,a)-\bar P_u\bigr).
+\end{equation}
+This preserves each user's mean probability and scales population arm gaps by $\lambda$. The experiment uses the same 30 pools and 10,000 rounds, freezes earlier-day selected settings, and reuses arrivals and reward uniforms. At one-quarter gaps, the A/B--TS difference becomes inconclusive (\cref{tab:gaps}), although UCB retains lower mean regret than TS at all three nonzero scales. We verify zero regret at $\lambda=0$ and reproduce the original cached runs at $\lambda=1$. Smaller gaps reduce both the cost of a wrong choice and the information available for learning, so declining absolute regret alone should not be interpreted as easier learning.
+
+\begin{table}[t]
+\caption{New gap-contraction experiment ($K=10$, $T=10$k). The final column is the paired A/B-minus-TS regret difference. At one-quarter gaps, its interval includes zero.}
+\label{tab:gaps}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{rrrr}
+\toprule
+$\lambda$ & A/B regret & TS regret & A/B $-$ TS \\
+\midrule
+1.00 & $\ci{178.8}{55.9}$ & $\ci{79.5}{5.7}$ & $\ci{99.3}{55.9}$ \\
+0.50 & $\ci{117.4}{30.4}$ & $\ci{78.2}{8.1}$ & $\ci{39.2}{27.5}$ \\
+0.25 & $\ci{79.4}{22.0}$ & $\ci{72.2}{11.8}$ & $\ci{7.3}{16.2}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table*}[t]
+\caption{Representative Q2 results: 20 live articles, lifetime 2,000, 20,000 rounds, 30 pools. All content rows use 32 features except category (18). Cold-start regret is averaged over rounds when the user's oracle-best article is in its first 200 rounds of life. CTR is expected simulated CTR. Differences against per-article TS are paired. Qwen3 shares the simulator encoder and is separated as a diagnostic.}
+\label{tab:q2}
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrr}
+\toprule
+Representation & Policy & Regret & Cold-start regret/round & CTR (\%) & Regret $-$ TS \\
+\midrule
+No content & Per-article TS & $\ci{1338}{28}$ & $\ci{.0562}{.0016}$ & 5.77 & --- \\
+Category & LinUCB & $\ci{1490}{100}$ & $\ci{.0769}{.0051}$ & 5.01 & $\ci{152}{106}$ \\
+BGE-M3 & LinUCB & $\ci{816}{58}$ & $\ci{.0429}{.0030}$ & 8.38 & $\ci{-522}{68}$ \\
+Gemma-3-1B dense, L23 & LinUCB & $\ci{753}{36}$ & $\ci{.0408}{.0020}$ & 8.69 & $\ci{-585}{39}$ \\
+Gemma-3-1B SAE, L17 & LinUCB & $\ci{920}{55}$ & $\ci{.0515}{.0029}$ & 7.86 & $\ci{-418}{47}$ \\
+Gemma-3-12B dense, L43 & LinUCB & $\ci{754}{44}$ & $\ci{.0400}{.0022}$ & 8.69 & $\ci{-584}{42}$ \\
+Gemma-3-12B SAE, L12 & Linear TS & $\ci{921}{64}$ & $\ci{.0527}{.0036}$ & 7.85 & $\ci{-417}{72}$ \\
+\midrule
+Qwen3 (shared encoder) & LinUCB & $\ci{760}{48}$ & $\ci{.0407}{.0026}$ & 8.66 & $\ci{-578}{48}$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Q2: Content under Article Turnover}
+We keep 20 articles live over 20,000 rounds, replace one every 100 rounds (2,000-round lifetimes), and sample 2,000 users per run. Shared LinUCB and linear TS use $\phi(u,a)=[1;x_a;h_u\odot x_a]$, where $h_u$ averages history features, while per-article TS starts each arrival with a Beta$(1,1)$ prior. Representations comprise categories, BGE-M3, mean-pooled Gemma-3-1B/12B activations, and token-averaged Gemma Scope 2 codes. Dense features use standardized PCA; SAE coordinates are selected by variance and scaled by root-mean-square activation on earlier articles. A final scalar normalization uses the unlabeled catalog, while layer and exploration selection use earlier-day simulations. We report 32 features, except the 18-dimensional category representation. Qwen3 shares the simulator encoder and serves only as a diagnostic, rather than an independent baseline or theoretical ceiling.
+
+Gemma-3-1B dense features reduce regret relative to per-article TS by $\ci{585}{39}$, approximately 44\% of its mean (\cref{tab:q2}), whereas categories provide no similar benefit. SAE configurations improve over TS but incur approximately 168 additional regret relative to the dense configurations, with paired intervals $\ci{168}{55}$ for 1B and $\ci{168}{67}$ for 12B. Because selected layers and policies differ, this is a configuration-level comparison rather than an isolated effect of sparsity. At 500-round lifetimes, TS regret increases to $\ci{1716}{32}$ versus $\ci{894}{33}$ for Gemma-3-1B dense features, supporting further investigation of content transfer under turnover. However, ``new'' currently means unseen by the online policy: arriving articles may have appeared in simulator fitting or feature preprocessing. A strict article-ID holdout remains necessary before claiming generalization to previously unseen articles.
+
+\subsection{Q3--Q4: Initial Feasibility Results}
+Our interpretability analysis implements train-ranked importance and retraining ablations. For exploratory Gemma-3-12B SAE layer 41, eight of the ten highest-ranked features have Neuronpedia descriptions, and removing the top eight before retraining costs $\ci{111}{51}$ more regret than random eight-feature removal. At four features, that difference is only $\ci{6}{29}$. These controls indicate that some coordinates matter to the fitted policy, but do not yet establish faithful semantic explanations: the human label-check sheets remain unannotated, and post-hoc checks currently rescore linear predictions rather than the full UCB bonus. The final evaluation will therefore distinguish feature relevance, label correctness, and effects on the complete decision rule.
+
+Initial Gemma-3-12B-IT experiments use summarized click counts, 500 rounds, and 30 pools. For ten articles, regret is $\ci{15.2}{4.2}$ without the statistics tool, $\ci{9.3}{2.6}$ with it, and $\ci{14.7}{2.6}$ for TS; the paired tool-minus-TS difference is $\ci{-5.4}{2.8}$. The tool exposes posterior means, credible bounds, and probabilities of being best. Runs allocating at least 90\% of the final 250 rounds to one suboptimal article fall from 70\% to 3\%, while tokens per 1,000 decisions rise from 551,000 to 932,000. This suggests that explicit uncertainty helps this agent explore, but a direct statistics-based tool policy remains necessary to determine what the LLM contributes beyond the tool itself.
+
+\section{Current Limitations}
+The model learns from production exposures, which do not identify outcomes for arbitrary recommendations. For 2,125 articles with at least 100 exposures, simulated and logged CTR correlate at $\rho=0.56$ (Spearman), but reader selection confounds this diagnostic. Calibration choices and exploratory analyses also used the evaluation day during development, so it is not an untouched confirmation set. Our environment further assumes immediate feedback, fixed histories, one displayed article, and synthetic turnover, excluding delayed clicks, slate interactions, diversity, and long-term response. Since uncertainty intervals condition on a single simulator, the current evidence establishes working components and preliminary simulated comparisons, rather than real-world CTR improvements. Testing which conclusions survive alternative modeling and evaluation choices is the priority for the remaining project period.
+
+\section*{Work Before the Final Submission}
+By November 15, we will add a deterministic synthetic backend with controlled CTRs and gaps, refit using earlier temporal partitions, calibrate on a disjoint block, and reserve a confirmation partition before further tuning. The stored last-day calibration alternative is not held out, since its model was refitted on that day; the revised protocol will separate these stages and record model and random-state provenance. We will also extend sensitivity checks to other click models and Q2. By November 22, we will add strict article-ID holdouts, reward-aware test sizing, and batched allocation, then compare dense and SAE features at matched layers with random-feature controls. These comparisons will retain paired uncertainty estimates and report inconclusive outcomes where appropriate.
+
+By November 29, we will complete human feature-label checks, test interventions on the full UCB decision rule, and compare LLM choices with direct posterior-based tool policies. We will vary headline order and prompts, report runtime alongside token use, and include additional models if compute permits. We will then consolidate the validated findings into the final report by December 7 and build the planned interactive demonstration for the December 9 poster session. The demonstration will show simulated recommendations, regret, and the features or statistics behind choices. Off-policy evaluation remains a stretch goal requiring known logging propensities, rather than a completed experiment on MIND.
+
+\clearpage
+\balance
+\bibliography{paper}
+\bibliographystyle{icml2026}
+\end{document}

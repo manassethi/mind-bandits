@@ -1,0 +1,12 @@
+{
+  "cluster": "Great Lakes",
+  "account": "mihalcea_owned1",
+  "partition": "standard",
+  "job_id": "65624194",
+  "state": "COMPLETED",
+  "elapsed_seconds": 16,
+  "exit_code": "0:0",
+  "cores": 1,
+  "memory": "4G",
+  "experiment": "gap contraction, K=10, T=10000, 30 pools; frozen train-tuned settings"
+}
