@@ -111,7 +111,7 @@ def main():
     save(fig,"simulator_validation")
 
     # Q1 curves: no log-axis exaggeration of early-round separation.
-    fig,axs=plt.subplots(1,2,figsize=(6.7,2.0),layout="constrained")
+    fig,axs=plt.subplots(1,2,figsize=(6.7,2.5),layout="constrained")
     fams=["A/B test (tuned length)","UCB1","Thompson sampling","Discounted Thompson"]
     for ax,cond,title in zip(axs,["K10","K10_abrupt"],["(a) Stationary articles","(b) Abrupt preference switch"]):
         with np.load(ROOT/f"results/q1/test/{cond}.npz") as z:
