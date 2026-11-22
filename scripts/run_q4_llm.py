@@ -12,6 +12,7 @@ llm_<name>_transcripts.json.
 
 import argparse
 import json
+import os
 import time
 from pathlib import Path
 
@@ -39,14 +40,17 @@ def mock_engine(seed: int = 0):
     return generate
 
 
-def vllm_engine(model: str, max_tokens: int, temperature: float, tp: int):
+def vllm_engine(model: str, max_tokens: int, temperature: float, tp: int, chat_template_kwargs=None, revision=None):
+    # Avoid inheriting initialized Torch/OpenMP state into the GPU worker.
+    os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
     from vllm import LLM, SamplingParams
 
-    llm = LLM(model=model, max_model_len=4096, gpu_memory_utilization=0.88, tensor_parallel_size=tp, seed=0)
+    llm = LLM(model=model, revision=revision, tokenizer_revision=revision,
+              max_model_len=4096, gpu_memory_utilization=0.88, tensor_parallel_size=tp, seed=0)
     params = SamplingParams(temperature=temperature, max_tokens=max_tokens)
 
     def generate(convos):
-        outs = llm.chat(convos, params, use_tqdm=False)
+        outs = llm.chat(convos, params, use_tqdm=False, chat_template_kwargs=chat_template_kwargs)
         return [(o.outputs[0].text, len(o.prompt_token_ids), len(o.outputs[0].token_ids)) for o in outs]
     return generate
 

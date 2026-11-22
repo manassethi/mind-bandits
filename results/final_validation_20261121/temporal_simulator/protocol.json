@@ -1,0 +1,40 @@
+{
+  "provenance": {
+    "config": {
+      "seed": 20261121,
+      "epochs": 6,
+      "batch_size": 8192,
+      "protocol": "fit Nov9-12, select Nov13, refit Nov9-13, calibrate Nov14, evaluate Nov15",
+      "primary_calibrator": "intercept"
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/temporal_simulator.py": "fe2331094ff03c2e821a208eb6de6f5aea18f391efee1d8be835e82d88f8447b",
+      "src/simulator/click_model.py": "ab767b63d16fab7e35b4dceffc3a81e91c5f4d222f314db7e7f6ede2859ead03",
+      "dataset/processed/train_impressions.npz": "415e9994b9d1d0a8c8d32da38a0316c2ef94d12f0ea4687452779465ca8aa241",
+      "dataset/processed/test_impressions.npz": "5d13ff620e8a3a34c3f3bf7c6afb8f68a46574bcf47bdf04bef5b01157c64176",
+      "dataset/processed/sim_qwen3_embeddings.npy": "2eeb9568db8ca34f0836fac4e6124454d81518252ffbf24339d85817e829b092"
+    }
+  },
+  "fit_dates": [
+    "2019-11-09",
+    "2019-11-10",
+    "2019-11-11",
+    "2019-11-12"
+  ],
+  "selection_dates": [
+    "2019-11-13"
+  ],
+  "refit_dates": [
+    "2019-11-09",
+    "2019-11-10",
+    "2019-11-11",
+    "2019-11-12",
+    "2019-11-13"
+  ],
+  "calibration_dates": [
+    "2019-11-14"
+  ],
+  "primary_family": "mlp",
+  "primary_calibrator": "intercept",
+  "evaluation_status": "Previously inspected development day; locked retrospective validation"
+}

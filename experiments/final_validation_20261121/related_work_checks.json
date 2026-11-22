@@ -1,0 +1,58 @@
+{
+  "checked_on": "2026-11-21",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/abs/1811.00457",
+      "role": "Reward-aware A/B test sizing is established prior work. Treat our empirical prior and delayed-feedback comparisons as an application and robustness study."
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.15371",
+      "role": "Summarized bandit histories and LLM exploration failures are established."
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.00225",
+      "role": "Tool-supported non-reasoning LLMs and comparisons against simple estimators are established. A tool benefit by itself is insufficient novelty."
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.16681",
+      "role": "SAE downstream comparisons require strong dense and random controls."
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.14111",
+      "role": "Random-direction/pattern controls can match trained SAEs. Our article-level threshold control must not be described as an exact token-level replication."
+    }
+  ],
+  "candidate_contributions_to_test": [
+    "Matched-layer SAE versus dense/random representations in sequential recommendation with article turnover, strictly unseen article IDs, and clean simulator families.",
+    "Feature interventions reconstructed from the actual pre-action UCB state, separating score-level sensitivity, retraining compensation, and semantic label transfer.",
+    "Paired separation of optional tool invocation, displayed posterior statistics, headline priors, and feedback timing in low-CTR news decisions."
+  ],
+  "novelty_status": "Scoped empirical extension: matched-layer sequential MIND comparisons with width/selection controls, state-faithful policy interventions, and direct-estimator controls for tools. The general SAE utility gap and LLM exploration/tool effects are established in prior work. No new-algorithm or first-of-its-kind claim is made.",
+  "adaptive_decisions": [
+    "Report every prespecified sensitivity condition, including reversals and inconclusive results.",
+    "Do not increase sample size solely to obtain a significance threshold.",
+    "Consider in-domain relabeling only if the held-out semantic matching test identifies a concrete external-label transfer failure.",
+    "Consider semantic steering only if trained features show reproducible semantic alignment beyond label-shuffling controls.",
+    "If trained SAEs appear to outperform the 128-direction random controls, add a width/selection-matched random-feature control before attributing the advantage to learned features.",
+    "If a tool-assisted LLM clearly improves over the strongest direct statistics/prior baseline, isolate posterior means from uncertainty fields before making a component-specific causal claim."
+  ],
+  "assessment_updated_utc": "2026-11-22T22:25:01.285173+00:00",
+  "completed_validation_scope": [
+    "Compare representation utility and automated semantic specificity in matched article-turnover streams, including strictly excluded IDs and alternate response simulators.",
+    "Separate local UCB decision sensitivity, retraining necessity, subset sufficiency, and semantic retrieval using actual pre-action states.",
+    "Compare fresh Gemma/Qwen agents with direct posterior policies, training-derived priors, and every planned Gemma ablation on a common legacy response bank."
+  ],
+  "last_targeted_search": {
+    "queries": [
+      "sparse autoencoder contextual bandit",
+      "sparse autoencoder news recommendation"
+    ],
+    "domains": [
+      "arxiv.org",
+      "proceedings.mlr.press",
+      "aclanthology.org"
+    ],
+    "interpretation": "Results were broad and did not establish a directly matching study. Search absence is not evidence of priority."
+  },
+  "additional_experiment_decision_after_complete_results": "No additional run is required by the identified validity issues. Width matching, strict article IDs, alternate-teacher transfer, state reconstruction, semantic noise controls and numerical agent baselines are complete. No agent shows a resolved improvement over direct posterior-mean choice; the conditional component-isolation follow-up is not triggered. Inconclusive ablations remain inconclusive."
+}

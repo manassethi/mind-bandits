@@ -1,0 +1,74 @@
+{
+  "provenance": {
+    "config": {
+      "seeds": [
+        0,
+        11
+      ],
+      "family": "mlp",
+      "epochs": 1,
+      "purpose": "fixed-configuration initialization replication; no evaluation-driven selection"
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/simulator_seeds.py": "a46d639784ba34c7b2a665652edde222a4a1cd9f740d02a4268232e8279bdcf9",
+      "results/final_validation_20261121/temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+      "results/final_validation_20261121/q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c"
+    }
+  },
+  "results": {
+    "0": {
+      "auc": 0.7042120670892629,
+      "log_loss": 0.16091456238680565,
+      "brier": 0.038216271921376964,
+      "mean_pred": 0.03315745928064026,
+      "observed_ctr": 0.040810952665911615,
+      "n": 14085557,
+      "ece": 0.00765349295354568,
+      "group_auc": 0.6717650414789377,
+      "mrr": 0.3229961873397878,
+      "ndcg@5": 0.3576188029174926,
+      "ndcg@10": 0.41999963825528525,
+      "n_impressions_scored": 376471
+    },
+    "11": {
+      "auc": 0.7058893811306116,
+      "log_loss": 0.16074857587640673,
+      "brier": 0.03823100897301156,
+      "mean_pred": 0.03429532416089723,
+      "observed_ctr": 0.040810952665911615,
+      "n": 14085557,
+      "ece": 0.007766815142591803,
+      "group_auc": 0.668019474613233,
+      "mrr": 0.3191211025009847,
+      "ndcg@5": 0.3534348130854355,
+      "ndcg@10": 0.4164394523030386,
+      "n_impressions_scored": 376471
+    }
+  },
+  "primary_seed": 20261121,
+  "primary_metrics": {
+    "auc": 0.7046767333609218,
+    "log_loss": 0.16089476781895887,
+    "brier": 0.038247618838523956,
+    "mean_pred": 0.03570987256690097,
+    "observed_ctr": 0.040810952665911615,
+    "n": 14085557,
+    "ece": 0.007505486872007293,
+    "group_auc": 0.6645061888002457,
+    "mrr": 0.3158152733631337,
+    "ndcg@5": 0.34897959746209883,
+    "ndcg@10": 0.412166807226178,
+    "n_impressions_scored": 376471,
+    "strict_article_holdout": {
+      "pairs": 755778,
+      "articles": 2244,
+      "auc": 0.7091101352355691,
+      "log_loss": 0.23147904331917526,
+      "brier": 0.060120262692279075,
+      "mean_pred": 0.047581336836569475,
+      "observed_ctr": 0.06649968641585227,
+      "n": 755778,
+      "ece": 0.018918347602514523
+    }
+  }
+}

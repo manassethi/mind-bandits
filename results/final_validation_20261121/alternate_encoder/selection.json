@@ -1,0 +1,87 @@
+{
+  "mlp": {
+    "best_epoch": 4,
+    "val": {
+      "log_loss": 0.156893424334392,
+      "auc": 0.7049864425952752,
+      "brier": 0.03657432299142715,
+      "mean_pred": 0.03097839449455639,
+      "observed_ctr": 0.039058919326584084,
+      "n": 17738458,
+      "ece": 0.009791429658579218,
+      "group_auc": 0.6901421484624358,
+      "mrr": 0.3422453368849267,
+      "ndcg@5": 0.3721987425085917,
+      "ndcg@10": 0.43142681727910637,
+      "n_impressions_scored": 453494
+    },
+    "config": {
+      "kind": "mlp",
+      "n_features": 3077,
+      "dim": 1024,
+      "hidden": 256
+    },
+    "history": [
+      {
+        "epoch": 1,
+        "elapsed_s": 29,
+        "val_auc": 0.70051,
+        "val_log_loss": 0.15753,
+        "val_brier": 0.03665,
+        "val_mean_pred": 0.03032,
+        "val_observed_ctr": 0.03906,
+        "val_ece": 0.01003
+      },
+      {
+        "epoch": 2,
+        "elapsed_s": 74,
+        "val_auc": 0.7012,
+        "val_log_loss": 0.157,
+        "val_brier": 0.03659,
+        "val_mean_pred": 0.03061,
+        "val_observed_ctr": 0.03906,
+        "val_ece": 0.00896
+      },
+      {
+        "epoch": 3,
+        "elapsed_s": 116,
+        "val_auc": 0.70565,
+        "val_log_loss": 0.15696,
+        "val_brier": 0.03663,
+        "val_mean_pred": 0.03063,
+        "val_observed_ctr": 0.03906,
+        "val_ece": 0.01012
+      },
+      {
+        "epoch": 4,
+        "elapsed_s": 158,
+        "val_auc": 0.70499,
+        "val_log_loss": 0.15689,
+        "val_brier": 0.03657,
+        "val_mean_pred": 0.03098,
+        "val_observed_ctr": 0.03906,
+        "val_ece": 0.00979
+      },
+      {
+        "epoch": 5,
+        "elapsed_s": 201,
+        "val_auc": 0.70462,
+        "val_log_loss": 0.15714,
+        "val_brier": 0.03663,
+        "val_mean_pred": 0.03143,
+        "val_observed_ctr": 0.03906,
+        "val_ece": 0.01019
+      },
+      {
+        "epoch": 6,
+        "elapsed_s": 243,
+        "val_auc": 0.70348,
+        "val_log_loss": 0.15726,
+        "val_brier": 0.03666,
+        "val_mean_pred": 0.03245,
+        "val_observed_ctr": 0.03906,
+        "val_ece": 0.01018
+      }
+    ]
+  }
+}

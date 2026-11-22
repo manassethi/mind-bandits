@@ -1,0 +1,212 @@
+{
+  "created": "2026-11-21",
+  "seed": 20261121,
+  "status": "completed computational validation",
+  "objective": "Establish which allocation, representation, and agent conclusions survive clean temporal calibration, controlled response difficulty, strict article holdouts, and matched baselines.",
+  "analysis": {
+    "unit": "independent article/user pool",
+    "evaluation_runs": 30,
+    "uncertainty": "95% Student-t intervals across pools and paired policy differences. Sensitivity grids are reported in full. Follow-up choices are labeled exploratory.",
+    "evaluation_day_status": "November 15 has been inspected in earlier work. This is a locked retrospective protocol, not an untouched confirmation set.",
+    "preservation": "Original checkpoints and results remain separate from follow-up outputs. Report writing is deferred."
+  },
+  "tracks": {
+    "temporal_simulator": {
+      "fit": "November 9-12",
+      "selection": "November 13",
+      "refit": "November 9-13, after selecting an epoch for each family",
+      "calibration": "November 14 only, after fitting weights",
+      "evaluation": "November 15",
+      "families": [
+        "logistic",
+        "bilinear",
+        "mlp"
+      ],
+      "max_selection_epochs": 6,
+      "calibrators": [
+        "identity",
+        "intercept",
+        "platt"
+      ],
+      "primary_calibrator": "intercept",
+      "save_all_family_checkpoints": true
+    },
+    "q1_allocation": {
+      "horizons": [
+        10000,
+        100000
+      ],
+      "arms": [
+        2,
+        10
+      ],
+      "feedback_batches": [
+        1,
+        100,
+        1000
+      ],
+      "test_fraction_grid": [
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5
+      ],
+      "tuning": "training-day pools only, expected total reward",
+      "additional_baselines": [
+        "successive elimination",
+        "KL-UCB",
+        "periodic explore-then-commit under drift"
+      ],
+      "metrics": [
+        "cumulative pseudo-regret",
+        "expected CTR",
+        "terminal recommendation correctness",
+        "terminal simple regret",
+        "post-drift recovery"
+      ]
+    },
+    "q4_statistics": {
+      "arms": [
+        5,
+        10
+      ],
+      "horizon": 500,
+      "tool_only": [
+        "posterior mean",
+        "posterior 97.5% quantile",
+        "probability of being best"
+      ],
+      "prior_strengths": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "prior_sources": [
+        "LLM rank",
+        "shuffled LLM rank",
+        "simulator rank"
+      ],
+      "diagnostics": [
+        "chosen-arm agreement with each statistic on tool-call rounds",
+        "coverage",
+        "position frequency",
+        "parse failures"
+      ]
+    },
+    "q4_llm_ablation": {
+      "model": "google/gemma-3-12b-it",
+      "temperatures": [
+        0.0,
+        1.0
+      ],
+      "headline_conditions": [
+        "original",
+        "fixed shuffled order per pool",
+        "anonymous"
+      ],
+      "warmup": [
+        0,
+        "one round-robin pass"
+      ],
+      "tool_modes": [
+        "optional",
+        "always supplied"
+      ],
+      "design": "one-factor changes from the existing baseline, paired environments, 30 pools, 500 decisions"
+    },
+    "q2_robustness": {
+      "gap_scales": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "base_ctrs": [
+        0.02,
+        0.04051924803670631,
+        0.08
+      ],
+      "logit_temperatures": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "strict_holdout": "Evaluation article IDs absent from every earlier training candidate list and history. Exclude those IDs when fitting all reductions.",
+      "main_representations": [
+        "none",
+        "bgem3",
+        "g1b_L23",
+        "g1b_sae_L17",
+        "g12b_L43",
+        "g12b_sae_L12"
+      ],
+      "normalization": "All follow-up policy feature normalization fits earlier article rows only, including the scalar row-norm normalization."
+    },
+    "q2_q3_controls": {
+      "matched_layers": [
+        "g1b_L17",
+        "g12b_L12",
+        "g12b_L41"
+      ],
+      "dimensions": [
+        16,
+        32,
+        64
+      ],
+      "controls": [
+        "dense PCA",
+        "trained SAE",
+        "Gaussian random projection",
+        "top variance raw neurons",
+        "random thresholded features matched in activation frequency"
+      ],
+      "control_seeds": [
+        11,
+        23,
+        47
+      ],
+      "interventions": [
+        "train-ranked top features",
+        "bottom-ranked features",
+        "random features"
+      ],
+      "validation": "Full UCB score interventions and deletion/retraining comparisons. Semantic matching with shuffled labels and held-out headlines. Automated checks are labeled automated, and human review is never fabricated.",
+      "width_followup": "Exploratory 16,384-candidate random dictionaries with source activation-frequency distribution and identical top128 training-variance selection, evaluated on the full dimension/coefficient grid."
+    },
+    "synthetic": {
+      "base_ctrs": [
+        0.02,
+        0.04,
+        0.08
+      ],
+      "population_gaps": [
+        0.0,
+        0.001,
+        0.005,
+        0.02
+      ],
+      "purpose": "Validate probability, oracle, pairing, and policy behavior against known controlled responses."
+    }
+  },
+  "completion_checks": [
+    "All planned primary experiments finish successfully and have complete per-pool outputs.",
+    "Inputs, source hashes, seeds, account, scheduler job IDs, and runtime are recorded.",
+    "Probability bounds, zero-gap behavior, oracle definitions, and original-output preservation are checked.",
+    "No policy setting is selected from evaluation outcomes in a primary comparison.",
+    "Every proposed empirical claim is tied to a table and its paired uncertainty, including negative and inconclusive findings.",
+    "Results are audited for simulator dependence, representation confounds, and LLM contribution beyond the statistics tool.",
+    "Further experiments are chosen only to resolve an identified ambiguity and recorded as exploratory."
+  ],
+  "human_validation": {
+    "mode": "automated_only",
+    "user_instruction": "Use automated validation only",
+    "date": "2026-11-21",
+    "claim_scope": "External-label retrieval agreement and permutation controls, without human-annotation claims.",
+    "same_captioner": "All first32 coordinates across dense, SAE, small and wide random directions, small and wide thresholded random directions, and shuffled-noise controls. One blinded captioner; held-out category-matched retrieval; no human annotation claims."
+  },
+  "source_protocol_sha256": "8d29c5ea89d8a98df584ddbacdfa7867e606397536687291bdf1e8c83320e2c6"
+}

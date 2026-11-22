@@ -1,0 +1,30 @@
+{
+  "declared_utc": "2026-11-22T04:44:25.519905+00:00",
+  "stage": "Before any fresh matched agent summary is complete; original Gemma is still running.",
+  "type": "Analysis exports only; no new inference, sampling, or selection.",
+  "families": {
+    "optional_tool": 12,
+    "ablation": 18,
+    "model": 4,
+    "numerical_baseline": 208
+  },
+  "uncertainty": "Paired pointwise 95% Student-t intervals over the same 30 pools; Holm within each complete contrast family.",
+  "numerical_controls": [
+    "posterior mean",
+    "posterior upper bound",
+    "probability of best",
+    "Thompson sampling",
+    "flat training-CTR priors at strengths 10/100/1000",
+    "empirical-Bayes Thompson sampling"
+  ],
+  "limitations": [
+    "One generation seed per condition; pool intervals do not estimate repeated-generation variability.",
+    "All Q4 banks use the original frozen response model, not the new temporal fit.",
+    "Historical headline-prior rankings differ from the fresh agent prior probes."
+  ],
+  "files": [
+    "scripts/final_validation/q4_comparisons.py",
+    "scripts/final_validation/analyze.py",
+    "scripts/final_validation/figures.py"
+  ]
+}

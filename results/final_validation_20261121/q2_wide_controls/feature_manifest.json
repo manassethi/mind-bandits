@@ -1,0 +1,39 @@
+{
+  "provenance": {
+    "config": {
+      "width": 16384,
+      "keep": 128,
+      "seeds": [
+        11,
+        23,
+        47
+      ],
+      "selection": "descending training variance before per-column RMS scaling",
+      "threshold_frequencies": "permutation of the complete source SAE training article activation frequencies",
+      "scope": "article-level controls, not token-level random SAEs",
+      "projection_dtype": "float32; TF32 disabled"
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/q2_wide_controls.py": "82162d8a3bdcadfd5893dd7b6f6c6ac5bfd37f2e3cb937a10e792e717ac00915",
+      "results/final_validation_20261121/q2_controls/fit_article_rows.npy": "893b99883bf3901baf4b929f2aa8ebe0bbd0d9a30bd377d34d94b7113eb749ef",
+      "dataset/processed/policy_raw/gemma-3-1b/dense_layer_17.npy": "d32c19289bbca33b6bc2e87ce10da1330d6112513100cafebbcf38dab204850d",
+      "dataset/processed/policy_raw/gemma-3-1b/sae_layer_17.npz": "e7dffd46c29294cd6a4f9a2c5fd51bc41cb1c8373a30b5df1df8d67ab855bbb6",
+      "dataset/processed/policy_raw/gemma-3-12b/dense_layer_12.npy": "e206aeb6d8d0d616294b83e0cd06ca6bec6f610c86fd0120306356aa3e5098c6",
+      "dataset/processed/policy_raw/gemma-3-12b/sae_layer_12.npz": "255bbf5809831e1134a971d2d9413e1663cb05399e15688c94e010d5d35e1d3f",
+      "dataset/processed/policy_raw/gemma-3-12b/dense_layer_41.npy": "d6b219b1740babacb40cd51f49d8d346fe57802a53c94e6d64c5b8fed820dacb",
+      "dataset/processed/policy_raw/gemma-3-12b/sae_layer_41.npz": "1661be21d31d1a19beca6d7f9a6e65599bf5d987d4fee1a42672bc1f31472cc6"
+    }
+  },
+  "selections": {
+    "g1b17_s11": "results/final_validation_20261121/q2_wide_controls/selection/g1b17_s11.npz",
+    "g1b17_s23": "results/final_validation_20261121/q2_wide_controls/selection/g1b17_s23.npz",
+    "g1b17_s47": "results/final_validation_20261121/q2_wide_controls/selection/g1b17_s47.npz",
+    "g12b12_s11": "results/final_validation_20261121/q2_wide_controls/selection/g12b12_s11.npz",
+    "g12b12_s23": "results/final_validation_20261121/q2_wide_controls/selection/g12b12_s23.npz",
+    "g12b12_s47": "results/final_validation_20261121/q2_wide_controls/selection/g12b12_s47.npz",
+    "g12b41_s11": "results/final_validation_20261121/q2_wide_controls/selection/g12b41_s11.npz",
+    "g12b41_s23": "results/final_validation_20261121/q2_wide_controls/selection/g12b41_s23.npz",
+    "g12b41_s47": "results/final_validation_20261121/q2_wide_controls/selection/g12b41_s47.npz"
+  },
+  "scope": "Both controls use 16,384 candidates and the 128 highest-variance training coordinates. Thresholded projections use the source SAE's full training activation-frequency distribution, assigned independently of random directions. This controls dictionary width and selection but does not replicate token-level SAE encoding."
+}

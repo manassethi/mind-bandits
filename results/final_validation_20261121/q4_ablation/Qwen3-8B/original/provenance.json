@@ -1,0 +1,23 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3-8B",
+    "condition": "original",
+    "runs": 30,
+    "horizon": 500,
+    "seed": 20261121,
+    "max_tokens": 160,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "serving_cpu_threads": 1
+  },
+  "inputs_sha256": {
+    "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/q4_ablation.py": "d0eb41b883633041d03fb629c112c91c5a4220627743eb18e87b085ab7e53481",
+    "src/agents/llm_agent.py": "330b1abfc4010466887a7201dacbeec36242213922c1226bdd5bae343b22e553",
+    "scripts/run_q4_llm.py": "2335a281bed3144c046cd4ef414f66da0b417efdf4f4605206011d823b897fdb",
+    "src/evaluation/bandit_metrics.py": "617ba3d6d7dd7388a3aa95c08676edd3b83745ea5ea4bc25516fa20ce8652cfd",
+    "results/q4/envs.npz": "e2ed39458f7dc98114c58faec0e78247afaba083151dd1691341d3711378a43f",
+    "results/q4/envs.json": "3430a0d3e951a1d5171da78998b5d6ee939c4bb47a52dd8579f8d73625b1d883"
+  }
+}

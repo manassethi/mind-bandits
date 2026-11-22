@@ -1,0 +1,46 @@
+{
+  "scope": "Cached model snapshot commits and main references before long agent runs; actual model resolution is also retained in scheduler outputs. No credentials included.",
+  "models": {
+    "google/gemma-3-12b-it": {
+      "cached_snapshot_commits": [
+        "96b6f1eccf38110c56df3a15bffe176da04bfd80"
+      ],
+      "main_ref": "96b6f1eccf38110c56df3a15bffe176da04bfd80"
+    },
+    "Qwen/Qwen3-8B": {
+      "cached_snapshot_commits": [],
+      "main_ref": null
+    },
+    "BAAI/bge-m3": {
+      "cached_snapshot_commits": [
+        "5617a9f61b028005a4858fdac845db406aefb181",
+        "9a0624b896d81da7492a910ffa53731274b6cf3d"
+      ],
+      "main_ref": "5617a9f61b028005a4858fdac845db406aefb181"
+    },
+    "google/gemma-3-1b-pt": {
+      "cached_snapshot_commits": [
+        "fcf18a2a879aab110ca39f8bffbccd5d49d8eb29"
+      ],
+      "main_ref": "fcf18a2a879aab110ca39f8bffbccd5d49d8eb29"
+    },
+    "google/gemma-3-12b-pt": {
+      "cached_snapshot_commits": [
+        "295efb63d01a7017928f273a94ebb86105c9526f"
+      ],
+      "main_ref": "295efb63d01a7017928f273a94ebb86105c9526f"
+    },
+    "google/gemma-scope-2-1b-pt": {
+      "cached_snapshot_commits": [
+        "b738dc06961818c011fb2e44a316352ca0f4e873"
+      ],
+      "main_ref": "b738dc06961818c011fb2e44a316352ca0f4e873"
+    },
+    "google/gemma-scope-2-12b-pt": {
+      "cached_snapshot_commits": [
+        "bbabd1e4a3964914f5bf0f5f99b56c2a2da09802"
+      ],
+      "main_ref": "bbabd1e4a3964914f5bf0f5f99b56c2a2da09802"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Keep response-model versions explicit when reporting results; comparisons are paired within each bank.",
+  "legacy_frozen_bank": {
+    "teacher": "Original two-epoch Qwen-embedding MLP with a transductive training-CTR intercept anchor.",
+    "tracks": [
+      "q1_allocation",
+      "q1_batch_retune",
+      "q3_recheck",
+      "q4_statistics",
+      "q4_tool_audit",
+      "q4_prior_controls",
+      "q4_ablation"
+    ],
+    "note": "New Q4 agent runs intentionally reuse the original immutable headline/mean-probability bank; they do not use the clean temporal refit."
+  },
+  "clean_temporal_bank": {
+    "teacher": "Fit Nov9\u201312, select Nov13, refit Nov9\u201313, calibrate Nov14, evaluate Nov15. Primary Qwen MLP, intercept calibration.",
+    "tracks": [
+      "q1_simulator_family",
+      "q2_controls",
+      "q2_wide_controls",
+      "q3_interventions",
+      "q3_redundancy"
+    ],
+    "sensitivities": [
+      "logistic/bilinear/MLP",
+      "additional initialization seeds",
+      "calibration, CTR, gap and temperature transforms",
+      "strict unseen article IDs"
+    ]
+  },
+  "alternate_teacher": {
+    "teacher": "BGE-M3 MLP selected on Nov13, refit Nov9\u201313, intercept calibrated Nov14.",
+    "tracks": [
+      "alternate_encoder",
+      "q3_teacher_transfer"
+    ],
+    "note": "Frozen article/user pools and removal masks; different fitted response probabilities. These are sensitivity conditions, not independent real-user datasets."
+  },
+  "semantic_validation": {
+    "tracks": [
+      "semantic_checks",
+      "semantic_comparison"
+    ],
+    "note": "Automated concept/headline retrieval on 2244 strictly excluded article IDs. No human-annotation claim; one captioner and one independent scoring encoder."
+  }
+}

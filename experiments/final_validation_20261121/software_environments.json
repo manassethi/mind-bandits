@@ -1,0 +1,25 @@
+{
+  "core": {
+    "python": "3.11.13",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "sentence-transformers": "6.1.0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0"
+  },
+  "llm": {
+    "python": "3.11.7",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "torch": "2.13.0",
+    "transformers": "5.19.0",
+    "vllm": "0.32.0",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0"
+  },
+  "collection": "Installed distribution metadata read on Great Lakes before LLM ablation runs.",
+  "gpu_partition": "spgpu (NVIDIA A40)"
+}

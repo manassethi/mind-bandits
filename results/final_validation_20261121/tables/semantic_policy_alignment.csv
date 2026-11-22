@@ -1,0 +1,97 @@
+group,kind,coordinate,label,usable,abstained,heldout_activation_frequency,unmatched_auc,matched_auc,train_importance
+g1b17,sae,0,Unexpected outcomes or dramatic shifts in game/match status.,True,False,0.2999108734402852,0.9180999999999999,0.6584,0.007007978615241987
+g1b17,sae,1,Local weather forecasts and conditions.,True,False,0.37655971479500894,0.9135000000000001,0.88859375,0.003663741537411813
+g1b17,sae,2,"Lifestyle, opinions, and personal experiences.",True,False,0.9349376114081996,0.5573,0.5741,0.0037815598122965654
+g1b17,sae,3,Violent crime and victimization.,True,False,0.43716577540106955,0.8257,0.7925,0.006755682591544969
+g1b17,sae,4,Professional sports team roster changes and player status.,True,False,0.3680926916221034,0.9770000000000001,0.7395999999999999,0.005158057561973779
+g1b17,sae,5,"Tragedy, crime, and loss impacting individuals and communities.",True,False,0.9959893048128342,0.5969,0.5746000000000001,0.005082947240825744
+g1b17,sae,6,Serious legal or criminal accusations and consequences.,True,False,0.5699643493761141,0.9645,0.9356,0.00491259631993733
+g1b17,sae,7,Political processes and electoral outcomes.,True,False,0.34180035650623886,0.922,0.9339000000000001,0.00210863723664867
+g1b17,sae,8,Sports performance and player statistics.,True,False,0.13636363636363635,0.9327000000000001,0.6248,0.002918537215458927
+g1b17,sae,9,Real-time sports events and player performance.,True,False,0.12923351158645277,0.8682,0.5927,0.001392920630088039
+g1b17,sae,10,Localized weather events and forecasts.,True,False,0.9594474153297683,0.6437999999999999,0.5924,0.005240235130186874
+g1b17,sae,11,"Sudden, unexpected death or serious injury events.",True,False,0.6145276292335116,0.9176,0.9336,0.00592471241870154
+g1b17,sae,12,Practical advice or guides for everyday activities.,True,False,1.0,0.4789,0.48619999999999997,0.005590831088603817
+g1b17,sae,13,"Automotive performance, design, or product announcements.",True,False,0.37923351158645274,0.8263,0.7385731151964918,0.0032330098568269026
+g1b17,sae,14,Significant athletic performance or player status updates.,True,False,0.2268270944741533,0.9486000000000001,0.6684,0.0049585048544670265
+g1b17,sae,15,Timely updates on current events and ongoing situations.,True,False,0.9665775401069518,0.7850999999999999,0.7241,0.003654417736580214
+g1b17,sae,16,"Professional sports transactions, results, and game coverage.",True,False,0.22370766488413546,0.8161999999999999,0.5419,0.005545077769156373
+g1b17,sae,17,Upcoming sporting events or team performance outlooks.,True,False,0.30614973262032086,0.9188999999999999,0.7226,0.005512583089463323
+g1b17,sae,18,Food and dining experiences.,True,False,0.3253119429590018,0.9574,0.8957142857142858,0.0018511360052343648
+g1b17,sae,19,Professional sports leagues and related events.,True,False,0.5129233511586453,0.9498,0.7745,0.00595672271929167
+g1b17,sae,20,Political events and figures involving the U.S. presidency.,True,False,0.45499108734402854,0.9803,0.9665,0.003691653978914869
+g1b17,sae,21,Professional sports analysis and player movement.,True,False,0.5115864527629234,0.9406,0.7021999999999999,0.006665383375906738
+g1b17,sae,22,"International conflict, political instability, or significant policy shifts.",True,False,0.6844919786096256,0.6432,0.586,0.003975016242494498
+g1b17,sae,23,"Sudden, dangerous events causing immediate harm or disruption.",True,False,0.3961675579322638,0.858,0.8327,0.005371739760834638
+g1b17,sae,24,Real estate and property listings.,True,False,0.5343137254901961,0.9516,0.8939999999999999,0.003948758143987346
+g1b17,sae,25,Celebrity and entertainment industry news.,True,False,0.5588235294117647,0.8121,0.7804466128729592,0.0027222091278225687
+g1b17,sae,26,Serious criminal accusations and alleged violent acts.,True,False,0.606951871657754,0.9485,0.9303,0.005411550051967704
+g1b17,sae,27,Local government and community initiatives.,True,False,0.8070409982174688,0.7961,0.7164999999999999,0.006641755571031638
+g1b17,sae,28,Seasonal celebrations and leisure activities.,True,False,0.7936720142602496,0.8455999999999999,0.8063,0.004196760298277346
+g1b17,sae,29,Academic institutions and related controversies.,True,False,0.3805704099821747,0.7657,0.7623,0.003106615519187732
+g1b17,sae,30,Sports betting and predictions.,True,False,0.49910873440285203,0.8833,0.5997,0.004456480083669297
+g1b17,sae,31,Adverse or potentially disruptive environmental conditions.,True,False,0.058823529411764705,0.7965,0.6357709750566893,0.0024395471479290763
+g12b12,sae,0,Public figures and events of national or international significance.,True,False,0.9545454545454546,0.6868000000000001,0.6335999999999999,0.005372044086690318
+g12b12,sae,1,Local events and personalities,True,False,1.0,0.4606,0.503,0.00685121386759024
+g12b12,sae,2,Family relationships and emotional events.,True,False,0.9215686274509803,0.7644,0.7399000000000001,0.005322585204162589
+g12b12,sae,3,Adverse weather conditions and related preparations.,True,False,0.49732620320855614,0.9006,0.8187326869806094,0.0036953704964973145
+g12b12,sae,4,Serious criminal acts and their immediate aftermath.,True,False,0.6524064171122995,0.8914999999999998,0.8892000000000001,0.006077667102446699
+g12b12,sae,5,Sports outcomes and team performance analysis.,True,False,0.40418894830659535,0.8855000000000001,0.5783,0.004768116028079444
+g12b12,sae,6,Impending or current adverse weather conditions.,True,False,0.6029411764705882,0.671,0.6255999999999999,0.004259987153660688
+g12b12,sae,7,Leisure activities and enthusiast hobbies.,True,False,0.9055258467023173,0.6512,0.6163,0.00484908273619723
+g12b12,sae,8,"Local events, student life, and school-related activities.",True,False,1.0,0.35750000000000004,0.3274,0.007088072612955505
+g12b12,sae,9,"Competition, progress, or turning points in ongoing endeavors.",True,False,0.9844028520499108,0.8083,0.7952,0.005993403167999399
+g12b12,sae,10,Local events and disruptions impacting daily life.,True,False,0.6452762923351159,0.7596,0.6678999999999999,0.004460228093926207
+g12b12,sae,11,Negative events and consequences impacting people or institutions.,True,False,0.9581105169340464,0.6376,0.6549999999999999,0.005913498887870033
+g12b12,sae,12,Competitive athletic performance and results.,True,False,0.4193404634581105,0.8334,0.5961,0.004376239336909684
+g12b12,sae,13,"Athlete or team performance, setbacks, and successes.",True,False,0.28654188948306597,0.8741,0.48219999999999996,0.006343789735563583
+g12b12,sae,14,Educational institutions and related controversies.,True,False,0.8493761140819964,0.8684999999999999,0.8543,0.005743186700309053
+g12b12,sae,15,Speculative analysis of team performance and potential transactions.,True,False,0.46345811051693403,0.9628,0.8119999999999999,0.005821513461958596
+g12b12,sae,16,Violent crime and resulting fatalities.,True,False,0.28475935828877,0.9272999999999999,0.9257,0.005148576768744006
+g12b12,sae,17,Localized disruptions and incidents affecting specific communities.,True,False,0.8288770053475936,0.5846,0.5261,0.006103253092021309
+g12b12,sae,18,Local events and regional impact.,True,False,0.7205882352941176,0.593,0.5321,0.006245876038296064
+g12b12,sae,19,Unusual or unexpected items/events involving transportation or theft.,True,False,0.678698752228164,0.8428000000000001,0.7312,0.004735067443051137
+g12b12,sae,20,Practical advice or explanations of everyday objects/activities.,True,False,0.7789661319073083,0.6699999999999999,0.5584,0.0058767551697239614
+g12b12,sae,21,Recipes and food preparation instructions.,True,False,0.10606060606060606,0.9601,0.9223615916955017,0.0020856528398396595
+g12b12,sae,22,"Tragedy, harm, or crisis events impacting individuals or communities.",True,False,0.8854723707664884,0.5357000000000001,0.5204000000000001,0.005786616066082843
+g12b12,sae,23,Motorcycle and powersports vehicle product releases and previews.,True,False,0.9028520499108734,0.7182999999999999,0.6351,0.0056768998084118245
+g12b12,sae,24,"Technology, social media, and digital security concerns.",True,False,0.5846702317290553,0.8648999999999999,0.8268,0.003677061724612615
+g12b12,sae,25,International geopolitical tensions and conflicts.,True,False,0.41354723707664887,0.8226,0.7932999999999999,0.0036575329468163725
+g12b12,sae,26,Political figures and government actions.,True,False,0.2749554367201426,0.8995,0.852,0.002915018322281268
+g12b12,sae,27,Motorcycle enthusiasts and related industry news.,True,False,1.0,0.5517,0.4737,0.006371351464373619
+g12b12,sae,28,Local information and practical utility.,True,False,0.9946524064171123,0.6386000000000001,0.6096000000000001,0.004501262349681378
+g12b12,sae,29,Practical information or recommendations for immediate action.,True,False,1.0,0.483,0.4401,0.007448826783452878
+g12b12,sae,30,Sports events and outcomes.,True,False,0.2727272727272727,0.8842000000000001,0.5643,0.00545395693223215
+g12b12,sae,31,Quantifiable monetary or physical values reported.,True,False,0.5298573975044564,0.6519999999999999,0.5915,0.004341385402488397
+g12b41,sae,0,"Local events, people, and immediate forecasts.",True,False,1.0,0.36819999999999997,0.383,0.009939377306784573
+g12b41,sae,1,Sports analysis and strategic game insights.,True,False,0.3302139037433155,0.9570000000000001,0.7617,0.009407835467351315
+g12b41,sae,2,Violent criminal acts involving injury or death.,True,False,0.39126559714795006,0.9638,0.9692999999999999,0.007765332787808735
+g12b41,sae,3,Sports game recaps and player/coach commentary.,True,False,0.23484848484848486,0.9176000000000001,0.6969000000000001,0.007027127281722317
+g12b41,sae,4,"Unusual, surprising, or emotionally engaging human-interest stories.",True,False,0.9590017825311943,0.5751000000000001,0.5614,0.005308690624660099
+g12b41,sae,5,"Professional sports team transactions, analysis, and potential acquisitions.",True,False,0.08957219251336898,0.7726999999999999,0.6153,0.001790102526826918
+g12b41,sae,6,Government or public sector actions and considerations.,True,False,0.6889483065953654,0.8432999999999999,0.7223999999999999,0.004312117176834644
+g12b41,sae,7,Atmospheric conditions and short-term weather predictions.,True,False,0.07130124777183601,0.7796,0.7934375000000001,0.0024244123744395873
+g12b41,sae,8,Significant events or outcomes with measurable impact.,True,False,0.5142602495543672,0.3864,0.41700000000000004,0.005208155808743246
+g12b41,sae,9,Potential player movement or team management decisions.,True,False,0.41131907308377896,0.9712999999999999,0.7511,0.006628803010331896
+g12b41,sae,10,Professional mixed martial arts events and fighters.,True,False,0.059269162210338684,0.7150000000000001,0.6555,0.0006928301764274564
+g12b41,sae,11,Local weather conditions and forecasts.,True,False,0.2281639928698752,0.9207,0.8734567901234569,0.003077299868766917
+g12b41,sae,12,Severe weather events and associated warnings.,True,False,0.33377896613190733,0.9494999999999999,0.8941485864562788,0.0036116214110342845
+g12b41,sae,13,"Sports team transactions, evaluations, and league-wide analysis.",True,False,0.20811051693404634,0.9225,0.7645,0.004571248118562588
+g12b41,sae,14,College football forecasts and predictions.,True,False,0.16176470588235295,0.9673999999999999,0.8364,0.003213445617175925
+g12b41,sae,15,Sports analysis and strategic team performance.,True,False,0.33377896613190733,0.9575,0.7334,0.0061544977351667175
+g12b41,sae,16,Serious incidents involving legal consequences or public safety.,True,False,0.9487522281639929,0.5104,0.5147,0.0049316785779417345
+g12b41,sae,17,Political contests and electoral processes.,True,False,0.2179144385026738,0.9416,0.9188999999999999,0.0021357303815809
+g12b41,sae,18,Upcoming or ongoing professional sports events and player injuries.,True,False,0.3137254901960784,0.8813,0.6354,0.0063613349977081355
+g12b41,sae,19,Political or legal matters involving public institutions.,True,False,0.6898395721925134,0.7116999999999999,0.5743,0.005273347938647048
+g12b41,sae,20,Competitive sports performance and rankings.,True,False,0.5303030303030303,0.9038999999999999,0.6650999999999999,0.00469990292837596
+g12b41,sae,21,Congressional and committee actions related to impeachment.,True,False,0.2557932263814617,0.992,0.9751,0.002671058402591375
+g12b41,sae,22,Sports team player availability and performance.,True,False,0.13680926916221034,0.8607,0.5612,0.0031779885616103876
+g12b41,sae,23,Exceptional athletic plays or significant errors.,True,False,0.23618538324420676,0.9461999999999999,0.7338,0.003212790860277936
+g12b41,sae,24,Motorsports competition and results.,True,False,0.08244206773618538,0.7529,0.6726,0.0005806204570494567
+g12b41,sae,25,Southern California disasters and emergencies.,True,False,0.1840463458110517,0.8198999999999999,0.8119000000000001,0.0023107531030526853
+g12b41,sae,26,"Local events, people, and community impact.",True,False,0.9696969696969697,0.5865,0.5315000000000001,0.0053112409705303966
+g12b41,sae,27,Ongoing law enforcement pursuit of individuals.,True,False,0.20053475935828877,0.9032,0.8914,0.00396243898279466
+g12b41,sae,28,"Subjectivity, opinion, or commentary on events/people.",True,False,0.999554367201426,0.516,0.5253,0.008280391733711184
+g12b41,sae,29,Florida-centric events and local government actions.,True,False,0.20989304812834225,0.8541,0.8389,0.002181396205343579
+g12b41,sae,30,"Local events, people, and community happenings.",True,False,1.0,0.41910000000000003,0.39680000000000004,0.007740506378022664
+g12b41,sae,31,Professional ice hockey team roster adjustments and related news.,True,False,0.08422459893048129,0.7402000000000001,0.5512999999999999,0.0012771775122682857

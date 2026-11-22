@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "model_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "tokenizer_config_sha256": "bfe25c2735e395407beb78456ea9a6984a1f00d8c16fa04a8b75f2a614cf53e1",
+  "checks": [
+    {
+      "arms": 5,
+      "old_format_rejected": true,
+      "new_format_rendered": true,
+      "headlines_and_statistics_preserved": true
+    },
+    {
+      "arms": 10,
+      "old_format_rejected": true,
+      "new_format_rendered": true,
+      "headlines_and_statistics_preserved": true
+    }
+  ],
+  "scope": "CPU validation against the actual cached Gemma chat template; no GPU inference or policy outcomes generated."
+}

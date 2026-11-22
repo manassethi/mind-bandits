@@ -1,0 +1,124 @@
+{
+  "figures": {
+    "temporal_model_validation": {
+      "caption": "All three locked model families and calibrators on the previously inspected evaluation day. Ranking and probability quality are separate diagnostics; calibration does not establish the simulator as the true user-response process. Bars have no uncertainty intervals.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc"
+      }
+    },
+    "feedback_retuning": {
+      "caption": "K=10, T=10,000. Negative differences favor UCB. Points and bars show paired mean differences and 95% Student-t intervals across 30 article pools. Retuning uses training pools only and is an exploratory follow-up to the frozen-setting reversal.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673"
+      }
+    },
+    "matched_feature_controls": {
+      "caption": "D=32 at matched layers, using separately train-selected exploration coefficients. Negative differences favor SAE features. Random controls average three direction seeds within each of the same 30 pools; bars are paired 95% Student-t intervals. Small dictionaries have 128 directions. Wide dictionaries select 128 training-variance coordinates from 16,384 directions. Article-level thresholded directions control activation frequency and are not token-level random SAEs. Full dimension and common-coefficient grids accompany this diagnostic.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c"
+      }
+    },
+    "feature_interventions": {
+      "caption": "Train-ranked top features versus equal-sized random masks. Left: local interventions in actual pre-action UCB states, with mean and uncertainty scores recomputed. Right: policies retrained from the first round without those coordinates. Random masks are averaged within pools; intervals use 30 independent pools. These are algorithmic feature interventions under the simulator, not causal claims about real users.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c",
+        "q3_interventions/summary.json": "828769a2fe4876339019c6b8f2b83ca73b3fa677cfed06b51ddc7ae8cb437464"
+      }
+    },
+    "feature_necessity_across_simulators": {
+      "caption": "Retraining comparisons use the same primary training-derived ranks, top/bottom/random masks, exploration coefficients, and article/user pools under both response simulators. Positive differences indicate greater regret after top-ranked removal than after equal-sized random removal. Five random masks are averaged within each pool; intervals use 30 paired pools. The two simulator fits are sensitivity conditions, not independent replications or real-user causal evidence.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c",
+        "q3_interventions/summary.json": "828769a2fe4876339019c6b8f2b83ca73b3fa677cfed06b51ddc7ae8cb437464",
+        "q3_teacher_transfer/summary.json": "87d5e5eee54e22b6649fbb8a3ce8a601a3a43bba8777f2bfc52628777df24d6d"
+      }
+    },
+    "automated_semantic_controls": {
+      "caption": "One blinded Gemma 12B captioner describes all first 32 coordinates from earlier-day examples. Wide controls select training-variance coordinates from 16,384 directions; a prespecified direction seed (11) is used for semantic comparisons. BGE scores caption agreement on strictly unseen news with category-matched negatives. Bars average all 32 coordinates, assigning chance to captioner abstention or insufficient held-out support; annotations indicate incomplete coverage when present. Scores conditional on adequate support are also retained. This automated proxy is not human semantic validation. Coordinates within a layer are dependent, so no independent-feature confidence bars are shown. Small-dictionary semantic controls are also retained in the complete results.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c",
+        "q3_interventions/summary.json": "828769a2fe4876339019c6b8f2b83ca73b3fa677cfed06b51ddc7ae8cb437464",
+        "q3_teacher_transfer/summary.json": "87d5e5eee54e22b6649fbb8a3ce8a601a3a43bba8777f2bfc52628777df24d6d",
+        "semantic_comparison/summary.json": "e69953bc304321b5132eec14658267debd9ce1c683389e1db690bc44b7e8a5e9"
+      }
+    },
+    "tool_only_baselines": {
+      "caption": "Historical LLM decisions and direct policies on identical fixed environments, K=5/10 and T=500. Negative differences favor the listed policy. Intervals are paired 95% Student-t intervals across 30 pools. These historical LLM runs precede the new matched ablation harness and remain explicitly labeled.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c",
+        "q3_interventions/summary.json": "828769a2fe4876339019c6b8f2b83ca73b3fa677cfed06b51ddc7ae8cb437464",
+        "q3_teacher_transfer/summary.json": "87d5e5eee54e22b6649fbb8a3ce8a601a3a43bba8777f2bfc52628777df24d6d",
+        "semantic_comparison/summary.json": "e69953bc304321b5132eec14658267debd9ce1c683389e1db690bc44b7e8a5e9",
+        "q4_statistics/summary.json": "d9a94320d8feff4a0987a1538e72fff8de137385b51df79c60ad9dc89fc771e1"
+      }
+    },
+    "matched_agent_baselines": {
+      "caption": "Fresh matched Gemma and Qwen agents on the same frozen legacy response bank, 30 pools and 500 rounds. Negative differences favor the listed agent/policy over direct posterior-mean choice. Bars are pointwise paired 95% Student-t intervals; the complete eight-baseline comparison family and Holm-adjusted p-values are retained in the tables. Headline-only prior probes are separate from online decisions. These simulations do not establish real-user effects.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c",
+        "q3_interventions/summary.json": "828769a2fe4876339019c6b8f2b83ca73b3fa677cfed06b51ddc7ae8cb437464",
+        "q3_teacher_transfer/summary.json": "87d5e5eee54e22b6649fbb8a3ce8a601a3a43bba8777f2bfc52628777df24d6d",
+        "semantic_comparison/summary.json": "e69953bc304321b5132eec14658267debd9ce1c683389e1db690bc44b7e8a5e9",
+        "q4_statistics/summary.json": "d9a94320d8feff4a0987a1538e72fff8de137385b51df79c60ad9dc89fc771e1",
+        "q4_comparisons/summary.json": "0b7fd088f5af882a56d9e1f44ca214af864bcf388d6b5155a05a654b2b7dd6b7",
+        "q4_ablation/gemma-3-12b-it/original/summary.json": "a1932f888a7c4b227416c12c113ee6d77803f7811c8cf2bf5405cb78bcb43685",
+        "q4_ablation/Qwen3-8B/original/summary.json": "9defc41a696e34388b3fbda9c8c3a8678880a9c8fe9cec762a4c73c0a1c49346",
+        "q4_prior_controls/summary.json": "4bcbcc41b26f7f434a6c1edaa5acafd3c40e99bdba6daf9d63443cc50171da51"
+      }
+    },
+    "matched_agent_ablations": {
+      "caption": "Every Gemma ablation at K=5 and K=10, paired to its corresponding original tool or no-tool condition. Negative differences favor the ablation. Always-displayed statistics are compared with the original optional-tool agent. Bars are pointwise paired 95% Student-t intervals across 30 pools; all 18 contrasts and their family-wise Holm-adjusted p-values are retained. Generation uses one fixed seed per condition, so intervals do not estimate repeated-generation variability.",
+      "source_hashes": {
+        "temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+        "q1_allocation/K10_T10k_T10000/summary.json": "887139c3ed9156e9999267710c30beeaa2595c4be84f6fe3cf6329a3cdc14439",
+        "q1_batch_retune/summary.json": "3fea1e18e4ad5203dc7ff899d949fdefe0fe525cd6ed9b804cdd44368c007673",
+        "q2_controls/summary.json": "1365c90583cc9accb8988155c042392c9b03bd1bec25a7a26f90899c79b9d804",
+        "q2_wide_controls/summary.json": "c6328be391affbcb6b7f3c2602e2ba6663dadc2613420b41ead0384872556d42",
+        "q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c",
+        "q3_interventions/summary.json": "828769a2fe4876339019c6b8f2b83ca73b3fa677cfed06b51ddc7ae8cb437464",
+        "q3_teacher_transfer/summary.json": "87d5e5eee54e22b6649fbb8a3ce8a601a3a43bba8777f2bfc52628777df24d6d",
+        "semantic_comparison/summary.json": "e69953bc304321b5132eec14658267debd9ce1c683389e1db690bc44b7e8a5e9",
+        "q4_statistics/summary.json": "d9a94320d8feff4a0987a1538e72fff8de137385b51df79c60ad9dc89fc771e1",
+        "q4_comparisons/summary.json": "0b7fd088f5af882a56d9e1f44ca214af864bcf388d6b5155a05a654b2b7dd6b7",
+        "q4_ablation/gemma-3-12b-it/original/summary.json": "a1932f888a7c4b227416c12c113ee6d77803f7811c8cf2bf5405cb78bcb43685",
+        "q4_ablation/Qwen3-8B/original/summary.json": "9defc41a696e34388b3fbda9c8c3a8678880a9c8fe9cec762a4c73c0a1c49346",
+        "q4_prior_controls/summary.json": "4bcbcc41b26f7f434a6c1edaa5acafd3c40e99bdba6daf9d63443cc50171da51"
+      }
+    }
+  },
+  "status": "Scientific diagnostics only; report writing remains deferred.",
+  "source": "/Users/sameearif/Documents/Courses/CS592/Project/scripts/final_validation/figures.py",
+  "source_sha256": "f4e881b8696853935034e734d4a6d1fc3ba68209c832c40a06716759fe0730dc"
+}

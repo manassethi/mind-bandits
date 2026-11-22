@@ -1,0 +1,30 @@
+{
+  "changes": [
+    {
+      "changed_utc": "2026-11-22T16:55:51.123721+00:00",
+      "affected_condition": "always_stats",
+      "stage": "Before always_stats inference starts; warmup is already running with the previous source.",
+      "problem": "The original always_stats branch appended a second consecutive user turn, rejected by the pinned Gemma chat template.",
+      "fix": "Append the exact statistics block to the existing user message. Preserve headlines, counts, tool RNG, model revision, sampling, reward bank, horizon and pool count.",
+      "previous_source_sha256": "d0eb41b883633041d03fb629c112c91c5a4220627743eb18e87b085ab7e53481",
+      "current_source_sha256": "09ad96089ea23650da0df5a01ab1d063684e8877d9132a9b16fbe7e20ba5a28f",
+      "preserved_previous_source": "scripts/final_validation/source_versions/q4_ablation_d0eb41b883633041d03fb629c112c91c5a4220627743eb18e87b085ab7e53481.py",
+      "unaffected_conditions": [
+        "original",
+        "temperature0",
+        "shuffle",
+        "anonymous",
+        "warmup"
+      ],
+      "validation": "always_stats_template_check.json",
+      "source_audit": "Earlier execution hashes are checked against this exact preserved source; raw environments and other source inputs must still match directly."
+    }
+  ],
+  "q2_control_guard_correction": {
+    "reason": "Guard used substring gap0 and incorrectly asserted zero regret for gap0.25 and gap0.5. Replace with exact environment name; policy/environment computations are unchanged.",
+    "old_source_sha256": "6de6d6cb8bcde6a385373032b7f4c65338cde77d76f283e58cbf16afb2f59d0b",
+    "new_source_sha256": "2037f817eafe9513c9a80851e8d8e25316adf3c92f6a7ca309383df4f6e659ba",
+    "compatible_cached_results": true,
+    "scope": "Exact-name zero-gap assertion only. Completed compatible runs were retained; quarter/half-gap cells and the remaining grid completed after correction."
+  }
+}

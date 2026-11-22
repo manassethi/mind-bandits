@@ -8,7 +8,7 @@ When should a news recommender stop exploring, and what information helps it lea
 
 **All policy results are semi-synthetic.** Real news, reading histories, and logged clicks train and validate the simulator. Its estimated probabilities then generate bandit rewards and define the evaluation oracle. These experiments measure behavior within that simulator; they are not an online deployment or a counterfactual evaluation of MSN traffic.
 
-[Results](#results) · [Setup](#setup) · [Reproduce saved analyses](#reproduce-saved-analyses) · [Full experiment pipeline](#full-experiment-pipeline) · [Repository layout](#repository-layout) · [Limitations](#limitations)
+[Results](#results) · [Setup](#setup) · [Replot results](#replot-results) · [Full experiment pipeline](#full-experiment-pipeline) · [Repository layout](#repository-layout) · [Limitations](#interpretation-and-limitations)
 
 ## Research questions
 
@@ -17,7 +17,7 @@ When should a news recommender stop exploring, and what information helps it lea
 | **Q1: Allocation** | Explore-then-commit A/B, ε-greedy, UCB, Thompson sampling (TS), discounted TS | Cumulative regret, expected CTR, best-arm selection; stationary and drifting rewards |
 | **Q2: Transfer to new articles** | No features, categories, BGE-M3, dense Gemma representations, SAE features | Personalized regret, cold-start regret, dimension and article-lifetime sensitivity |
 | **Q3: Policy interpretation** | Train-ranked SAE features, post-hoc removal, retraining with features removed, random controls | Decision changes, regret changes, importance stability, label coverage |
-| **Q4: LLM decisions** | Gemma-3-12B-IT with and without a posterior-statistics tool, headline-only prior, bandit baselines | Regret, exploration failures, tool use, token consumption |
+| **Q4: LLM decisions** | Gemma-3-12B-IT and Qwen3-8B, posterior-statistics tools, headline priors, direct estimators | Regret, exploration failures, tool use, token consumption |
 
 ```mermaid
 flowchart LR
@@ -34,7 +34,251 @@ flowchart LR
 
 ## Results
 
-The tables below summarize the historical simulator snapshot. Q3 was corrected and rerun after a saved-context bug was found on November 21, 2026. A broader validation campaign is in progress; its unfinished runs are not presented as completed results. Values after **±** are 95% t-interval half-widths over **30 evaluation runs**. Regret is measured in expected clicks lost; lower is better. Comparisons between policies use paired runs. The oracle and horizon differ across questions, so regret values should be compared **within** an experiment.
+The November 21 validation campaign separates a clean temporal response model from the original frozen probability banks. [The model map](experiments/final_validation_20261121/response_model_map.json) identifies the teacher used by every experiment. All policy results remain **semi-synthetic**, conditional on these fitted response models.
+
+The evaluation day is MIND's labeled November 15 development split, which was inspected in earlier work. This is **retrospective validation**, not an untouched confirmation set. The [protocol](experiments/final_validation_20261121/protocol.json) and [exploratory extensions](experiments/final_validation_20261121/extensions.json) retain the full sensitivity grids and explain follow-up choices.
+
+Unless specified otherwise, ± denotes a 95% Student-t interval half-width across **30 paired article/user pools**. Random-feature seeds are averaged within pools; they do not increase the sample size to 90. The matched-feature, feature-removal, and matched-agent contrast tables retain Holm-adjusted p-values across their complete specified comparison families. Confidence intervals are pointwise. Semantic retrieval scores below are descriptive averages over dependent coordinates, not independent-feature confidence intervals.
+
+### Response-model validation
+
+Weights fit November 9–12; model/epoch selection uses November 13; refitting uses November 9–13; calibration uses November 14; evaluation uses November 15. The primary family and intercept calibrator were locked before the follow-up policy comparisons.
+
+| Primary temporal MLP | Value |
+|---|---:|
+| Global / within-impression AUC | 0.7047 / 0.6645 |
+| Log loss / Brier score | 0.16089 / 0.03825 |
+| Equal-mass ECE | 0.00751 |
+| Strictly excluded evaluation article IDs | 2,244 |
+
+Two fixed-configuration initialization refits reach AUC 0.7042 and 0.7059. An otherwise matched BGE-M3 response model reaches 0.7069. All three model families, calibrators, strict-ID metrics, and initialization results are retained; these are model sensitivities, not independent real-user datasets.
+
+[Complete model table](results/final_validation_20261121/tables/temporal_simulator.csv) · [Model results](results/final_validation_20261121/temporal_simulator/summary.json)
+
+### Allocation and delayed feedback
+
+At K=10 and T=10,000, frozen UCB changes from outperforming TS at immediate feedback to worse mean regret at batch size 1,000. The UCB-minus-TS differences are −31 ± 11 and +22 ± 15 clicks. After independent **training-only** retuning for each batch, the batch-1,000 difference is −12 ± 13 and is inconclusive. The observed reversal therefore depends on the tuning protocol.
+
+The allocation suite also includes reward-aware test sizing, the two-arm normal Test-and-Roll approximation, KL-UCB, elimination, drift, terminal recommendation quality, and clean response-model family checks. It evaluates allocation reward; it does not establish the validity of an adaptive significance test.
+
+[All allocation conditions](results/final_validation_20261121/tables/q1_allocation.csv) · [Batch retuning](results/final_validation_20261121/q1_batch_retune/summary.json)
+
+### Feature quality, semantic alignment, and online utility
+
+This comparison uses matched Gemma layers, D=32, separately train-selected LinUCB coefficients, 20 live articles, and 20,000 decisions. The random dictionaries contain 16,384 candidates and retain the 128 highest-variance training coordinates. The first D coordinates are used by the policy. Three direction seeds are retained for policy comparisons; the semantic comparison uses the predeclared seed 11.
+
+| Matched layer | SAE − dense PCA regret | SAE − wide random projection regret | Semantic AUROC: SAE / PCA / wide random |
+|---|---:|---:|---:|
+| Gemma 1B, L17 | +40 ± 36 | -88 ± 27 | 0.738 / 0.621 / 0.600 |
+| Gemma 12B, L12 | +92 ± 31 | -57 ± 24 | 0.659 / 0.595 / 0.635 |
+| Gemma 12B, L41 | +129 ± 32 | -26 ± 29 | 0.695 / 0.598 / 0.618 |
+
+Positive regret differences favor the control. Dense PCA has lower regret at both 12B layers on the main and strictly unseen article streams. The 1B dense/SAE contrast is inconclusive after the complete multiplicity adjustment. Widening the random dictionary substantially narrows the SAE advantage; at L41 the D=32 comparison is inconclusive. The full D=16/32/64, common-coefficient, small/wide-dictionary, neuron, threshold, and strict-ID comparisons are retained.
+
+The automated semantic experiment captions **all 672 prespecified coordinates** with one blinded Gemma model using earlier headlines only. BGE-M3 scores retrieval on 2,244 excluded article IDs with category-matched negatives. All 32 coordinates per condition have adequate support in this run. Shuffled-feature scores are near chance (0.486–0.513), despite the captioner producing labels for every shuffled coordinate. Higher semantic retrieval does not establish human semantic correctness or better recommendation performance. No human annotations are used.
+
+Thresholded random directions operate at the **article level** and match source activation-frequency targets. They are not token-level random SAEs. Width and selection controls narrow the comparison but do not isolate learned SAE training as the only difference.
+
+[All feature contrasts](results/final_validation_20261121/tables/q2_matched_contrasts.csv) · [Feature geometry](results/final_validation_20261121/tables/feature_geometry.csv) · [Semantic results](results/final_validation_20261121/semantic_comparison/summary.json)
+
+![Automated semantic controls](results/final_validation_20261121/figures/automated_semantic_controls.png)
+
+### Feature interventions reconstructed from the policy state
+
+The runner now copies CPU context snapshots and optionally records pre-action weights, inverse covariance, and choices. Full UCB scores reconstruct the recorded choices with zero maximum score gap in all three tested layers.
+
+Removing train-ranked top-four coordinates at the later 12B layer produces **64 ± 26** more regret than equal-sized random removal under the Qwen response model and **62 ± 21** under BGE. At the earlier 12B layer, top-16 removal instead improves regret relative to random removal (−83 ± 31 and −81 ± 29). These effects survive the adjustment across all 24 removal contrasts. Single-coordinate removal at L41 remains inconclusive. Decision sensitivity, retraining necessity, subset sufficiency, and semantic clarity answer different questions.
+
+The transfer check freezes ranks, masks, and exploration settings before changing the response model. This is an algorithmic intervention within two learned simulators, not a causal statement about real readers. The separate correlation experiment uses one-hop training-correlation neighborhoods, plus retain-only subsets.
+
+The original saved-context bug is corrected in the historical Q3 snapshot too. Its earlier 111 ± 51 top-eight claim is withdrawn; the corrected original setup gives 35 ± 45. The newer full-state study uses a different, explicitly documented protocol.
+
+[All removal contrasts](results/final_validation_20261121/tables/q3_necessity_contrasts.csv) · [Full-state results](results/final_validation_20261121/q3_interventions/summary.json) · [Teacher transfer](results/final_validation_20261121/q3_teacher_transfer/summary.json)
+
+![Feature necessity across response models](results/final_validation_20261121/figures/feature_necessity_across_simulators.png)
+
+### Agent comparisons
+
+All **26 configurations** are complete: 30 pools per cell, 500 rounds, and **390,000 audited agent decisions**. These runs use the **original frozen response bank**, not the clean temporal refit.
+
+| Policy | K=5 regret | K=10 regret |
+|---|---:|---:|
+| Gemma 12B, no tool | 10.27 ± 4.87 | 11.49 ± 3.68 |
+| Gemma 12B, optional tool | 7.47 ± 2.18 | 11.57 ± 3.07 |
+| Qwen 8B, no tool | 17.22 ± 4.40 | 17.99 ± 4.25 |
+| Qwen 8B, optional tool | 5.01 ± 0.89 | 11.98 ± 2.88 |
+| Gemma 12B, statistics always displayed | 7.04 ± 2.06 | 11.92 ± 2.19 |
+| Direct posterior mean | 5.28 ± 1.02 | 10.42 ± 2.04 |
+| Thompson sampling | 9.12 ± 1.45 | 14.84 ± 2.59 |
+| Empirical-Bayes Thompson sampling | 7.48 ± 1.29 | 13.19 ± 1.98 |
+
+The optional tool lowers Qwen regret by **12.21 ± 4.52** at K=5 and **6.02 ± 3.74** at K=10. Holm-adjusted p-values within the complete 12-contrast tool family are 0.000070 and 0.0286. Gemma’s original tool/no-tool contrasts remain inconclusive. Qwen with the tool beats conventional Thompson sampling at K=5, but its difference from direct posterior-mean choice is **−0.26 ± 1.19**. No tested agent configuration has a resolved advantage over direct posterior-mean choice in the complete 208-contrast numerical-baseline family.
+
+All **18 ablation-versus-original** intervals span zero: temperature zero, shuffled article order, anonymized headlines, initial arm coverage, and always-displayed statistics. These outcomes do not establish equivalence. The separate tool/no-tool contrast within Gemma’s K=5 initial-coverage condition is −7.24 ± 4.71 (Holm p=0.0382); that result does not establish that initial coverage improves the original agent.
+
+The numerical suite retains posterior means, upper bounds, probability-of-best choice, Thompson sampling, flat training-CTR priors at strengths 10/100/1,000, and empirical-Bayes priors. Flat priors use the observed training CTR (0.040519); empirical Bayes fits moments to **training simulator article-rate samples** (mean 0.027746). Historical headline-ranked/shuffled-prior experiments are retained separately; they use earlier rankings rather than the fresh agent probes.
+
+There are **31 parsing failures in 390,000 decisions (0.008%)**. Each keeps the documented uniform-random fallback; no failed responses or pools are removed.
+
+[All matched conditions](results/final_validation_20261121/tables/q4_matched_conditions.csv) · [All 242 paired contrasts](results/final_validation_20261121/tables/q4_matched_contrasts.csv) · [Locked analysis families](results/final_validation_20261121/q4_analysis_plan.json) · [Integrity audit](results/final_validation_20261121/validation_audit.json)
+
+![Matched agents and direct policies](results/final_validation_20261121/figures/matched_agent_baselines.png)
+
+![Every Gemma ablation](results/final_validation_20261121/figures/matched_agent_ablations.png)
+
+## Setup
+
+Use Python 3.11 and run commands from the repository root. The core environment trains and evaluates simulators and policies; the separate vLLM environment serves the agents and captioner. Their recorded PyTorch versions differ, so keep them separate.
+
+```bash
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/manassethi/mind-bandits.git
+cd mind-bandits
+git lfs install
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+
+python3 -m venv .venv-vllm
+.venv-vllm/bin/python -m pip install vllm==0.32.0 scipy pandas pyarrow
+```
+
+The [environment snapshot](experiments/final_validation_20261121/software_environments.json) records the installed campaign versions. CUDA inference requires a compatible driver and sufficient GPU memory. Authenticate with `hf auth login` for gated models and accept their applicable terms using your own account. Credentials belong in the environment or credential store; `.env` files are ignored by Git.
+
+Gemma agents and the captioner use checkpoint `96b6f1eccf38110c56df3a15bffe176da04bfd80`; Qwen uses `b968826d9c46dd6066d109eabc6255188de91218`. The worker uses a fresh-process launch to avoid a Torch startup deadlock observed with `fork`.
+
+## Replot results
+
+The compact export contains per-pool summary vectors, tables, and scientific figures. Replotting needs no model inference or raw all-layer features:
+
+```bash
+# Recompute all matched-agent contrasts from the compact per-pool vectors.
+.venv/bin/python -m scripts.final_validation.q4_comparisons
+# Regenerate every scientific diagnostic figure.
+.venv/bin/python -m scripts.final_validation.figures
+```
+
+Full integrity checking additionally needs the saved run arrays and probability environments:
+
+```bash
+.venv/bin/python -m scripts.final_validation.analyze --strict
+```
+
+The strict checker verifies stored per-pool results, exact paired agent rewards, source-model revisions, probability bounds, strict-ID exclusions, context reconstruction, and semantic coverage. It must not be treated as a novelty assessment or a substitute for interpreting the full results. A summary-only checkout cannot pass the raw-array checks. [Artifact hashes](results/final_validation_20261121/artifact_manifest.json) identify the compact export.
+
+## Full experiment pipeline
+
+Use a GPU allocation for CUDA commands. The commands below run sequentially and preserve the published snapshot by writing to a **fresh output directory**. Every shell used for a stage must have the same `FINAL_OUT` value. Several runners refuse to reuse results with changed inputs or source hashes.
+
+The historical probability banks, processed impressions, selected policy features, and external labels are inputs to the follow-up study:
+
+```bash
+git lfs pull --include="dataset/processed/**,models/**,results/q1/**,results/q2/**,results/q3/**,results/q4/**"
+export FINAL_OUT=results/reproduction_20261121
+```
+
+The complete matched-layer/random-dictionary rebuild also requires the uncommitted `dataset/processed/policy_raw/` cache. Regenerate it with the extraction/reduction commands in the historical input section below. The compact summaries are sufficient for replotting, but do not replace that cache for new experiments.
+
+### 1. Validate the probability interface and fit response models
+
+```bash
+# Known-response probability, zero-gap, oracle, and policy sanity checks.
+.venv/bin/python -m scripts.final_validation.synthetic_checks --workers 6
+# Disjoint selection/calibration days; all model families and calibrators retained.
+.venv/bin/python -m scripts.final_validation.temporal_simulator --device cuda
+# Fit reductions/random controls on earlier article rows only.
+.venv/bin/python -m scripts.final_validation.q2_controls prepare
+# Cache matched main/strict streams, model families, and response-difficulty transforms.
+.venv/bin/python -m scripts.final_validation.q2_controls envs --device cuda
+```
+
+### 2. Compare allocation and feature policies
+
+```bash
+# Six arm/horizon/drift conditions, each with feedback batches 1/100/1000.
+for condition in 0 1 2 3 4 5; do
+  .venv/bin/python -m scripts.final_validation.q1_allocation --index "$condition"
+done
+.venv/bin/python -m scripts.final_validation.q1_batch_retune --workers 3
+.venv/bin/python -m scripts.final_validation.q1_simulator_family --workers 6
+# Train-select feature-policy coefficients, then evaluate every retained control.
+.venv/bin/python -m scripts.final_validation.q2_controls experiments --workers 8
+# Width/selection-matched dictionaries; evaluate main and strict article streams.
+.venv/bin/python -m scripts.final_validation.q2_wide_controls prepare --device cuda
+.venv/bin/python -m scripts.final_validation.q2_wide_controls evaluate --workers 8
+```
+
+### 3. Check simulator sensitivity and feature interventions
+
+```bash
+.venv/bin/python -m scripts.final_validation.simulator_seeds fit --device cuda
+.venv/bin/python -m scripts.final_validation.simulator_seeds evaluate --workers 8
+.venv/bin/python -m scripts.final_validation.alternate_encoder fit --device cuda
+.venv/bin/python -m scripts.final_validation.alternate_encoder evaluate --workers 8
+# Reconstruct the complete pre-action UCB rule; remove top/bottom/random coordinates.
+.venv/bin/python -m scripts.final_validation.q3_interventions --workers 8
+# One-hop correlation neighborhoods and retain-only subsets.
+.venv/bin/python -m scripts.final_validation.q3_redundancy --workers 8
+# Same masks/ranks/settings, now under the BGE response model.
+.venv/bin/python -m scripts.final_validation.q3_teacher_transfer --workers 8
+```
+
+To reproduce the corrected original Q3 setup separately, give its runner the stored legacy environments and labels:
+
+```bash
+mkdir -p "$FINAL_OUT/q3_recheck"
+ln -s "$(pwd)/results/q3/envs" "$FINAL_OUT/q3_recheck/envs"
+ln -s "$(pwd)/results/q3/labels" "$FINAL_OUT/q3_recheck/labels"
+Q3_OUT="$FINAL_OUT/q3_recheck" .venv/bin/python -m scripts.run_q3 --workers 8
+Q3_OUT="$FINAL_OUT/q3_recheck" .venv/bin/python -m scripts.analyze_q3
+```
+
+### 4. Run automated semantic validation
+
+```bash
+# External Neuronpedia labels, category-matched negatives, and 1,000 label permutations.
+.venv/bin/python -m scripts.final_validation.semantic_checks
+# Build blinded high/low headline prompts from earlier articles only.
+.venv/bin/python -m scripts.final_validation.semantic_comparison prepare
+# Generate all 672 captions with the same frozen model.
+.venv-vllm/bin/python -m scripts.final_validation.semantic_comparison generate
+# Verify embedding-space alignment and score strict-held-out retrieval.
+.venv/bin/python -m scripts.final_validation.semantic_comparison evaluate
+```
+
+### 5. Isolate agent, tool, and prior contributions
+
+```bash
+# Direct posterior statistics, ranked/shuffled priors, and exact displayed-tool audit.
+.venv/bin/python -m scripts.final_validation.q4_statistics
+.venv/bin/python -m scripts.final_validation.q4_tool_audit
+.venv/bin/python -m scripts.final_validation.q4_prior_controls
+.venv/bin/python -m scripts.final_validation.benchmark_statistics
+# Fresh matched baselines, including the second model family (thinking disabled).
+.venv-vllm/bin/python -m scripts.final_validation.q4_ablation --index 5
+.venv-vllm/bin/python -m scripts.final_validation.q4_ablation --index 5 --model Qwen/Qwen3-8B
+# Temperature 0, title-order shuffle, anonymous articles, round-robin warmup, always-supplied statistics.
+for condition in 0 1 2 3 4; do
+  .venv-vllm/bin/python -m scripts.final_validation.q4_ablation --index "$condition"
+done
+```
+
+The always-displayed condition puts the statistics in the existing user turn, as required by Gemma’s alternating-role template. [The source change record](experiments/final_validation_20261121/source_changes.json) preserves the exact earlier source used by completed conditions. In this condition, the saved `tool_called` flag means statistics were supplied; the model makes no separate tool request.
+
+All real agent runs use 30 pools and 500 decisions by default. Agent counts, choices, rewards, and tool RNG are checkpointed every 25 rounds. A process restart resets vLLM generation RNG; summaries disclose resumes. Runtime excludes model loading and is an amortized batched measurement, not single-request latency or monetary cost.
+
+### 6. Audit and export
+
+```bash
+.venv/bin/python -m scripts.final_validation.analyze --strict
+.venv/bin/python -m scripts.final_validation.figures
+.venv/bin/python -m unittest discover -s tests -p test_context_snapshots.py
+```
+
+<details>
+<summary>Historical input preparation, original results, and original sweeps</summary>
+
+## Historical snapshot
+
+The tables below summarize the historical simulator snapshot. Q3 was corrected and rerun after a saved-context bug was found on November 21, 2026. The completed validation study above supersedes broader interpretations from this historical snapshot; comparisons remain specific to their response bank. Values after **±** are 95% t-interval half-widths over **30 evaluation runs**. Regret is measured in expected clicks lost; lower is better. Comparisons between policies use paired runs. The oracle and horizon differ across questions, so regret values should be compared **within** an experiment.
 
 ### Simulator validation
 
@@ -118,42 +362,8 @@ Ten headline arms, 500 decisions, 30 pools. Arm probabilities average simulator 
 
 [Full Q4 tables, including five-arm runs](results/q4/summary.md) · [Machine-readable results](results/q4/summary.json) · [Logged-CTR validation](results/q4/prior_validation.md) · [Headline-prior probe](results/q4/prior_probe.md)
 
-## Setup
 
-Run all commands **from the repository root**. The training and feature jobs used Python 3.11. A CUDA GPU is recommended for the full pipeline; analysis of saved runs works on CPU. Gemma-12B feature extraction and vLLM inference require substantial GPU memory. Reduce extraction batch tokens if needed; a complete all-layer rebuild also requires substantial RAM and disk space.
-
-```bash
-# Clone code and artifact pointers without downloading every large file immediately.
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/manassethi/mind-bandits.git
-cd mind-bandits
-
-# Configure large-file support, then create the core Python environment.
-git lfs install
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
-Install [Git LFS](https://git-lfs.com/) before using its commands. The requirements list direct dependencies but is not a version-locked reconstruction of the original environment. For exact numerical comparisons, use the committed run outputs.
-
-For model downloads, authenticate with `hf auth login` when access is required. Accept the applicable [Gemma model terms](https://huggingface.co/google/gemma-3-12b-it) using the same Hugging Face account. Tokens can also be supplied through `HF_TOKEN` in the environment. Large model downloads can be redirected with `HF_HOME`. Credentials are not needed to read saved summaries.
-
-## Reproduce saved analyses
-
-This path rebuilds the published tables and plots from saved runs without retraining the simulator or running an LLM. It downloads the Q1 environments and run arrays, Q2 run arrays, and Q4 environments and decisions through LFS:
-
-```bash
-git lfs pull --include="results/q1/**,results/q2/**,results/q4/**"
-
-python -m scripts.analyze_q1  # Select settings on train runs; summarize test runs and plot Q1.
-python -m scripts.analyze_q2  # Summarize representations, dimensions, layers, and article churn.
-python -m scripts.analyze_q3  # Render the saved Q3 importance and ablation results.
-python -m scripts.analyze_q4  # Evaluate baselines against saved LLM decisions and plot regret.
-```
-
-Each analysis writes its question's `summary.md` and figures under `results/q*/`; Q1, Q2, and Q4 also write `summary.json`. Q3 consumes the saved `results/q3/results.json`. The top-level [results.md](results.md) describes an **older** setup; use the question-specific summaries linked above for the current experiments.
-
-## Full experiment pipeline
+## Historical input preparation and sweeps
 
 Run stages 1–3 before any experiment that needs fresh simulator probabilities. Q1, Q2, and Q4 can then proceed independently; Q3 depends on Q2 features, tuned settings, and evaluation environments. Commands below use CUDA where supported. Replace `--device cuda` with `--device cpu` or `--device mps` for simulator inference on other hardware; CPU runs of the full pipeline can be slow. Q2 policy workers automatically use available CUDA devices, otherwise CPU; their `--device` option controls environment construction.
 
@@ -302,6 +512,9 @@ python -m scripts.prior_probe analyze
 
 The real agent evaluates both tool conditions for 5 and 10 arms, 30 pools, and 500 rounds. It writes decision arrays, generation settings, token counts, and sampled transcripts under `results/q4/llm_gemma-3-12b-it*`. `--tp` controls tensor parallelism. Simulator validation additionally requires `results/click_model/test_probs.npy`. The prior probe ranks articles with at least 100 logged candidate exposures; its logged CTR comparison is observational and subject to the logging policy.
 
+
+</details>
+
 ## Simulator interface
 
 The shared interface operates on **processed row indices**, not raw MIND article IDs:
@@ -319,48 +532,34 @@ p = sim.prob_matrix(users, articles)  # shape (8, 5), values in [0, 1]
 
 A reward is sampled as `uniform < p[user, chosen_article]`. Policies observe the selected article's binary reward, while the evaluation code can access all probabilities to compute regret. Cached environments allow policy work without repeatedly loading the click model. `sample_users` defaults to users with at least one history article; it samples processed impression-history rows, rather than deduplicated people.
 
-## Reproducibility and limitations
+## Interpretation and limitations
 
-- **Split names:** `train` is November 9–14; `test` is the labeled November 15 development day. Model-family selection and policy tuning use training data and pools.
-- **Oracle dependence:** AUC validates ranking on logged candidates, not every counterfactual user–article pair. Probability calibration and small arm gaps can materially affect policy rankings. Independent policy encoders reduce feature sharing but do not remove simulator bias.
-- **Cold start:** Q2 marks a round as cold-start when the user's oracle-best live article is in its first 10% of lifetime. New arrivals in the simulation need not be absent from click-model training or reading histories.
-- **Metrics:** Q1/Q4 use a population-mean oracle; Q2/Q3 use a per-user oracle. CTR in the comparison tables is expected reward under the simulator, rather than a measured production CTR. Q2's saved `clicks` accumulator stores expected clicks despite its name.
-- **Cached runs:** Several stages reuse existing environment or result files. Downloads restore published artifacts; they do not launch experiments. For a fresh rebuild, use a separate checkout/output directory with empty experiment caches. Rebuilding the click model requires regenerating downstream probability environments and policy runs. Calibration does not invalidate caches automatically.
-- **Randomness:** Environments and most policy streams are seeded, and policies share arrivals and reward uniforms within an experiment. Q2's Beta-TS baseline samples through PyTorch's global RNG, and LLM sampling is stochastic; reruns are not guaranteed to match the saved snapshot exactly.
-- **Interpretability:** SAE labels are automatically generated external explanations. Label coverage, stable weights, post-hoc sensitivity, and retraining effects answer different questions. Semantic validation is automated; external labels and retrieval agreement do not establish human semantic correctness.
-- **Output names:** Real Q4 runs of the same model write the same filenames. Use a separate checkout for altered settings or shortened real-model runs. The `--mock` path has separate filenames.
+- Response probabilities and evaluation oracles come from learned simulators. Predictive validation and sensitivity checks do not identify real counterfactual user responses.
+- Main and strict-ID comparisons share the same evaluation day. Foundation-model pretraining is not an article-ID holdout; exclusions apply to this project's fitting stages.
+- Semantic retrieval uses one captioner, one scoring encoder, and fixed coordinate/direction selections. Coordinates within a layer are dependent. The metric is an automated proxy, not human semantic ground truth.
+- Feature interventions test the algorithm's use of its representation. They do not establish that manipulating the corresponding news concept would cause a reader to click.
+- The primary and exploratory grids are retained in full. Absence of a resolved difference is not evidence of equivalence.
+- The ablation grid uses Gemma; Qwen has the original tool/no-tool comparison only. Each condition uses one generation seed. Pool intervals do not estimate repeated-generation variability or identify model-internal mechanisms.
+- Historical and clean-temporal banks use different fitting/calibration rules. Regret values are comparable within a bank, oracle, and horizon.
 
 ## Repository layout
 
 ```text
-src/
-  data/                 MIND parsing and compact impression storage
-  simulator/            Article/history features, click models, probability interface
-  bandits/              Allocation policies, contextual learners, evaluation loops
-  agents/               LLM prompts, statistics tool, parsing, interaction loop
-  evaluation/           Ranking and calibration metrics
-scripts/                Preparation, training, Q1–Q4 execution and analysis
-models/                 Saved click checkpoint (Git LFS)
-dataset/processed/      Processed inputs and selected representations (Git LFS)
-results/
-  click_model/          Model selection, metrics, calibration diagnostics
-  q1/                   A/B and conventional bandit results
-  q2/                   Contextual, layer, dimension, and churn comparisons
-  q3/                   Feature labels, weights, removal controls, feature examples
-  q4/                   LLM decisions, token counts, sampled transcripts, prior probes
-requirements.txt        Core environment dependencies
+src/                    Simulator, data, agent, and bandit implementations
+scripts/                Historical input preparation and baseline experiments
+scripts/final_validation/
+                        Controlled follow-up experiments, audits, figures
+experiments/final_validation_20261121/
+                        Protocol, exploratory choices, model map, environment metadata
+results/final_validation_20261121/
+                        Compact summaries, per-pool vectors, tables, figures
+results/q1–q4/          Historical input banks and corrected original Q3 snapshot
+models/                 Original fitted simulator (Git LFS)
+dataset/processed/      Processed inputs and selected policy features (Git LFS)
+tests/                  Context-snapshot regression check
 ```
 
-Large arrays, processed inputs, and checkpoints use Git LFS. Raw MIND downloads and full raw policy activations are not included.
-
-## Repository versions
-
-| Branch | Purpose |
-|---|---|
-| `main` | Current code, selected artifacts, and reproduction instructions, based on the latest implementation |
-| `final` | Preserved November 1 implementation and experiment snapshot (`f649242`) |
-| `experiments/mind-bandits-sae-control` | Earlier implementation and SAE-control experiments |
-| `archive/pre-final-main-2026-11-07` | Original main, including initial data exploration (`0b2e2b8`) |
+Credentials, raw datasets, all-layer feature caches, scheduler files, logs, notes, and manuscript sources are excluded from the repository.
 
 ## Data and model references
 
@@ -370,5 +569,14 @@ Large arrays, processed inputs, and checkpoints use Git LFS. Raw MIND downloads 
 - [Gemma-3-1B-PT](https://huggingface.co/google/gemma-3-1b-pt), [Gemma-3-12B-PT](https://huggingface.co/google/gemma-3-12b-pt), and [Gemma-3-12B-IT](https://huggingface.co/google/gemma-3-12b-it) — policy representations and LLM agent.
 - [Gemma Scope 2, 1B](https://huggingface.co/google/gemma-scope-2-1b-pt) and [12B](https://huggingface.co/google/gemma-scope-2-12b-pt) — pretrained SAE checkpoints.
 - [Neuronpedia](https://www.neuronpedia.org/) — external feature explanations.
+- [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) — second agent family, with thinking disabled.
+
+## Related methods
+
+- [Test & Roll: Profit-Maximizing A/B Tests](https://arxiv.org/abs/1811.00457), Feit and Berman (2019) — reward-aware test sizing and the two-arm normal approximation.
+- [Can large language models explore in-context?](https://arxiv.org/abs/2403.15371), Krishnamurthy et al. (2024) — summarized histories and exploration diagnostics for bandit agents.
+- [Should You Use Your Large Language Model to Explore or Exploit?](https://arxiv.org/abs/2502.00225), Harris and Slivkins (2026) — separating exploration from exploitation and comparing tools with simple estimators.
+- [Are Sparse Autoencoders Useful? A Case Study in Sparse Probing](https://arxiv.org/abs/2502.16681), Kantamneni et al. (2025) — evaluating downstream utility against strong non-SAE representations.
+- [Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?](https://arxiv.org/abs/2602.14111), Korznikov et al. (2026) — controlling random feature directions and activation patterns. Our article-level controls have a different scope from their token-level baselines.
 
 MIND and pretrained models retain their respective licenses and access terms.

@@ -1,0 +1,75 @@
+{
+  "provenance": {
+    "config": {
+      "primary": "mlp",
+      "strict_exclusion": "all Nov9-14 candidates and histories",
+      "gap_scales": [
+        0,
+        0.25,
+        0.5
+      ],
+      "ctrs": [
+        0.02,
+        0.08
+      ],
+      "temperatures": [
+        0.5,
+        2
+      ]
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/q2_controls.py": "6de6d6cb8bcde6a385373032b7f4c65338cde77d76f283e58cbf16afb2f59d0b",
+      "results/final_validation_20261121/temporal_simulator/summary.json": "7782dfd9153488754a7f4683883d77e9e996c87f0d9d0db14db515afb8833ffc",
+      "results/final_validation_20261121/temporal_simulator/logistic/intercept.pt": "cf6bbc2e2fdbf6c84c34be3a1146f9ae579c5c2e9cc7ab7a29c5ca0286f44669",
+      "results/final_validation_20261121/temporal_simulator/bilinear/intercept.pt": "a60e7e6fc2e6a7552e0095f5e9dd27d82863d9aa64677ed80d1874d65e2b475b",
+      "results/final_validation_20261121/temporal_simulator/mlp/intercept.pt": "c601229a332f6ebd5e4bb9d89bddc7e29e68195e66c6971e5e7fb312808bb886",
+      "results/q1/envs/train_K10.npz": "a3fc65b19ed531b9a989b2695efeff0836493e13b8cf00a96a7ebb15c5133683",
+      "results/q1/envs/test_K10.npz": "3f8cbe1f9ace7da78ce8fd045dd4bf1896dcfcf3c0f40ec28379c702f3f8e56a"
+    }
+  },
+  "primary_family": "mlp",
+  "environments": {
+    "train_logistic": "results/final_validation_20261121/q2_controls/envs/train_logistic.npz",
+    "train_bilinear": "results/final_validation_20261121/q2_controls/envs/train_bilinear.npz",
+    "train_mlp": "results/final_validation_20261121/q2_controls/envs/train_mlp.npz",
+    "train_mlp_importance30": "results/final_validation_20261121/q2_controls/envs/train_mlp_importance30.npz",
+    "test_logistic": "results/final_validation_20261121/q2_controls/envs/test_logistic.npz",
+    "test_bilinear": "results/final_validation_20261121/q2_controls/envs/test_bilinear.npz",
+    "test_mlp": "results/final_validation_20261121/q2_controls/envs/test_mlp.npz",
+    "test_strict": "results/final_validation_20261121/q2_controls/envs/test_strict.npz",
+    "strict_pool_articles": 2244,
+    "test_gap0": "results/final_validation_20261121/q2_controls/envs/test_gap0.npz",
+    "test_gap0.25": "results/final_validation_20261121/q2_controls/envs/test_gap0.25.npz",
+    "test_gap0.5": "results/final_validation_20261121/q2_controls/envs/test_gap0.5.npz",
+    "test_calibration_identity": "results/final_validation_20261121/q2_controls/envs/test_calibration_identity.npz",
+    "test_calibration_platt": "results/final_validation_20261121/q2_controls/envs/test_calibration_platt.npz",
+    "test_ctr02": "results/final_validation_20261121/q2_controls/envs/test_ctr02.npz",
+    "test_ctr08": "results/final_validation_20261121/q2_controls/envs/test_ctr08.npz",
+    "test_temperature05": "results/final_validation_20261121/q2_controls/envs/test_temperature05.npz",
+    "test_temperature2": "results/final_validation_20261121/q2_controls/envs/test_temperature2.npz"
+  },
+  "temporal_evaluation": {
+    "fit_dates": [
+      "2019-11-09",
+      "2019-11-10",
+      "2019-11-11",
+      "2019-11-12"
+    ],
+    "selection_dates": [
+      "2019-11-13"
+    ],
+    "refit_dates": [
+      "2019-11-09",
+      "2019-11-10",
+      "2019-11-11",
+      "2019-11-12",
+      "2019-11-13"
+    ],
+    "calibration_dates": [
+      "2019-11-14"
+    ],
+    "primary_family": "mlp",
+    "primary_calibrator": "intercept",
+    "evaluation_status": "Previously inspected development day; locked retrospective validation"
+  }
+}

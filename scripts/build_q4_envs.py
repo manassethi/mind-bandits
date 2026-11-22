@@ -15,9 +15,6 @@ from pathlib import Path
 
 import numpy as np
 
-from src.data.mind import load_processed_news
-from src.simulator.simulator import ClickSimulator
-from scripts.train_click_model import default_device
 
 OUT = Path("results/q4")
 ARMS = (5, 10)
@@ -25,6 +22,10 @@ RUNS, HORIZON, POP_USERS, SEED = 30, 500, 20_000, 6_000_000
 
 
 def main() -> None:
+    from src.data.mind import load_processed_news
+    from src.simulator.simulator import ClickSimulator
+    from scripts.train_click_model import default_device
+
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--device", default=default_device(), help="simulator device: cuda, mps, or cpu")
     args = p.parse_args()

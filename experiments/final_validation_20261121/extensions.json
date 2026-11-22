@@ -1,0 +1,63 @@
+{
+  "declared_utc": "2026-11-21T21:40:25.854448+00:00",
+  "experiments": [
+    {
+      "track": "q1_batch_retune",
+      "trigger": "Frozen UCB beats TS at batch 1 but loses at batch 1000 for K10,T10k (paired differences -30.5\u00b111.4 and +22.1\u00b114.7).",
+      "question": "Does the reversal survive independent training-pool tuning for each feedback batch?",
+      "design": "Three stationary K/horizon conditions, batches 1/100/1000, train-only UCB/discount/epsilon tuning, all settings and evaluation results retained.",
+      "status": "exploratory"
+    },
+    {
+      "track": "q4_prior_controls",
+      "trigger": "Rank-prior TS changes both arm ordering and knowledge of the low base CTR relative to Beta(1,1).",
+      "question": "How much of a prior benefit comes from the training CTR rather than headline semantics?",
+      "design": "Flat training-CTR Beta pseudo-counts at the same strengths 10/100/1000, compared with LLM-ranked and shuffled prior means.",
+      "status": "exploratory",
+      "additional_control": "Empirical-Bayes TS with Beta moments estimated from training-day article-rate samples across K=2/5/10/20/50 pools. No evaluation outcomes used for fitting."
+    },
+    {
+      "track": "simulator_initialization_refits",
+      "trigger": "The clean temporal model has lower ranking accuracy and uses a different initialization seed than the original release.",
+      "question": "Do core policy conclusions survive independent fits with the same locked model configuration?",
+      "design": "Refit selected family/epoch at seeds 0 and 11, calibrate on Nov14, evaluate Nov15, and repeat six contextual policies on matched main/strict pools. Preserve the primary seed and avoid treating repeated pools across seeds as independent.",
+      "status": "exploratory robustness"
+    },
+    {
+      "track": "alternate_encoder",
+      "trigger": "All primary simulator families use the same Qwen encoder.",
+      "question": "Are representation and allocation orderings artifacts of the teacher embedding space?",
+      "design": "BGE-M3 MLP selection on Nov13, calibration on Nov14, evaluation on Nov15, matched main/strict streams and population pools. Treat BGE-sharing and Qwen-sharing policies as diagnostics; Gemma stays independent of both teachers.",
+      "status": "exploratory robustness"
+    },
+    {
+      "track": "q3_redundancy",
+      "trigger": "The corrected original top8-versus-random retraining effect is inconclusive at every tested layer.",
+      "question": "Can correlated coordinates compensate after deletion, and are important subsets sufficient for learning?",
+      "design": "Train-only correlation closure at absolute Pearson r>=0.7 for top1/4/8, matched random removal counts, and retain-only top4/8/16 versus equal-sized random and bottom subsets.",
+      "status": "exploratory",
+      "terminology_clarification": "The implemented closure is a one-hop absolute-Pearson neighborhood of the top-ranked coordinates, not a transitive graph closure; code and raw masks retain this distinction."
+    },
+    {
+      "track": "semantic_comparison",
+      "trigger": "External SAE labels transfer on aggregate, but random directions may also support coherent captions. User requested automated validation only.",
+      "question": "Do SAE features have greater automated semantic specificity than dense and random features under one blinded captioner?",
+      "design": "Caption all first 32 coordinates of SAE, dense, Gaussian random directions, frequency-matched thresholded random directions, and shuffled SAE noise for three matched layers. Same Gemma12B captioner sees ten high and ten low earlier headlines only; BGE retrieval scoring uses strictly unseen articles, category-matched negatives, and reports coverage, abstentions, and chance-imputed abstention scores.",
+      "status": "exploratory automated validation",
+      "additional_control": "Also caption the width16,384 variance-selected random controls at the same predeclared direction seed 11. Total 672 coordinates across three layers and seven representation/noise conditions."
+    },
+    {
+      "track": "q2_wide_controls",
+      "trigger": "SAE beats 128-direction random dictionaries at D32, whereas its 128 features were selected from 16,384 candidates.",
+      "design": "For three layers and three seeds, select top128 training-variance coordinates from width16,384 Gaussian and thresholded dictionaries. Full source SAE training activation-frequency distribution is independently assigned to thresholded candidates. Train-select LinUCB on D16/32/64, evaluate all seeds and dimensions and common-alpha D32. Article-level scope remains explicit; no exact token-level random-SAE claim.",
+      "status": "exploratory confound check",
+      "strict_article_followup": "Evaluate all matched small and wide controls on strict unseen article IDs at D32, using frozen train-selected and common alpha0.1 settings. This connects the matched-layer comparison to the cold-article claim without confounding different layers or policies."
+    },
+    {
+      "track": "q3_teacher_transfer",
+      "trigger": "The clean temporal simulator yields positive top-versus-random removal effects at the later 12B layer, while earlier layers are mixed.",
+      "design": "Repeat all original frozen masks at k1/4/8/16, all three layers, and unmasked baselines under the BGE-based simulator, keeping training ranks and exploration coefficients fixed. No BGE-evaluation reranking.",
+      "status": "exploratory teacher-transfer check"
+    }
+  ]
+}

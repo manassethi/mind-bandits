@@ -1,0 +1,284 @@
+{
+  "provenance": {
+    "config": {
+      "seed": 20261121,
+      "epochs": 6,
+      "batch_size": 8192,
+      "protocol": "fit Nov9-12, select Nov13, refit Nov9-13, calibrate Nov14, evaluate Nov15",
+      "primary_calibrator": "intercept"
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/temporal_simulator.py": "fe2331094ff03c2e821a208eb6de6f5aea18f391efee1d8be835e82d88f8447b",
+      "src/simulator/click_model.py": "ab767b63d16fab7e35b4dceffc3a81e91c5f4d222f314db7e7f6ede2859ead03",
+      "dataset/processed/train_impressions.npz": "415e9994b9d1d0a8c8d32da38a0316c2ef94d12f0ea4687452779465ca8aa241",
+      "dataset/processed/test_impressions.npz": "5d13ff620e8a3a34c3f3bf7c6afb8f68a46574bcf47bdf04bef5b01157c64176",
+      "dataset/processed/sim_qwen3_embeddings.npy": "2eeb9568db8ca34f0836fac4e6124454d81518252ffbf24339d85817e829b092"
+    }
+  },
+  "protocol": {
+    "fit_dates": [
+      "2019-11-09",
+      "2019-11-10",
+      "2019-11-11",
+      "2019-11-12"
+    ],
+    "selection_dates": [
+      "2019-11-13"
+    ],
+    "refit_dates": [
+      "2019-11-09",
+      "2019-11-10",
+      "2019-11-11",
+      "2019-11-12",
+      "2019-11-13"
+    ],
+    "calibration_dates": [
+      "2019-11-14"
+    ],
+    "primary_family": "mlp",
+    "primary_calibrator": "intercept",
+    "evaluation_status": "Previously inspected development day; locked retrospective validation"
+  },
+  "results": {
+    "logistic": {
+      "selected_epoch": 6,
+      "methods": {
+        "identity": {
+          "auc": 0.6664413797516647,
+          "log_loss": 0.16554373301188707,
+          "brier": 0.03869262832150733,
+          "mean_pred": 0.03515912425617684,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.010359774992595803,
+          "group_auc": 0.6307183574512665,
+          "mrr": 0.29626290872410066,
+          "ndcg@5": 0.3238103464088482,
+          "ndcg@10": 0.38804140890562266,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.6619118742504508,
+            "log_loss": 0.24505803232800846,
+            "brier": 0.061787082419281186,
+            "mean_pred": 0.03998344604708667,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.02651624143368193
+          }
+        },
+        "intercept": {
+          "auc": 0.6664413797508921,
+          "log_loss": 0.16541644565720018,
+          "brier": 0.038700549808482095,
+          "mean_pred": 0.03595583197096094,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.01016647427856564,
+          "group_auc": 0.6307183574512665,
+          "mrr": 0.29626290872410066,
+          "ndcg@5": 0.3238103464088482,
+          "ndcg@10": 0.38804140890562266,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.661911874222249,
+            "log_loss": 0.24442670845177963,
+            "brier": 0.061742332035175415,
+            "mean_pred": 0.04089263317303066,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.025746231438797042
+          }
+        },
+        "platt": {
+          "auc": 0.6664413797514073,
+          "log_loss": 0.16355140847881494,
+          "brier": 0.03850800184353021,
+          "mean_pred": 0.036796579371218996,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.004315506034629957,
+          "group_auc": 0.6307183574512665,
+          "mrr": 0.29626290872410066,
+          "ndcg@5": 0.3238103464088482,
+          "ndcg@10": 0.38804140890562266,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.6619118742363499,
+            "log_loss": 0.2422655170012705,
+            "brier": 0.061727266132785105,
+            "mean_pred": 0.04059367829530081,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.02590600795570346
+          }
+        }
+      }
+    },
+    "bilinear": {
+      "selected_epoch": 6,
+      "methods": {
+        "identity": {
+          "auc": 0.6733344705290727,
+          "log_loss": 0.1658721821559487,
+          "brier": 0.03873322092410795,
+          "mean_pred": 0.034597447463843065,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.01191170014010708,
+          "group_auc": 0.639898474757628,
+          "mrr": 0.2986022006784472,
+          "ndcg@5": 0.3283460808945147,
+          "ndcg@10": 0.3924991995352955,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.663173880344042,
+            "log_loss": 0.24795298552484635,
+            "brier": 0.061886697198573336,
+            "mean_pred": 0.037854410600117655,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.028664809136147745
+          }
+        },
+        "intercept": {
+          "auc": 0.67333447052624,
+          "log_loss": 0.16584259007312976,
+          "brier": 0.03873523961441974,
+          "mean_pred": 0.03475114647431354,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.011880495634952798,
+          "group_auc": 0.639898474757628,
+          "mrr": 0.2986022006784472,
+          "ndcg@5": 0.3283460808945147,
+          "ndcg@10": 0.3924991995352955,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.6631738803440421,
+            "log_loss": 0.24781526071914803,
+            "brier": 0.061878241371955404,
+            "mean_pred": 0.038023234007119815,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.0285736432134203
+          }
+        },
+        "platt": {
+          "auc": 0.6733344705217336,
+          "log_loss": 0.1631412402906778,
+          "brier": 0.03847404346700566,
+          "mean_pred": 0.036339595752642596,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.004589425230882724,
+          "group_auc": 0.639898474757628,
+          "mrr": 0.2986022006784472,
+          "ndcg@5": 0.3283460808945147,
+          "ndcg@10": 0.3924991995352955,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.663173880358143,
+            "log_loss": 0.2430906654792334,
+            "brier": 0.061762877911645864,
+            "mean_pred": 0.038778066092893436,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.027721619544178813
+          }
+        }
+      }
+    },
+    "mlp": {
+      "selected_epoch": 1,
+      "methods": {
+        "identity": {
+          "auc": 0.7046767333611793,
+          "log_loss": 0.16205584258741174,
+          "brier": 0.03828393104462005,
+          "mean_pred": 0.030948674784876676,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.00995215903220813,
+          "group_auc": 0.6645061888002457,
+          "mrr": 0.3158152733631337,
+          "ndcg@5": 0.34897959746209883,
+          "ndcg@10": 0.412166807226178,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.7091101352496699,
+            "log_loss": 0.23488671646357695,
+            "brier": 0.06046347108446352,
+            "mean_pred": 0.04132529850781368,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.02517438947518396
+          }
+        },
+        "intercept": {
+          "auc": 0.7046767333609218,
+          "log_loss": 0.16089476781895887,
+          "brier": 0.038247618838523956,
+          "mean_pred": 0.03570987256690097,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.007505486872007293,
+          "group_auc": 0.6645061888002457,
+          "mrr": 0.3158152733631337,
+          "ndcg@5": 0.34897959746209883,
+          "ndcg@10": 0.412166807226178,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.7091101352355691,
+            "log_loss": 0.23147904331917526,
+            "brier": 0.060120262692279075,
+            "mean_pred": 0.047581336836569475,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.018918347602514523
+          }
+        },
+        "platt": {
+          "auc": 0.7046767333611149,
+          "log_loss": 0.15991115577336798,
+          "brier": 0.03817966936011762,
+          "mean_pred": 0.03643139250368284,
+          "observed_ctr": 0.040810952665911615,
+          "n": 14085557,
+          "ece": 0.004379560027105882,
+          "group_auc": 0.6645061888002457,
+          "mrr": 0.3158152733631337,
+          "ndcg@5": 0.34897959746209883,
+          "ndcg@10": 0.412166807226178,
+          "n_impressions_scored": 376471,
+          "strict_article_holdout": {
+            "pairs": 755778,
+            "articles": 2244,
+            "auc": 0.70911013524967,
+            "log_loss": 0.2312984175928615,
+            "brier": 0.06037145003331662,
+            "mean_pred": 0.04563350392978545,
+            "observed_ctr": 0.06649968641585227,
+            "n": 755778,
+            "ece": 0.020866184138840754
+          }
+        }
+      }
+    }
+  }
+}

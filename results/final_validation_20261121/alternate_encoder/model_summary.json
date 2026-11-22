@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "config": {
+      "seed": 20261121,
+      "encoder": "BAAI/bge-m3",
+      "family": "mlp",
+      "selection_epochs": 6,
+      "fit": "Nov9-12",
+      "select": "Nov13",
+      "refit": "Nov9-13",
+      "calibrate": "Nov14",
+      "evaluate": "Nov15"
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/alternate_encoder.py": "af9f75fabb00f035f9038e0e82d1fd0be3d500baed9f49c891f9432ef61cebb5",
+      "dataset/processed/policy_raw/bge-m3/dense.npy": "0639d540895c1646e91da842da8a66dd27f6e5cde964c9e8b6bd76785ce8bdf9",
+      "results/final_validation_20261121/q2_controls/environment_manifest.json": "792ddc9c80aecebb3646631ebc18c342cc496d309070b8004b5ff794d936959c"
+    }
+  },
+  "metrics": {
+    "auc": 0.706908078564468,
+    "log_loss": 0.16132780747970638,
+    "brier": 0.038190181823336736,
+    "mean_pred": 0.03331169024507281,
+    "observed_ctr": 0.040810952665911615,
+    "n": 14085557,
+    "ece": 0.009218349806261458,
+    "group_auc": 0.6671684375778512,
+    "mrr": 0.3256128666853983,
+    "ndcg@5": 0.3570181122649624,
+    "ndcg@10": 0.42047117639713544,
+    "n_impressions_scored": 376471
+  },
+  "selected_epoch": 4,
+  "scope": "BGE-M3 policy now shares the teacher encoder. Gemma policies remain independent of both teachers."
+}

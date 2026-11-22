@@ -1,0 +1,165 @@
+{
+  "provenance": {
+    "config": {
+      "seed": 20261121,
+      "repeats": 3,
+      "draws_pbest": 4000,
+      "pools": 30,
+      "rounds": 500
+    },
+    "inputs_sha256": {
+      "/gpfs/accounts/cse592f26_class_root/cse592f26_class/asamee/news-bandits-final-20261121/scripts/final_validation/benchmark_statistics.py": "f567e10ab3701c53f5863dda6f1fcfef82bcf30d530cea0ea89347b5215b059b",
+      "scripts/final_validation/q4_statistics.py": "030f568c300adb3456d48c769650420e880911713a6c9f35697cc3ffeb4f28ac",
+      "results/final_validation_20261121/q4_prior_controls/summary.json": "4bcbcc41b26f7f434a6c1edaa5acafd3c40e99bdba6daf9d63443cc50171da51",
+      "results/q4/envs.npz": "e2ed39458f7dc98114c58faec0e78247afaba083151dd1691341d3711378a43f"
+    }
+  },
+  "results": {
+    "K5": {
+      "mean": {
+        "wall_seconds": [
+          0.010231038555502892,
+          0.009927572682499886,
+          0.009902827441692352
+        ],
+        "cpu_seconds": [
+          0.010153131000000037,
+          0.009869366000000213,
+          0.009859304999999985
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.0006618381788333257,
+        "decisions_per_repeat": 15000
+      },
+      "upper": {
+        "wall_seconds": [
+          0.10210883058607578,
+          0.0984142404049635,
+          0.09830018691718578
+        ],
+        "cpu_seconds": [
+          0.1012628590000002,
+          0.09784323999999955,
+          0.0977602769999999
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.0065609493603309,
+        "decisions_per_repeat": 15000
+      },
+      "pbest": {
+        "wall_seconds": [
+          17.04146435111761,
+          17.091893071308732,
+          17.106382684782147
+        ],
+        "cpu_seconds": [
+          16.908418305999998,
+          16.948198449999996,
+          16.964157197
+        ],
+        "median_wall_seconds_per_1k_decisions": 1.1394595380872488,
+        "decisions_per_repeat": 15000
+      },
+      "ts": {
+        "wall_seconds": [
+          0.021923115476965904,
+          0.02152610383927822,
+          0.02166779898107052
+        ],
+        "cpu_seconds": [
+          0.021764351000001625,
+          0.02137190599999883,
+          0.021512787999995453
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.0014445199320713678,
+        "decisions_per_repeat": 15000
+      },
+      "empirical_bayes": {
+        "wall_seconds": [
+          0.019725365564227104,
+          0.019676201045513153,
+          0.019650975242257118
+        ],
+        "cpu_seconds": [
+          0.01958888200000075,
+          0.01953055000000603,
+          0.019510527999997862
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.0013117467363675435,
+        "decisions_per_repeat": 15000
+      }
+    },
+    "K10": {
+      "mean": {
+        "wall_seconds": [
+          0.010693129152059555,
+          0.010591739788651466,
+          0.010624658316373825
+        ],
+        "cpu_seconds": [
+          0.010617533000001345,
+          0.0105341400000043,
+          0.010556430000001171
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.0007083105544249216,
+        "decisions_per_repeat": 15000
+      },
+      "upper": {
+        "wall_seconds": [
+          0.125457426533103,
+          0.1246880330145359,
+          0.12453622743487358
+        ],
+        "cpu_seconds": [
+          0.12426859600000029,
+          0.12357100900000262,
+          0.12336346400000053
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.008312535534302393,
+        "decisions_per_repeat": 15000
+      },
+      "pbest": {
+        "wall_seconds": [
+          39.3505873773247,
+          39.48063304647803,
+          39.430213030427694
+        ],
+        "cpu_seconds": [
+          38.982040601,
+          39.07715625999998,
+          38.91306238299998
+        ],
+        "median_wall_seconds_per_1k_decisions": 2.6286808686951795,
+        "decisions_per_repeat": 15000
+      },
+      "ts": {
+        "wall_seconds": [
+          0.026099884882569313,
+          0.02626483142375946,
+          0.02593041956424713
+        ],
+        "cpu_seconds": [
+          0.0259573750000186,
+          0.025864985999987766,
+          0.025794208000007757
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.001739992325504621,
+        "decisions_per_repeat": 15000
+      },
+      "empirical_bayes": {
+        "wall_seconds": [
+          0.024808840826153755,
+          0.024650221690535545,
+          0.024803342297673225
+        ],
+        "cpu_seconds": [
+          0.024394792999999027,
+          0.024409778999995524,
+          0.024347639000012578
+        ],
+        "median_wall_seconds_per_1k_decisions": 0.001653556153178215,
+        "decisions_per_repeat": 15000
+      }
+    }
+  },
+  "hostname": "gl3371.arc-ts.umich.edu",
+  "scope": "Warm-process decision computation, batched across 30 pools. Excludes imports, data loading, and model fitting. Compare with LLM amortized decision-loop time, not single-request latency."
+}
