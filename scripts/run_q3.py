@@ -26,6 +26,7 @@ Writes results/q3/<rep>/{weights.csv, handcheck.csv, result.json} and results/q3
 import argparse
 import json
 import multiprocessing as mp
+import os
 from pathlib import Path
 
 import numpy as np
@@ -33,7 +34,7 @@ from scipy import stats
 
 from scripts.run_q2 import FEATS, OUT as Q2_OUT, tuned_family
 
-OUT = Path("results/q3")
+OUT = Path(os.environ.get("Q3_OUT", "results/q3"))
 REPS = ["g12b_sae_L41", "g12b_sae_L31", "g1b_sae_L17"]
 D = 32
 KS = (1, 2, 4, 8, 16)

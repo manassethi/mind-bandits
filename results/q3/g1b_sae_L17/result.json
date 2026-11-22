@@ -4,7 +4,7 @@
  "d": 32,
  "test_regret": [
   920.2247795689075,
-  54.742974935161904
+  54.74297493516188
  ],
  "top10": [
   {
@@ -12,233 +12,233 @@
    "col": 0,
    "feature_id": 561,
    "label": "sports players",
-   "importance_train": 0.012850257776694811,
-   "importance_test": 0.01420365544134993,
-   "w_article": 0.08461133493300095,
-   "w_article_ci": 0.12159656726922731,
-   "w_personal": 0.22936266044030726,
-   "w_personal_ci": 0.08007175051435451
+   "importance_train": 0.010692581060489299,
+   "importance_test": 0.015555064148523465,
+   "w_article": 0.08461133493295693,
+   "w_article_ci": 0.12159656726922274,
+   "w_personal": 0.22936266044031234,
+   "w_personal_ci": 0.08007175051435837
   },
   {
    "rank_train": 2,
    "col": 16,
    "feature_id": 4656,
    "label": "HTTP requests and headers",
-   "importance_train": 0.012734054152996657,
-   "importance_test": 0.010031952231254245,
-   "w_article": 0.0061384435801568275,
-   "w_article_ci": 0.0854137203159268,
-   "w_personal": 0.2890823204149638,
-   "w_personal_ci": 0.07404210543492962
+   "importance_train": 0.008861296101026716,
+   "importance_test": 0.010147606888578447,
+   "w_article": 0.006138443580183279,
+   "w_article_ci": 0.08541372031593593,
+   "w_personal": 0.2890823204149626,
+   "w_personal_ci": 0.07404210543493156
   },
   {
    "rank_train": 3,
-   "col": 4,
-   "feature_id": 1009,
-   "label": "",
-   "importance_train": 0.009758095997528377,
-   "importance_test": 0.009993263989837312,
-   "w_article": -0.11725826119783228,
-   "w_article_ci": 0.06146468870024989,
-   "w_personal": 0.17130887506271494,
-   "w_personal_ci": 0.10419110678985524
-  },
-  {
-   "rank_train": 4,
-   "col": 14,
-   "feature_id": 5173,
-   "label": "I can express capability",
-   "importance_train": 0.009659363100798112,
-   "importance_test": 0.009714243518057645,
-   "w_article": 0.09092118521032155,
-   "w_article_ci": 0.07548865440628412,
-   "w_personal": 0.4830866979244949,
-   "w_personal_ci": 0.09204781989317999
-  },
-  {
-   "rank_train": 5,
-   "col": 19,
-   "feature_id": 2414,
-   "label": "coach of your team",
-   "importance_train": 0.009047904087904832,
-   "importance_test": 0.01254580972896237,
-   "w_article": 0.056849349110816995,
-   "w_article_ci": 0.06461326616285243,
-   "w_personal": 0.4865208736384035,
-   "w_personal_ci": 0.1213719118897219
-  },
-  {
-   "rank_train": 6,
-   "col": 10,
-   "feature_id": 497,
-   "label": "",
-   "importance_train": 0.008877634365092429,
-   "importance_test": 0.012558898539754398,
-   "w_article": -0.03951290412554675,
-   "w_article_ci": 0.0703434300327399,
-   "w_personal": 0.3168637925658518,
-   "w_personal_ci": 0.08740421279616234
-  },
-  {
-   "rank_train": 7,
    "col": 27,
    "feature_id": 1284,
    "label": "local city or county",
-   "importance_train": 0.008753786708476185,
-   "importance_test": 0.006599500419395441,
-   "w_article": 0.005299417730408445,
-   "w_article_ci": 0.029439724537476515,
-   "w_personal": 0.2249322912774226,
-   "w_personal_ci": 0.05521049843642355
+   "importance_train": 0.00869794256593478,
+   "importance_test": 0.0061803666433337175,
+   "w_article": 0.005299417730390172,
+   "w_article_ci": 0.029439724537475807,
+   "w_personal": 0.22493229127741704,
+   "w_personal_ci": 0.05521049843642122
   },
   {
-   "rank_train": 8,
+   "rank_train": 4,
+   "col": 10,
+   "feature_id": 497,
+   "label": "",
+   "importance_train": 0.008483358505271243,
+   "importance_test": 0.012001837317331005,
+   "w_article": -0.03951290412549443,
+   "w_article_ci": 0.07034343003273118,
+   "w_personal": 0.3168637925658492,
+   "w_personal_ci": 0.087404212796163
+  },
+  {
+   "rank_train": 5,
    "col": 17,
    "feature_id": 1509,
    "label": "",
-   "importance_train": 0.008639206056729224,
-   "importance_test": 0.010839626307625446,
-   "w_article": -0.10184213792134286,
-   "w_article_ci": 0.08777741481760512,
-   "w_personal": 0.04904603362246176,
-   "w_personal_ci": 0.05954751871758696
+   "importance_train": 0.007887641047009931,
+   "importance_test": 0.010303351723940398,
+   "w_article": -0.10184213792135949,
+   "w_article_ci": 0.08777741481759879,
+   "w_personal": 0.049046033622465325,
+   "w_personal_ci": 0.05954751871758467
   },
   {
-   "rank_train": 9,
+   "rank_train": 6,
+   "col": 4,
+   "feature_id": 1009,
+   "label": "",
+   "importance_train": 0.007755222646319355,
+   "importance_test": 0.009664186415798047,
+   "w_article": -0.11725826119783432,
+   "w_article_ci": 0.06146468870025099,
+   "w_personal": 0.17130887506272666,
+   "w_personal_ci": 0.10419110678985409
+  },
+  {
+   "rank_train": 7,
+   "col": 19,
+   "feature_id": 2414,
+   "label": "coach of your team",
+   "importance_train": 0.00756616435848517,
+   "importance_test": 0.011016245336085174,
+   "w_article": 0.05684934911079403,
+   "w_article_ci": 0.06461326616282972,
+   "w_personal": 0.4865208736383886,
+   "w_personal_ci": 0.12137191188972335
+  },
+  {
+   "rank_train": 8,
    "col": 30,
    "feature_id": 220,
    "label": "tic tac toe game",
-   "importance_train": 0.008542781326818185,
-   "importance_test": 0.00621902567555282,
-   "w_article": -0.033705793010771576,
-   "w_article_ci": 0.031097730949795854,
-   "w_personal": 0.03271540783665576,
-   "w_personal_ci": 0.05401864846538862
+   "importance_train": 0.007560959792363412,
+   "importance_test": 0.00597937198822588,
+   "w_article": -0.03370579301075134,
+   "w_article_ci": 0.03109773094979588,
+   "w_personal": 0.03271540783664826,
+   "w_personal_ci": 0.054018648465392394
   },
   {
-   "rank_train": 10,
+   "rank_train": 9,
    "col": 21,
    "feature_id": 1014,
    "label": "",
-   "importance_train": 0.008516696652976538,
-   "importance_test": 0.008674872370618467,
-   "w_article": 0.053165610226200054,
-   "w_article_ci": 0.05841214285165721,
-   "w_personal": 0.22962632330349228,
-   "w_personal_ci": 0.08179306521500858
+   "importance_train": 0.007467730950892097,
+   "importance_test": 0.008979069168491605,
+   "w_article": 0.05316561022622967,
+   "w_article_ci": 0.058412142851641806,
+   "w_personal": 0.22962632330349078,
+   "w_personal_ci": 0.0817930652150091
+  },
+  {
+   "rank_train": 10,
+   "col": 14,
+   "feature_id": 5173,
+   "label": "I can express capability",
+   "importance_train": 0.007397226648588359,
+   "importance_test": 0.010944126686835368,
+   "w_article": 0.0909211852103066,
+   "w_article_ci": 0.07548865440627661,
+   "w_personal": 0.4830866979244879,
+   "w_personal_ci": 0.09204781989317982
   }
  ],
  "top10_labeled": 6,
- "rank_agreement_train_vs_test_spearman": 0.7796920821114368,
- "split_half_spearman": 0.5821114369501466,
+ "rank_agreement_train_vs_test_spearman": 0.7793255131964808,
+ "split_half_spearman": 0.7434017595307918,
  "posthoc": {
   "1": {
-   "top_change": 0.298,
-   "top_clicks_lost_per_1k": 6.7815399169921875,
+   "top_change": 0.23013333333333333,
+   "top_clicks_lost_per_1k": 6.426544666290283,
    "random_change": [
-    0.18708,
-    0.0229172575688994
+    0.1513013333333333,
+    0.018517906555914572
    ],
    "random_clicks_lost_per_1k": [
-    4.072940428555012,
-    0.8719850904111609
+    3.0859571542590856,
+    0.65400035417212
    ],
-   "top_change_percentile_vs_random": 0.84
+   "top_change_percentile_vs_random": 0.8
   },
   "2": {
-   "top_change": 0.3038666666666667,
-   "top_clicks_lost_per_1k": 4.270328998565674,
+   "top_change": 0.2992,
+   "top_clicks_lost_per_1k": 9.877782821655273,
    "random_change": [
-    0.280456,
-    0.024561219280116727
+    0.228256,
+    0.018268385279166854
    ],
    "random_clicks_lost_per_1k": [
-    6.64418351650238,
-    1.1606905652133563
+    4.182193496823311,
+    0.8196909326550491
    ],
-   "top_change_percentile_vs_random": 0.66
+   "top_change_percentile_vs_random": 0.86
   },
   "4": {
-   "top_change": 0.4246,
-   "top_clicks_lost_per_1k": 9.376906394958496,
+   "top_change": 0.45453333333333334,
+   "top_clicks_lost_per_1k": 12.36960506439209,
    "random_change": [
-    0.45005066666666665,
-    0.023777971199422324
+    0.38006933333333337,
+    0.016527166614247756
    ],
    "random_clicks_lost_per_1k": [
-    12.973550295829773,
-    1.6155567927020205
+    8.947436192035674,
+    1.214839522422412
    ],
-   "top_change_percentile_vs_random": 0.32
+   "top_change_percentile_vs_random": 0.88
   },
   "8": {
-   "top_change": 0.6292666666666666,
-   "top_clicks_lost_per_1k": 21.124971389770508,
+   "top_change": 0.5744,
+   "top_clicks_lost_per_1k": 18.52192497253418,
    "random_change": [
-    0.585756,
-    0.019912902237393545
+    0.5250266666666668,
+    0.01568935120958273
    ],
    "random_clicks_lost_per_1k": [
-    17.523782873153685,
-    1.8738964742390603
+    14.525048961639405,
+    1.3565146648329267
    ],
-   "top_change_percentile_vs_random": 0.74
+   "top_change_percentile_vs_random": 0.88
   },
   "16": {
-   "top_change": 0.8537333333333333,
-   "top_clicks_lost_per_1k": 37.433895111083984,
+   "top_change": 0.7800666666666667,
+   "top_clicks_lost_per_1k": 34.98011016845703,
    "random_change": [
-    0.7243226666666667,
-    0.019612519896785013
+    0.69196,
+    0.009183271775198003
    ],
    "random_clicks_lost_per_1k": [
-    26.145053997039795,
-    1.7898896883223192
+    24.451136054992677,
+    1.2275646276556427
    ],
-   "top_change_percentile_vs_random": 0.98
+   "top_change_percentile_vs_random": 1.0
   }
  },
  "retrain": {
   "1": {
    "top_regret_increase": [
     93.53633292599892,
-    111.99872239324432
+    111.99872239324428
    ],
    "random_regret_increase": [
     41.089906227082636,
-    56.574083700580665
+    56.57408370058064
    ],
    "top_minus_random": [
     52.446426698916284,
-    79.24812576262441
+    79.24812576262438
    ]
   },
   "4": {
    "top_regret_increase": [
-    68.17118389555253,
-    79.68354603294114
+    19.484102356371782,
+    65.50369269779425
    ],
    "random_regret_increase": [
     51.21630419633663,
-    73.08801769409497
+    73.08801769409494
    ],
    "top_minus_random": [
-    16.954879699215915,
-    79.63756564762362
+    -31.732201839964834,
+    53.20726320914937
    ]
   },
   "8": {
    "top_regret_increase": [
-    120.5252711095071,
-    106.89920574048803
+    112.94170403080061,
+    100.97074610180852
    ],
    "random_regret_increase": [
     78.90565336684698,
-    75.08114816734746
+    75.08114816734744
    ],
    "top_minus_random": [
-    41.61961774266014,
-    64.39907554666789
+    34.036050663953645,
+    54.14045325508466
    ]
   }
  },
@@ -249,27 +249,27 @@
     {
      "feature_id": 5173,
      "label": "I can express capability",
-     "weight": 0.10702905557983844
+     "weight": 0.10702905557982323
     },
     {
      "feature_id": 561,
      "label": "sports players",
-     "weight": 0.09080077622928509
+     "weight": 0.09080077622924122
     },
     {
      "feature_id": 2414,
      "label": "coach of your team",
-     "weight": 0.08366797399882042
+     "weight": 0.08366797399879664
     },
     {
      "feature_id": 1014,
      "label": "",
-     "weight": 0.06478769696432288
+     "weight": 0.06478769696435241
     },
     {
      "feature_id": 69,
      "label": "",
-     "weight": 0.0415605169943436
+     "weight": 0.04156051699434066
     }
    ]
   },
@@ -279,27 +279,27 @@
     {
      "feature_id": 1049,
      "label": "code definitions",
-     "lift": 0.00217190547681114
+     "lift": 0.0021719054768108807
     },
     {
      "feature_id": 199,
      "label": "news articles and journalism",
-     "lift": 0.0009723731524961779
+     "lift": 0.0009723731524961213
     },
     {
      "feature_id": 325,
      "label": "",
-     "lift": 0.0007045549509983853
+     "lift": 0.0007045549509983333
     },
     {
      "feature_id": 592,
      "label": "housing and residences",
-     "lift": 0.0003509111470695624
+     "lift": 0.0003509111470693819
     },
     {
      "feature_id": 340,
      "label": "",
-     "lift": 0.00014558293541034855
+     "lift": 0.0001455829354103492
     }
    ]
   },
@@ -309,27 +309,27 @@
     {
      "feature_id": 814,
      "label": "government official communication",
-     "lift": 0.002323051549159108
+     "lift": 0.0023230515491591713
     },
     {
      "feature_id": 194,
      "label": "",
-     "lift": 0.0004952933412489252
+     "lift": 0.0004952933412488427
     },
     {
      "feature_id": 199,
      "label": "news articles and journalism",
-     "lift": 0.00034097792009556697
+     "lift": 0.0003409779200955471
     },
     {
      "feature_id": 592,
      "label": "housing and residences",
-     "lift": 8.75310147950331e-05
+     "lift": 8.753101479498807e-05
     },
     {
      "feature_id": 2222,
      "label": "emergency and aid",
-     "lift": 2.68636791479558e-05
+     "lift": 2.6863679147919767e-05
     }
    ]
   },
@@ -339,27 +339,27 @@
     {
      "feature_id": 1438,
      "label": "Error handling and successful operations",
-     "lift": 0.006055532900432954
+     "lift": 0.006055532900432947
     },
     {
      "feature_id": 692,
      "label": "",
-     "lift": 0.004897249314970151
+     "lift": 0.00489724931497008
     },
     {
      "feature_id": 1049,
      "label": "code definitions",
-     "lift": 0.004804244233224504
+     "lift": 0.004804244233223931
     },
     {
      "feature_id": 69,
      "label": "",
-     "lift": 0.0047055520217547395
+     "lift": 0.004705552021754725
     },
     {
      "feature_id": 814,
      "label": "government official communication",
-     "lift": 0.004399961413859283
+     "lift": 0.004399961413859403
     }
    ]
   },
@@ -369,27 +369,27 @@
     {
      "feature_id": 2414,
      "label": "coach of your team",
-     "lift": 0.051239218045978176
+     "lift": 0.05123921804597662
     },
     {
      "feature_id": 5173,
      "label": "I can express capability",
-     "lift": 0.039924361348068815
+     "lift": 0.039924361348068226
     },
     {
      "feature_id": 4656,
      "label": "HTTP requests and headers",
-     "lift": 0.024950274854636474
+     "lift": 0.02495027485463637
     },
     {
      "feature_id": 1014,
      "label": "",
-     "lift": 0.02193652164306729
+     "lift": 0.021936521643067138
     },
     {
      "feature_id": 561,
      "label": "sports players",
-     "lift": 0.014991803625094686
+     "lift": 0.014991803625095015
     }
    ]
   }

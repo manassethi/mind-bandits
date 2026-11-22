@@ -34,7 +34,7 @@ flowchart LR
 
 ## Results
 
-The tables below summarize the saved experiment snapshot. Values after **±** are 95% t-interval half-widths over **30 evaluation runs**. Regret is measured in expected clicks lost; lower is better. Comparisons between policies use paired runs. The oracle and horizon differ across questions, so regret values should be compared **within** an experiment.
+The tables below summarize the historical simulator snapshot. Q3 was corrected and rerun after a saved-context bug was found on November 21, 2026. A broader validation campaign is in progress; its unfinished runs are not presented as completed results. Values after **±** are 95% t-interval half-widths over **30 evaluation runs**. Regret is measured in expected clicks lost; lower is better. Comparisons between policies use paired runs. The oracle and horizon differ across questions, so regret values should be compared **within** an experiment.
 
 ### Simulator validation
 
@@ -94,11 +94,13 @@ Dense content representations improve on per-article TS in this environment. The
 
 ### Q3: What do SAE features explain?
 
-For the exploratory Gemma-3-12B layer-41 policy, train-versus-test importance ranks have Spearman correlation **0.87**, and **8/10** top features have external Neuronpedia labels. Removing the top eight features before learning increases regret by **251 ± 51** clicks; removing eight random features increases it by **139 ± 36**, with a paired difference of **111 ± 51**. The top-four comparison is inconclusive (**6 ± 29**), and other layers show weaker retraining effects.
+A CPU snapshot bug made recorded article pools alias a tensor that changed during the run. The implementation now copies each context, and the Q3 importance rankings and ablations have been rerun. The earlier **111 ± 51** top-eight-minus-random regret claim is withdrawn.
 
-Post-hoc removal tests the final policy's predicted mean scores on recorded contexts, rather than its complete online UCB decision rule. External label coverage is not a validation of label correctness on news. Human review sheets are provided, but that validation remains unfinished.
+Under the corrected original setup, the exploratory Gemma-3-12B layer-41 policy has train-versus-test importance correlation **0.89**. Its top-eight-minus-random retraining difference is **35 ± 45** expected clicks, which does not establish greater necessity than random removal. The three-layer corrected results retain the inconclusive outcomes.
 
-[Q3 tables and layer replications](results/q3/summary.md) · [Results JSON](results/q3/results.json) · [Feature weights](results/q3/g12b_sae_L41/weights.csv) · [Human review sheet](results/q3/g12b_sae_L41/handcheck.csv)
+These historical post-hoc diagnostics rescore the final policy's mean predictions on recorded contexts. Their random-control intervals vary over 50 feature-mask draws; retraining intervals use 30 paired pools. They do not reconstruct the complete pre-action UCB rule. Full-state interventions and matched representation controls are being evaluated separately. Semantic validation uses automated held-out headline retrieval and shuffled-label controls; no human annotations are claimed.
+
+[Corrected Q3 tables and layer replications](results/q3/summary.md) · [Corrected results JSON](results/q3/results.json) · [Feature weights](results/q3/g12b_sae_L41/weights.csv) · [Feature examples](results/q3/g12b_sae_L41/handcheck.csv)
 
 ### Q4: LLM agents with a statistics tool
 
@@ -261,7 +263,7 @@ python -m scripts.run_q3 --workers 8
 python -m scripts.analyze_q3
 ```
 
-`run_q3` ranks features on training-day runs, evaluates importance stability and weights on evaluation-day runs, and compares top-feature removal with random controls. Post-hoc tests use 50 random feature sets; retraining uses five. Outputs include `results/q3/results.json`, per-layer weights and human review CSVs, summaries, and ablation plots. Neuronpedia labels are an external snapshot; fetching them again may change labels and coverage.
+`run_q3` ranks features on training-day runs, evaluates importance stability and weights on evaluation-day runs, and compares top-feature removal with random controls. Post-hoc tests use 50 random feature sets; retraining uses five. Outputs include `results/q3/results.json`, per-layer weights and feature-example CSVs, summaries, and ablation plots. Neuronpedia labels are an external snapshot; fetching them again may change labels and coverage.
 
 ### 7. Q4 — LLM policies and headline priors
 
@@ -325,7 +327,7 @@ A reward is sampled as `uniform < p[user, chosen_article]`. Policies observe the
 - **Metrics:** Q1/Q4 use a population-mean oracle; Q2/Q3 use a per-user oracle. CTR in the comparison tables is expected reward under the simulator, rather than a measured production CTR. Q2's saved `clicks` accumulator stores expected clicks despite its name.
 - **Cached runs:** Several stages reuse existing environment or result files. Downloads restore published artifacts; they do not launch experiments. For a fresh rebuild, use a separate checkout/output directory with empty experiment caches. Rebuilding the click model requires regenerating downstream probability environments and policy runs. Calibration does not invalidate caches automatically.
 - **Randomness:** Environments and most policy streams are seeded, and policies share arrivals and reward uniforms within an experiment. Q2's Beta-TS baseline samples through PyTorch's global RNG, and LLM sampling is stochastic; reruns are not guaranteed to match the saved snapshot exactly.
-- **Interpretability:** SAE labels are automatically generated external explanations. Label coverage, stable weights, post-hoc sensitivity, and retraining effects answer different questions. Human label validation remains open.
+- **Interpretability:** SAE labels are automatically generated external explanations. Label coverage, stable weights, post-hoc sensitivity, and retraining effects answer different questions. Semantic validation is automated; external labels and retrieval agreement do not establish human semantic correctness.
 - **Output names:** Real Q4 runs of the same model write the same filenames. Use a separate checkout for altered settings or shortened real-model runs. The `--mock` path has separate filenames.
 
 ## Repository layout
@@ -344,7 +346,7 @@ results/
   click_model/          Model selection, metrics, calibration diagnostics
   q1/                   A/B and conventional bandit results
   q2/                   Contextual, layer, dimension, and churn comparisons
-  q3/                   Feature labels, weights, removal controls, human review sheets
+  q3/                   Feature labels, weights, removal controls, feature examples
   q4/                   LLM decisions, token counts, sampled transcripts, prior probes
 requirements.txt        Core environment dependencies
 ```

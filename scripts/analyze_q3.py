@@ -43,6 +43,7 @@ def main() -> None:
           "train-day runs only; everything else is measured on the 30 test-day runs. Importance = how much "
           "a feature's score contribution differs across the live articles of a decision (a contribution "
           "shared by all articles cannot change the choice).\n",
+          "Post-hoc random-control intervals summarize 50 feature-mask draws. Retraining and weight intervals summarize 30 evaluation pools. Post-hoc top-feature values are pooled mean-score diagnostics, not full pre-action UCB interventions.\n",
           "## Overview\n",
           "| Layer | Test regret | Top-10 labeled | Importance rank: train vs test (Spearman) | "
           "Split-half stability (test) | Post-hoc: top-4 removal changes | Random-4 changes | "
@@ -82,7 +83,7 @@ def main() -> None:
                "| Group | Share | Top concepts |", "|---|---|---|"]
         for g, v in r["groups"].items():
             md.append(f"| {g.strip('_')} | {v['share']:.0%} | {'; '.join(label(t) for t in v['top'])} |")
-        md.append(f"\nHand-check sheet: `results/q3/{rep}/handcheck.csv`. Full weights: `results/q3/{rep}/weights.csv`.")
+        md.append(f"\nFeature example sheet (not human annotations): `results/q3/{rep}/handcheck.csv`. Full weights: `results/q3/{rep}/weights.csv`.")
 
     (OUT / "summary.md").write_text("\n".join(md) + "\n")
     plot(res)
@@ -127,7 +128,7 @@ def plot(res: dict) -> None:
     ax.set_xticks(x, names, fontsize=7.5)
     ax.axhline(0, color="#c3c2b7", lw=1)
     style(ax, "", "Extra regret vs full policy (clicks)", "Extra regret when features are removed before learning (paired, 95% CI)")
-    ax.legend(frameon=False, fontsize=8)
+    ax.legend(frameon=False, fontsize=8, loc="upper left")
     fig.tight_layout()
     fig.savefig(fig_dir / "retrain_ablation.png")
     plt.close(fig)

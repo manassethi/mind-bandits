@@ -164,7 +164,7 @@ def make_policy(spec: str, S: int, M: int, D: int, device, seed: int):
 
 def run(env: dict, art_x: np.ndarray | None, user_x: np.ndarray | None, spec: str,
         device: str | torch.device, seed: int = 0, new_window: int | None = None,
-        n_marks: int = 30, n_contexts: int = 0) -> dict:
+        n_marks: int = 30, n_contexts: int = 0, record_state: bool = False) -> dict:
     """Play the churning pool. ``art_x`` (S, M, d) and ``user_x`` (S, U, d) are ignored by beta_ts."""
     device = torch.device(device)
     P = torch.from_numpy(env["P"]).to(device)
@@ -195,6 +195,7 @@ def run(env: dict, art_x: np.ndarray | None, user_x: np.ndarray | None, spec: st
     # Optionally keep (user, live set) at evenly spaced rounds, to re-score the final policy offline.
     ctx_rounds = set(np.linspace(0, T - 1, n_contexts).astype(int).tolist()) if n_contexts else set()
     ctx_users, ctx_live = [], []
+    ctx_theta, ctx_inverse, ctx_times, ctx_choices = [], [], [], []
     c = 0
     for t in range(T):
         if t > 0 and t % step == 0 and next_article < M:
@@ -204,8 +205,12 @@ def run(env: dict, art_x: np.ndarray | None, user_x: np.ndarray | None, spec: st
             next_article += 1
         u = user_seq[:, t]
         if t in ctx_rounds:
-            ctx_users.append(u.cpu().numpy())
-            ctx_live.append(live.cpu().numpy())
+            ctx_users.append(u.cpu().numpy().copy())
+            ctx_live.append(live.cpu().numpy().copy())
+            if record_state and isinstance(policy, LinearPolicy):
+                ctx_theta.append(policy.theta().cpu().numpy().copy())
+                ctx_inverse.append(policy.A_inv.cpu().numpy().copy())
+                ctx_times.append(t)
         p_live = P[rows[:, None], u[:, None], live]                     # (S, K)
         if d:
             a = A[rows[:, None], live]                                  # (S, K, d)
@@ -214,6 +219,8 @@ def run(env: dict, art_x: np.ndarray | None, user_x: np.ndarray | None, spec: st
         else:
             phi = None
         k = policy.select(live, phi)
+        if t in ctx_rounds and record_state and isinstance(policy, LinearPolicy):
+            ctx_choices.append(k.cpu().numpy().copy())
         chosen = live[rows, k]
         p = p_live[rows, k]
         r = (unif[:, t] < p).float()
@@ -236,4 +243,9 @@ def run(env: dict, art_x: np.ndarray | None, user_x: np.ndarray | None, spec: st
     if ctx_users:
         out["ctx_users"] = np.stack(ctx_users, 1)                       # (S, n)
         out["ctx_live"] = np.stack(ctx_live, 1)                         # (S, n, K)
+    if ctx_theta:
+        out["ctx_theta"] = np.stack(ctx_theta, 1)
+        out["ctx_A_inv"] = np.stack(ctx_inverse, 1)
+        out["ctx_rounds"] = np.array(ctx_times)
+        out["ctx_choice"] = np.stack(ctx_choices, 1)
     return out
