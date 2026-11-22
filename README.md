@@ -96,7 +96,7 @@ Dense content representations improve on per-article TS in this environment. The
 
 A CPU snapshot bug made recorded article pools alias a tensor that changed during the run. The implementation now copies each context, and the Q3 importance rankings and ablations have been rerun. The earlier **111 ± 51** top-eight-minus-random regret claim is withdrawn.
 
-Under the corrected original setup, the exploratory Gemma-3-12B layer-41 policy has train-versus-test importance correlation **0.89**. Its top-eight-minus-random retraining difference is **35 ± 45** expected clicks, which does not establish greater necessity than random removal. The three-layer corrected results retain the inconclusive outcomes.
+Under the corrected original setup, the exploratory Gemma-3-12B layer-41 policy has train-versus-test importance correlation **0.89**. The corrected top-four-minus-random retraining difference is **58 ± 30** expected clicks. The top-eight difference is **35 ± 45** and remains inconclusive. Effects vary with removal size and layer; the complete corrected grid is retained below.
 
 These historical post-hoc diagnostics rescore the final policy's mean predictions on recorded contexts. Their random-control intervals vary over 50 feature-mask draws; retraining intervals use 30 paired pools. They do not reconstruct the complete pre-action UCB rule. Full-state interventions and matched representation controls are being evaluated separately. Semantic validation uses automated held-out headline retrieval and shuffled-label controls; no human annotations are claimed.
 
